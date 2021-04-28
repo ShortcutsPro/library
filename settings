@@ -1,4 +1,4 @@
 {
   "api" : "alt",
-  "mode" : "notify"
+  "mode" : "execute"
 }
