@@ -1,9 +1,9 @@
 {
-  "notes" : "— Initial release.\n— Automatic updates implemented. ",
+  "notes" : "Minor bug fix in dictionary passed to Updater.\nSmall change to client profile file format, now saved as both txt and json.",
   "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
-  "release" : "Thu, 27 May 2021 04:29:14 -0700",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/2b187bbf94e145cc8e3b11c54dd71132",
-  "version" : "2.1",
+  "release" : "Thu, 27 May 2021 15:56:01 -0700",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/83f10c621bfa402f8e34203b83c69f3e",
+  "version" : "2.2",
   "description" : "Installs a single collection of shortcuts",
   "name" : "Bustl.-Installer"
 }
