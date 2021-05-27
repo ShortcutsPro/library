@@ -1,0 +1,14 @@
+{
+  "id" : "com.github.shortcutpros.library.integrity",
+  "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
+  "version" : 3,
+  "category" : "utilites",
+  "depends" : [
+
+  ],
+  "release" : "Wed, 26 May 2021 19:20:57 -0700",
+  "notes" : "Initial public release integrating auto-updating and ultu-type input parameter handling.",
+  "arch" : "ios14",
+  "name" : "INTEGRITY",
+  "auuid" : "CB04B6E7-835B-452F-9266-8535BF480927"
+}
