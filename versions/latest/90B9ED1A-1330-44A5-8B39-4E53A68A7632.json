@@ -1,9 +1,9 @@
 {
-  "notes" : "— Initial release with multi-type input parameter handling.\n— Implemented support for automatic updates.",
+  "notes" : "Bug fix in target shortcut locator.\nDisabled debug mode and timeout for API call.",
   "auuid" : "90B9ED1A-1330-44A5-8B39-4E53A68A7632",
-  "release" : "Thu, 27 May 2021 03:22:56 -0700",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/1669f63ddbe5496eaa2e67ebee5afdb0",
-  "version" : "3",
+  "release" : "Thu, 27 May 2021 16:08:32 -0700",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/dd2f58abf4e2478d8f9f28eead4cd355",
+  "version" : "3.1",
   "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
   "name" : "INTEGRITY"
 }
