@@ -1,0 +1,9 @@
+{
+  "notes" : "Pre-Release.\nWill update automatically when functional.",
+  "auuid" : "ADE8C19E-B267-48C7-B3C9-B010580235E5",
+  "release" : "May 27, 2021 at 2:24 PM",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/d712be4e00c34d4aa15ef9f1d99d198b",
+  "version" : "1",
+  "description" : "Handles File read \/ write tasks for other shortcuts. ",
+  "name" : "#L File Provider"
+}
