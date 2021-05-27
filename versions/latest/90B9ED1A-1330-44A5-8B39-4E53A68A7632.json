@@ -1,8 +1,8 @@
 {
-  "notes" : "Initial public release enabling multi-type input parameter handling. Added support for automatic updates.",
+  "notes" : "— Initial release with multi-type input parameter handling.\n— Implemented support for automatic updates.",
   "auuid" : "90B9ED1A-1330-44A5-8B39-4E53A68A7632",
-  "release" : "Wed, 26 May 2021 20:57:15 -0700",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/d2c9abf95b5b43938f8f8bc5975c64de",
+  "release" : "Thu, 27 May 2021 03:22:56 -0700",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/1669f63ddbe5496eaa2e67ebee5afdb0",
   "version" : "3",
   "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
   "name" : "INTEGRITY"
