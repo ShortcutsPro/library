@@ -1,8 +1,8 @@
 {
-  "notes" : "Initial release",
+  "notes" : "— Initial release\n— Internal update requests implemented.",
   "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-  "release" : "May 26, 2021 at 10:12 PM",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/6805e05724b44517a3d78168d9d4865f",
+  "release" : "May 26, 2021 at 11:23 PM",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/da278d9bff1d425ab73671b77bc0fec2",
   "version" : "1",
   "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
   "name" : "Bustl. Updater"
