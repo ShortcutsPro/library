@@ -1,9 +1,9 @@
 {
-  "notes" : "— Initial Release \n— Internal update checking implemented.",
+  "notes" : "No longer litters your Safari tabs with open Update info pages.\nInternal changes to the version comparison function to improve compatibility and speed.\nMinor graphic and formatting changes.",
   "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-  "release" : "May 26, 2021 at 11:31 PM",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/2bb9cfe3c6cd4b71994c275134e89404",
-  "version" : "1",
+  "release" : "Jun 4, 2021 at 3:21 AM",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/1e773d30823c4bcea618bdb3cf963beb",
+  "version" : "2",
   "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
   "name" : "Bustl. Updater"
 }
