@@ -2,7 +2,7 @@
   "notes" : "Now checks up to three locations for a profile, including a TBP global variable. \nChanged output to include both the file path and the profile dictionary, in a dictionary at keys “profile” and “path,” respectively.\nAdded folder creation for the output file path.",
   "auuid" : "ADE8C19E-B267-48C7-B3C9-B010580235E5",
   "release" : "Jun 4, 2021 at 9:35 AM",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/aa39e78204424047a12347dd8e37929a",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/b6e7a5509b764185850d4105d9199430",
   "version" : "1.1",
   "description" : "Provides profile lookup and default file path creation for a given shortcut.",
   "name" : "# File Provider"
