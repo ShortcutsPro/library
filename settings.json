@@ -1,4 +1,4 @@
 {
-  "action" : "run",
-  "key" : "primary"
+  "mode" : "run",
+  "api" : "primary"
 }
