@@ -1,9 +1,11 @@
 {
-  "notes" : "Bug fix in target shortcut locator.\nDisabled debug mode and timeout for API call.",
+  "category" : "utilites",
+  "depends" : "com.shortcutspro.library.file-provider",
+  "notes" : "Transition to another repository.\nMoved settings and File Provider call’s to after target shortcut run.",
+  "release" : "Sat, 12 Jun 2021 07:27:18 -0700",
   "auuid" : "90B9ED1A-1330-44A5-8B39-4E53A68A7632",
-  "release" : "Thu, 27 May 2021 16:08:32 -0700",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/dd2f58abf4e2478d8f9f28eead4cd355",
-  "version" : "3.1",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/3d25c4e6e3c140809e4d5a80025313ba",
+  "version" : "3.14",
   "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
   "name" : "INTEGRITY"
 }
