@@ -1,9 +1,11 @@
 {
-  "notes" : "No longer litters your Safari tabs with open Update info pages.\nInternal changes to the version comparison function to improve compatibility and speed.\nMinor graphic and formatting changes.",
+  "category" : "utility",
+  "depends" : "##",
+  "notes" : "Transferred to new repository \nImplemented Scriptable code for version comparison. ",
+  "release" : "Sat, 12 Jun 2021 08:47:14 -0700",
   "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-  "release" : "Jun 4, 2021 at 3:21 AM",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/1e773d30823c4bcea618bdb3cf963beb",
-  "version" : "2",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/24324a074e05438682f0e6fb2af37a43",
+  "version" : "3",
   "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
   "name" : "Bustl. Updater"
 }
