@@ -1,9 +1,11 @@
 {
-  "notes" : "Minor bug fix in dictionary passed to Updater.\nSmall change to client profile file format, now saved as both txt and json.",
+  "category" : "utilites",
+  "depends" : "",
+  "notes" : "Removed Profile handling. \nBustl.-Installer is a  robust, user-friendly, multi-shortcut package installer. ",
+  "release" : "Mon, 21 Jun 2021 07:22:22 -0700",
   "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
-  "release" : "Thu, 27 May 2021 15:56:01 -0700",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/83f10c621bfa402f8e34203b83c69f3e",
-  "version" : "2.2",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/99792734453c4dc7acc1362a88f9d708",
+  "version" : "2.5",
   "description" : "Installs a single collection of shortcuts",
   "name" : "Bustl.-Installer"
 }
