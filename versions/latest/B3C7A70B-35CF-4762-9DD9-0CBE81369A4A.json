@@ -1,11 +1,11 @@
 {
   "category" : "utilites",
   "depends" : "",
-  "notes" : "Removed Profile handling. \nBustl.-Installer is a robust, user-friendly, multi-shortcut package installer. ",
-  "release" : "Mon, 21 Jun 2021 07:22:22 -0700",
+  "notes" : "Changed version from integer to string.",
+  "release" : "Mon, 21 Jun 2021 20:56:26 -0700",
   "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/9c4170c059df48a0b2fcc27ba2339f26",
-  "version" : "2.5",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/a5aad9fd214d47ddae3efd0db22e5673",
+  "version" : "2.5.1",
   "description" : "A robust, user-friendly, multi-shortcut package installer.",
   "name" : "Bustl.-Installer"
 }
