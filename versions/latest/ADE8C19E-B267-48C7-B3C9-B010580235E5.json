@@ -1,11 +1,11 @@
 {
   "category" : "utility",
   "depends" : "",
-  "notes" : "Update version number and shareable link.",
-  "release" : "Mon, 21 Jun 2021 07:26:31 -0700",
+  "notes" : "Optimized actions for efficiency.\nAdded welcome message to install question.",
+  "release" : "Mon, 21 Jun 2021 20:20:47 -0700",
   "auuid" : "ADE8C19E-B267-48C7-B3C9-B010580235E5",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/ef83912d936e40efa03c5afa8bcd0d97",
-  "version" : "2.2",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/310aa3ebd8c04bd78eb5c68de34bf167",
+  "version" : "3",
   "description" : "Provides profile lookup and default file path creation for a given shortcut.",
   "name" : "File Provider"
 }
