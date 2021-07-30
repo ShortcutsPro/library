@@ -1,0 +1,8 @@
+<!-- Bustl. Versions -->
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>latest</title>
+<script>const query = new URL (window.location.href);
+if (query) { const input = decodeURIComponent(query.searchParams.get('input'));
+const file = "latest/"+${input}+".json"; const json = JSON.parse(file);
+if (json.length) { document.querySelector('html').innerHTML = "<pre>"+json+"</pre>";};
+};</script></head></html>
