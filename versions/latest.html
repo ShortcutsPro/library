@@ -1,8 +1,17 @@
-<!-- Bustl. Versions -->
-<!DOCTYPE html><html><head><meta charset="UTF-8">
-<title>latest</title>
-<script>const query = new URL (window.location.href);
-if (query) { const input = decodeURIComponent(query.searchParams.get('input'));
-const file = "latest/"+${input}+".json"; const json = JSON.parse(file);
-if (json.length) { document.querySelector('html').innerHTML = "<pre>"+json+"</pre>";};
-};</script></head></html>
+<!-- Latest Versions -->
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<title>latest</title><script>
+const query = new URL (window.location.href);
+if (query) {
+  const auuid = query.searchParams.get('auuid');
+  if (auuid) {
+    const xhr = new XMLHttpRequest();
+    xhr.onload = function() {
+      console.log(this.responseText);
+      const json = JSON.stringify(JSON.parse(this.responseText), null, 2);
+      document.querySelector('html').innerHTML = "<pre>"+json+"</pre>";
+      };
+    xhr.open('get','latest/'+auuid+'.json');
+    xhr.send();
+};};</script></head></html>
