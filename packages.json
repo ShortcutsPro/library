@@ -13,5 +13,27 @@
     "depiction" : "https://shortcutspro.github.io/library/depiction/about.html",
     "name" : "Bustl. Library",
     "icon" : "https://shortcutspro.github.io/library/depiction/about.png"
+  },
+  {
+    "id" : "io.github.shortcutspro.water-eject",
+    "description" : "Powerful Water Ejection System.",
+    "version" : "3.1",
+    "depends" : [
+
+    ],
+    "author" : {
+      "name" : "@Josh0678",
+      "link" : "Josh0678"
+    },
+    "link" : "shortcut://shortcuts/4cf3c997994047349d124ef1f8273edb",
+    "catagory" : "utilities",
+    "icon" : "/library/depiction/water-eject.png",
+    "arch" : "",
+    "maintainer" : {
+      "name" : "@shortcutspro",
+      "link" : "https:://shortcutspro.github.io"
+    },
+    "name" : "Water Eject",
+    "depiction" : "/library/depiction/water-eject.html"
   }
 ]
