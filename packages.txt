@@ -1,0 +1,17 @@
+[
+  {
+    "id": "io.github.shortcutspro.library",
+    "version": "1.0",
+    "author": {
+    "name": "@scottdwr",
+    "link": "https://github.com/scottdwr"
+    },
+    "description": "Bustl.Cutz - The Library Repository",
+    "name": "Bustl. Library",
+    "depiction": "https://shortcutspro.github.io/library/depiction/about.html",
+    "arch": "universal",
+    "link": "https://shortcutspro.github.io/library/depiction/about.html",
+    "icon": "https://shortcutspro.github.io/library/depiction/about.png",
+    "catagory":"utilites"
+  }
+]
