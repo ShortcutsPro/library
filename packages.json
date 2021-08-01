@@ -57,5 +57,27 @@
     },
     "name" : "Water Eject",
     "depiction" : "https://shortcutspro.github.io/library/depiction/water-eject.html"
+  },
+  {
+    "id" : "io.github.shortcutspro.today",
+    "description" : "Swipe between an overview of your Calendar/Tasks today and coming up,  reminders, and weather",
+    "version" : "1.631",
+    "depends" : [
+
+    ],
+    "author" : {
+      "name" : "@entee",
+      "link" : "https://routinehub.co/user/entee"
+    },
+    "link" : "https://www.icloud.com/shortcuts/0cf242943f4447e58efa31f5e717dc71",
+    "catagory" : "productivity",
+    "icon" : "https://shortcutspro.github.io/library/depiction/today.png",
+    "arch" : "ios15",
+    "maintainer" : {
+      "name" : "@shortcutspro",
+      "link" : "https:://shortcutspro.github.io"
+    },
+    "name" : "Today",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/today.html"
   }
 ]
