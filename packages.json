@@ -1,17 +1,17 @@
 [
   {
-    "id": "io.github.shortcutspro.library",
-    "version": "1.0",
-    "author": {
-    "name": "@scottdwr",
-    "link": "https://github.com/scottdwr"
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : "https://github.com/scottdwr"
     },
-    "description": "Bustl.Cutz - The Library Repository",
-    "name": "Bustl. Library",
-    "depiction": "https://shortcutspro.github.io/library/depiction/about.html",
-    "arch": "universal",
-    "link": "https://shortcutspro.github.io/library/depiction/about.html",
-    "icon": "https://shortcutspro.github.io/library/depiction/about.png",
-    "catagory":"utilites"
+    "arch" : "universal",
+    "id" : "io.github.shortcutspro.library",
+    "catagory" : "utilites",
+    "link" : "https://shortcutspro.github.io/library/depiction/about.html",
+    "version" : "1.0",
+    "description" : "Bustl.Cutz - The Library Repository",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/about.html",
+    "name" : "Bustl. Library",
+    "icon" : "https://shortcutspro.github.io/library/depiction/about.png"
   }
 ]
