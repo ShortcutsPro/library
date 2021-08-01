@@ -1,0 +1,17 @@
+[
+  {
+    "id": "io.github.shortcutspro.library",
+    "version": "1.0",
+    "author": {
+      "name": "@scottdwr",
+      "link": "https://github.com/scottdwr"
+    },
+    "description": "ShortcutsPro Repo - The Library Repository",
+    "name": "ShortcutsPro Repo",
+    "depiction": "/depiction/about.html",
+    "arch": "universal",
+    "link": "/depiction/about.html",
+    "icon": "/depiction/about.png",
+    "catagory":"utilites"
+  }
+]
