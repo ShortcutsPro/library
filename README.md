@@ -1,2 +1,2 @@
-# library  ![](https://i.imgur.com/0BrPISv.png)
-A collection of generic functions for iOS Shortcuts
+# library  ![](https://shortcutspro.github.io/library/depiction/about.png)
+### A _Bustl.🐝 Approved Collection_ of generic functions for iOS Shortcuts
