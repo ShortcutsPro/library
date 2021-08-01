@@ -15,28 +15,6 @@
     "icon" : "https://shortcutspro.github.io/library/depiction/about.png"
   },
   {
-    "id" : "io.github.shortcutspro.water-eject",
-    "description" : "Powerful Water Ejection System.",
-    "version" : "3.1",
-    "depends" : [
-
-    ],
-    "author" : {
-      "name" : "@Josh0678",
-      "link" : "https://routinehub.co/user/Josh0678"
-    },
-    "link" : "shortcuts://shortcuts/4cf3c997994047349d124ef1f8273edb",
-    "catagory" : "utilities",
-    "icon" : "https://shortcutspro.github.io/library/depiction/water-eject.png",
-    "arch" : "ios15",
-    "maintainer" : {
-      "name" : "@shortcutspro",
-      "link" : "https:://shortcutspro.github.io"
-    },
-    "name" : "Water Eject",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/water-eject.html"
-  },
-  {
     "id" : "io.github.shortcutspro.auto-message",
     "description" : "Schedule messages to be sent later",
     "version" : "9.2.3",
@@ -57,5 +35,27 @@
     },
     "name" : "Auto Message",
     "depiction" : "https://shortcutspro.github.io/library/depiction/auto-message.html"
+  },
+  {
+    "id" : "io.github.shortcutspro.water-eject",
+    "description" : "Powerful Water Ejection System.",
+    "version" : "3.1",
+    "depends" : [
+
+    ],
+    "author" : {
+      "name" : "@Josh0678",
+      "link" : "https://routinehub.co/user/Josh0678"
+    },
+    "link" : "https://www.icloud.com/shortcuts/4cf3c997994047349d124ef1f8273edb",
+    "catagory" : "utilities",
+    "icon" : "https://shortcutspro.github.io/library/depiction/water-eject.png",
+    "arch" : "ios15",
+    "maintainer" : {
+      "name" : "@shortcutspro",
+      "link" : "https:://shortcutspro.github.io"
+    },
+    "name" : "Water Eject",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/water-eject.html"
   }
 ]
