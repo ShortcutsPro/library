@@ -2,6 +2,6 @@
   "name": "ShortcutsPro Repo",
   "version": "1.0",
   "description": "ShortcutsPro Repo - The Library Repository",
-  "icon": "./depiction/about.png",
+  "icon": "https://shortcutspro.github.ip/library/depiction/about.png",
   "id":"io.github.shortcutspro.library"
 }
