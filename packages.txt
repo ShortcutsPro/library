@@ -47,7 +47,7 @@
       "name" : "@Bingobucketster",
       "link" : "https://routinehub.co/user/Bingobucketster"
     },
-    "link" : "shortcuts://shortcuts/f869f6dd211d449ab63e089e3efd6bf3",
+    "link" : "https://www.icloud.com/shortcuts/f869f6dd211d449ab63e089e3efd6bf3",
     "catagory" : "productivity",
     "icon" : "https://shortcutspro.github.io/library/depiction/auto-message.png",
     "arch" : "ios15",
