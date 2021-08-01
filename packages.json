@@ -8,10 +8,10 @@
     },
     "description": "ShortcutsPro Repo - The Library Repository",
     "name": "ShortcutsPro Repo",
-    "depiction": "https://shortcutspro.github.ip/library/depiction/about.html",
+    "depiction": "./depiction/about.html",
     "arch": "universal",
-    "link": "https://shortcutspro.github.ip/library/depiction/about.html",
-    "icon": "https://shortcutspro.github.ip/library/depiction/about.png",
+    "link": "./depiction/about.html",
+    "icon": "./depiction/about.png",
     "catagory":"utilites"
   }
 ]
