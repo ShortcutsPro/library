@@ -1,11 +1,24 @@
 {
-  "category" : "utility",
-  "depends" : "",
-  "notes" : "Changed version from integer to string.",
-  "release" : "Mon, 21 Jun 2021 20:58:43 -0700",
-  "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/caa71dc909c44dd6a17c5c54253d1c1c",
-  "version" : "3.1",
+  "id" : "io.github.shortcutspro.bustl-updater",
   "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
-  "name" : "Bustl. Updater"
+  "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
+  "version" : "3.14",
+  "depends" : "",
+  "author" : {
+    "name" : "scottdwr",
+    "link" : "https:\/\/routinehub.co\/user\/scottdwr\/"
+  },
+  "release" : "Sun, 01 Aug 2021 19:59:08 -0500",
+  "link" : "",
+  "catagory" : "utility",
+  "color" : "",
+  "notes" : "We smashed some damn bugs and cranked up the speed.",
+  "icon" : "https:\/\/shortcutspro.github.io\/library\/depiction\/bustl.-updater.png",
+  "arch" : "ios15",
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : "https:\/\/shortcutspro.github.io"
+  },
+  "name" : "Bustl. Updater",
+  "depiction" : "https:\/\/shortcutspro.github.io\/library\/depiction\/bustl.-updater.html"
 }

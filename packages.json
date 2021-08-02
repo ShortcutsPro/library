@@ -57,5 +57,29 @@
     },
     "name" : "Water Eject",
     "depiction" : "https://shortcutspro.github.io/library/depiction/water-eject.html"
+  },
+  {
+    "id" : "io.github.shortcutspro.bustl-updater",
+    "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
+    "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
+    "version" : "3.14",
+    "depends" : "",
+    "author" : {
+      "name" : "scottdwr",
+      "link" : "https://routinehub.co/user/scottdwr/"
+    },
+    "release" : "Sun, 01 Aug 2021 19:59:08 -0500",
+    "link" : "",
+    "catagory" : "utility",
+    "color" : "",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "icon" : "https://shortcutspro.github.io/library/depiction/bustl.-updater.png",
+    "arch" : "ios15",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://shortcutspro.github.io"
+    },
+    "name" : "Bustl. Updater",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/bustl.-updater.html"
   }
 ]
