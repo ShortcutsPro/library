@@ -81,5 +81,29 @@
     },
     "name" : "Bustl. Updater",
     "depiction" : "https://shortcutspro.github.io/library/depiction/bustl.-updater.html"
+  },
+  {
+    "id" : "io.github.shortcutspro.library.file-provider",
+    "description" : "Provides profile lookup and default file path creation for a given shortcut.",
+    "auuid" : "ADE8C19E-B267-48C7-B3C9-B010580235E5",
+    "version" : "3.1",
+    "depends" : "",
+    "author" : {
+      "name" : "shortcutspro",
+      "link" : "https://.github.com/shortcutspro/"
+    },
+    "release" : "Mon, 02 Aug 2021 02:56:44 -0500",
+    "link" : "https://www.icloud.com/shortcuts/97484abc8d414ba982d51feed4c1a847",
+    "catagory" : "",
+    "color" : "#FFFFFF",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "icon" : "https://shortcutspro.github.io/library/depiction/file-provider.png",
+    "arch" : "ios15",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://shortcutspro.github.io"
+    },
+    "name" : "File Provider",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/file-provider.html"
   }
 ]
