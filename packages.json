@@ -105,5 +105,32 @@
     },
     "name" : "File Provider",
     "depiction" : "https://shortcutspro.github.io/library/depiction/file-provider.html"
+  },
+  {
+    "id" : "io.github.shortcutspro.library.integrity",
+    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
+    "auuid" : "90B9ED1A-1330-44A5-8B39-4E53A68A7632",
+    "version" : "3.141",
+    "depends" : [
+      "io.github.shortcutspro.library.file-provider",
+      "io.github.shortcutspro.library.bustl.-updater"
+    ],
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : "https://routinehub.co/user/scottdwr/"
+    },
+    "release" : "Mon, 02 Aug 2021 16:29:41 -0500",
+    "link" : "https://www.icloud.com/shortcuts/66bd51210c034cbc8eb0c8fe7e06dc13",
+    "catagory" : "",
+    "color" : "#FFFFFF",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "icon" : "https://shortcutspro.github.io/library/depiction/integrity.png",
+    "arch" : "ios15",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://shortcutspro.github.io"
+    },
+    "name" : "INTEGRITY",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
   }
 ]
