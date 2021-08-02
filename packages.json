@@ -5,10 +5,10 @@
       "link" : "https://github.com/scottdwr"
     },
     "arch" : "universal",
-    "id" : "io.github.shortcutspro.library.repo",
     "catagories" : [
       "utilites"
-      ],
+    ],
+    "id" : "io.github.shortcutspro.library.repo",
     "link" : "https://shortcutspro.github.io/library/depiction/library.html",
     "version" : "1.0",
     "description" : "Bustl.Cutz - The Library Repository",
@@ -68,7 +68,7 @@
     "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
     "version" : "3.14",
     "depends" : [
-    
+
     ],
     "author" : {
       "name" : "@scottdwr",
@@ -94,7 +94,7 @@
     "auuid" : "ADE8C19E-B267-48C7-B3C9-B010580235E5",
     "version" : "3.1",
     "depends" : [
-    
+
     ],
     "author" : {
       "name" : "@shortcutspro",
@@ -102,11 +102,11 @@
     },
     "release" : "Mon, 02 Aug 2021 02:56:44 -0500",
     "link" : "https://www.icloud.com/shortcuts/97484abc8d414ba982d51feed4c1a847",
-    "catagories" : [
-      "utilities"
-      ],
     "color" : "#747D87",
     "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "catagories" : [
+      "utilities"
+    ],
     "icon" : "https://shortcutspro.github.io/library/depiction/file-provider.png",
     "arch" : "ios14",
     "maintainer" : {
@@ -131,11 +131,11 @@
     },
     "release" : "Mon, 02 Aug 2021 16:29:41 -0500",
     "link" : "https://www.icloud.com/shortcuts/66bd51210c034cbc8eb0c8fe7e06dc13",
+    "color" : "#747D87",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
     "catagories" : [
       "utilities"
     ],
-    "color" : "#747D87",
-    "notes" : "We smashed some damn bugs and cranked up the speed.",
     "icon" : "https://shortcutspro.github.io/library/depiction/integrity.png",
     "arch" : "ios14",
     "maintainer" : {
@@ -144,5 +144,33 @@
     },
     "name" : "INTEGRITY",
     "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
+  },
+  {
+    "id" : "io.github.shortcutpros.shortcut-package-installer",
+    "description" : "A robust, user-friendly, multi-shortcut package installer.",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/bustl.-installer.html",
+    "version" : "2.5.2",
+    "depends" : [
+
+    ],
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : "https://scottdwr.GitHub.io/shortcuts-select/"
+    },
+    "release" : "Mon, 02 Aug 2021 18:13:57 -0500",
+    "link" : "https://www.icloud.com/shortcuts/675b7607f0a742fa890e40a3a6c65f96",
+    "color" : "#00CCA9",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "icon" : "https://shortcutspro.github.io/library/depiction/bustl.-installer.png",
+    "arch" : "ios14",
+    "catagories" : [
+      ""
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://shortcutspro.github.io"
+    },
+    "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
+    "name" : "Bustl.-Installer"
   }
 ]

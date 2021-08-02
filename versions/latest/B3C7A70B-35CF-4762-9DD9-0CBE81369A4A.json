@@ -1,17 +1,28 @@
 {
-  "categories" : [
-    "utilites"
-  ],
-  "depends" : [
-  
-  ],
-  "notes" : [
-    "Changed version from integer to string."
-  ],
-  "release" : "Mon, 21 Jun 2021 20:56:26 -0700",
-  "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/a5aad9fd214d47ddae3efd0db22e5673",
-  "version" : "2.5.1",
+  "id" : "io.github.shortcutpros.shortcut-package-installer",
   "description" : "A robust, user-friendly, multi-shortcut package installer.",
+  "depiction" : "https:\/\/shortcutspro.github.io\/library\/depiction\/bustl.-installer.html",
+  "version" : "2.5.2",
+  "depends" : [
+
+  ],
+  "author" : {
+    "name" : "@scottdwr",
+    "link" : "https:\/\/scottdwr.GitHub.io\/shortcuts-select\/"
+  },
+  "release" : "Mon, 02 Aug 2021 18:13:57 -0500",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/675b7607f0a742fa890e40a3a6c65f96",
+  "color" : "#00CCA9",
+  "notes" : "We smashed some damn bugs and cranked up the speed.",
+  "icon" : "https:\/\/shortcutspro.github.io\/library\/depiction\/bustl.-installer.png",
+  "arch" : "ios14",
+  "catagories" : [
+    ""
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : "https:\/\/shortcutspro.github.io"
+  },
+  "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
   "name" : "Bustl.-Installer"
 }
