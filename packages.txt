@@ -62,7 +62,7 @@
     "id" : "io.github.shortcutspro.bustl-updater",
     "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
     "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-    "version" : "3.14",
+    "version" : "3.1",
     "depends" : "",
     "author" : {
       "name" : "scottdwr",
