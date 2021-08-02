@@ -1,7 +1,13 @@
 {
-  "category" : "utilites",
-  "depends" : "",
-  "notes" : "Changed version from integer to string.",
+  "categories" : [
+    "utilites"
+  ],
+  "depends" : [
+  
+  ],
+  "notes" : [
+    "Changed version from integer to string."
+  ],
   "release" : "Mon, 21 Jun 2021 20:56:26 -0700",
   "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
   "link" : "https:\/\/www.icloud.com\/shortcuts\/a5aad9fd214d47ddae3efd0db22e5673",

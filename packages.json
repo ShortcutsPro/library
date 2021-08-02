@@ -5,17 +5,19 @@
       "link" : "https://github.com/scottdwr"
     },
     "arch" : "universal",
-    "id" : "io.github.shortcutspro.library",
-    "catagory" : "utilites",
-    "link" : "https://shortcutspro.github.io/library/depiction/about.html",
+    "id" : "io.github.shortcutspro.library.repo",
+    "catagories" : [
+      "utilites"
+      ],
+    "link" : "https://shortcutspro.github.io/library/depiction/library.html",
     "version" : "1.0",
     "description" : "Bustl.Cutz - The Library Repository",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/about.html",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/library.html",
     "name" : "Bustl. Library",
-    "icon" : "https://shortcutspro.github.io/library/depiction/about.png"
+    "icon" : "https://shortcutspro.github.io/library/depiction/library.png"
   },
   {
-    "id" : "io.github.shortcutspro.auto-message",
+    "id" : "io.github.shortcutspro.library.auto-message",
     "description" : "Schedule messages to be sent later",
     "version" : "9.2.3",
     "depends" : [
@@ -28,16 +30,16 @@
     "link" : "https://www.icloud.com/shortcuts/f869f6dd211d449ab63e089e3efd6bf3",
     "catagory" : "productivity",
     "icon" : "https://shortcutspro.github.io/library/depiction/auto-message.png",
-    "arch" : "ios15",
+    "arch" : "ios14",
     "maintainer" : {
       "name" : "@shortcutspro",
-      "link" : "https:://shortcutspro.github.io"
+      "link" : "https://shortcutspro.github.io"
     },
     "name" : "Auto Message",
     "depiction" : "https://shortcutspro.github.io/library/depiction/auto-message.html"
   },
   {
-    "id" : "io.github.shortcutspro.water-eject",
+    "id" : "io.github.shortcutspro.library.water-eject",
     "description" : "Powerful Water Ejection System.",
     "version" : "3.1",
     "depends" : [
@@ -48,9 +50,11 @@
       "link" : "https://routinehub.co/user/Josh0678"
     },
     "link" : "https://www.icloud.com/shortcuts/4cf3c997994047349d124ef1f8273edb",
-    "catagory" : "utilities",
+    "catagories" : [
+      "utilities"
+    ],
     "icon" : "https://shortcutspro.github.io/library/depiction/water-eject.png",
-    "arch" : "ios15",
+    "arch" : "ios14",
     "maintainer" : {
       "name" : "@shortcutspro",
       "link" : "https:://shortcutspro.github.io"
@@ -59,22 +63,24 @@
     "depiction" : "https://shortcutspro.github.io/library/depiction/water-eject.html"
   },
   {
-    "id" : "io.github.shortcutspro.bustl-updater",
+    "id" : "io.github.shortcutspro.library.bustl.-updater",
     "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
     "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
     "version" : "3.14",
-    "depends" : "",
+    "depends" : [
+    
+    ],
     "author" : {
-      "name" : "scottdwr",
+      "name" : "@scottdwr",
       "link" : "https://routinehub.co/user/scottdwr/"
     },
     "release" : "Sun, 01 Aug 2021 20:48:06 -0500",
     "link" : "https://www.icloud.com/shortcuts/717e66ddca714453a28d5100075c17cb",
     "catagory" : "utility",
-    "color" : "",
+    "color" : "#D6AF00",
     "notes" : "We smashed some damn bugs and cranked up the speed.",
     "icon" : "https://shortcutspro.github.io/library/depiction/bustl.-updater.png",
-    "arch" : "ios15",
+    "arch" : "ios14",
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : "https://shortcutspro.github.io"
@@ -87,18 +93,22 @@
     "description" : "Provides profile lookup and default file path creation for a given shortcut.",
     "auuid" : "ADE8C19E-B267-48C7-B3C9-B010580235E5",
     "version" : "3.1",
-    "depends" : "",
+    "depends" : [
+    
+    ],
     "author" : {
-      "name" : "shortcutspro",
+      "name" : "@shortcutspro",
       "link" : "https://.github.com/shortcutspro/"
     },
     "release" : "Mon, 02 Aug 2021 02:56:44 -0500",
     "link" : "https://www.icloud.com/shortcuts/97484abc8d414ba982d51feed4c1a847",
-    "catagory" : "",
-    "color" : "#FFFFFF",
+    "catagories" : [
+      "utilities"
+      ],
+    "color" : "#747D87",
     "notes" : "We smashed some damn bugs and cranked up the speed.",
     "icon" : "https://shortcutspro.github.io/library/depiction/file-provider.png",
-    "arch" : "ios15",
+    "arch" : "ios14",
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : "https://shortcutspro.github.io"
@@ -121,11 +131,13 @@
     },
     "release" : "Mon, 02 Aug 2021 16:29:41 -0500",
     "link" : "https://www.icloud.com/shortcuts/66bd51210c034cbc8eb0c8fe7e06dc13",
-    "catagory" : "",
-    "color" : "#FFFFFF",
+    "catagories" : [
+      "utilities"
+    ],
+    "color" : "#747D87",
     "notes" : "We smashed some damn bugs and cranked up the speed.",
     "icon" : "https://shortcutspro.github.io/library/depiction/integrity.png",
-    "arch" : "ios15",
+    "arch" : "ios14",
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : "https://shortcutspro.github.io"

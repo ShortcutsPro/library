@@ -13,11 +13,13 @@
   },
   "release" : "Mon, 02 Aug 2021 16:29:41 -0500",
   "link" : "https:\/\/www.icloud.com\/shortcuts\/66bd51210c034cbc8eb0c8fe7e06dc13",
-  "catagory" : "",
-  "color" : "#FFFFFF",
+  "catagories" : [
+    "utilities"
+  ],
+  "color" : "#747D87",
   "notes" : "We smashed some damn bugs and cranked up the speed.",
   "icon" : "https:\/\/shortcutspro.github.io\/library\/depiction\/integrity.png",
-  "arch" : "ios15",
+  "arch" : "ios14",
   "maintainer" : {
     "name" : "@scottdwr",
     "link" : "https:\/\/shortcutspro.github.io"

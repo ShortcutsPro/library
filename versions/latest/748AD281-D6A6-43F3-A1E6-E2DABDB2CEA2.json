@@ -3,15 +3,19 @@
   "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
   "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
   "version" : "3.14",
-  "depends" : "",
+  "depends" : [
+  
+  ],
   "author" : {
     "name" : "scottdwr",
     "link" : "https:\/\/routinehub.co\/user\/scottdwr\/"
   },
   "release" : "Sun, 01 Aug 2021 20:48:06 -0500",
   "link" : "https:\/\/www.icloud.com\/shortcuts\/717e66ddca714453a28d5100075c17cb",
-  "catagory" : "utility",
-  "color" : "",
+  "catagories" : [
+    "utilities"
+  ],
+  "color" : "#D6AF00",
   "notes" : "We smashed some damn bugs and cranked up the speed.",
   "icon" : "https:\/\/shortcutspro.github.io\/library\/depiction\/bustl.-updater.png",
   "arch" : "ios15",
