@@ -17,52 +17,6 @@
     "icon" : "https://shortcutspro.github.io/library/depiction/library.png"
   },
   {
-    "id" : "io.github.shortcutspro.library.auto-message",
-    "description" : "Schedule messages to be sent later",
-    "version" : "9.2.3",
-    "depends" : [
-
-    ],
-    "author" : {
-      "name" : "@Bingobucketster",
-      "link" : "https://routinehub.co/user/Bingobucketster"
-    },
-    "link" : "https://www.icloud.com/shortcuts/f869f6dd211d449ab63e089e3efd6bf3",
-    "catagory" : "productivity",
-    "icon" : "https://shortcutspro.github.io/library/depiction/auto-message.png",
-    "arch" : "ios14",
-    "maintainer" : {
-      "name" : "@shortcutspro",
-      "link" : "https://shortcutspro.github.io"
-    },
-    "name" : "Auto Message",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/auto-message.html"
-  },
-  {
-    "id" : "io.github.shortcutspro.library.water-eject",
-    "description" : "Powerful Water Ejection System.",
-    "version" : "3.1",
-    "depends" : [
-
-    ],
-    "author" : {
-      "name" : "@Josh0678",
-      "link" : "https://routinehub.co/user/Josh0678"
-    },
-    "link" : "https://www.icloud.com/shortcuts/4cf3c997994047349d124ef1f8273edb",
-    "catagories" : [
-      "utilities"
-    ],
-    "icon" : "https://shortcutspro.github.io/library/depiction/water-eject.png",
-    "arch" : "ios14",
-    "maintainer" : {
-      "name" : "@shortcutspro",
-      "link" : "https:://shortcutspro.github.io"
-    },
-    "name" : "Water Eject",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/water-eject.html"
-  },
-  {
     "id" : "io.github.shortcutspro.library.bustl.-updater",
     "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
     "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
@@ -144,33 +98,5 @@
     },
     "name" : "INTEGRITY",
     "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
-  },
-  {
-    "id" : "io.github.shortcutpros.shortcut-package-installer",
-    "description" : "A robust, user-friendly, multi-shortcut package installer.",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/bustl.-installer.html",
-    "version" : "2.5.2",
-    "depends" : [
-
-    ],
-    "author" : {
-      "name" : "@scottdwr",
-      "link" : "https://scottdwr.GitHub.io/shortcuts-select/"
-    },
-    "release" : "Mon, 02 Aug 2021 18:13:57 -0500",
-    "link" : "https://www.icloud.com/shortcuts/675b7607f0a742fa890e40a3a6c65f96",
-    "color" : "#00CCA9",
-    "notes" : "We smashed some damn bugs and cranked up the speed.",
-    "icon" : "https://shortcutspro.github.io/library/depiction/bustl.-installer.png",
-    "arch" : "ios14",
-    "catagories" : [
-      ""
-    ],
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : "https://shortcutspro.github.io"
-    },
-    "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
-    "name" : "Bustl.-Installer"
   }
 ]
