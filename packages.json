@@ -40,6 +40,7 @@
       "link" : "https://shortcutspro.github.io"
     },
     "name" : "Bustl. Updater",
+    "integrity" : true,
     "depiction" : "https://shortcutspro.github.io/library/depiction/bustl.-updater.html"
   },
   {
@@ -68,6 +69,7 @@
       "link" : "https://shortcutspro.github.io"
     },
     "name" : "File Provider",
+    "integrity" : false,
     "depiction" : "https://shortcutspro.github.io/library/depiction/file-provider.html"
   },
   {
@@ -97,6 +99,7 @@
       "link" : "https://shortcutspro.github.io"
     },
     "name" : "INTEGRITY",
+    "integrity" : false,
     "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
   }
 ]
