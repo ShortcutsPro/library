@@ -1,9 +1,10 @@
 <!-- Latest Versions -->
 <!DOCTYPE html>
 <html><head><meta charset="UTF-8">
-<title>latest</title></head>
-<body>
+<title>latest</title>
 <script>
+function init () {
+let json;
 const query = new URL (window.location.href);
 if (query) {
   const auuid = query.searchParams.get('auuid');
@@ -11,10 +12,11 @@ if (query) {
     const xhr = new XMLHttpRequest();
     xhr.onload = function() {
       console.log(this.responseText);
-      const json = JSON.stringify(JSON.parse(this.responseText), null, 2);
+      json = JSON.stringify(JSON.parse(this.responseText), null, 2);
       document.querySelector('body').innerHTML = "<pre>"+json+"</pre>";
       };
     xhr.open('get','latest/'+auuid+'.json');
     xhr.send();
-};};</script>
-</body></html>
+};};
+return json}</script>
+</head><body onload="init()"></body></html>
