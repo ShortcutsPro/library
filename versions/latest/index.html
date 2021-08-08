@@ -1,8 +1,6 @@
 <!-- Latest Versions -->
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8">
-<title>latest</title>
-<script>
+<html><head><meta charset="UTF-8"><script>
 function init () {
 let json;
 const query = new URL (window.location.href);
@@ -13,10 +11,11 @@ if (query) {
     xhr.onload = function() {
       console.log(this.responseText);
       json = JSON.stringify(JSON.parse(this.responseText), null, 2);
-      document.querySelector('body').innerHTML = "<pre>"+json+"</pre>";
+      <!--  document.querySelector('body').innerHTML = "<pre>"+json+"</pre>";  -->
       };
-    xhr.open('get','latest/'+auuid+'.json');
+    xhr.open('get','./'+auuid+'.json');
     xhr.send();
 };};
-return json}</script>
-</head><body onload="init()"></body></html>
+return json;
+};
+</script></head><body onload="init()"></body></html>
