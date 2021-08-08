@@ -1,21 +1,24 @@
 <!-- Latest Versions -->
 <!DOCTYPE html>
 <html><head><meta charset="UTF-8"><script>
-function init () {
-let json;
-const query = new URL (window.location.href);
-if (query) {
-  const auuid = query.searchParams.get('auuid');
-  if (auuid) {
-    const xhr = new XMLHttpRequest();
-    xhr.onload = function() {
-      console.log(this.responseText);
-      json = JSON.stringify(JSON.parse(this.responseText), null, 2);
-      <!--  document.querySelector('body').innerHTML = "<pre>"+json+"</pre>";  -->
+async function init () {
+  let json;
+  const query = new URL (window.location.href);
+  if (query) {
+    const auuid = query.searchParams.get('auuid');
+    if (auuid) {
+      const xhr = new XMLHttpRequest();
+      xhr.onload = function() {
+        console.log(this.responseText);
+        json = JSON.stringify(JSON.parse(this.responseText), null, 2);
+        document.querySelector('html').outerText = json;
+        return json;
+        };
+      xhr.open('get','./'+auuid+'.json');
+      xhr.send();
       };
-    xhr.open('get','./'+auuid+'.json');
-    xhr.send();
-};};
-return json;
+    };
+  };
 };
-</script></head><body onload="init()"></body></html>
+await init();
+</script></head></html>
