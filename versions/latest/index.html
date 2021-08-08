@@ -1,7 +1,7 @@
 <!-- Latest Versions -->
 <!DOCTYPE html>
 <html><head><meta charset="UTF-8"><script>
-async function init () {
+function init () {
   let json;
   const query = new URL (window.location.href);
   if (query) {
@@ -11,14 +11,14 @@ async function init () {
       xhr.onload = function() {
         console.log(this.responseText);
         json = JSON.stringify(JSON.parse(this.responseText), null, 2);
-        document.querySelector('html').outerText = json;
+        document.querySelector('html').innerText = "<pre>"+json+"</pre>";
         return json;
         };
-      xhr.open('get','./'+auuid+'.json');
+      xhr.open('get',"./"+auuid+".json";
       xhr.send();
       };
     };
   };
 };
-await init();
+init();
 </script></head></html>
