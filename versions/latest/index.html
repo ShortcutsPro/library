@@ -1,4 +1,6 @@
-// Latest Versions 
+<!-- Latest Versions -->
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><script>
 function init () {
   let json;
   const query = new URL (window.location.href);
@@ -9,12 +11,14 @@ function init () {
       xhr.onload = function() {
         console.log(this.responseText);
         json = JSON.stringify(JSON.parse(this.responseText), null, 2);
-        // document.querySelector('body').innerHTML = "<pre>"+json+"</pre>";
+        document.querySelector('html').innerText = "<pre>"+json+"</pre>";
+        return json;
+        };
+      xhr.open('get',"./"+auuid+".json";
+      xhr.send();
       };
-    xhr.open('get','latest/'+auuid'.json’);
-    xhr.send();
     };
   };
-  return json;
 };
-return init();
+document.write(init());
+</script></head></html>
