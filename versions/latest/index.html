@@ -8,7 +8,7 @@ function api () {
   xhr.onload = function() {
     json = JSON.stringify(JSON.parse(this.responseText), null, 2);
     console.log(json);
-    document.querySelector('html').innerText = json;
+    document.querySelector('body').innerHTML = "<pre>"+json+"</pre>";
   };
   xhr.open('get',"./"+auuid+".json");
   xhr.send();
