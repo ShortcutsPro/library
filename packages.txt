@@ -40,7 +40,7 @@
       "link" : "https://shortcutspro.github.io"
     },
     "name" : "Bustl. Updater",
-    "integrity" : true,
+    "integrity" : True,
     "depiction" : "https://shortcutspro.github.io/library/depiction/bustl.-updater.html"
   },
   {
