@@ -1,6 +1,4 @@
-<!-- Latest Versions -->
-<!DOCTYPE html>
-<html><head><meta charset="UTF-8"><script>
+<html><head><script>
 function api () {
   let json;
   const QUERY = new URL (window.location.href);
@@ -10,7 +8,7 @@ function api () {
   xhr.onload = function() {
     json = JSON.stringify(JSON.parse(this.responseText), null, 2);
     console.log(json);
-    document.querySelector('html').innerHTML = json;
+    document.querySelector('html').innerHTML = "<pre>"+json+"</pre>";
   };
   xhr.open('get',"./"+auuid+".json");
   xhr.send();
