@@ -1,24 +1,17 @@
 <!-- Latest Versions -->
 <!DOCTYPE html>
 <html><head><meta charset="UTF-8"><script>
-function init () {
+function api () {
   let json;
-  const query = new URL (window.location.href);
-  if (query) {
-    const auuid = query.searchParams.get('auuid');
-    if (auuid) {
-      const xhr = new XMLHttpRequest();
-      xhr.onload = function() {
-        console.log(this.responseText);
-        json = JSON.stringify(JSON.parse(this.responseText), null, 2);
-        document.querySelector('html').innerText = "<pre>"+json+"</pre>";
-        return json;
-        };
-      xhr.open('get',"./"+auuid+".json";
-      xhr.send();
-      };
-    };
+  const QUERY = new URL(window.location.href);
+  const auuid = QUERY.searchParams.get('auuid');
+  const xhr = new XMLHttpRequest();
+  xhr.onload = function() {
+    console.log(this.responseText);
+    json = JSON.stringify(JSON.parse(this.responseText), null, 2);
   };
-};
-document.write(init());
-</script></head></html>
+  xhr.open('get','./'+auuid+'.json');
+  xhr.send();
+  document.querySelector('html').innerText = json;
+};</script></head><body onload="api();"></body></html>
+  

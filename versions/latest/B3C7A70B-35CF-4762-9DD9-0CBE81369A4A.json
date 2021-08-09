@@ -17,12 +17,14 @@
   "icon" : "https:\/\/shortcutspro.github.io\/library\/depiction\/bustl.-installer.png",
   "arch" : "ios14",
   "catagories" : [
-    ""
+    "utilities",
+    "administration"
   ],
   "maintainer" : {
     "name" : "@scottdwr",
     "link" : "https:\/\/shortcutspro.github.io"
   },
   "auuid" : "B3C7A70B-35CF-4762-9DD9-0CBE81369A4A",
-  "name" : "Bustl.-Installer"
+  "name" : "Bustl.-Installer",
+  "integrity" : true
 }

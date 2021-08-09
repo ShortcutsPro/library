@@ -24,5 +24,6 @@
     "link" : "https:\/\/shortcutspro.github.io"
   },
   "name" : "File Provider",
+  "integrity" : false,
   "depiction" : "https:\/\/shortcutspro.github.io\/library\/depiction\/file-provider.html"
 }

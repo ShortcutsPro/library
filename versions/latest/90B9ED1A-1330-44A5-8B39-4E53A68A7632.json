@@ -25,5 +25,6 @@
     "link" : "https:\/\/shortcutspro.github.io"
   },
   "name" : "INTEGRITY",
+  "integrity" : false,
   "depiction" : "https:\/\/shortcutspro.github.io\/library\/depiction\/integrity.html"
 }

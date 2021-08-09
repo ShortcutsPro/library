@@ -7,5 +7,6 @@
   "link" : "https:\/\/www.icloud.com\/shortcuts\/32cacc6b61da482d8ad6cd2df0a0aa60",
   "version" : "1.1",
   "description" : "Keep your home screen fresh with randomly-generated colour gradient wallpaper.",
-  "name" : "GradientPaper"
+  "name" : "GradientPaper",
+  "integrity" : true
 }
