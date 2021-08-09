@@ -3,15 +3,16 @@
 <html><head><meta charset="UTF-8"><script>
 function api () {
   let json;
-  const QUERY = new URL(window.location.href);
-  const auuid = QUERY.searchParams.get('auuid');
+  const QUERY = new URL (window.location.href);
+  const auuid = decodeURIComponent(QUERY.searchParams.get('auuid'));
+  // const auuid = "90B9ED1A-1330-44A5-8B39-4E53A68A7632";
   const xhr = new XMLHttpRequest();
   xhr.onload = function() {
-    console.log(this.responseText);
     json = JSON.stringify(JSON.parse(this.responseText), null, 2);
+    console.log(json);
+    document.querySelector('html').innerText = json;
   };
-  xhr.open('get','./'+auuid+'.json');
+  xhr.open('get',"./"+auuid+".json");
   xhr.send();
-  document.querySelector('html').innerText = json;
 };</script></head><body onload="api();"></body></html>
   
