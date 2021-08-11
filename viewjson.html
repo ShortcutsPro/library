@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<script src="https://cdn.rawgit.com/caldwell/renderjson/master/renderjson.js"></script><style>
+body {background: #303030;}
+#con {text-shadow: none;background: #303030;padding: 1em;}
+.renderjson a {text-decoration: none;color: #fff;}
+.renderjson .disclosure {color: crimson;font-size: 125%;position: relative;top: 3px;}
+.renderjson .syntax {color: grey;}
+.renderjson .string {color: pink;}
+.renderjson .number {color: cyan;}
+.renderjson .boolean {color: plum;}
+.renderjson .key {color: lightblue;}
+.renderjson .keyword {color: lightgoldenrodyellow;}
+.renderjson .object.syntax {color: lightseagreen;}
+.renderjson .array.syntax {color: lightsalmon;}
+</style></head><body><div id="con"></div><script>
+const QUERY = new URL (window.location.href);
+const DATA = decodeURIComponent(QUERY.searchParams.get("json"));
+document.getElementById("con").appendChild(renderjson(DATA));
+</script></body></html> 
