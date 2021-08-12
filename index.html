@@ -36,8 +36,8 @@
     </style>
     <script src="https://kit.fontawesome.com/c762dd7353.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
-            const QUERY = new URL (window.location.href);
-      const params = decodeURIComponent(QUERY.searchParams)
+      const QUERY = new URL (window.location.href);
+      const params = JSON.parse(decodeURIComponent(QUERY.searchParams));
       console.log(QUERY);
       alert(params);
       
