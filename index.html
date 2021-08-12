@@ -37,28 +37,29 @@
     <script src="https://kit.fontawesome.com/c762dd7353.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
       const QUERY = new URL (window.location.href);
-      const params = JSON.parse(decodeURIComponent(QUERY.searchParams));
+      const nameParam = decodeURIComponent(QUERY.searchParams.get("name"));
+      const linkParam = decodeURIComponent(QUERY.searchParams.get("link"));
+      const auuidParam = decodeURIComponent(QUERY.searchParams.get("auuid"));
+      const versionParam = decodeURIComponent(QUERY.searchParams.get("version"));
       console.log(QUERY);
-      alert(params);
       
-      if (params.name) {
-        alert(params.name);
+      alert(nameParam);
+      
+      const NAME = document.getElementById('name');      
+      const AUUID = document.getElementById('auuid');
+      const VERSION = document.getElementById('version');
+      
+      if (nameParam != 'null') {
+        NAME.setAttribute("value", nameParam);
         
-        const NAME = document.getElementById('name');      
-        const AUUID = document.getElementById('auuid');
-        const VERSION = document.getElementById('version');
-        const LINK = param.link;
-        
-        NAME.setAttribute("value", params.name);
-  
         if (params.auuid) {
-          AUUID.setAttribute("value", params.auuid);  
+          AUUID.setAttribute("value", auuidParam)
           AUUID.setAttribute("readonly", "true");
           AUUID.setAttribute("class", "input is-dark is-normal");  
         };
   
         if (params.version) {
-          VERSION.setAttribute("value", params.version);
+          VERSION.setAttribute("value", versionParam);
           VERSION.setAttribute("readonly", "true");
           VERSION.setAttribute("class", "input is-dark is-normal");         
         };
