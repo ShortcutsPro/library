@@ -679,7 +679,7 @@
       const DESCRIPTION = document.getElementById('description');
       
       if (nameParam != 'null') {
-        alert("Welcome to the Shortcut Publisher"+'\n'+"for the "+location.title+" repository."+'\n'+"Shortcut: "+nameParam);
+        alert("Shortcut Publisher"+'\n'+"for ShortcutsPro library repository."+'\n'+"Shortcut: "+nameParam);
         
         NAME.setAttribute("value", nameParam);
         
@@ -699,9 +699,9 @@
           DESCRIPTION.setAttribute("value", descriptionParam);
           // DESCRIPTION.setAttribute("readonly", "true");
           DESCRIPTION.setAttribute("class", "input is-success is-normal");         
+        }; 
         } else {
           alert("No shortcut received");
-        }
       };      
       
       const form = { 
