@@ -50,7 +50,8 @@
       const VERSION = document.getElementById('version');
       
       if (nameParam != 'null') {
-        NAME.setAttribute("value", nameParam);
+        alert(nameParam.value);
+        NAME.setAttribute("value", nameParam.value);
         
         if (params.auuid) {
           AUUID.setAttribute("value", auuidParam)
