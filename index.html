@@ -680,16 +680,16 @@
       if (nameParam != 'null') {
         alert(nameParam);
         
-        NAME.setAttribute("value", "${nameParam}");
+        NAME.setAttribute("value", nameParam);
         
-        if (auuidParam) {
-          AUUID.setAttribute("value", "${auuidParam}")
+        if (auuidParam != 'null') {
+          AUUID.setAttribute("value", auuidParam)
           AUUID.setAttribute("readonly", "true");
           AUUID.setAttribute("class", "input is-dark is-normal");  
         };
   
-        if (versionParam) {
-          VERSION.setAttribute("value", "${versionParam}");
+        if (versionParam != 'null') {
+          VERSION.setAttribute("value", versionParam);
           VERSION.setAttribute("readonly", "true");
           VERSION.setAttribute("class", "input is-dark is-normal");         
         };
