@@ -41,24 +41,24 @@
       console.log(QUERY);
       alert(params);
       
-      if (params.length > 0) {
-        console.log(params);
+      if (params.name) {
+        alert(params.name);
         
         const NAME = document.getElementById('name');      
         const AUUID = document.getElementById('auuid');
         const VERSION = document.getElementById('version');
         const LINK = param.link;
         
-        NAME.setAttribute("value", params.name.value);
+        NAME.setAttribute("value", params.name);
   
-        if (param.auuid) {
-          AUUID.setAttribute("value", params.auuid.value);  
+        if (params.auuid) {
+          AUUID.setAttribute("value", params.auuid);  
           AUUID.setAttribute("readonly", "true");
           AUUID.setAttribute("class", "input is-dark is-normal");  
         };
   
-        if (param.version) {
-          VERSION.setAttribute("value", params.version.value);
+        if (params.version) {
+          VERSION.setAttribute("value", params.version);
           VERSION.setAttribute("readonly", "true");
           VERSION.setAttribute("class", "input is-dark is-normal");         
         };
