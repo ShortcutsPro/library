@@ -101,21 +101,5 @@
     },
     "name" : "INTEGRITY",
     "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
-  },
-  {
-    "id" : "io.cutz.bustl.library.",
-    "icon" : "https://cutz.bustl.io/library/depiction/.png",
-    "categories" : [
-      "utilities",
-      "development",
-      "Development Tools",
-      "Utilities"
-    ],
-    "depends" : [
-      "",
-      "shortcut-data"
-    ],
-    "depiction" : "https://cutz.bustl.io/library/depiction/.html",
-    "integrity" : false
   }
 ]

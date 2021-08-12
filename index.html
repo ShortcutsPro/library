@@ -7,25 +7,25 @@
 <html lang="en" dir="auto">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no ">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
-    <title>Shortcut Publisher</title>
+    <title>ShortcutsPro Library</title>
     <style>
 /*      @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";*/
       @charset "utf-8"; 
       html { font-size: 100%; font-family: Helvetica, Arial, Freesans, clean, sans-serif; }     
       body { margin: 0; padding: 1em; background-color: white; font-family: system-ui; color: black; }
-      @media (prefers-color-scheme: dark;) { body { background-color: black; color: white; }}  /* Dark Mode */ 
+      @media (prefers-color-scheme: dark;) { body { background-color: black; color: white; }}  /* Dark Mode */
       @media (max-device-width: 480px;) { }
       @media (min-device-width: 481px;) { body { margin: auto; max-width: 600px; }}
       img { max-width: 90%; }
-      .field { margin: 0.5em 1em;}
-      .control { margin: 0.5em 0;}
-      .input { margin: 0.5em auto;}
-      .label { font-size: 1.2em;}
-       .button .checkbox { margin-top: 5em; }
+      .field { margin: 0.5em 1em; }
+      .control { margin: 0.5em 0; padding: 0.2em }
+      .input { margin: 0.5em 0.3em; padding: 0.1 0.5em padding-left: 1em;}
+      .label { font-size: 1em; margin: auto; padding: auto; margin-right: 1em; }
+      .button .checkbox { margin-top: 5em; }
       /* debug.css | MIT License | zaydek.github.com/debug.css *
       :not(path):not(g) {
       	color:                    hsla(210, 100%, 100%, 0.9) !important;
@@ -34,7 +34,7 @@
       	box-shadow: none !important;
       }  */
     </style>
-    <script src="https://kit.fontawesome.com/c762dd7353.js" crossorigin="anonymous"></script>
+<!--     <script src="https://kit.fontawesome.com/c762dd7353.js" crossorigin="anonymous"></script> -->
   </head>
   <body>
     <section class="section" style="margin: 0;">
@@ -44,622 +44,594 @@
           <h1 class="title">Shortcut Publisher</h1>
         </center>     
 
-
-<div class="field">
-  <label class="label" for="name">
-    Name
-  </label>
-  <div class="control">
-    <input class="input is-dark is-normal" type="text" id="name" readonly="true" value="">
-  </div>
-</div>
-
-
-
-<div class="field">
-  <label class="label" for="auuid">
-    AUUID
-  </label>
-</dif>
-  <div class="control">
-    <input class="input is-danger is-normal" type="text" id="auuid" placeholder="AUUID is missing!">
-  </div>
-</div>
-
-
-<div class="field is-grouped">
-  
-  <div class="field">
-      <label class="label" for="version">
-      Version
-      </label>
-      <div class="control">
-        <input class="input is-danger is-small" type="text" id="version" placeholder="Enter new version">
-      </div>
-    </div>
-  
-  <div class="field">
-    <label class="label" for="categories">
-        Categories
-    </label>
-      <div class="control">
-        <div class="select is multiple is-info">
-          <select multiple size="28" id="categories">
-            <option value="Books">Books</option>
-            <option value="Business">Business</option>
-            <option value="Development Tools">Development Tools</option>
-            <option value="Education">Education</option>
-            <option value="Entertainment">Entertainment</option>
-            <option value="Finance">Finance</option>
-            <option value="Food & Drink">Food & Drink</option>
-            <option value="Games">Games</option>                
-            <option value="Graphics & Design">Graphics & Design</option>
-            <option value="Health & Fitness">Health & Fitness</option>
-            <option value="Jailbreaking">Jailbreaking</option>
-            <option value="Kids">Kids</option>
-            <option value="Lifestyle">Lifestyle</option>
-            <option value="Medical">Medical</option>
-            <option value="Music">Music</option>
-            <option value="Navigation">Navigation</option>
-            <option value="News">News</option>
-            <option value="Photo & Video">Photo & Video</option>
-            <option value="Productivity">Productivity</option>
-            <option value="Reference">Reference</option>
-            <option value="Shopping">Shopping</option>
-            <option value="Snippets">Snippets</option>
-            <option value="Social Networking">Social Networking</option>
-            <option value="Sports">Sports</option>
-            <option value="Travel">Travel</option>
-            <option value="Utilities">Utilities</option>
-            <option value="Weather">Weather</option>
-            <option value="Widgets">Widgets</option>
-            <option value="Books">Books</option>
-          </select>
-        </div>
-        <p class="help">
-          Select one to three categories</p>
-      </div>
-    </div>
-    
-</div>
-
-
-<div class="field">
-  <label class="label" for="description">
-    Description
-  </label>
-  <div class="control">
-    <textarea class="textarea is-link is-light is-normal" id="description" placeholder="Brief description or tag-line"></textarea>
-  </div>
-</div>          
-
-
-<div class="field is-grouped is-grouped-centered">
-  <div class="field">
-    <label class="label" for="input">
-      Does Shortcut Require Input?
-    </label>
-    <div class="control">
-      <div class="select is-info is-light is-normal">
-        <select id="input">
-          <option value="false">Does Not Require Input</option>
-          <option value="clipboard">Uses Clipboard</option>
-          <option value="true">Uses Share Sheet</option>
-          <option value="text">Statuc Text Input</option>
-        </select>
-      </div>
-    </div>
-  </div>
-  <div class="field">
-    <label class="label" for="text">
-       Text Input
-    </label>
-    <div class="control">
-      <input class="input is-light is-normal" type="text" id="text" placeholder="Static text">
-      </div>
-    </div>
-  </div>
-</div>
-
-        
-      <div class="field is-horizontal">
-        <div class="field-label>">
-          <label class="label" for="depends">
-            Select Dependencies
-         </label>
-        </div>
-        <div class="field-body">
-          <div class="control">
-            <div class="select is-multiple is-large">
-              <select multiple size="456" id="depends">
-              <option value="#-convert-color-to-rgba"># Convert Color to RGBA</option>
-              <option value="#-get-app-bundle-id"># Get App Bundle ID</option>
-              <option value="#-get-app-icon"># Get App Icon</option>
-              <option value="#-get-color-pixel"># Get Color Pixel</option>
-              <option value="#-get-shortcut-links"># Get Shortcut Links</option>
-              <option value="#-get-weather-icon"># Get Weather Icon</option>
-              <option value="#-html5-css-template-(embedded)"># HTML5-CSS Template (Embedded)</option>
-              <option value="#-html5-css3-template"># HTML5-CSS3 Template</option>
-              <option value="#-invert-dictionary"># Invert Dictionary</option>
-              <option value="#-js-uuid"># JS UUID</option>
-              <option value="#-randomize-list"># Randomize List</option>
-              <option value="#-remove-first-item-in-list"># Remove First Item In List</option>
-              <option value="#-remove-last-item-in-list"># Remove Last Item In List</option>
-              <option value="#-reverse-list"># Reverse list</option>
-              <option value="#-shortcut-api-records"># Shortcut API Records</option>
-              <option value="#-sort-list-alphabetically"># Sort List Alphabetically</option>
-              <option value="#-sort-list-numerically"># Sort List Numerically</option>
-              <option value="#-text-style"># Text Style</option>
-              <option value="#-unique-words"># Unique Words</option>
-              <option value="#-user-input"># User Input</option>
-              <option value="#l-gradientpaper.bak">#L GradientPaper.bak</option>
-              <option value="#l-hex-color-to-rgb">#L Hex Color To RGB</option>
-              <option value="1">1</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="2">2</option>
-              <option value="2-column-vcard-menu">2-Column vCard Menu</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="api">API</option>
-              <option value="api-of-apis">API of APIs</option>
-              <option value="activate-new-client">Activate New Client</option>
-              <option value="activate-new-client-og">Activate New Client OG</option>
-              <option value="add-bustl.">Add Bustl.</option>
-              <option value="add-bustl.cutz">Add Bustl.Cutz</option>
-              <option value="add-scott-profile">Add Scott Profile</option>
-              <option value="add-shortcut">Add Shortcut</option>
-              <option value="add-shortcuts-to-launch-center-pro">Add Shortcuts To Launch Center Pro</option>
-              <option value="add-to-clipboard">Add To Clipboard</option>
-              <option value="adjust-image">Adjust Image</option>
-              <option value="all-actions">All Actions</option>
-              <option value="all-actions-ios-14.2">All Actions iOS 14.2</option>
-              <option value="all-shortcut-info">All Shortcut Info</option>
-              <option value="antipaywall">AntiPaywall</option>
-              <option value="anyapplock">AnyAppLock</option>
-              <option value="app-wishlist-pro">App Wishlist Pro</option>
-              <option value="applist">AppList</option>
-              <option value="apple-music-to-youtube-playlist">Apple Music to YouTube Playlist</option>
-              <option value="apple-sounds">Apple Sounds</option>
-              <option value="archive-safari-webpage">Archive Safari Webpage</option>
-              <option value="article-to-notes">Article To Notes</option>
-              <option value="assemble-client-install-experience">Assemble Client Install Experience</option>
-              <option value="authorize">Authorize</option>
-              <option value="auto-message">Auto Message</option>
-              <option value="autobackup">AutoBackup</option>
-              <option value="backup-and-restore-shortcuts">Backup And Restore Shortcuts</option>
-              <option value="batch-add-reminders">Batch Add Reminders</option>
-              <option value="battery-indicator">Battery Indicator</option>
-              <option value="bedtime-">Bedtime ™</option>
-              <option value="best-boyfriend-award">Best Boyfriend Award</option>
-              <option value="beta-ios-15-download">Beta iOS 15 download</option>
-              <option value="black-cards">Black Cards</option>
-              <option value="books-finder">Books Finder</option>
-              <option value="broadcast-naughty-list">Broadcast Naughty List</option>
-              <option value="build-.mobileconfig-file">Build .mobileconfig File</option>
-              <option value="bulma-videos">Bulma Videos</option>
-              <option value="bustl-client-setup">Bustl Client Setup</option>
-              <option value="bustl-client-setup-1">Bustl Client Setup 1</option>
-              <option value="bustl-formz-builder">Bustl Formz Builder</option>
-              <option value="bustl.-image-editor">Bustl. Image Editor</option>
-              <option value="bustl.-shortcut-library">Bustl. Shortcut Library</option>
-              <option value="bustl.-updater">Bustl. Updater</option>
-              <option value="bustl.-installer">Bustl.-Installer</option>
-              <option value="bustl.-installer-bak">Bustl.-Installer Bak</option>
-              <option value="bustl.cutz">Bustl.Cutz</option>
-              <option value="capture-to-drafts">Capture to Drafts</option>
-              <option value="clear-clipboard">Clear Clipboard</option>
-              <option value="clip-article-to-notes">Clip Article to Notes</option>
-              <option value="clip-rich-article-to-notes">Clip Rich Article To Notes</option>
-              <option value="clipboard">Clipboard</option>
-              <option value="clipboard-markdown-to-notes">Clipboard Markdown to Notes</option>
-              <option value="color-menu">Color Menu</option>
-              <option value="color-picker-pro">Color Picker Pro</option>
-              <option value="color-sort">Color Sort</option>
-              <option value="color-tag">Color Tag</option>
-              <option value="colorizer">Colorizer</option>
-              <option value="colourqr">ColourQR</option>
-              <option value="complex-if-statements-using-js">Complex If Statements Using JS</option>
-              <option value="config">Config</option>
-              <option value="console-log-admin">Console Log Admin</option>
-              <option value="console-remote-control">Console Remote Control</option>
-              <option value="convert-shortcut-to-binary-plist">Convert Shortcut To Binary Plist</option>
-              <option value="convert-time-zone">Convert Time Zone</option>
-              <option value="cool-contacts">Cool Contacts</option>
-              <option value="copy-text-in-screenshot">Copy Text In Screenshot</option>
-              <option value="copypaste-action-parser">CopyPaste Action Parser</option>
-              <option value="copypaste-actions">CopyPaste Actions</option>
-              <option value="correct-x-callback">Correct X-callback</option>
-              <option value="create-blank-spreadsheet">Create Blank Spreadsheet</option>
-              <option value="create-bustl-profile">Create Bustl Profile</option>
-              <option value="create-bustl.-shortcut-library">Create Bustl. Shortcut Library</option>
-              <option value="create-pass-with-makepass">Create Pass with MakePass</option>
-              <option value="create-open-any-app">Create “Open Any App”</option>
-              <option value="current-date-on-clipboard">Current Date On Clipboard</option>
-              <option value="cutz-go-yes">Cutz go yes</option>
-              <option value="cutz-x-callback">Cutz x-callback</option>
-              <option value="daily-standup">Daily Standup</option>
-              <option value="data-url-landing-page">Data url landing page</option>
-              <option value="datacollect">DataCollect</option>
-              <option value="date-format-examples-(wip)">Date Format Examples (WIP)</option>
-              <option value="deal-card-hand-">Deal Card Hand ♥️♠️♦️♣️</option>
-              <option value="define-shortcut">Define Shortcut</option>
-              <option value="devhub">DevHub</option>
-              <option value="device-checkup">Device Checkup</option>
-              <option value="device-report">Device Report</option>
-              <option value="dictate-auto-message">Dictate Auto Message</option>
-              <option value="dictionary-action-builder">Dictionary Action Builder</option>
-              <option value="dictionary-master">Dictionary Master</option>
-              <option value="diff">Diff</option>
-              <option value="diff-files">Diff Files</option>
-              <option value="do-nothing">Do Nothing</option>
-              <option value="drafts-noteification">Drafts Noteification</option>
-              <option value="emergency">EMERGENCY</option>
-              <option value="ebook-converter">Ebook Converter</option>
-              <option value="edit-shortcut">Edit Shortcut</option>
-              <option value="edit-text">Edit Text</option>
-              <option value="edit-website">Edit Website</option>
-              <option value="emojify">Emojify</option>
-              <option value="export-for-pushcut">Export for Pushcut</option>
-              <option value="export-for-pushcut-m">Export for Pushcut M</option>
-              <option value="extract-pdf-pages">Extract PDF Pages</option>
-              <option value="fancy-theme-maker">Fancy Theme Maker</option>
-              <option value="favorite-actions-library-">Favorite Actions Library 📚</option>
-              <option value="file-access-time-comparison">File Access Time Comparison</option>
-              <option value="file-provider">File Provider</option>
-              <option value="filterlist">FilterList</option>
-              <option value="filterlists">FilterLists</option>
-              <option value="find-it-on-amazon">Find It On Amazon</option>
-              <option value="folder-menu">Folder Menu</option>
-              <option value="font-merge">Font Merge</option>
-              <option value="font-switcher">Font Switcher</option>
-              <option value="force-select-all">Force Select All</option>
-              <option value="form">Form</option>
-              <option value="form-1">Form 1</option>
-              <option value="frame-++">Frame ++</option>
-              <option value="fuzzy-search-open-settings">Fuzzy Search Open Settings</option>
-              <option value="glink">GLink</option>
-              <option value="get-all-actions">Get All Actions</option>
-              <option value="get-basic-icon">Get Basic Icon</option>
-              <option value="get-dictionary">Get Dictionary</option>
-              <option value="get-image-">Get Image  📸</option>
-              <option value="get-image-1">Get Image  📸 1</option>
-              <option value="get-routinehub-shortcut">Get RoutineHub Shortcut</option>
-              <option value="get-routinehub-users-papercuts-repo-link">Get RoutineHub User’s Papercuts Repo Link</option>
-              <option value="get-shortcut">Get Shortcut</option>
-              <option value="get-shortcut-icon-/-color">Get Shortcut Icon / Color</option>
-              <option value="get-icon">Get icon</option>
-              <option value="get-your-udid">Get your UDID</option>
-              <option value="giant-emoji">Giant Emoji</option>
-              <option value="globaldoc">GlobalDoc</option>
-              <option value="glyphs-&-colors">Glyphs & Colors</option>
-              <option value="goto">GoTo</option>
-              <option value="good-leads-only">Good Leads Only</option>
-              <option value="google-sheets">Google Sheets</option>
-              <option value="gradient-png">Gradient PNG</option>
-              <option value="gradientpaper">GradientPaper</option>
-              <option value="grayscale-photo">Grayscale Photo</option>
-              <option value="great-morning-">Great Morning ™</option>
-              <option value="help-message">Help Message</option>
-              <option value="hires-gifs">HiRes GIFs</option>
-              <option value="ibm-watson-speech-synthesis">IBM Watson Speech Synthesis</option>
-              <option value="integrity">INTEGRITY</option>
-              <option value="integrity-share">INTEGRITY Share</option>
-              <option value="integrity-.bak">INTEGRITY-𝑃𝑅𝑂.bak</option>
-              <option value="integrity.plist">INTEGRITY.plist</option>
-              <option value="icon-themer">Icon Themer</option>
-              <option value="identifier">Identifier</option>
-              <option value="identify">Identify</option>
-              <option value="if-action-enhancer">If Action Enhancer</option>
-              <option value="image-metadata">Image Metadata</option>
-              <option value="image-data">Image data</option>
-              <option value="image-data-1">Image data 1</option>
-              <option value="index-all-shortcuts">Index All Shortcuts</option>
-              <option value="inject-js-console">Inject JS Console</option>
-              <option value="install.html-example-">Install.html Example </option>
-              <option value="integrity-array.shortcut">Integrity Array.shortcut</option>
-              <option value="integrity-processor">Integrity Processor</option>
-              <option value="im-being-pulled-over">I’m being pulled over</option>
-              <option value="js-uuid-(learning-edition)">JS UUID (Learning Edition)</option>
-              <option value="jsbox-scripts">JSBox Scripts</option>
-              <option value="jt---hashtag-generator">JT - Hashtag Generator</option>
-              <option value="jailbreak-finder">Jailbreak Finder</option>
-              <option value="join-wifi">Join Wifi</option>
-              <option value="keep-me-on-task">Keep Me On Task</option>
-              <option value="launchcuts-folder-menu">LaunchCuts Folder Menu</option>
-              <option value="launchcuts-helper">LaunchCuts Helper</option>
-              <option value="launchcuts-share">LaunchCuts Share</option>
-              <option value="launchcuts-today">LaunchCuts Today</option>
-              <option value="launcher-widget">Launcher Widget</option>
-              <option value="legacy">Legacy</option>
-              <option value="legacy-log">Legacy Log</option>
-              <option value="linkpicker">LinkPicker</option>
-              <option value="list-and-dictionary-helper">List and Dictionary Helper</option>
-              <option value="listen">Listen</option>
-              <option value="listen-launcher-admin">Listen Launcher Admin</option>
-              <option value="log-new-client">Log New Client</option>
-              <option value="logweather">LogWeather</option>
-              <option value="logger">Logger</option>
-              <option value="mfc-deck-autocuts">MFC Deck Autocuts</option>
-              <option value="mfc-deck-helper">MFC Deck Helper</option>
-              <option value="mfc-deck-key-command">MFC Deck Key Command</option>
-              <option value="mfc-deck-triggers">MFC Deck Triggers</option>
-              <option value="make-gif">Make GIF</option>
-              <option value="make-installer-package">Make Installer Package</option>
-              <option value="make-list-of-shortcuts">Make List Of Shortcuts</option>
-              <option value="make-web-icons">Make Web Icons</option>
-              <option value="map-coordinate-converter">Map Coordinate Converter</option>
-              <option value="markdown-to-remark-slideshow">Markdown To Remark Slideshow</option>
-              <option value="markdown-to-remark-slideshow-">Markdown To Remark Slideshow 🅼🅳<option>
-              <option value="markdown-to-templated-html">Markdown To Templated HTML</option>
-              <option value="mediakit">MediaKit</option>
-              <option value="mediakit-badges">MediaKit Badges</option>
-              <option value="mediakit-banners">MediaKit Banners</option>
-              <option value="mediakit-collages">MediaKit Collages</option>
-              <option value="mediakit-video-players">MediaKit Video Players</option>
-              <option value="mediakit-iphone-mockups">MediaKit iPhone Mockups</option>
-              <option value="mergecuts">MergeCuts</option>
-              <option value="message-everyone!">Message Everyone!</option>
-              <option value="mobile-webapp-configurator">Mobile WebAPP Configurator</option>
-              <option value="my-color-palette">My Color Palette</option>
-              <option value="my-hotspot">My Hotspot</option>
-              <option value="my-location-notification">My Location Notification</option>
-              <option value="my-mediakit">My MediaKit</option>
-              <option value="my-wifi-pass">My Wifi Pass</option>
-              <option value="my-year-timeline">My Year Timeline</option>
-              <option value="my-icrm">My iCRM</option>
-              <option value="mywifipass">Mywifipass</option>
-              <option value="nda-docbuilder">NDA DocBuilder</option>
-              <option value="nagification">Nagification</option>
-              <option value="new-client-profile">New Client Profile</option>
-              <option value="new-shortcut">New Shortcut</option>
-              <option value="new-shortcut-1">New Shortcut 1</option>
-              <option value="new-shortcut-12">New Shortcut 12</option>
-              <option value="new-shortcut-2">New Shortcut 2</option>
-              <option value="new-shortcut-3">New Shortcut 3</option>
-              <option value="new-shortcut-4">New Shortcut 4</option>
-              <option value="new-shortcut-5">New Shortcut 5</option>
-              <option value="new-shortcut-6">New Shortcut 6</option>
-              <option value="new-shortcut-7">New Shortcut 7</option>
-              <option value="new-shortcut-8">New Shortcut 8</option>
-              <option value="new-zap">New Zap</option>
-              <option value="no-duplicate-alarms">No Duplicate Alarms</option>
-              <option value="nothing">Nothing</option>
-              <option value="obsidian-webclipper-shared">Obsidian Webclipper SHARED</option>
-              <option value="open-a-recent-shortcut">Open A Recent Shortcut</option>
-              <option value="open-ftminternal-4">Open FTMInternal-4</option>
-              <option value="open-in-outline">Open In Outline</option>
-              <option value="open-shortcutstracker">Open ShortcutsTracker</option>
-              <option value="open-with-opener">Open with Opener</option>
-              <option value="opensettings">OpenSettings</option>
-              <option value="outputkit-template">Outputkit Template</option>
-              <option value="pdf-to-word-converter">PDF to Word Converter</option>
-              <option value="papercutter">PaperCutter</option>
-              <option value="paperdeck">PaperDeck</option>
-              <option value="papercuts-manager">Papercuts Manager</option>
-              <option value="pass-worksheet">Pass Worksheet</option>
-              <option value="pause-it-like-that.">Pause It Like That.</option>
-              <option value="picfly">PicFly</option>
-              <option value="pocket-money-pro">Pocket Money Pro</option>
-              <option value="prettify-clipboard">Prettify Clipboard</option>
-              <option value="preview-shortcut-(icloud-link)">Preview Shortcut (iCloud Link)</option>
-              <option value="price-history-chart">Price History Chart</option>
-              <option value="projectcuts">ProjectCuts</option>
-              <option value="promokit">PromoKit</option>
-              <option value="proton">Proton</option>
-              <option value="purgatory-install">Purgatory Install</option>
-              <option value="push-installer">Push Installer</option>
-              <option value="push-message">Push Message</option>
-              <option value="push-strobe">Push Strobe</option>
-              <option value="quick-look-html-generator">Quick Look HTML Generator</option>
-              <option value="quick-menu-to-base64-list-menu">Quick Menu To Base64 List Menu</option>
-              <option value="quicklog">QuickLog</option>
-              <option value="quicklook">QuickLook</option>
-              <option value="rapid-installer">Rapid-Installer</option>
-              <option value="rescheduler">ReScheduler</option>
-              <option value="read-article">Read Article</option>
-              <option value="read-comment-dictionary">Read Comment Dictionary</option>
-              <option value="read-encoded-inboundserver">Read Encoded InboundServer</option>
-              <option value="read-macstories">Read MacStories</option>
-              <option value="read-shortcut-plist">Read Shortcut Plist</option>
-              <option value="read-story">Read Story</option>
-              <option value="read-video-in-videoticle">Read Video in Videoticle</option>
-              <option value="read-this-to-me!">Read this to me!</option>
-              <option value="read_dictionary">Read_Dictionary</option>
-              <option value="record-to-clipboard">Record To Clipboard</option>
-              <option value="refresh-launchcuts">Refresh LaunchCuts</option>
-              <option value="refresh-mfc-deck">Refresh MFC Deck</option>
-              <option value="reminders-automation">Reminders Automation</option>
-              <option value="replika's-yeast">Replika's Yeast</option>
-              <option value="repo-package-dictionary-">Repo package dictionary </option>
-              <option value="request-desktop-site">Request Desktop Site</option>
-              <option value="resize-wallpaper">Resize Wallpaper</option>
-              <option value="routinehub-article">RoutineHub Article</option>
-              <option value="routinehub-article-1">RoutineHub Article 1</option>
-              <option value="routinehub-markdown">RoutineHub Markdown</option>
-              <option value="routinehub-search-pro">RoutineHub Search Pro</option>
-              <option value="routinepub">RoutinePub</option>
-              <option value="routinehub">Routinehub</option>
-              <option value="run-shortcut-with-clipboard">Run Shortcut With Clipboard</option>
-              <option value="run-strobe">Run Strobe</option>
-              <option value="sos">SOS</option>
-              <option value="svg-to-png">SVG to PNG</option>
-              <option value="sw-dlt">SW-DLT</option>
-              <option value="safari-auto-scroll">Safari Auto Scroll</option>
-              <option value="safari-developer-tools">Safari Developer Tools</option>
-              <option value="safari-pdf-extract">Safari PDF Extract</option>
-              <option value="save-shortcuts-to-file">Save Shortcuts To File</option>
-              <option value="save-to-album">Save To Album</option>
-              <option value="scan-qr-on-clipboard">Scan QR on Clipboard</option>
-              <option value="scan-to-drafts-5-">Scan To Drafts 5 🔖</option>
-              <option value="schedule-routinehub-update">Schedule RoutineHub Update</option>
-              <option value="screen-time-export-(day)">Screen Time Export (Day)</option>
-              <option value="screenkit">ScreenKit</option>
-              <option value="scroll-to-bottom">Scroll to Bottom</option>
-              <option value="search-files-in-icloud">Search Files In iCloud</option>
-              <option value="search-stores">Search Stores</option>
-              <option value="search-xml-source-code">Search XML Source Code</option>
-              <option value="send2quickbooks">Send2Quickbooks</option>
-              <option value="serial-date-values">Serial Date Values</option>
-              <option value="set-alarm-+">Set Alarm +</option>
-              <option value="set-alarm-plus">Set Alarm Plus</option>
-              <option value="set-alarm-plus.shortcut">Set Alarm Plus.shortcut</option>
-              <option value="set-alarm-v1">Set Alarm v1</option>
-              <option value="settings-shortcut-generator">Settings Shortcut Generator</option>
-              <option value="share-all-my-shortcuts">Share All My Shortcuts</option>
-              <option value="share-clean-url">Share Clean URL</option>
-              <option value="shortcut">Shortcut</option>
-              <option value="shortcut-comments">Shortcut Comments</option>
-              <option value="shortcut-data">Shortcut Data</option>
-              <option value="shortcut-launcher-generator">Shortcut Launcher Generator</option>
-              <option value="shortcut-library">Shortcut Library</option>
-              <option value="shortcut-package-installer">Shortcut Package Installer</option>
-              <option value="shortcut-publisher-">Shortcut Publisher </option>
-              <option value="shortcut-sizes">Shortcut Sizes</option>
-              <option value="shortcut-source-tool">Shortcut Source Tool</option>
-              <option value="shortcut-to-notes">Shortcut To Notes</option>
-              <option value="shortcutpros-repository">ShortcutPros Repository</option>
-              <option value="shortcutslogger">ShortcutsLogger</option>
-              <option value="shortcutslogger.bak">ShortcutsLogger.bak</option>
-              <option value="shortcutstracker">ShortcutsTracker</option>
-              <option value="show-clipboard">Show Clipboard</option>
-              <option value="simple-template-14">Simple Template 14</option>
-              <option value="sleep-charts">Sleep Charts</option>
-              <option value="sleep-schedule">Sleep Schedule</option>
-              <option value="smart-list-demo">Smart List Demo</option>
-              <option value="smart-list++">Smart List++</option>
-              <option value="split-screen-shortcuts">Split Screen Shortcuts</option>
-              <option value="square-photos">Square Photos</option>
-              <option value="start-mileage-tracking">Start Mileage Tracking</option>
-              <option value="steganography">SteganoGraphy</option>
-              <option value="strobe">Strobe</option>
-              <option value="subscriptions">Subscriptions</option>
-              <option value="symbol-library">Symbol Library</option>
-              <option value="symbol-list">Symbol List</option>
-              <option value="sync-launchcuts-&-shortcuts-app-folders">Sync Launchcuts & Shortcuts App Folders</option>
-              <option value="tbp-notification++">TBP Notification++</option>
-              <option value="tags-menu">Tags Menu</option>
-              <option value="take-notes">Take Notes</option>
-              <option value="taptap">TapTap</option>
-              <option value="team-simpl">Team Simpl</option>
-              <option value="today">Today</option>
-              <option value="toggle-low-power-mode">Toggle Low Power Mode</option>
-              <option value="toggler">Toggler</option>
-              <option value="toggler-version-1.20">Toggler Version 1.20</option>
-              <option value="transparent-chart-widget">Transparent Chart Widget</option>
-              <option value="url-transcode-clipboard">URL Transcode Clipboard</option>
-              <option value="uuid-on-clipboard">UUID On Clipboard</option>
-              <option value="unicode-characters-dictionaries">Unicode Characters Dictionaries</option>
-              <option value="unicode-font-variants">Unicode Font Variants</option>
-              <option value="username-generator">Username Generator</option>
-              <option value="view-current-page-source">View Current Page Source</option>
-              <option value="view-custom-datetime-formats">View Custom DateTime Formats</option>
-              <option value="view-dictionary">View Dictionary</option>
-              <option value="view-source-in-textastic">View Source in Textastic</option>
-              <option value="voice-with-text-message">Voice With Text Message</option>
-              <option value="warp-helper">WARP Helper</option>
-              <option value="water-eject">Water Eject</option>
-              <option value="water-eject-main">Water Eject Main</option>
-              <option value="weather-bars">Weather Bars</option>
-              <option value="webcall">WebCALL</option>
-              <option value="websms">WebSMS</option>
-              <option value="webview">WebView</option>
-              <option value="webhook">Webhook</option>
-              <option value="what-did-you-just-do?">What Did You Just Do?</option>
-              <option value="work-focus">Work Focus</option>
-              <option value="work-mode">Work Mode</option>
-              <option value="write-this-down">Write this down</option>
-              <option value="write-to-repositories-">Write to repositories </option>
-              <option value="x-callback">X-callback</option>
-              <option value="ytscript">YTScript</option>
-              <option value="youtube-pip">YouTube PiP</option>
-              <option value="zone-converter">Zone Converter</option>
-              <option value="_escape-html">_Escape HTML</option>
-              <option value="_get-website-icon">_Get Website Icon</option>
-              <option value="bit.ly">bit.ly</option>
-              <option value="icrm-setup">iCRM Setup</option>
-              <option value="ios-14-secret-glyphs">iOS 14 Secret Glyphs</option>
-              <option value="ios-14-shortcuts-colors">iOS 14 Shortcuts Colors</option>
-              <option value="ios-15-icon-color-tool">iOS 15 Icon Color Tool</option>
-              <option value="ios-switches">iOS Switches</option>
-              <option value="Убрать-фон-(remove-background)">Убрать фон (Remove background)</option>
-              <option value=".-">™️𝘽𝙪𝙨𝙩𝙡. 🐝</option>
-              <option value="-">𝐂𝐨𝐨𝐥 𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬</option>
-              <option value="-">𝑫𝒚𝒏𝒂𝒎𝒊𝒄 𝑾𝒂𝒍𝒍𝒑𝒂𝒑𝒆𝒓</option>
-              <option value="">🆘</option>
-              <option value="--braille-blank">📋  Braille Blank</option>
-              <option value="-base64">📋 Base64</option>
-              <option value="--remove-image-background">📸  Remove Image Background</option>
-              <option value="-combine-images">📸 Combine Images</option>
-              <option value="-convert-image-format">📸 Convert Image Format</option>
-              <option value="-convert-image-to-base64">📸 Convert Image To Base64</option>
-              <option value="-copy-images-to-clipboard">📸 Copy Images To Clipboard</option>
-              <option value="-crop-image">📸 Crop Image</option>
-              <option value="-encoded-image-to-data-url">📸 Encoded Image To Data URL</option>
-              <option value="-exit-with-imgur-link">📸 Exit With IMGUR Link</option>
-              <option value="-exit-with-images">📸 Exit With Images</option>
-              <option value="-flip-image">📸 Flip Image</option>
-              <option value="-get-image-details">📸 Get Image Details</option>
-              <option value="-get-shortcut-icons">📸 Get Shortcut Icons</option>
-              <option value="-mask-image">📸 Mask Image</option>
-              <option value="-mask-image-with-custom-shape-on-clipboard">📸 Mask Image With Custom Shape On Clipboard</option>
-              <option value="-mask-image-with-icon-shape">📸 Mask Image With Icon Shape</option>
-              <option value="-mask-with-rounded-rectangle">📸 Mask with Rounded Rectangle</option>
-              <option value="-overlay-clipboard-on-image">📸 Overlay Clipboard On Image</option>
-              <option value="-pick-color-from-image">📸 Pick Color From Image</option>
-              <option value="-quick-look">📸 Quick Look</option>
-              <option value="-remove-images">📸 Remove Images</option>
-              <option value="-resize-image">📸 Resize Image</option>
-              <option value="-resize-image-height">📸 Resize Image Height</option>
-              <option value="-resize-image-width">📸 Resize Image Width</option>
-              <option value="-rotate-image">📸 Rotate Image</option>
-              <option value="-save-to-photo-album">📸 Save To Photo Album</option>
-              <option value="-screenshot-framer">📸 Screenshot Framer</option>
-              <option value="-select.&-add-images">📸 Select.& Add Images</option>
-              <option value="-show-image">📸 Show Image</option>
-              <option value="-musicbot-pro">🤖 MusicBot Pro</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </div>
-      
-      
-      
         <div class="field">
-          <label class="label" for="note">
-            Release Notes
-          </label>
+          <label class="label" for="name">Name</label>
+          <div class="control">
+            <input class="input is-dark is-normal" type="text" id="name" readonly="true" value="">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="auuid">AUUID</label>
+          <div class="control">
+            <input class="input is-danger is-normal" type="text" id="auuid" placeholder="AUUID is missing!">
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="field">
+            <label class="label" for="version">Version</label>
             <div class="control">
-              <textarea class="textarea is-link is-normal" placeholder="Release Notes" id="note"></textarea>
+              <input class="input is-danger is-normal" type="text" id="version" placeholder="Enter new version">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="categories">Categories</label>
+            <div class="control">
+              <div class="select is multiple is-danger is-medium" id="selectCat">
+                <select multiple size="28" id="categories">
+                  <option value="Books">Books</option>
+                  <option value="Business">Business</option>
+                  <option value="Development Tools">Development Tools</option>
+                  <option value="Education">Education</option>
+                  <option value="Entertainment">Entertainment</option>
+                  <option value="Finance">Finance</option>
+                  <option value="Food & Drink">Food & Drink</option>
+                  <option value="Games">Games</option>                
+                  <option value="Graphics & Design">Graphics & Design</option>
+                  <option value="Health & Fitness">Health & Fitness</option>
+                  <option value="Jailbreaking">Jailbreaking</option>
+                  <option value="Kids">Kids</option>
+                  <option value="Lifestyle">Lifestyle</option>
+                  <option value="Medical">Medical</option>
+                  <option value="Music">Music</option>
+                  <option value="Navigation">Navigation</option>
+                  <option value="News">News</option>
+                  <option value="Photo & Video">Photo & Video</option>
+                  <option value="Productivity">Productivity</option>
+                  <option value="Reference">Reference</option>
+                  <option value="Shopping">Shopping</option>
+                  <option value="Snippets">Snippets</option>
+                  <option value="Social Networking">Social Networking</option>
+                  <option value="Sports">Sports</option>
+                  <option value="Travel">Travel</option>
+                  <option value="Utilities">Utilities</option>
+                  <option value="Weather">Weather</option>
+                  <option value="Widgets">Widgets</option>
+                  <option value="Books">Books</option>
+                </select>
+              </div>
+              <p class="help">Select one to three categories</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="description">Description</label>
+          <div class="control">
+            <textarea class="textarea is-danger is-normal" id="description" placeholder="Brief description or tag-line">
+            </textarea>
+          </div>
+        </div>          
+
+        <div class="field is-grouped is-grouped-centered">
+          <div class="field">
+            <label class="label" for="input">Does Shortcut Require Input?</label>
+            <div class="control">
+              <div class="select is-info is-info is-normal">
+                <select id="input">
+                  <option value="false">Does Not Require Input</option>
+                  <option value="clipboard">Uses Clipboard</option>
+                  <option value="true">Uses Share Sheet</option>
+                  <option value="text">Statuc Text Input</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="text">Text Input</label>
+            <div class="control">
+              <input class="input is-light is-normal" type="text" id="text" placeholder="Static text">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="field is-horizontal">
+          <div class="field-label>">
+            <label class="label" for="depends">Select Dependencies</label>
+          </div>
+          <div class="field-body">
+            <div class="control">
+              <div class="select is-multiple is-info is-medium">
+                <select multiple size="456" id="depends">
+                  <option value="#-convert-color-to-rgba"># Convert Color to RGBA</option>
+                  <option value="#-get-app-bundle-id"># Get App Bundle ID</option>
+                  <option value="#-get-app-icon"># Get App Icon</option>
+                  <option value="#-get-color-pixel"># Get Color Pixel</option>
+                  <option value="#-get-shortcut-links"># Get Shortcut Links</option>
+                  <option value="#-get-weather-icon"># Get Weather Icon</option>
+                  <option value="#-html5-css-template-(embedded)"># HTML5-CSS Template (Embedded)</option>
+                  <option value="#-html5-css3-template"># HTML5-CSS3 Template</option>
+                  <option value="#-invert-dictionary"># Invert Dictionary</option>
+                  <option value="#-js-uuid"># JS UUID</option>
+                  <option value="#-randomize-list"># Randomize List</option>
+                  <option value="#-remove-first-item-in-list"># Remove First Item In List</option>
+                  <option value="#-remove-last-item-in-list"># Remove Last Item In List</option>
+                  <option value="#-reverse-list"># Reverse list</option>
+                  <option value="#-shortcut-api-records"># Shortcut API Records</option>
+                  <option value="#-sort-list-alphabetically"># Sort List Alphabetically</option>
+                  <option value="#-sort-list-numerically"># Sort List Numerically</option>
+                  <option value="#-text-style"># Text Style</option>
+                  <option value="#-unique-words"># Unique Words</option>
+                  <option value="#-user-input"># User Input</option>
+                  <option value="#l-gradientpaper.bak">#L GradientPaper.bak</option>
+                  <option value="#l-hex-color-to-rgb">#L Hex Color To RGB</option>
+                  <option value="1">1</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="2">2</option>
+                  <option value="2-column-vcard-menu">2-Column vCard Menu</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="api">API</option>
+                  <option value="api-of-apis">API of APIs</option>
+                  <option value="activate-new-client">Activate New Client</option>
+                  <option value="activate-new-client-og">Activate New Client OG</option>
+                  <option value="add-bustl.">Add Bustl.</option>
+                  <option value="add-bustl.cutz">Add Bustl.Cutz</option>
+                  <option value="add-scott-profile">Add Scott Profile</option>
+                  <option value="add-shortcut">Add Shortcut</option>
+                  <option value="add-shortcuts-to-launch-center-pro">Add Shortcuts To Launch Center Pro</option>
+                  <option value="add-to-clipboard">Add To Clipboard</option>
+                  <option value="adjust-image">Adjust Image</option>
+                  <option value="all-actions">All Actions</option>
+                  <option value="all-actions-ios-14.2">All Actions iOS 14.2</option>
+                  <option value="all-shortcut-info">All Shortcut Info</option>
+                  <option value="antipaywall">AntiPaywall</option>
+                  <option value="anyapplock">AnyAppLock</option>
+                  <option value="app-wishlist-pro">App Wishlist Pro</option>
+                  <option value="applist">AppList</option>
+                  <option value="apple-music-to-youtube-playlist">Apple Music to YouTube Playlist</option>
+                  <option value="apple-sounds">Apple Sounds</option>
+                  <option value="archive-safari-webpage">Archive Safari Webpage</option>
+                  <option value="article-to-notes">Article To Notes</option>
+                  <option value="assemble-client-install-experience">Assemble Client Install Experience</option>
+                  <option value="authorize">Authorize</option>
+                  <option value="auto-message">Auto Message</option>
+                  <option value="autobackup">AutoBackup</option>
+                  <option value="backup-and-restore-shortcuts">Backup And Restore Shortcuts</option>
+                  <option value="batch-add-reminders">Batch Add Reminders</option>
+                  <option value="battery-indicator">Battery Indicator</option>
+                  <option value="bedtime-">Bedtime ™</option>
+                  <option value="best-boyfriend-award">Best Boyfriend Award</option>
+                  <option value="beta-ios-15-download">Beta iOS 15 download</option>
+                  <option value="black-cards">Black Cards</option>
+                  <option value="books-finder">Books Finder</option>
+                  <option value="broadcast-naughty-list">Broadcast Naughty List</option>
+                  <option value="build-.mobileconfig-file">Build .mobileconfig File</option>
+                  <option value="bulma-videos">Bulma Videos</option>
+                  <option value="bustl-client-setup">Bustl Client Setup</option>
+                  <option value="bustl-client-setup-1">Bustl Client Setup 1</option>
+                  <option value="bustl-formz-builder">Bustl Formz Builder</option>
+                  <option value="bustl.-image-editor">Bustl. Image Editor</option>
+                  <option value="bustl.-shortcut-library">Bustl. Shortcut Library</option>
+                  <option value="bustl.-updater">Bustl. Updater</option>
+                  <option value="bustl.-installer">Bustl.-Installer</option>
+                  <option value="bustl.-installer-bak">Bustl.-Installer Bak</option>
+                  <option value="bustl.cutz">Bustl.Cutz</option>
+                  <option value="capture-to-drafts">Capture to Drafts</option>
+                  <option value="clear-clipboard">Clear Clipboard</option>
+                  <option value="clip-article-to-notes">Clip Article to Notes</option>
+                  <option value="clip-rich-article-to-notes">Clip Rich Article To Notes</option>
+                  <option value="clipboard">Clipboard</option>
+                  <option value="clipboard-markdown-to-notes">Clipboard Markdown to Notes</option>
+                  <option value="color-menu">Color Menu</option>
+                  <option value="color-picker-pro">Color Picker Pro</option>
+                  <option value="color-sort">Color Sort</option>
+                  <option value="color-tag">Color Tag</option>
+                  <option value="colorizer">Colorizer</option>
+                  <option value="colourqr">ColourQR</option>
+                  <option value="complex-if-statements-using-js">Complex If Statements Using JS</option>
+                  <option value="config">Config</option>
+                  <option value="console-log-admin">Console Log Admin</option>
+                  <option value="console-remote-control">Console Remote Control</option>
+                  <option value="convert-shortcut-to-binary-plist">Convert Shortcut To Binary Plist</option>
+                  <option value="convert-time-zone">Convert Time Zone</option>
+                  <option value="cool-contacts">Cool Contacts</option>
+                  <option value="copy-text-in-screenshot">Copy Text In Screenshot</option>
+                  <option value="copypaste-action-parser">CopyPaste Action Parser</option>
+                  <option value="copypaste-actions">CopyPaste Actions</option>
+                  <option value="correct-x-callback">Correct X-callback</option>
+                  <option value="create-blank-spreadsheet">Create Blank Spreadsheet</option>
+                  <option value="create-bustl-profile">Create Bustl Profile</option>
+                  <option value="create-bustl.-shortcut-library">Create Bustl. Shortcut Library</option>
+                  <option value="create-pass-with-makepass">Create Pass with MakePass</option>
+                  <option value="create-open-any-app">Create “Open Any App”</option>
+                  <option value="current-date-on-clipboard">Current Date On Clipboard</option>
+                  <option value="cutz-go-yes">Cutz go yes</option>
+                  <option value="cutz-x-callback">Cutz x-callback</option>
+                  <option value="daily-standup">Daily Standup</option>
+                  <option value="data-url-landing-page">Data url landing page</option>
+                  <option value="datacollect">DataCollect</option>
+                  <option value="date-format-examples-(wip)">Date Format Examples (WIP)</option>
+                  <option value="deal-card-hand-">Deal Card Hand ♥️♠️♦️♣️</option>
+                  <option value="define-shortcut">Define Shortcut</option>
+                  <option value="devhub">DevHub</option>
+                  <option value="device-checkup">Device Checkup</option>
+                  <option value="device-report">Device Report</option>
+                  <option value="dictate-auto-message">Dictate Auto Message</option>
+                  <option value="dictionary-action-builder">Dictionary Action Builder</option>
+                  <option value="dictionary-master">Dictionary Master</option>
+                  <option value="diff">Diff</option>
+                  <option value="diff-files">Diff Files</option>
+                  <option value="do-nothing">Do Nothing</option>
+                  <option value="drafts-noteification">Drafts Noteification</option>
+                  <option value="emergency">EMERGENCY</option>
+                  <option value="ebook-converter">Ebook Converter</option>
+                  <option value="edit-shortcut">Edit Shortcut</option>
+                  <option value="edit-text">Edit Text</option>
+                  <option value="edit-website">Edit Website</option>
+                  <option value="emojify">Emojify</option>
+                  <option value="export-for-pushcut">Export for Pushcut</option>
+                  <option value="export-for-pushcut-m">Export for Pushcut M</option>
+                  <option value="extract-pdf-pages">Extract PDF Pages</option>
+                  <option value="fancy-theme-maker">Fancy Theme Maker</option>
+                  <option value="favorite-actions-library-">Favorite Actions Library 📚</option>
+                  <option value="file-access-time-comparison">File Access Time Comparison</option>
+                  <option value="file-provider">File Provider</option>
+                  <option value="filterlist">FilterList</option>
+                  <option value="filterlists">FilterLists</option>
+                  <option value="find-it-on-amazon">Find It On Amazon</option>
+                  <option value="folder-menu">Folder Menu</option>
+                  <option value="font-merge">Font Merge</option>
+                  <option value="font-switcher">Font Switcher</option>
+                  <option value="force-select-all">Force Select All</option>
+                  <option value="form">Form</option>
+                  <option value="form-1">Form 1</option>
+                  <option value="frame-++">Frame ++</option>
+                  <option value="fuzzy-search-open-settings">Fuzzy Search Open Settings</option>
+                  <option value="glink">GLink</option>
+                  <option value="get-all-actions">Get All Actions</option>
+                  <option value="get-basic-icon">Get Basic Icon</option>
+                  <option value="get-dictionary">Get Dictionary</option>
+                  <option value="get-image-">Get Image  📸</option>
+                  <option value="get-image-1">Get Image  📸 1</option>
+                  <option value="get-routinehub-shortcut">Get RoutineHub Shortcut</option>
+                  <option value="get-routinehub-users-papercuts-repo-link">Get RoutineHub User’s Papercuts Repo Link</option>
+                  <option value="get-shortcut">Get Shortcut</option>
+                  <option value="get-shortcut-icon-/-color">Get Shortcut Icon / Color</option>
+                  <option value="get-icon">Get icon</option>
+                  <option value="get-your-udid">Get your UDID</option>
+                  <option value="giant-emoji">Giant Emoji</option>
+                  <option value="globaldoc">GlobalDoc</option>
+                  <option value="glyphs-&-colors">Glyphs & Colors</option>
+                  <option value="goto">GoTo</option>
+                  <option value="good-leads-only">Good Leads Only</option>
+                  <option value="google-sheets">Google Sheets</option>
+                  <option value="gradient-png">Gradient PNG</option>
+                  <option value="gradientpaper">GradientPaper</option>
+                  <option value="grayscale-photo">Grayscale Photo</option>
+                  <option value="great-morning-">Great Morning ™</option>
+                  <option value="help-message">Help Message</option>
+                  <option value="hires-gifs">HiRes GIFs</option>
+                  <option value="ibm-watson-speech-synthesis">IBM Watson Speech Synthesis</option>
+                  <option value="integrity">INTEGRITY</option>
+                  <option value="integrity-share">INTEGRITY Share</option>
+                  <option value="integrity-.bak">INTEGRITY-𝑃𝑅𝑂.bak</option>
+                  <option value="integrity.plist">INTEGRITY.plist</option>
+                  <option value="icon-themer">Icon Themer</option>
+                  <option value="identifier">Identifier</option>
+                  <option value="identify">Identify</option>
+                  <option value="if-action-enhancer">If Action Enhancer</option>
+                  <option value="image-metadata">Image Metadata</option>
+                  <option value="image-data">Image data</option>
+                  <option value="image-data-1">Image data 1</option>
+                  <option value="index-all-shortcuts">Index All Shortcuts</option>
+                  <option value="inject-js-console">Inject JS Console</option>
+                  <option value="install.html-example-">Install.html Example </option>
+                  <option value="integrity-array.shortcut">Integrity Array.shortcut</option>
+                  <option value="integrity-processor">Integrity Processor</option>
+                  <option value="im-being-pulled-over">I’m being pulled over</option>
+                  <option value="js-uuid-(learning-edition)">JS UUID (Learning Edition)</option>
+                  <option value="jsbox-scripts">JSBox Scripts</option>
+                  <option value="jt---hashtag-generator">JT - Hashtag Generator</option>
+                  <option value="jailbreak-finder">Jailbreak Finder</option>
+                  <option value="join-wifi">Join Wifi</option>
+                  <option value="keep-me-on-task">Keep Me On Task</option>
+                  <option value="launchcuts-folder-menu">LaunchCuts Folder Menu</option>
+                  <option value="launchcuts-helper">LaunchCuts Helper</option>
+                  <option value="launchcuts-share">LaunchCuts Share</option>
+                  <option value="launchcuts-today">LaunchCuts Today</option>
+                  <option value="launcher-widget">Launcher Widget</option>
+                  <option value="legacy">Legacy</option>
+                  <option value="legacy-log">Legacy Log</option>
+                  <option value="linkpicker">LinkPicker</option>
+                  <option value="list-and-dictionary-helper">List and Dictionary Helper</option>
+                  <option value="listen">Listen</option>
+                  <option value="listen-launcher-admin">Listen Launcher Admin</option>
+                  <option value="log-new-client">Log New Client</option>
+                  <option value="logweather">LogWeather</option>
+                  <option value="logger">Logger</option>
+                  <option value="mfc-deck-autocuts">MFC Deck Autocuts</option>
+                  <option value="mfc-deck-helper">MFC Deck Helper</option>
+                  <option value="mfc-deck-key-command">MFC Deck Key Command</option>
+                  <option value="mfc-deck-triggers">MFC Deck Triggers</option>
+                  <option value="make-gif">Make GIF</option>
+                  <option value="make-installer-package">Make Installer Package</option>
+                  <option value="make-list-of-shortcuts">Make List Of Shortcuts</option>
+                  <option value="make-web-icons">Make Web Icons</option>
+                  <option value="map-coordinate-converter">Map Coordinate Converter</option>
+                  <option value="markdown-to-remark-slideshow">Markdown To Remark Slideshow</option>
+                  <option value="markdown-to-remark-slideshow-">Markdown To Remark Slideshow 🅼🅳<option>
+                  <option value="markdown-to-templated-html">Markdown To Templated HTML</option>
+                  <option value="mediakit">MediaKit</option>
+                  <option value="mediakit-badges">MediaKit Badges</option>
+                  <option value="mediakit-banners">MediaKit Banners</option>
+                  <option value="mediakit-collages">MediaKit Collages</option>
+                  <option value="mediakit-video-players">MediaKit Video Players</option>
+                  <option value="mediakit-iphone-mockups">MediaKit iPhone Mockups</option>
+                  <option value="mergecuts">MergeCuts</option>
+                  <option value="message-everyone!">Message Everyone!</option>
+                  <option value="mobile-webapp-configurator">Mobile WebAPP Configurator</option>
+                  <option value="my-color-palette">My Color Palette</option>
+                  <option value="my-hotspot">My Hotspot</option>
+                  <option value="my-location-notification">My Location Notification</option>
+                  <option value="my-mediakit">My MediaKit</option>
+                  <option value="my-wifi-pass">My Wifi Pass</option>
+                  <option value="my-year-timeline">My Year Timeline</option>
+                  <option value="my-icrm">My iCRM</option>
+                  <option value="mywifipass">Mywifipass</option>
+                  <option value="nda-docbuilder">NDA DocBuilder</option>
+                  <option value="nagification">Nagification</option>
+                  <option value="new-client-profile">New Client Profile</option>
+                  <option value="new-shortcut">New Shortcut</option>
+                  <option value="new-shortcut-1">New Shortcut 1</option>
+                  <option value="new-shortcut-12">New Shortcut 12</option>
+                  <option value="new-shortcut-2">New Shortcut 2</option>
+                  <option value="new-shortcut-3">New Shortcut 3</option>
+                  <option value="new-shortcut-4">New Shortcut 4</option>
+                  <option value="new-shortcut-5">New Shortcut 5</option>
+                  <option value="new-shortcut-6">New Shortcut 6</option>
+                  <option value="new-shortcut-7">New Shortcut 7</option>
+                  <option value="new-shortcut-8">New Shortcut 8</option>
+                  <option value="new-zap">New Zap</option>
+                  <option value="no-duplicate-alarms">No Duplicate Alarms</option>
+                  <option value="nothing">Nothing</option>
+                  <option value="obsidian-webclipper-shared">Obsidian Webclipper SHARED</option>
+                  <option value="open-a-recent-shortcut">Open A Recent Shortcut</option>
+                  <option value="open-ftminternal-4">Open FTMInternal-4</option>
+                  <option value="open-in-outline">Open In Outline</option>
+                  <option value="open-shortcutstracker">Open ShortcutsTracker</option>
+                  <option value="open-with-opener">Open with Opener</option>
+                  <option value="opensettings">OpenSettings</option>
+                  <option value="outputkit-template">Outputkit Template</option>
+                  <option value="pdf-to-word-converter">PDF to Word Converter</option>
+                  <option value="papercutter">PaperCutter</option>
+                  <option value="paperdeck">PaperDeck</option>
+                  <option value="papercuts-manager">Papercuts Manager</option>
+                  <option value="pass-worksheet">Pass Worksheet</option>
+                  <option value="pause-it-like-that.">Pause It Like That.</option>
+                  <option value="picfly">PicFly</option>
+                  <option value="pocket-money-pro">Pocket Money Pro</option>
+                  <option value="prettify-clipboard">Prettify Clipboard</option>
+                  <option value="preview-shortcut-(icloud-link)">Preview Shortcut (iCloud Link)</option>
+                  <option value="price-history-chart">Price History Chart</option>
+                  <option value="projectcuts">ProjectCuts</option>
+                  <option value="promokit">PromoKit</option>
+                  <option value="proton">Proton</option>
+                  <option value="purgatory-install">Purgatory Install</option>
+                  <option value="push-installer">Push Installer</option>
+                  <option value="push-message">Push Message</option>
+                  <option value="push-strobe">Push Strobe</option>
+                  <option value="quick-look-html-generator">Quick Look HTML Generator</option>
+                  <option value="quick-menu-to-base64-list-menu">Quick Menu To Base64 List Menu</option>
+                  <option value="quicklog">QuickLog</option>
+                  <option value="quicklook">QuickLook</option>
+                  <option value="rapid-installer">Rapid-Installer</option>
+                  <option value="rescheduler">ReScheduler</option>
+                  <option value="read-article">Read Article</option>
+                  <option value="read-comment-dictionary">Read Comment Dictionary</option>
+                  <option value="read-encoded-inboundserver">Read Encoded InboundServer</option>
+                  <option value="read-macstories">Read MacStories</option>
+                  <option value="read-shortcut-plist">Read Shortcut Plist</option>
+                  <option value="read-story">Read Story</option>
+                  <option value="read-video-in-videoticle">Read Video in Videoticle</option>
+                  <option value="read-this-to-me!">Read this to me!</option>
+                  <option value="read_dictionary">Read_Dictionary</option>
+                  <option value="record-to-clipboard">Record To Clipboard</option>
+                  <option value="refresh-launchcuts">Refresh LaunchCuts</option>
+                  <option value="refresh-mfc-deck">Refresh MFC Deck</option>
+                  <option value="reminders-automation">Reminders Automation</option>
+                  <option value="replika's-yeast">Replika's Yeast</option>
+                  <option value="repo-package-dictionary-">Repo package dictionary </option>
+                  <option value="request-desktop-site">Request Desktop Site</option>
+                  <option value="resize-wallpaper">Resize Wallpaper</option>
+                  <option value="routinehub-article">RoutineHub Article</option>
+                  <option value="routinehub-article-1">RoutineHub Article 1</option>
+                  <option value="routinehub-markdown">RoutineHub Markdown</option>
+                  <option value="routinehub-search-pro">RoutineHub Search Pro</option>
+                  <option value="routinepub">RoutinePub</option>
+                  <option value="routinehub">Routinehub</option>
+                  <option value="run-shortcut-with-clipboard">Run Shortcut With Clipboard</option>
+                  <option value="run-strobe">Run Strobe</option>
+                  <option value="sos">SOS</option>
+                  <option value="svg-to-png">SVG to PNG</option>
+                  <option value="sw-dlt">SW-DLT</option>
+                  <option value="safari-auto-scroll">Safari Auto Scroll</option>
+                  <option value="safari-developer-tools">Safari Developer Tools</option>
+                  <option value="safari-pdf-extract">Safari PDF Extract</option>
+                  <option value="save-shortcuts-to-file">Save Shortcuts To File</option>
+                  <option value="save-to-album">Save To Album</option>
+                  <option value="scan-qr-on-clipboard">Scan QR on Clipboard</option>
+                  <option value="scan-to-drafts-5-">Scan To Drafts 5 🔖</option>
+                  <option value="schedule-routinehub-update">Schedule RoutineHub Update</option>
+                  <option value="screen-time-export-(day)">Screen Time Export (Day)</option>
+                  <option value="screenkit">ScreenKit</option>
+                  <option value="scroll-to-bottom">Scroll to Bottom</option>
+                  <option value="search-files-in-icloud">Search Files In iCloud</option>
+                  <option value="search-stores">Search Stores</option>
+                  <option value="search-xml-source-code">Search XML Source Code</option>
+                  <option value="send2quickbooks">Send2Quickbooks</option>
+                  <option value="serial-date-values">Serial Date Values</option>
+                  <option value="set-alarm-+">Set Alarm +</option>
+                  <option value="set-alarm-plus">Set Alarm Plus</option>
+                  <option value="set-alarm-plus.shortcut">Set Alarm Plus.shortcut</option>
+                  <option value="set-alarm-v1">Set Alarm v1</option>
+                  <option value="settings-shortcut-generator">Settings Shortcut Generator</option>
+                  <option value="share-all-my-shortcuts">Share All My Shortcuts</option>
+                  <option value="share-clean-url">Share Clean URL</option>
+                  <option value="shortcut">Shortcut</option>
+                  <option value="shortcut-comments">Shortcut Comments</option>
+                  <option value="shortcut-data">Shortcut Data</option>
+                  <option value="shortcut-launcher-generator">Shortcut Launcher Generator</option>
+                  <option value="shortcut-library">Shortcut Library</option>
+                  <option value="shortcut-package-installer">Shortcut Package Installer</option>
+                  <option value="shortcut-publisher-">Shortcut Publisher </option>
+                  <option value="shortcut-sizes">Shortcut Sizes</option>
+                  <option value="shortcut-source-tool">Shortcut Source Tool</option>
+                  <option value="shortcut-to-notes">Shortcut To Notes</option>
+                  <option value="shortcutpros-repository">ShortcutPros Repository</option>
+                  <option value="shortcutslogger">ShortcutsLogger</option>
+                  <option value="shortcutslogger.bak">ShortcutsLogger.bak</option>
+                  <option value="shortcutstracker">ShortcutsTracker</option>
+                  <option value="show-clipboard">Show Clipboard</option>
+                  <option value="simple-template-14">Simple Template 14</option>
+                  <option value="sleep-charts">Sleep Charts</option>
+                  <option value="sleep-schedule">Sleep Schedule</option>
+                  <option value="smart-list-demo">Smart List Demo</option>
+                  <option value="smart-list++">Smart List++</option>
+                  <option value="split-screen-shortcuts">Split Screen Shortcuts</option>
+                  <option value="square-photos">Square Photos</option>
+                  <option value="start-mileage-tracking">Start Mileage Tracking</option>
+                  <option value="steganography">SteganoGraphy</option>
+                  <option value="strobe">Strobe</option>
+                  <option value="subscriptions">Subscriptions</option>
+                  <option value="symbol-library">Symbol Library</option>
+                  <option value="symbol-list">Symbol List</option>
+                  <option value="sync-launchcuts-&-shortcuts-app-folders">Sync Launchcuts & Shortcuts App Folders</option>
+                  <option value="tbp-notification++">TBP Notification++</option>
+                  <option value="tags-menu">Tags Menu</option>
+                  <option value="take-notes">Take Notes</option>
+                  <option value="taptap">TapTap</option>
+                  <option value="team-simpl">Team Simpl</option>
+                  <option value="today">Today</option>
+                  <option value="toggle-low-power-mode">Toggle Low Power Mode</option>
+                  <option value="toggler">Toggler</option>
+                  <option value="toggler-version-1.20">Toggler Version 1.20</option>
+                  <option value="transparent-chart-widget">Transparent Chart Widget</option>
+                  <option value="url-transcode-clipboard">URL Transcode Clipboard</option>
+                  <option value="uuid-on-clipboard">UUID On Clipboard</option>
+                  <option value="unicode-characters-dictionaries">Unicode Characters Dictionaries</option>
+                  <option value="unicode-font-variants">Unicode Font Variants</option>
+                  <option value="username-generator">Username Generator</option>
+                  <option value="view-current-page-source">View Current Page Source</option>
+                  <option value="view-custom-datetime-formats">View Custom DateTime Formats</option>
+                  <option value="view-dictionary">View Dictionary</option>
+                  <option value="view-source-in-textastic">View Source in Textastic</option>
+                  <option value="voice-with-text-message">Voice With Text Message</option>
+                  <option value="warp-helper">WARP Helper</option>
+                  <option value="water-eject">Water Eject</option>
+                  <option value="water-eject-main">Water Eject Main</option>
+                  <option value="weather-bars">Weather Bars</option>
+                  <option value="webcall">WebCALL</option>
+                  <option value="websms">WebSMS</option>
+                  <option value="webview">WebView</option>
+                  <option value="webhook">Webhook</option>
+                  <option value="what-did-you-just-do?">What Did You Just Do?</option>
+                  <option value="work-focus">Work Focus</option>
+                  <option value="work-mode">Work Mode</option>
+                  <option value="write-this-down">Write this down</option>
+                  <option value="write-to-repositories-">Write to repositories </option>
+                  <option value="x-callback">X-callback</option>
+                  <option value="ytscript">YTScript</option>
+                  <option value="youtube-pip">YouTube PiP</option>
+                  <option value="zone-converter">Zone Converter</option>
+                  <option value="_escape-html">_Escape HTML</option>
+                  <option value="_get-website-icon">_Get Website Icon</option>
+                  <option value="bit.ly">bit.ly</option>
+                  <option value="icrm-setup">iCRM Setup</option>
+                  <option value="ios-14-secret-glyphs">iOS 14 Secret Glyphs</option>
+                  <option value="ios-14-shortcuts-colors">iOS 14 Shortcuts Colors</option>
+                  <option value="ios-15-icon-color-tool">iOS 15 Icon Color Tool</option>
+                  <option value="ios-switches">iOS Switches</option>
+                  <option value="Убрать-фон-(remove-background)">Убрать фон (Remove background)</option>
+                  <option value=".-">™️𝘽𝙪𝙨𝙩𝙡. 🐝</option>
+                  <option value="-">𝐂𝐨𝐨𝐥 𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬</option>
+                  <option value="-">𝑫𝒚𝒏𝒂𝒎𝒊𝒄 𝑾𝒂𝒍𝒍𝒑𝒂𝒑𝒆𝒓</option>
+                  <option value="">🆘</option>
+                  <option value="--braille-blank">📋  Braille Blank</option>
+                  <option value="-base64">📋 Base64</option>
+                  <option value="--remove-image-background">📸  Remove Image Background</option>
+                  <option value="-combine-images">📸 Combine Images</option>
+                  <option value="-convert-image-format">📸 Convert Image Format</option>
+                  <option value="-convert-image-to-base64">📸 Convert Image To Base64</option>
+                  <option value="-copy-images-to-clipboard">📸 Copy Images To Clipboard</option>
+                  <option value="-crop-image">📸 Crop Image</option>
+                  <option value="-encoded-image-to-data-url">📸 Encoded Image To Data URL</option>
+                  <option value="-exit-with-imgur-link">📸 Exit With IMGUR Link</option>
+                  <option value="-exit-with-images">📸 Exit With Images</option>
+                  <option value="-flip-image">📸 Flip Image</option>
+                  <option value="-get-image-details">📸 Get Image Details</option>
+                  <option value="-get-shortcut-icons">📸 Get Shortcut Icons</option>
+                  <option value="-mask-image">📸 Mask Image</option>
+                  <option value="-mask-image-with-custom-shape-on-clipboard">📸 Mask Image With Custom Shape On Clipboard</option>
+                  <option value="-mask-image-with-icon-shape">📸 Mask Image With Icon Shape</option>
+                  <option value="-mask-with-rounded-rectangle">📸 Mask with Rounded Rectangle</option>
+                  <option value="-overlay-clipboard-on-image">📸 Overlay Clipboard On Image</option>
+                  <option value="-pick-color-from-image">📸 Pick Color From Image</option>
+                  <option value="-quick-look">📸 Quick Look</option>
+                  <option value="-remove-images">📸 Remove Images</option>
+                  <option value="-resize-image">📸 Resize Image</option>
+                  <option value="-resize-image-height">📸 Resize Image Height</option>
+                  <option value="-resize-image-width">📸 Resize Image Width</option>
+                  <option value="-rotate-image">📸 Rotate Image</option>
+                  <option value="-save-to-photo-album">📸 Save To Photo Album</option>
+                  <option value="-screenshot-framer">📸 Screenshot Framer</option>
+                  <option value="-select.&-add-images">📸 Select.& Add Images</option>
+                  <option value="-show-image">📸 Show Image</option>
+                  <option value="-musicbot-pro">🤖 MusicBot Pro</option>
+                </select>
+             </div>
+           </div>
+        </div>
+      </div>
+      
+      
+      
+          <div class="field">
+            <label class="label" for="note">Release Notes</label>
+            <div class="control">
+              <textarea class="textarea is-danger is-normal" placeholder="Release Notes" id="note">
+              </textarea>
             </div>
           </div>
           
-          <div class="field is-grouped is-grouped-centered" style="margin-top: 3em;">
-            <div class="control">
-              <label class="checkbox" for="integrity">
+          <div class="field is-grouped is-grouped-centered">
+            <div class="field">
+            <label class="checkbox" for="integrity">
+              <span class="label is-link is-normal">Shortcut' is NOT <br />Share Sheet Only.</span>
+            </label>
+              <div class="control">
                 <input type="checkbox" id="integrity">
-                <span class="label is-link is-small">Shortcut' is NOT <br />Share Sheet Only.</span>
-              </label>
+              </div>
             </div>
-            <div class="is Al"></div>
-            <div class="control">
-              <button class="button is-link is-dark is-medium" type="submit" id="submit">
-                Publish
-              </button>
+            <div class="field">
+              <div class="control">
+                <button class="button is-link is-dark is-medium" type="submit" id="submit">Publish</button>
+              </div>
             </div>
           </div>
-          
-          
+
         </form>
       </div>
     </section>
@@ -679,7 +651,7 @@
       const DESCRIPTION = document.getElementById('description');
       
       if (nameParam != 'null') {
-        alert("Shortcut Publisher"+'\n'+"for ShortcutsPro library repository."+'\n'+"Shortcut: "+nameParam);
+        alert("Shortcut Publisher for"+'\n\n'+document.title+'\n\n'+"Publishing: "+nameParam);
         
         NAME.setAttribute("value", nameParam);
         
@@ -698,7 +670,7 @@
         if (descriptionParam != 'null') {
           DESCRIPTION.setAttribute("value", descriptionParam);
           // DESCRIPTION.setAttribute("readonly", "true");
-          DESCRIPTION.setAttribute("class", "input is-success is-normal");         
+          DESCRIPTION.setAttribute("class", "textarea is-success is-normal");         
         }; 
         } else {
           alert("No shortcut received");
@@ -722,6 +694,9 @@
       });
       document.getElementById('version').addEventListener('change', () => {
         document.getElementById('version').setAttribute("class", "input is-success is-normal");
+      });
+      document.getElementById('selectCat').addEventListener('change', () => {
+        document.getElementById('selectCat').setAttribute("class", "select is multiple is-success is-medium");
       });
       document.getElementById('description').addEventListener('change', () => {
         document.getElementById('description').setAttribute("class", "textarea is-success is-normal");
@@ -748,19 +723,19 @@
         };
         
         let input = "";
-          select = document.getElementById("input");
-          for (let i = 0; i < select.options.length; i++) {
-            let option = select.options[i];
-            if (option.selected) {
+        select = document.getElementById("input");
+        for (let i = 0; i < select.options.length; i++) {
+          let option = select.options[i];
+          if (option.selected) {
             input = option.value;
           };
         };
         const depends = [];
-          select = document.getElementById("depends");
-          for (let i = 0; i < select.options.length; i++) {
-            let option = select.options[i];
-            if (option.selected) {
-            depends.push(option.value);
+        select = document.getElementById("depends");
+        for (let i = 0; i < select.options.length; i++) {
+          let option = select.options[i];
+          if (option.selected) {
+            Pdepends.push(option.value);
           };
         };
         const data = {
