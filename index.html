@@ -665,11 +665,12 @@
     </section>
     <script type="text/javascript">
       const QUERY = new URL (window.location.href);
+      const param = decodeURIComponent(QUERY.searchParams)
       console.log(QUERY);
       console.log(QUERY.searchParams);
       
       if (QUERY.searchParams != "") {
-        const param = decodeURIComponent(QUERY.searchParams.get(dict));
+        const param = decodeURIComponent(QUERY.searchParams.get('dict'));
         console.log(param);
         
         const NAME = document.getElementById('name');      
