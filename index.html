@@ -665,29 +665,28 @@
     </section>
     <script type="text/javascript">
       const QUERY = new URL (window.location.href);
-      const param = decodeURIComponent(QUERY.searchParams)
+      const params = decodeURIComponent(QUERY.searchParams)
       console.log(QUERY);
       console.log(QUERY.searchParams);
       
-      if (QUERY.searchParams != "") {
-        const param = decodeURIComponent(QUERY.searchParams.get('dict'));
-        console.log(param);
+      if (params.length > 0) {
+        console.log(params);
         
         const NAME = document.getElementById('name');      
         const AUUID = document.getElementById('auuid');
         const VERSION = document.getElementById('version');
         const LINK = param.link;
         
-        NAME.setAttribute("value", param.name);
+        NAME.setAttribute("value", params.name.value);
   
         if (param.auuid) {
-          AUUID.setAttribute("value", param.auuid);  
+          AUUID.setAttribute("value", params.auuid.value);  
           AUUID.setAttribute("readonly", "true");
           AUUID.setAttribute("class", "input is-dark is-normal");  
         };
   
         if (param.version) {
-          VERSION.setAttribute("value", param.version);
+          VERSION.setAttribute("value", params.version.value);
           VERSION.setAttribute("readonly", "true");
           VERSION.setAttribute("class", "input is-dark is-normal");         
         };
