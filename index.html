@@ -771,7 +771,8 @@
           input: input,
           text: form.text.value,
           note: form.note.value,
-          integrity: form.integrity.value
+          integrity: form.integrity.value,
+          link: linkParam
         };
         let parameter = encodeURIComponent(JSON.stringify(data));
         console.log(JSON.stringify(data));
