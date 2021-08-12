@@ -43,23 +43,25 @@
       const versionParam = decodeURIComponent(QUERY.searchParams.get("version"));
       console.log(QUERY);
       
-      alert(nameParam);
+
       
       const NAME = document.getElementById('name');      
       const AUUID = document.getElementById('auuid');
       const VERSION = document.getElementById('version');
       
       if (nameParam != 'null') {
-        NAME.setAttribute("value", nameParam);
+        alert(nameParam);
         
-        if (params.auuid) {
-          AUUID.setAttribute("value", auuidParam)
+        NAME.setAttribute("value", "${nameParam}");
+        
+        if (auuidParam) {
+          AUUID.setAttribute("value", "${auuidParam}")
           AUUID.setAttribute("readonly", "true");
           AUUID.setAttribute("class", "input is-dark is-normal");  
         };
   
-        if (params.version) {
-          VERSION.setAttribute("value", versionParam);
+        if (versionParam) {
+          VERSION.setAttribute("value", "${versionParam}");
           VERSION.setAttribute("readonly", "true");
           VERSION.setAttribute("class", "input is-dark is-normal");         
         };
