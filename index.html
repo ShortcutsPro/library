@@ -665,17 +665,18 @@
     </section>
     <script type="text/javascript">
       const QUERY = new URL (window.location.href);
+      console.log(QUERY);
+      
       const nameParam = decodeURIComponent(QUERY.searchParams.get("name"));
       const linkParam = decodeURIComponent(QUERY.searchParams.get("link"));
       const auuidParam = decodeURIComponent(QUERY.searchParams.get("auuid"));
       const versionParam = decodeURIComponent(QUERY.searchParams.get("version"));
-      console.log(QUERY);
-      
-
+      const descriptionParam = decodeURIComponent(QUERY.searchParams.get("description"));      
       
       const NAME = document.getElementById('name');      
       const AUUID = document.getElementById('auuid');
       const VERSION = document.getElementById('version');
+      const DESCRIPTION = document.getElementById('description');
       
       if (nameParam != 'null') {
         alert(nameParam);
@@ -684,14 +685,20 @@
         
         if (auuidParam != 'null') {
           AUUID.setAttribute("value", auuidParam)
-          AUUID.setAttribute("readonly", "true");
-          AUUID.setAttribute("class", "input is-dark is-normal");  
+          // AUUID.setAttribute("readonly", "true");
+          AUUID.setAttribute("class", "input is-success is-normal");  
         };
   
         if (versionParam != 'null') {
           VERSION.setAttribute("value", versionParam);
-          VERSION.setAttribute("readonly", "true");
-          VERSION.setAttribute("class", "input is-dark is-normal");         
+          // VERSION.setAttribute("readonly", "true");
+          VERSION.setAttribute("class", "input is-success is-normal");         
+        };
+      
+        if (descriptionParam != 'null') {
+          DESCRIPTION.setAttribute("value", descriptionParam);
+          // DESCRIPTION.setAttribute("readonly", "true");
+          DESCRIPTION.setAttribute("class", "input is-success is-normal");         
         };
       };      
       
