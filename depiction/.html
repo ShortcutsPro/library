@@ -1,0 +1,68 @@
+<!--
+📝 Basic HTML Template 
+--!>
+<!DOCTYPE html>
+<html dir="auto">
+<html lang="en">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      @charset "utf-8"; 
+      html { 
+        font-size:100%;
+        font-family: Helvetica, Arial, Freesans, clean, sans-serif;
+      }     
+      body {
+         margin:0;
+         padding:1em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background-color: #efeff4;
+        font-size: 17px;
+        font-weight: 200;
+
+  body > * {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    background-color: white;
+    margin: 0.25rem 0;
+    border: 1px #c7c7c7;
+    border-style: solid none;
+  }
+
+  * {
+    box-sizing: border-box;
+    font-weight: normal;
+    margin:0;
+  }
+
+      }
+      @media (max-device-width: 480px) { 
+      } 
+      @media (min-device-width: 481px) { 
+         body {
+           margin:auto;
+           max-width:600px;
+         } 
+      }
+      img {
+         max-width: 90%;
+      }
+      <link rel="stylesheet" href=""></link>
+    </style>
+  </head>
+  <body>
+   <!-- Beg --!>
+    
+<h1><a href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABBCAYAAACTiffeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUGVYSWZNTQAqAAAACAACARIAAwAAAAEAAQAAh2kABAAAAAEAAAAmAAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAAAyoAMABAAAAAEAAABBAAAAANlkG6oAAAHNaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4yNTUwPC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjMzMDE8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4K9XRysQAAASJJREFUaAXtm80KAWEYRl8/cQ12spLbU5YuQW5MKWUhSxtikkxj5UUWs39yJD2zmtRzPt8564kknqrMnE8yD7uafikyZ+PM86n+7YNv7aCeWxmxXkT0ju8Tin1EdX2+J3Iic5HWEzsYRWyWEdvV+4/f7xH9YUSni1yk8aqLkL8MbX75POw4XwRTK4JdRBSHzVwEUyuCXUQUh81cBFMrgl1EFIfNXARTK4JdRBSHzVwEUyuCXUQUh81cBFMrgl1EFIfNXARTK4JdRBSHzVwEUyuCXUQUh81cBFMrgl1EFIfNXARTK4JdRBSHzVwEUyuCXUQUh81cBFMrgl1EFIfNXARTK4JdRBSHzVwEUyuCXUQUh81cBFMrgv+myOtrhako4admD/RC2RWBINwuAAAAAElFTkSuQmCC"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABBCAYAAACTiffeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAUGVYSWZNTQAqAAAACAACARIAAwAAAAEAAQAAh2kABAAAAAEAAAAmAAAAAAADoAEAAwAAAAEAAQAAoAIABAAAAAEAAAAyoAMABAAAAAEAAABBAAAAANlkG6oAAAHNaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4yNTUwPC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjMzMDE8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4K9XRysQAAASJJREFUaAXtm80KAWEYRl8/cQ12spLbU5YuQW5MKWUhSxtikkxj5UUWs39yJD2zmtRzPt8564kknqrMnE8yD7uafikyZ+PM86n+7YNv7aCeWxmxXkT0ju8Tin1EdX2+J3Iic5HWEzsYRWyWEdvV+4/f7xH9YUSni1yk8aqLkL8MbX75POw4XwRTK4JdRBSHzVwEUyuCXUQUh81cBFMrgl1EFIfNXARTK4JdRBSHzVwEUyuCXUQUh81cBFMrgl1EFIfNXARTK4JdRBSHzVwEUyuCXUQUh81cBFMrgl1EFIfNXARTK4JdRBSHzVwEUyuCXUQUh81cBFMrgl1EFIfNXARTK4JdRBSHzVwEUyuCXUQUh81cBFMrgv+myOtrhako4admD/RC2RWBINwuAAAAAElFTkSuQmCC" alt=" " /></a> <a href="https://github.com/ShortcutsPro/library"></a></h1>
+<h2>Bustl.<em>Cutz</em></h2>
+
+<hr />
+<h3>by <a href=""></a></h3>
+<h3></h3>
+
+
+   <!-- End --!>
+   <script src=""></script>
+  </body>
+</html>
