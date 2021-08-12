@@ -83,7 +83,7 @@
         Categories
     </label>
       <div class="control">
-        <div class="select is multiple is-info is-medium">
+        <div class="select is multiple is-info">
           <select multiple size="28" id="categories">
             <option value="Books">Books</option>
             <option value="Business">Business</option>
@@ -665,9 +665,13 @@
     </section>
     <script type="text/javascript">
       const QUERY = new URL (window.location.href);
-      if (QUERY.searchParams.length) {
-        const param = decodeURIComponent(QUERY.searchParams.get(dict));
+      console.log(QUERY);
+      console.log(QUERY.searchParams);
       
+      if (QUERY.searchParams != "") {
+        const param = decodeURIComponent(QUERY.searchParams.get(dict));
+        console.log(param);
+        
         const NAME = document.getElementById('name');      
         const AUUID = document.getElementById('auuid');
         const VERSION = document.getElementById('version');
