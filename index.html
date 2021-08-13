@@ -167,23 +167,6 @@
                   <option value="#-user-input"># User Input</option>
                   <option value="#l-gradientpaper.bak">#L GradientPaper.bak</option>
                   <option value="#l-hex-color-to-rgb">#L Hex Color To RGB</option>
-                  <option value="1">1</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  <option value="15">15</option>
-                  <option value="2">2</option>
-                  <option value="2-column-vcard-menu">2-Column vCard Menu</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="api">API</option>
                   <option value="api-of-apis">API of APIs</option>
                   <option value="activate-new-client">Activate New Client</option>
                   <option value="activate-new-client-og">Activate New Client OG</option>
@@ -639,19 +622,33 @@
       const QUERY = new URL (window.location.href);
       console.log(QUERY);
       
-      const nameParam = decodeURIComponent(QUERY.searchParams.get("name"));
-      const linkParam = decodeURIComponent(QUERY.searchParams.get("link"));
-      const auuidParam = decodeURIComponent(QUERY.searchParams.get("auuid"));
-      const versionParam = decodeURIComponent(QUERY.searchParams.get("version"));
-      const descriptionParam = decodeURIComponent(QUERY.searchParams.get("description"));      
+      const nameParam = decodeURIComponent(QUERY.searchParams.get('name'));
+      const linkParam = decodeURIComponent(QUERY.searchParams.get('link'));
+      const auuidParam = decodeURIComponent(QUERY.searchParams.get('auuid'));
+      const versionParam = decodeURIComponent(QUERY.searchParams.get('version'));
+      const descriptionParam = decodeURIComponent(QUERY.searchParams.get('description'));
       
+      const form = { 
+        name: document.getElementById('name'),
+        auuid: document.getElementById('auuid'),
+        version: document.getElementById('version'),
+        description: document.getElementById('description'),
+        categories: document.getElementById('categories'),
+        depends: document.getElementById('depends'),
+        input: document.getElementById('input'),
+        text: document.getElementById('text'),
+        note: document.getElementById('note'),
+        integrity: document.getElementById('integrity'),
+        submit: document.getElementById('submit')
+      };      
+
       const NAME = document.getElementById('name');      
       const AUUID = document.getElementById('auuid');
       const VERSION = document.getElementById('version');
-      const DESCRIPTION = document.getElementById('description');
+      const DESCRIP = document.getElementById('description');
       
       if (nameParam != 'null') {
-        alert("Shortcut Publisher for"+'\n\n'+document.title+'\n\n'+"Publishing: "+nameParam);
+        alert("Shortcut Publisher for"+'\n\n'+document.title);
         
         NAME.setAttribute("value", nameParam);
         
@@ -668,27 +665,14 @@
         };
       
         if (descriptionParam != 'null') {
-          DESCRIPTION.setAttribute("value", descriptionParam);
+          form.description.setAttribute("value", descriptionParam);
           // DESCRIPTION.setAttribute("readonly", "true");
-          DESCRIPTION.setAttribute("class", "textarea is-success is-normal");         
+          form.description..setAttribute("class", "textarea is-success is-normal");         
         }; 
         } else {
           alert("No shortcut received");
       };      
       
-      const form = { 
-        name: document.getElementById('name'),
-        auuid: document.getElementById('auuid'),
-        version: document.getElementById('version'),
-        description: document.getElementById('description'),
-        categories: document.getElementById('categories'),
-        depends: document.getElementById('depends'),
-        input: document.getElementById('input'),
-        text: document.getElementById('text'),
-        note: document.getElementById('note'),
-        integrity: document.getElementById('integrity'),
-        submit: document.getElementById('submit')
-      };
       document.getElementById('auuid').addEventListener('change', () => {
         document.getElementById('auuid').setAttribute("class", "input is-success is-normal");
       });
@@ -708,7 +692,7 @@
         document.getElementById('text').setAttribute("class", "input is-primary is-normal");
       });
       document.getElementById('note').addEventListener('change', () => {
-        document.getElementById('note').setAttribute("class", "input is-success is-normal");
+        document.getElementById('note').setAttribute("class", "textarea is-success is-normal");
       });
       form.submit.addEventListener('click', () => {
         event.preventDefault;
