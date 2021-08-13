@@ -39,8 +39,8 @@
     "icon" : "https://Cutz.Bustl.io/library/depiction/bustl-updater.png",
     "arch" : "ios15",
     "maintainer" : {
-      "name" : "@ShortcutsPro",
-      "link" : "https://ShortcutsPro.com"
+      "name" : "@scottdwr",
+      "link" : "https://scottdwr.github.io"
     },
     "name" : "Bustl. Updater",
     "depiction" : "https://Cutz.Bustl.io/library/depiction/bustl-updater.html"
@@ -69,7 +69,7 @@
     "arch" : "ios14",
     "maintainer" : {
       "name" : "@scottdwr",
-      "link" : "https://shortcutspro.github.io"
+      "link" : "https://scottdwr.github.io"
     },
     "name" : "File Provider",
     "depiction" : "https://shortcutspro.github.io/library/depiction/file-provider.html"
@@ -99,7 +99,7 @@
     "arch" : "ios14",
     "maintainer" : {
       "name" : "@scottdwr",
-      "link" : "https://shortcutspro.github.io"
+      "link" : "https://scottdwr.github.io"
     },
     "name" : "INTEGRITY",
     "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
@@ -109,7 +109,7 @@
     "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
     "integrity" : true,
     "version" : "1",
-    "categories" : "Utilities",
+    "category" : "Utilities",
     "author" : {
       "name" : "",
       "link" : ""
@@ -132,7 +132,7 @@
     "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
     "integrity" : true,
     "version" : "1.0.10",
-    "categories" : [
+    "category" : [
       "utilities"
     ],
     "author" : {
