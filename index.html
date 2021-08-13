@@ -642,17 +642,17 @@
       };
       if (DATA.name != 'null') {
         alert("Shortcut Publisher for"+'\n'+document.title);
-        form.name.setAttribute("value", DATA.name.value);
+        form.name.setAttribute("value", DATA.name);
         if (DATA.auuid != 'null') {
-          form.auuid.setAttribute("value", DATA.auuid.value)
+          form.auuid.setAttribute("value", DATA.auuid)
           form.auuid.setAttribute("class", "input is-success is-normal");  
         };
         if (DATA.version != 'null') {
-          form.version.setAttribute("value", DATA.version.value);
+          form.version.setAttribute("value", DATA.version);
           form.version.setAttribute("class", "input is-success is-normal");         
         };
         if (DATA.description != 'null') {
-          form.description.setAttribute("value", DATA.description.value);
+          form.description.setAttribute("value", DATA.description);
           form.description.setAttribute("class", "textarea is-success is-normal");         
         }; 
       } else {
