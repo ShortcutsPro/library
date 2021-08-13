@@ -142,7 +142,6 @@
     },
     "release" : "Fri, 13 Aug 2021 03:39:22 -0500",
     "link" : "https://www.icloud.com/shortcuts/0f8b31f4c8e649159f8660bab273a555",
-    "depends" : "io.bustl.cutz.library.",
     "name" : "Shortcut Publisher",
     "color" : "",
     "icon" : "https://cutz.bustl.io/library/depiction/shortcut-publisher.png",

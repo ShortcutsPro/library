@@ -646,7 +646,7 @@
         submit: document.getElementById('submit')
       };
       if (DATA.name != 'null') {
-        alert("Shortcut Publisher for"+'\n'+document.title);
+        // alert("Shortcut Publisher for"+'\n'+document.title);
         form.name.setAttribute("value", DATA.name);
         if (DATA.auuid != 'null') {
           form.auuid.setAttribute("value", DATA.auuid)
@@ -730,7 +730,7 @@
         };
 
         console.log(JSON.stringify(data,null,'\t'));
-        alert(JSON.stringify(data,null,'\t'));
+        // alert(JSON.stringify(data,null,'\t'));
         
         let parameter = encodeURIComponent(JSON.stringify(data));
         window.open('shortcuts://run-shortcut?name=Shortcut Publisher&input=text&text='+parameter);
