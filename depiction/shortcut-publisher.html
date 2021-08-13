@@ -1,0 +1,68 @@
+<!--
+📝 Basic HTML Template 
+--!>
+<!DOCTYPE html>
+<html dir="auto">
+<html lang="en">
+  <head>
+    <title>Shortcut Publisher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      @charset "utf-8"; 
+      html { 
+        font-size:100%;
+        font-family: Helvetica, Arial, Freesans, clean, sans-serif;
+      }     
+      body {
+         margin:0;
+         padding:1em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background-color: #efeff4;
+        font-size: 17px;
+        font-weight: 200;
+
+  body > * {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    background-color: white;
+    margin: 0.25rem 0;
+    border: 1px #c7c7c7;
+    border-style: solid none;
+  }
+
+  * {
+    box-sizing: border-box;
+    font-weight: normal;
+    margin:0;
+  }
+
+      }
+      @media (max-device-width: 480px) { 
+      } 
+      @media (min-device-width: 481px) { 
+         body {
+           margin:auto;
+           max-width:600px;
+         } 
+      }
+      img {
+         max-width: 90%;
+      }
+      <link rel="stylesheet" href=""></link>
+    </style>
+  </head>
+  <body>
+   <!-- Beg --!>
+    
+<h1><a href="data:image/png;base64,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"><img src="data:image/png;base64,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" alt=" Shortcut Publisher" /></a> <a href="https://www.icloud.com/shortcuts/0f8b31f4c8e649159f8660bab273a555"><em>Shortcut Publisher</em></a></h1>
+<h2>Bustl.<em>Cutz</em></h2>
+
+<hr />
+<h3>by <a href="https://github.com/scottdwr/"><strong>@scottdwr</strong></a></h3>
+<h3>Publishes new or updated shortcuts to a combined Papercuts repository &amp; Integrity repository.</h3>
+
+
+   <!-- End --!>
+   <script src=""></script>
+  </body>
+</html>

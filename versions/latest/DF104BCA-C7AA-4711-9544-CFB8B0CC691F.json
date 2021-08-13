@@ -1,0 +1,29 @@
+{
+  "id" : "io.cutz.bustl.library.shortcut-publisher",
+  "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
+  "integrity" : true,
+  "version" : "1.0.10",
+  "categories" : [
+    "utilities",
+    "development",
+    "Development Tools",
+    "Utilities"
+  ],
+  "author" : {
+    "name" : "@scottdwr",
+    "link" : "https:\/\/github.com\/scottdwr\/"
+  },
+  "release" : "Fri, 13 Aug 2021 03:39:22 -0500",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/0f8b31f4c8e649159f8660bab273a555",
+  "depends" : "io.bustl.cutz.library.",
+  "name" : "Shortcut Publisher",
+  "color" : "",
+  "icon" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-publisher.png",
+  "arch" : "ios14",
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : "https;\/\/github.com\/scottdwr"
+  },
+  "auuid" : "DF104BCA-C7AA-4711-9544-CFB8B0CC691F",
+  "depiction" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-publisher.html"
+}
