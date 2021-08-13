@@ -595,7 +595,7 @@
           <div class="field">
             <label class="label" for="note">Release Notes</label>
             <div class="control">
-              <textarea class="textarea is-danger is-normal" placeholder="Release Notes" id="note" value=""></textarea>
+              <textarea class="textarea is-danger is-normal" placeholder="Release Notes" id="note"></textarea>
             </div>
           </div>
 
@@ -652,7 +652,7 @@
           form.version.setAttribute("class", "input is-success is-normal");         
         };
         if (DATA.description != 'null') {
-          form.description.setAttribute("value", DATA.description);
+          form.description.innerText = DATA.description;
           form.description.setAttribute("class", "textarea is-success is-normal");         
         }; 
       } else {
