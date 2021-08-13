@@ -8,43 +8,16 @@
     "catagories" : [
       "utilites"
     ],
-    "id" : "io.github.shortcutspro.library.repo",
-    "link" : "https://shortcutspro.github.io/library/depiction/library.html",
+    "id" : "io.bustl.cutz.library.repo",
+    "link" : "https://cutz.bustl.io/library/depiction/library.html",
     "version" : "1.0",
     "description" : "Bustl.Cutz - The Library Repository",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/library.html",
+    "depiction" : "https://cutz.bustl.io/library/depiction/library.html",
     "name" : "Bustl. Library",
-    "icon" : "https://shortcutspro.github.io/library/depiction/library.png"
+    "icon" : "https://cutz.bustl.io/library/depiction/library.png"
   },
   {
-    "id" : "io.github.shortcutspro.library.bustl.-updater",
-    "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
-    "integrity" : true,
-    "version" : "3.14",
-    "depends" : [
-
-    ],
-    "author" : {
-      "name" : "@scottdwr",
-      "link" : "https://routinehub.co/user/scottdwr/"
-    },
-    "release" : "Sun, 01 Aug 2021 20:48:06 -0500",
-    "link" : "https://www.icloud.com/shortcuts/717e66ddca714453a28d5100075c17cb",
-    "catagory" : "utility",
-    "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-    "color" : "#EAC000",
-    "notes" : "We smashed some damn bugs and cranked up the speed.",
-    "icon" : "https://shortcutspro.github.io/library/depiction/bustl.-updater.png",
-    "arch" : "ios14",
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : "https://shortcutspro.github.io"
-    },
-    "name" : "Bustl. Updater",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/bustl.-updater.html"
-  },
-  {
-    "id" : "io.github.shortcutspro.library.file-provider",
+    "id" : "io.bustl.cutz.library.file-provider",
     "description" : "Provides profile lookup and default file path creation for a given shortcut.",
     "integrity" : false,
     "version" : "3.1",
@@ -63,23 +36,23 @@
     "catagories" : [
       "utilities"
     ],
-    "icon" : "https://shortcutspro.github.io/library/depiction/file-provider.png",
+    "icon" : "https://cutz.bustl.io/library/depiction/file-provider.png",
     "arch" : "ios14",
     "maintainer" : {
-      "name" : "@scottdwr",
+      "name" : "@ShortcutsPro",
       "link" : "https://shortcutspro.github.io"
     },
     "name" : "File Provider",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/file-provider.html"
+    "depiction" : "https://cutz.bustl.io/library/depiction/file-provider.html"
   },
   {
-    "id" : "io.github.shortcutspro.library.integrity",
+    "id" : "io.bustl.cutz.library.integrity",
     "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
     "integrity" : false,
     "version" : "3.141",
     "depends" : [
-      "io.github.shortcutspro.library.file-provider",
-      "io.github.shortcutspro.library.bustl.-updater"
+      "io.bustl.cutz.library.file-provider",
+      "io.bustl.cutz.library.bustl-updater"
     ],
     "author" : {
       "name" : "@scottdwr",
@@ -93,14 +66,14 @@
     "catagories" : [
       "utilities"
     ],
-    "icon" : "https://shortcutspro.github.io/library/depiction/integrity.png",
+    "icon" : "https://cutz.bustl.io/library/depiction/integrity.png",
     "arch" : "ios14",
     "maintainer" : {
-      "name" : "@scottdwr",
+      "name" : "@ShortcutsPro",
       "link" : "https://shortcutspro.github.io"
     },
     "name" : "INTEGRITY",
-    "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
+    "depiction" : "https://cutz.bustl.io/library/depiction/integrity.html"
   },
   {
     "id" : "io.cutz.bustl.library.shortcut-data",
@@ -131,8 +104,6 @@
     "integrity" : true,
     "version" : "1.0.10",
     "categories" : [
-      "utilities",
-      "development",
       "Development Tools",
       "Utilities"
     ],
