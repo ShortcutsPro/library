@@ -101,5 +101,28 @@
     },
     "name" : "INTEGRITY",
     "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
+  },
+  {
+    "id" : "io.cutz.bustl.library.shortcut-data",
+    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
+    "integrity" : true,
+    "version" : "1",
+    "categories" : "Utilities",
+    "author" : {
+      "name" : "",
+      "link" : ""
+    },
+    "release" : "Fri, 13 Aug 2021 03:33:59 -0500",
+    "link" : "https://www.icloud.com/shortcuts/000d2caca08147159198e47e1c301273",
+    "name" : "Shortcut Data",
+    "color" : "#4A69C6",
+    "icon" : "https://cutz.bustl.io/library/depiction/shortcut-data.png",
+    "arch" : "iOS15",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https;//github.com/scottdwr"
+    },
+    "auuid" : "A3D6DD56-CA28-466B-974F-71A7D5ACD9FC",
+    "depiction" : "https://cutz.bustl.io/library/depiction/shortcut-data.html"
   }
 ]
