@@ -108,8 +108,118 @@
     "id" : "io.cutz.bustl.library.shortcut-data",
     "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
     "integrity" : true,
+[
+  {
+    "author" : {
+      "name" : "@ShortcutsPro",
+      "link" : "https://ShortcutsPro.com"
+    },
+    "arch" : "universal",
+    "catagory" : [
+      "utilites"
+    ],
+    "id" : "io.bustl.cutz.library",
+    "link" : "https://Cutz.Bustl.io/library/depiction/bustl-cutz-library.html",
+    "version" : "1.0",
+    "description" : "Bustl.Cutz - The Library Repository",
+    "depiction" : "https://Cutz.Bustl.io/library/depiction/library.html",
+    "name" : "Bustl. Library",
+    "icon" : "https://Cutz.Bustl.io/library/depiction/library.png"
+  },
+  {
+    "id" : "io.bustl.cutz.library.bustl-updater",
+    "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
+    "integrity" : true,
+    "version" : "10.3.1",
+    "depends" : [
+
+    ],
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : "https://routinehub.co/user/scottdwr/"
+    },
+    "release" : "Fri, 13 Aug 2021 16:18:54 -0500",
+    "link" : "https://www.icloud.com/shortcuts/a13fb7689e9048629d7ab9b9d30cf2c3",
+    "catagory" : [
+      "utilities"
+    ],
+    "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
+    "color" : "#EAC000",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "icon" : "https://Cutz.Bustl.io/library/depiction/bustl-updater.png",
+    "arch" : "ios15",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://scottdwr.github.io"
+    },
+    "name" : "Bustl. Updater",
+    "depiction" : "https://Cutz.Bustl.io/library/depiction/bustl-updater.html"
+  },
+  {
+    "id" : "io.github.shortcutspro.library.file-provider",
+    "description" : "Provides profile lookup and default file path creation for a given shortcut.",
+    "integrity" : false,
+    "version" : "3.1",
+    "depends" : [
+
+    ],
+    "author" : {
+      "name" : "@shortcutspro",
+      "link" : "https://.github.com/shortcutspro/"
+    },
+    "release" : "Mon, 02 Aug 2021 02:56:44 -0500",
+    "link" : "https://www.icloud.com/shortcuts/97484abc8d414ba982d51feed4c1a847",
+    "auuid" : "ADE8C19E-B267-48C7-B3C9-B010580235E5",
+    "color" : "#747D87",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "catagories" : [
+      "utilities"
+    ],
+    "icon" : "https://shortcutspro.github.io/library/depiction/file-provider.png",
+    "arch" : "ios14",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://scottdwr.github.io"
+    },
+    "name" : "File Provider",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/file-provider.html"
+  },
+  {
+    "id" : "io.github.shortcutspro.library.integrity",
+    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
+    "integrity" : false,
+    "version" : "3.141",
+    "depends" : [
+      "io.github.shortcutspro.library.file-provider",
+      "io.github.shortcutspro.library.bustl.-updater"
+    ],
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : "https://routinehub.co/user/scottdwr/"
+    },
+    "release" : "Mon, 02 Aug 2021 16:29:41 -0500",
+    "link" : "https://www.icloud.com/shortcuts/66bd51210c034cbc8eb0c8fe7e06dc13",
+    "auuid" : "90B9ED1A-1330-44A5-8B39-4E53A68A7632",
+    "color" : "#747D87",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "catagories" : [
+      "utilities"
+    ],
+    "icon" : "https://shortcutspro.github.io/library/depiction/integrity.png",
+    "arch" : "ios14",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://scottdwr.github.io"
+    },
+    "name" : "INTEGRITY",
+    "depiction" : "https://shortcutspro.github.io/library/depiction/integrity.html"
+  },
+  {
+    "id" : "io.cutz.bustl.library.shortcut-data",
+    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
+    "integrity" : true,
     "version" : "1",
-    "categories" : "Utilities",
+    "category" : "Utilities",
     "author" : {
       "name" : "",
       "link" : ""
@@ -132,7 +242,7 @@
     "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
     "integrity" : true,
     "version" : "1.0.10",
-    "categories" : [
+    "category" : [
       "utilities"
     ],
     "author" : {
