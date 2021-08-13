@@ -133,10 +133,7 @@
     "integrity" : true,
     "version" : "1.0.10",
     "categories" : [
-      "utilities",
-      "development",
-      "Development Tools",
-      "Utilities"
+      "utilities"
     ],
     "author" : {
       "name" : "@scottdwr",
