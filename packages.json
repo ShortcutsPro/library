@@ -1,23 +1,52 @@
 [
   {
     "author" : {
-      "name" : "@scottdwr",
-      "link" : "https://github.com/scottdwr"
+      "name" : "@ShortcutsPro",
+      "link" : "https://ShortcutsPro.com"
     },
     "arch" : "universal",
-    "catagories" : [
+    "catagory" : [
       "utilites"
     ],
-    "id" : "io.bustl.cutz.library.repo",
-    "link" : "https://cutz.bustl.io/library/depiction/library.html",
+    "id" : "io.bustl.cutz.library",
+    "link" : "https://Cutz.Bustl.io/library/depiction/bustl-cutz-library.html",
     "version" : "1.0",
     "description" : "Bustl.Cutz - The Library Repository",
-    "depiction" : "https://cutz.bustl.io/library/depiction/library.html",
+    "depiction" : "https://Cutz.Bustl.io/library/depiction/library.html",
     "name" : "Bustl. Library",
-    "icon" : "https://cutz.bustl.io/library/depiction/library.png"
+    "icon" : "https://Cutz.Bustl.io/library/depiction/library.png"
   },
   {
-    "id" : "io.bustl.cutz.library.file-provider",
+    "id" : "io.bustl.cutz.library.bustl-updater",
+    "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
+    "integrity" : true,
+    "version" : "10.3.1",
+    "depends" : [
+
+    ],
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : "https://routinehub.co/user/scottdwr/"
+    },
+    "release" : "Fri, 13 Aug 2021 16:18:54 -0500",
+    "link" : "https://www.icloud.com/shortcuts/a13fb7689e9048629d7ab9b9d30cf2c3",
+    "catagory" : [
+      "utilities"
+    ],
+    "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
+    "color" : "#EAC000",
+    "notes" : "We smashed some damn bugs and cranked up the speed.",
+    "icon" : "https://Cutz.Bustl.io/library/depiction/bustl-updater.png",
+    "arch" : "ios15",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://scottdwr.github.io"
+    },
+    "name" : "Bustl. Updater",
+    "depiction" : "https://Cutz.Bustl.io/library/depiction/bustl-updater.html"
+  },
+  {
+    "id" : "io.github.shortcutspro.library.file-provider",
     "description" : "Provides profile lookup and default file path creation for a given shortcut.",
     "integrity" : false,
     "version" : "3.1",
@@ -39,8 +68,8 @@
     "icon" : "https://cutz.bustl.io/library/depiction/file-provider.png",
     "arch" : "ios14",
     "maintainer" : {
-      "name" : "@ShortcutsPro",
-      "link" : "https://shortcutspro.github.io"
+      "name" : "@scottdwr",
+      "link" : "https://scottdwr.github.io"
     },
     "name" : "File Provider",
     "depiction" : "https://cutz.bustl.io/library/depiction/file-provider.html"
@@ -69,8 +98,8 @@
     "icon" : "https://cutz.bustl.io/library/depiction/integrity.png",
     "arch" : "ios14",
     "maintainer" : {
-      "name" : "@ShortcutsPro",
-      "link" : "https://shortcutspro.github.io"
+      "name" : "@scottdwr",
+      "link" : "https://scottdwr.github.io"
     },
     "name" : "INTEGRITY",
     "depiction" : "https://cutz.bustl.io/library/depiction/integrity.html"
@@ -80,7 +109,7 @@
     "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
     "integrity" : true,
     "version" : "1",
-    "categories" : "Utilities",
+    "category" : "Utilities",
     "author" : {
       "name" : "",
       "link" : ""
@@ -103,9 +132,8 @@
     "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
     "integrity" : true,
     "version" : "1.0.10",
-    "categories" : [
-      "Development Tools",
-      "Utilities"
+    "category" : [
+      "utilities"
     ],
     "author" : {
       "name" : "@scottdwr",
