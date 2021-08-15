@@ -1,23 +1,45 @@
 {
-  "id" : "io.cutz.bustl.library.shortcut-data",
-  "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
-  "integrity" : true,
-  "version" : "1",
-  "categories" : "Utilities",
-  "author" : {
-    "name" : "",
-    "link" : ""
-  },
-  "release" : "Fri, 13 Aug 2021 03:33:59 -0500",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/000d2caca08147159198e47e1c301273",
-  "name" : "Shortcut Data",
-  "color" : "#4A69C6",
   "icon" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-data.png",
+  "device" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "author" : {
+    "name" : "@scottdwr",
+    "link" : "https:\/\/GitHub.com\/scottdwr"
+  },
   "arch" : "iOS15",
+  "file_size" : "30 KB",
+  "id" : "io.cutz.bustl.library.shortcut-data",
+  "shortcutDownload" : "https:\/\/cvws.icloud-content.com\/B\/AZODiTnk1aTuJ0wSVCNjdWjyjYTi\/$%7Bf%7D?o=AhkVqoRlIoiVuf3LEJyNKw-6XEkacIfnAl7cfN5OieByA8gh44ojlcmiiZb8HJlASA&v=1&x=3&a=CAogmSv5WluSQZX4ER2ST9ks1rAYsfnIL9NnyHquZika5dcSexCUhs28tC8YlOOovrQvIgEAUgTyjYTiajC5oS4bVTCD1EsdtWaZC2xP9pgMIetiUb1eYLEcuiQt1XwI75NQK9_zX3MlQOyuLDRyMJ8sMuG8qOaBeZdd8oTrrfI0UPZoBmL4K9HaYooLHvEF8LgFITynC5dXcCtlA3EkAQ&e=1628997038&fl=&r=c0c54b7d-2b93-41db-96b9-a655d56a7d46-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=mcbpULA8fi_wuFiy92q87NsGU5k",
+  "icon_url" : "https:\/\/cvws.icloud-content.com\/B\/AdiQWB28ozIrr4Sefw5iTfxouk5S\/$%7Bf%7D?o=AkCwGHHcgJYWYjzqD97b15J_EFeQqDAdVuCoOabZJqu9AVifd86whHwgXI15uCPydA&v=1&x=3&a=CAogddUzcymq9o73tF7VNDseYIS5U6t94RAmskdo_hp1tEQSexCVhs28tC8YleOovrQvIgEAUgRouk5SajB7aXvtdeNDQ7I8qEu8hRO4tr-TNNOGmB9KaP6d76KOmjO_cTQOyXr5O4fSLqr0Cy5yMEwlBjDYNWQ8kqJjaEOfUTk3uwa_vvR8BKsTFU9TBNdzh4siLx3R0d5y0H9FJxluFg&e=1628997038&fl=&r=c0c54b7d-2b93-41db-96b9-a655d56a7d46-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=CoFt0mxBHf33t5-DZyT3CNFBWw4",
+  "integrity" : false,
+  "created" : "Aug 14, 2021 at 21:10",
+  "start_color" : 946986751,
   "maintainer" : {
     "name" : "@scottdwr",
-    "link" : "https;\/\/github.com\/scottdwr"
+    "link" : "https:\/\/github.com\/scottdwr\/"
   },
+  "modified" : "Aug 14, 2021 at 21:10",
+  "text" : "",
+  "icon_glyph" : 61440,
+  "minimum_version" : 1113,
+  "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
+  "version" : "1.1",
+  "signedDownload" : "https:\/\/cvws.icloud-content.com\/B\/ATToI3ME55Xsp-WDnC74RrYfl-pV\/$%7Bf%7D?o=Aq3ccBvE3Dp7kLcfut9mK2mYA6-oDhRfwRGix-K4_ZVAij2HUZJXC7ypMO9iMMwvEA&v=1&x=3&a=CAogHaqC8zg3m4Y7WGvgvzBy_8FRajYynYR85afHtGuVSngSexCUhs28tC8YlOOovrQvIgEAUgQfl-pVajDaD2PomWOtE9APrL9cv55Zg7ejVGbktVPsSKOqTK-xcQV0cb_kSSAvlcz_2ZIoFydyMHfqVnU9K3hNsArzo3XpOGP8dUoirL6mM2Lvb-9YdTsoOZKPjvx5jx--7kjZyXomrA&e=1628997038&fl=&r=c0c54b7d-2b93-41db-96b9-a655d56a7d46-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=BwWjcyPSuxym0t6YmvQdFxup0Fc",
+  "user" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "shortcuts_version" : "1136.1",
+  "depends" : [
+
+  ],
+  "name" : "Shortcut Data",
+  "link" : "null",
+  "depiction" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-data.\/",
+  "release" : "Sat, 14 Aug 2021 21:11:46 -0500",
+  "color" : "#4A69C6",
   "auuid" : "A3D6DD56-CA28-466B-974F-71A7D5ACD9FC",
-  "depiction" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-data.html"
+  "input" : "clipboard",
+  "categories" : [
+    "Utilities"
+  ],
+  "expires" : "Sep 13, 2022 at 21:00",
+  "note" : "Re-release",
+  "quiet" : true
 }
