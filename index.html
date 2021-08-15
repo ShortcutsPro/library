@@ -644,7 +644,6 @@
     <script type="text/javascript">
       const DATA = {
         name : decodeURIComponent(QUERY.searchParams.get('name')),
-        link : decodeURIComponent(QUERY.searchParams.get('link')),
         auuid : decodeURIComponent(QUERY.searchParams.get('auuid')),
         version : decodeURIComponent(QUERY.searchParams.get('version')),
         description : decodeURIComponent(QUERY.searchParams.get('description'))
@@ -741,7 +740,6 @@
           input: input,
           text: form.text.value,
           notes: form.notes.value,
-          link: DATA.link
         };
         console.log(JSON.stringify(data,null,'\t'));
         // alert(JSON.stringify(data,null,'\t'));
