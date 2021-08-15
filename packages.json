@@ -147,7 +147,10 @@
       "link" : "https://GitHub.com/scottdwr",
       "name" : "@scottdwr"
     },
-    "file_size" : "169 KB"
+    "file_size" : "169 KB",
+    "depends" : [
+    
+    ]
   },
   {
     "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
@@ -191,6 +194,8 @@
       "link" : "https://github.com/scottdwr/",
       "name" : "@scottdwr"
     },
-    "depends" : "io.bustl.cutz.library.shortcut-data"
+    "depends" : [
+      "io.bustl.cutz.library.shortcut-data"
+    ]
   }
 ]
