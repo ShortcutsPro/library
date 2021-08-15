@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
     <title>ShortcutsPro Library</title>
     <style>
-/*      @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";*/
       @charset "utf-8"; 
       html { font-size: 100%; font-family: Helvetica, Arial, Freesans, clean, sans-serif; }     
       body { margin: 0; padding: 1em; background-color: white; font-family: system-ui; color: black; }
@@ -23,8 +22,8 @@
       img { max-width: 90%; }
       .field { margin: 0.5em 1em; }
       .control { margin: 0.5em 0; padding: 0.2em }
-      .input { margin: 0.5em 0.3em; border-radius: 9px; }
-      .textarea, .select { border-radius: 9px; }
+      .input { margin: 0.5em 0.3em; border-radius: 5px; }
+      .textarea, .select, option { border-radius: 5px; }
       .label { font-size: 1em; margin: auto; padding: auto; margin-right: 1em; }
       .button { margin-top: 1em; padding: 10px 50px; border-radius: 9px; }
       /* debug.css | MIT License | zaydek.github.com/debug.css *
@@ -36,10 +35,10 @@
       }  */
     </style>
 <!--     <script src="https://kit.fontawesome.com/c762dd7353.js" crossorigin="anonymous"></script> -->
-  <script type="text/javascript">
-    const QUERY = new URL(window.location.href);
-    console.log(QUERY);
-  </script>
+    <script type="text/javascript">
+      const QUERY = new URL(window.location.href);
+      console.log(QUERY);
+    </script>
   </head>
   <body>
     <section class="section" style="margin: 0;">
@@ -63,18 +62,25 @@
             </div>
           </div>
   
-          <div class="field is-grouped">
-            <div class="field">
-              <label class="label" for="version">Version</label>
-              <div class="control">
-                <input class="input is-danger is-normal" type="text" id="version" value="" placeholder="Enter new version">
+          <div class="container is-centered">
+            <div class="field is-horizontal">
+              <div class="field-label">
+                <label class="label" for="version">Version</label>
+              </div>
+              <div class="field-body">
+                <div class="control">
+                  <input class="input is-danger is-normal" type="text" id="version" placeholder="Enter new version">
+                </div>
               </div>
             </div>
-            <div class="field">
-              <label class="label" for="category">Categories</label>
-              <div class="control">
-                <div class="select category is multiple is-danger is-medium">
-                  <select multiple size="28" id="category" value="">
+            <div class="field is-horizontal">
+              <div class="field-label">
+                <label class="label" for="category">Categories</label>
+              </div>
+              <div class="field-body">
+                <div class="control">
+                  <div class="select category is multiple is-info is-medium">
+                  <select multiple size="28" id="category">
                     <option value="Books">Books</option>
                     <option value="Business">Business</option>
                     <option value="Development Tools">Development</option>
@@ -105,25 +111,29 @@
                     <option value="Widgets">Widgets</option>
                     <option value="Books">Books</option>
                   </select>
+                  </div>
+                  <p class="help">Select one to three categories</p>
                 </div>
-                <p class="help">Select one to three categories</p>
               </div>
             </div>
           </div>
-  
+        </div>
+          
+
           <div class="field">
             <label class="label" for="description">Description</label>
             <div class="control">
-              <textarea class="textarea is-danger is-normal" id="description" placeholder="Brief description or tag-line" value=""></textarea>
+              <textarea class="textarea is-info is-normal" id="description" placeholder="Brief description or tag-line" value=""></textarea>
             </div>
           </div>          
   
-          <div class="field is-grouped">
+
+          <div class="container is-centered">
             <div class="field">
               <label class="label" for="input">Does Shortcut Require Input?</label>
               <div class="control">
                 <div class="select clipboard is-info is-info is-normal">
-                  <select id="input" value="">
+                  <select id="input">
                     <option value="false">Does Not Require Input</option>
                     <option value="clipboard">Uses Clipboard</option>
                     <option value="true">Uses Share Sheet</option>
@@ -132,22 +142,29 @@
                 </div>
               </div>
             </div>
-            <div class="field">
-              <label class="label" for="text">Text Input</label>
-              <div class="control">
-                <input class="input is-light is-normal" type="text" id="text" placeholder="Static text" value="">
-              </div>
+              <div class="field is-horizontal">
+                <div class="field-label">
+                  <label class="label" for="text">Text Input</label>
+                </div>
+                <div class="field-body">
+                  <div class="control">
+                    <input class="input is-light is-normal" type="text" id="text" placeholder="Static text">
+                  </div>
+                </div>  <!-- field-body -->
+              </div>  <!-- is-horizontal -->
             </div>
-          </div>
+
+
+
 
           <div class="field is-horizontal">
-            <div class="field-label>">
+            <div class="field-label">
               <label class="label" for="depends">Select Dependencies</label>
             </div>
             <div class="field-body">
               <div class="control">
                 <div class="select depends is-multiple is-info is-medium">
-                  <select multiple size="456" id="depends" value="">
+                  <select multiple size="456" id="depends">
                     <option value="convert-color-to-rgba">Convert Color to RGBA</option>
                     <option value="get-app-bundle-id">Get App Bundle ID</option>
                     <option value="get-app-icon">Get App Icon</option>
@@ -609,7 +626,7 @@
           <div class="field">
             <label class="label" for="notes">Release Notes</label>
             <div class="control">
-              <textarea class="textarea is-danger is-normal" placeholder="Release Notes" id="notes"></textarea>
+              <textarea class="textarea is-info is-normal" placeholder="Release Notes" id="notes"></textarea>
             </div>
           </div>
 
@@ -650,47 +667,46 @@
         form.name.setAttribute("value", DATA.name);
         if (DATA.auuid != 'null') {
           form.auuid.setAttribute("value", DATA.auuid)
-          form.auuid.setAttribute("class", "input is-success is-normal");  
+          form.auuid.setAttribute("class", "input is-primary is-normal");  
         };
         if (DATA.version != 'null') {
           form.version.setAttribute("value", DATA.version);
-          form.version.setAttribute("class", "input is-success is-normal");         
+          form.version.setAttribute("class", "input is-primary is-normal");         
         };
         if (DATA.description != 'null') {
           form.description.innerText = DATA.description;
-          form.description.setAttribute("class", "textarea is-success is-normal");         
+          form.description.setAttribute("class", "textarea is-primary is-normal");         
         }; 
-      } else {
-        // alert("No shortcut received");
+      } else { 
+        alert("No shortcut received");
       };      
       form.auuid.addEventListener('change', () => {
-        form.auuid.setAttribute("class", "input is-success is-normal");
+        form.auuid.setAttribute("class", "input is-primary is-normal");
       });
       form.version.addEventListener('change', () => {
-        form.version.setAttribute("class", "input is-success is-normal");
+        form.version.setAttribute("class", "input is-primary is-normal");
       });
       form.category.addEventListener('change', () => {
-        document.querySelector('.category').setAttribute("class", "select is multiple is-success is-medium");
+        document.querySelector('.category').setAttribute("class", "select is multiple is-primary is-medium");
       });
       form.description.addEventListener('change', () => {
-        form.description.setAttribute("class", "textarea is-success is-normal");
+        form.description.setAttribute("class", "textarea is-primary is-normal");
       });
       form.input.addEventListener('change', () => {
-        document.querySelector('.clipboard').setAttribute("class", "select is-link is-dark is-normal");
+        document.querySelector('.clipboard').setAttribute("class", "select is-primary is-normal");
       });
       form.text.addEventListener('change', () => {
         form.text.setAttribute("class", "input is-primary is-normal");
       });
       form.depends.addEventListener('change', () => {
-        document.querySelector('.depends').setAttribute("class", "select is-multiple is-success is-medium");
+        document.querySelector('.depends').setAttribute("class", "select is-multiple is-primary is-medium");
       });
       form.notes.addEventListener('change', () => {
-        form.notes.setAttribute("class", "textarea is-success is-normal");
+        form.notes.setAttribute("class", "textarea is-primary is-normal");
       });
       
-      
-      form.submit.addEventListener('click', () => {
-        event.preventDefault;
+      form.submit.addEventListener('click', (e) => {
+        e.preventDefault;
         let category = [];
         let select = form.category;
         for (let i = 0; i < select.options.length; i++) {
@@ -715,7 +731,6 @@
             depends.push(option.value);
           };
         };
-        
         const data = {
           name: form.name.value,
           auuid: form.auuid.value,
@@ -728,10 +743,8 @@
           notes: form.notes.value,
           link: DATA.link
         };
-
         console.log(JSON.stringify(data,null,'\t'));
         // alert(JSON.stringify(data,null,'\t'));
-        
         let parameter = encodeURIComponent(JSON.stringify(data));
         window.open('shortcuts://run-shortcut?name=Shortcut Publisher&input=text&text='+parameter);
         window.close();
