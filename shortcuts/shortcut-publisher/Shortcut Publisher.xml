@@ -3862,7 +3862,7 @@ document.write([ ...new Set(["￼"])]);
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{120, 1}</key>
+							<key>{113, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -3876,21 +3876,21 @@ document.write([ ...new Set(["￼"])]);
 								<key>VariableName</key>
 								<string>Thumb</string>
 							</dict>
-							<key>{168, 1}</key>
+							<key>{161, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Repo</string>
 							</dict>
-							<key>{180, 1}</key>
+							<key>{173, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>identifier</string>
 							</dict>
-							<key>{182, 1}</key>
+							<key>{175, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -3925,21 +3925,14 @@ document.write([ ...new Set(["￼"])]);
 								<key>VariableName</key>
 								<string>Name</string>
 							</dict>
-							<key>{60, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>identifier</string>
-							</dict>
-							<key>{79, 1}</key>
+							<key>{77, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Author Name</string>
 							</dict>
-							<key>{84, 1}</key>
+							<key>{82, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -3955,11 +3948,11 @@ document.write([ ...new Set(["￼"])]);
 							</dict>
 						</dict>
 						<key>string</key>
-						<string># [![ ￼](￼)](￼) [**￼**](https://cutz.bustl.io/￼/shortcuts/￼/￼.html)
+						<string># [![ ￼](￼)](￼) [**￼**](https://cutz.bustl.io/￼/depiction/￼.html)
 
 ### by [**￼**](￼)
 
-𝘽𝙪𝙨𝙩𝙡._cutz_
+Bustl._Cutz_
 
 ------
 

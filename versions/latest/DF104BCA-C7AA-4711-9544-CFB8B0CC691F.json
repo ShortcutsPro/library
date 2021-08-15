@@ -1,18 +1,18 @@
 {
-  "file_size" : "33 KB",
+  "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
   "color" : "#00CEAD",
-  "shortcut_download" : "https:\/\/cvws.icloud-content.com\/B\/AVVf-fDBbc8ieG16Z8iYRLYMbUDb\/${f}?o=Ah9OTu1f9V8OMLjFBGym5q8XHjPGe-gx4OK5Z3e5-PwPsxq-z0VnPh2V_yXHXMWLtw&v=1&x=3&a=CAogxXlUD2t6Kbb2yq3F3qAi6BG42OMuSkYQBiusvMOA85oSexCxq83YtC8YsYip2rQvIgEAUgQMbUDbajBT9PF4br4Z65aR-78x5Ak2Fgbw6T6FwpdEEPzjN33cBpVVCQ_b_Pqbvt0AYp3N5wZyME5It7Z9M0jjskxQrQKRDgsgmdAzEMX4JVpJXX4GpHwn7kAWtXZsxyMDQPjJuMp19g&e=1629055763&fl=&r=cb4b1a84-6f64-43f7-ab16-91e2551c0ff0-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=Ab6YFc7Jm5RY7UGbNmpgpi1mAP0",
+  "shortcut_download" : "https:\/\/cvws.icloud-content.com\/B\/AWfj_POxRnIXjbZHg64erFDk7fZe\/${f}?o=AodweUoDYpuWW7II2oQZP7ARL-rnBWnrCG2ZBbM2aVe1wPmo5zbJ_U_1TIfw2A1mYQ&v=1&x=3&a=CAogEwJjnz_-8KZ-D-pbXgNAUTgY5tBR4PCYtLdGMk_02PoSexCWjIjZtC8Ylunj2rQvIgEAUgTk7fZeajDQjW82Q13h8JXGWMNB-zrCIhBAL99AH1w7hgbJGrtSwgyajG9WrcxxxHrd59NQg4RyMEAnWGaBrJJqGAA2Ks0cTI9cKjja42saliSpUv-OglUvTWnf7dsOTpMJRx875cgAQA&e=1629056726&fl=&r=68a75efa-e09d-4d61-a0ea-abd010548fff-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=DjsFb4hXy3H4jVOM8yc1DB7iR3o",
   "shortcuts_version" : "1129",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/4c56dcd3f2394747a1e738f0ed1bffcb",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/804b7bf773734bbcae1dcea20d1aee9c",
   "depiction" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-publisher.html",
-  "release" : "Sun, 15 Aug 2021 13:31:00 -0500",
-  "depends" : "io.bustl.cutz.library.shortcut-data",
-  "integrity" : true,
+  "release" : "Sun, 15 Aug 2021 13:46:47 -0500",
+  "file_size" : "33 KB",
+  "integrity" : false,
   "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
-  "start_color" : 431817727,
-  "date_created" : "Sun, 15 Aug 2021 13:29:15 -0500",
   "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
-  "input" : "false",
+  "start_color" : 431817727,
+  "date_created" : "Sun, 15 Aug 2021 13:45:15 -0500",
+  "input" : "clipboard",
   "category" : [
     "Utilities",
     "Development",
@@ -31,14 +31,14 @@
   "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
   "quiet" : true,
   "text" : "",
-  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ARQMibUaxS2xgmbCqX4RJvJu1YhZ\/${f}?o=AnBBCJz3lbwy08Huw4yT7bTphczoqa1wDkhvzm5uB3FJ0B2HY5m1t16UIM5Ls-291w&v=1&x=3&a=CAoghkfSyJ4g0zL6724Q0-lEG8Zu1KsUH2gHxD337Jw8H0kSexCwq83YtC8YsIip2rQvIgEAUgRu1YhZajDoPRx5CsCkCBrp5NhXLQ7XYKDkmXALi0Ggqq2Yp2WlNRcRnth1zKxigLkspc-321JyMGV4aizHnxbGfZ-1vztEjipk_7uydei541tWt8XBR8LvG9B3vrTW3j1fWZXUfeOIXQ&e=1629055763&fl=&r=cb4b1a84-6f64-43f7-ab16-91e2551c0ff0-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=9NJShEJTOSsbaXsYRRmrlxw19j0",
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ASi1hRwI1cTaomOiHTOY5FVSWRdR\/${f}?o=ArwY8fw6elfSJFPOocIrwk5gxJT27AOjxnPT14R0Ib6UVXeH-WQNHmP_w41pR8yOnw&v=1&x=3&a=CAogHIHAW2s7Yn6wtDqgiNTSYOKtGiZKnV-sjvKDeWQL6LsSexCVjIjZtC8Ylenj2rQvIgEAUgRSWRdRajC1GdjSYDy4i_XFK5GwILCBcv0gSvIDjhvPv-cLxZy5pQzZNOjOO5243u_L_3cUsiNyMFyV5x1LU27b6AAHp-xRTqLXG3nvnokffakaBG4E7skssFpTZXoMrM-sUe0C1HGjTA&e=1629056726&fl=&r=68a75efa-e09d-4d61-a0ea-abd010548fff-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=FSeCZt0pxi8iMWdCrQQjUYjwYQM",
+  "notes" : "Initial release ",
   "icon_glyph" : 61456,
-  "notes" : "Re-release",
   "minimum_version" : 1106,
-  "certificate_expiration" : "Wed, 14 Sep 2022 13:19:20 -0500",
+  "certificate_expiration" : "Wed, 14 Sep 2022 13:35:23 -0500",
   "author" : {
     "link" : "https:\/\/github.com\/scottdwr\/",
     "name" : "@scottdwr"
   },
-  "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository."
+  "depends" : "io.bustl.cutz.library.shortcut-data"
 }
