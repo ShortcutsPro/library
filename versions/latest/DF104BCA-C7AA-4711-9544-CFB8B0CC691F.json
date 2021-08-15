@@ -1,47 +1,47 @@
 {
-  "icon" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-publisher.png",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
   "author" : {
     "link" : "https:\/\/github.com\/scottdwr\/",
     "name" : "@scottdwr"
   },
+  "icon" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-publisher.png",
   "arch" : "iOS15",
-  "device" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
-  "file_size" : "35 KB",
+  "file_size" : "33 KB",
   "id" : "io.cutz.bustl.library.shortcut-publisher",
-  "shortcutDownload" : "https:\/\/cvws.icloud-content.com\/B\/AXkwUsGpfJqQ8NEyT9RnKHQGFbPQ\/$%7Bf%7D?o=Aoa5SKx5OxpmHKNlfI6eocDASC0yCunLkfznmqSR-FlCFdzSeELRueZJb5vbN6-1Jg&v=1&x=3&a=CAogUJfcjTTGcMAZgLal_uROMHD9GmrPEzlbQlwGrB4rBzwSexC5wt68tC8YuZ-6vrQvIgEAUgQGFbPQajCm-s6YfOBVkQLMGCgtcoNjKWd7C6jTmP4douhMUrRclMsIxMPsscemKeYqn2E1A0RyMDvfYRiHyThLna5OLaxOwAgWbnS8E8P-3Jd7eww1Iw8hlPDBd6N9KcmkZHaraiGLLw&e=1628997324&fl=&r=047e7afd-373c-4983-9c19-fc7ad221dc2e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=p5rpN-Wn9I9mR-7Cq9vz4EKP0gU",
+  "category" : [
+    "Development Tools",
+    "Utilities"
+  ],
   "integrity" : false,
-  "icon_url" : "https:\/\/cvws.icloud-content.com\/B\/AfJ4kw1amp1xKl-QAaiGhDBnnuF0\/$%7Bf%7D?o=AmpDhQ6DF3na9dn2MmjoCH1hiUgQR2VP8F2h60ImDfCS6CJB9k8ltNokuUcWjan9Lw&v=1&x=3&a=CAog0-YJBoR2KaM4FKD3d6PKA9Lm5MURkGc18uQrVBpp7UkSexC5wt68tC8YuZ-6vrQvIgEAUgRnnuF0ajBN7sxkGjz4Nci9CNQM2yx0ObvMKLOeMNtrxWlbqgbSdnuYLd-JCMVBONLEf0gXJGFyMJzy6VmDC3FJm0mYqEVn1XHjbp0-kNbvC8xeXjXrGYXZ5pv6rCQlNMsqDqnyuB9ndw&e=1628997324&fl=&r=047e7afd-373c-4983-9c19-fc7ad221dc2e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=rht5qFWVztUDdcL3jUtELPjV4Cs",
-  "created" : "Aug 14, 2021 at 21:15",
-  "start_color" : 431817727,
   "maintainer" : {
     "name" : "@scottdwr",
     "link" : "https:\/\/github.com\/scottdwr\/"
   },
-  "modified" : "Aug 14, 2021 at 21:15",
+  "start_color" : 431817727,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AVcpnWRog9SEYS5wflJ1CXZbS09R\/${f}?o=AqsC0WYpBDHiSGl0_T9iNyvNhyuo7sF_D1Opwp0ogbf-f7-TrP9mCJSwgLgGTC5VFQ&v=1&x=3&a=CAogs1ZsNFFMDCL_3oKj386U5IGptYXiQDFmVClQgO8CmaYSexCEz8vUtC8YhKyn1rQvIgEAUgRbS09RajBIcX5TDVSV8nYTUQoC0S4Yf3lHuyUed4PuaJnkK93jCUYW7Hn6linI3ceisU3Ky0RyMHNMDbUNhR9FFal0tJnIXzNXFQEIbjb2RkgJQMmz2mvSF8HjUyYVDYX-nG3lyOHS-w&e=1629047346&fl=&r=d476e6c2-5284-41f8-a800-bdc60441f888-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=EmBn4jBq8J1YQmtFlReXPghaRrs",
   "text" : "",
   "icon_glyph" : 61456,
-  "minimum_version" : 1113,
   "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
+  "certificate_expiration" : "Wed, 14 Sep 2022 10:59:03 -0500",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
   "version" : "1.0.10",
-  "signedDownload" : "https:\/\/cvws.icloud-content.com\/B\/AVp8t7191RE8Ny9SOtXdLR4OrMkY\/$%7Bf%7D?o=AqEAwtKen83HaWI5GSi90nUB02NYO7b_E_EcSH8fFIy4iKAPguJiQEmmhbhYjy1g-Q&v=1&x=3&a=CAogSXQIeI7aAP3fnFyq5T3MMzoWYHoCy937b1f1iDeIL88SexC4wt68tC8YuJ-6vrQvIgEAUgQOrMkYajC4Td6LpZcvOX0CTq1CRTKEejvftmdZxg0FNR-Rn5ZHIVQBeiMhhkYmZKcEWgPL_p1yMEksvcbDkHLUvtfiog0JaQcx6o06OvAqtGx3FnM-h7c9jhESJKhoa30LVQR24DGlAA&e=1628997324&fl=&r=047e7afd-373c-4983-9c19-fc7ad221dc2e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=pcdIeVgn48Z-C73Lgp1G9aR8hU8",
-  "user" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "minimum_version" : 1106,
+  "shortcut_download" : "https:\/\/cvws.icloud-content.com\/B\/AT2RiRxPKl89mpuzmikmWPpzDlY_\/${f}?o=AhRGEekIDWtYfB_JypQRjf8vmcJGdc9YSOGIGOJxACA1l2kwzCzDaT_JW40fQtyTkQ&v=1&x=3&a=CAogUM95S6Xr5yDc4rASIubIYQGM3YNBGzZG5W_ck4Mr0b4SexCFz8vUtC8Yhayn1rQvIgEAUgRzDlY_ajCsaEcvI28OWCIsVni2iasN9KL0n9VXU6RAXXvGhFTMSv9sSCJqVqMVAWkdmlMMD7JyMH92YCIbBlVtyRWc8W0He0D4xicYJR3-cn6aY2M_K7nDiy31xaI3T0HgfgBN5SNT3w&e=1629047346&fl=&r=d476e6c2-5284-41f8-a800-bdc60441f888-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=dLG0ar4yElC-K-D5GMubp3vDKWs",
   "shortcuts_version" : "1129",
-  "depends" : [
-
-  ],
+  "depends" : "io.bustl.cutz.library.shortcut-data",
   "name" : "Shortcut Publisher",
   "link" : "null",
-  "depiction" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-publisher.\/",
-  "release" : "Sat, 14 Aug 2021 21:16:34 -0500",
+  "depiction" : "https:\/\/cutz.bustl.io\/library\/depiction\/shortcut-publisher.html",
+  "release" : "Sun, 15 Aug 2021 11:11:11 -0500",
   "color" : "#00CEAD",
+  "date_created" : "Sun, 15 Aug 2021 11:08:57 -0500",
   "auuid" : "DF104BCA-C7AA-4711-9544-CFB8B0CC691F",
-  "input" : "true",
+  "input" : "clipboard",
   "categories" : [
     "utilities",
-    "development",
-    "Utilities"
+    "development"
   ],
-  "expires" : "Sep 13, 2022 at 21:05",
-  "note" : "Re-release",
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "notes" : "No release notes",
   "quiet" : true
 }
