@@ -733,11 +733,13 @@
           description: form.description.value,
           category: category,
           depends: depends,
-          input: input,
           notes: form.notes.value,
         };
+        if (input != null) {
+          data.input = input;
+        };
         console.log(JSON.stringify(data,null,'\t'));
-        // alert(JSON.stringify(data,null,'\t'));
+        alert(JSON.stringify(data,null,'\t'));
         let parameter = encodeURIComponent(JSON.stringify(data));
         window.open('shortcuts://run-shortcut?name=Shortcut Publisher&input=text&text='+parameter);
         window.close();
