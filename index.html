@@ -80,7 +80,7 @@
               <div class="field-body">
                 <div class="control">
                   <div class="select category is multiple is-info is-medium">
-                  <select multiple size="29" id="category">
+                  <select multiple size="29" id="category" class="category">
                     <option value="Books">Books</option>
                     <option value="Business">Business</option>
                     <option value="Development Tools">Development Tools</option>
@@ -131,14 +131,14 @@
 
         <div class="container is-centered">
           <div class="field">
-            <label class="label" for="input">Does Shortcut Require Input?</label>
+            <label class="label" for="input">Does Shortcut <strong><em>Require</em></strong> Input?</label>
             <div class="control">
               <div class="select clipboard is-info is-info is-normal">
                 <select id="input">
                   <option value="false">Does Not Require Input</option>
-                  <option value="clipboard">Uses Clipboard</option>
-                  <option value="true">Uses Share Sheet</option>
-                  <option value="text">Statuc Text Input</option>
+                  <option value="clipboard">Can Use Clipboard</option>
+                  <option value="text">Use Text Below</option>
+                  <option value="share">Share Sheet ONLY</option>
                 </select>
               </div>
             </div>
@@ -163,7 +163,7 @@
             <div class="field-body">
               <div class="control">
                 <div class="select depends is-multiple is-info is-medium">
-                  <select multiple size="456" id="depends">
+                  <select multiple size="456" id="depends" class="depends">
                     <option value="convert-color-to-rgba">Convert Color to RGBA</option>
                     <option value="get-app-bundle-id">Get App Bundle ID</option>
                     <option value="get-app-icon">Get App Icon</option>
@@ -696,6 +696,7 @@
       
       form.submit.addEventListener('click', (e) => {
         e.preventDefault;
+        
         let category = [];
         let select = form.category;
         for (let i = 0; i < select.options.length; i++) {
@@ -704,6 +705,8 @@
             category.push(option.value);
           };
         };
+        
+        let integrity = true;
         let input;
         select = form.input;
         for (let i = 0; i < select.options.length; i++) {
@@ -713,11 +716,15 @@
               input = form.text.value;
             } else if (option.value == "clipboard") {
               input = "clipboard";
+            } else if (option.value == "share") {
+              integrity = false;
+              input = null;
             } else {
               input = null;
             };
           };
         };
+        
         let depends = [];
         select = form.depends;
         for (let i = 0; i < select.options.length; i++) {
@@ -726,20 +733,25 @@
             depends.push(option.value);
           };
         };
+        
         const data = {
           name: form.name.value,
           auuid: form.auuid.value,
+          notes: form.notes.value,
           version: form.version.value,
           description: form.description.value,
+          integrity: integrity,
           category: category,
-          depends: depends,
-          notes: form.notes.value,
+          depends: depends
         };
+        
         if (input != null) {
           data.input = input;
         };
+        
         console.log(JSON.stringify(data,null,'\t'));
         alert(JSON.stringify(data,null,'\t'));
+        
         let parameter = encodeURIComponent(JSON.stringify(data));
         window.open('shortcuts://run-shortcut?name=Shortcut Publisher&input=text&text='+parameter);
         window.close();
