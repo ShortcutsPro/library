@@ -141,7 +141,9 @@ span.magic {
 </head>
 <body>
 <button class="button gParams closed">INTEGRITY</button>
-<div class="content" style="display:none"><div class="col2">"WFWorkflowClientVersion": "1092.11",
+<div class="content" style="display:none"><div class="col2">"WFWorkflowClientVersion": "1136.1",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": true,
 "WFWorkflowIcon": {
    "WFWorkflowIconStartColor": 255,
    "WFWorkflowIconGlyphNumber": 59690
@@ -166,11 +168,34 @@ span.magic {
    "WFStringContentItem",
    "WFURLContentItem"
 ],
-"WFWorkflowMinimumClientVersion": 900,
-"WFWorkflowMinimumClientVersionString": "900",
+"WFWorkflowMinimumClientVersion": 1106,
+"WFWorkflowMinimumClientVersionString": "1106",
+"WFWorkflowOutputContentItemClasses": [
+   "WFPDFContentItem",
+   "WFArticleContentItem",
+   "WFPhotoMediaContentItem",
+   "WFStringContentItem",
+   "WFContactContentItem",
+   "WFURLContentItem",
+   "WFAppStoreAppContentItem",
+   "WFContentItem",
+   "WFGenericFileContentItem",
+   "WFDictionaryContentItem",
+   "WFAVAssetContentItem",
+   "WFEmailAddressContentItem",
+   "WFDateContentItem",
+   "WFSafariWebPageContentItem",
+   "WFiTunesProductContentItem",
+   "WFDCMapsLinkContentItem",
+   "WFImageContentItem",
+   "WFRichTextContentItem",
+   "WFPhoneNumberContentItem",
+   "WFMKMapItemContentItem",
+   "WFLocationContentItem"
+],
 "WFWorkflowTypes": [
-   "ActionExtension",
-   "Watch"
+   "Watch",
+   "ActionExtension"
 ]
 </div></div>
 
@@ -275,20 +300,16 @@ Get Input for target shortcut. ——></div></div>
       "arch": "ios14",
       "depends": [
          "com.shortcutspro.library.file-provider",
-         "com.shortcutspro.library.bustl-updater",
-         ""
+         "com.shortcutspro.library.bustl-updater"
       ],
       "urls": {
          "info": "https://www.bustl.io"
       },
-      "quiet": true,
-      "": 0
+      "quiet": true
    },
    "language": "en-US",
    "code": {
-      "uuid": "data:text/html;charset=utf-8,&lt;script>f='uuid'.trim().toLowerCase(),c=+'1'||1,r=(a,v,i)=>a+(f=='hex'||i%2||i&lt;4||i>10?'':'-')+ <b><i>(truncated)</i></b>",
-      "regex": "^\\s+|\\s+$|\\s+(?=\\s)/g",
-      "invisible": "‌"
+      "regex": "^\\s+|\\s+$|\\s+(?=\\s)/g"
    },
    "bool": {
       "true": true,
@@ -316,7 +337,7 @@ Get Input for target shortcut. ——></div></div>
 20 If <span class="box"><span class="magic" onclick="magictap(19)"><b>[19 First Input</b><b>]</b></span></span> <span class="box">is</span> <span class="box">identify</span></button>
 	<div class="content contentloop">
 <button class="gScripting inside" id="m21">
-21 Exit Shortcut with <span class="box"><span class="magic" onclick="magictap(15)"><b>[15 Shortcut</b><b>]</b></span></span></button></div>
+21 Stop and Output <span class="box"><span class="magic" onclick="magictap(15)"><b>[15 Shortcut</b><b>]</b></span></span></button></div>
 <button class="gLoop nontop" id="m22">
 22 End If</button>
 <button class="button gDocuments" id="m23">
@@ -635,8 +656,11 @@ Load settings with current API ——></div></div>
 }</div></div>
 <button class="gScripting inside" id="m99">
 99 Get Dictionary Value for <span class="box">debug</span> in <span class="box"><span class="magic" onclick="magictap(3)"><b>[3 Switches</b><b>]</b></span></span> <b>&nbsp; ➔ Debug</b></button>
-<button class=" inside" id="m100">
+<button class="button  inside" id="m100">
 100 URL <span class="box">https://ShortcutsPro.github.io/library/settings.json</span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">Show-WFURLActionURL</div>
+			<div class="col2">true</div></div></div>
 <button class=" inside" id="m101">
 101 Get File of Type <span class="box">public.json</span> from <span class="box"><span class="magic" onclick="magictap(100)"><b>[100 URL</b><b>]</b></span></span> <b>&nbsp; ➔ Remote Dictionary</b></button>
 <button class="button gLoop nonbottom inside" id="m102">
@@ -796,7 +820,7 @@ Check for update ——></div></div>
 <button class="gVariable" id="m136">
 136 Get Variable <span class="box"><span class="magic" onclick="magictap(131)"><b>[131 Result</b><b>]</b></span></span></button>
 <button class="gScripting" id="m137">
-137 Exit Shortcut with <span class="box"><span class="magic" onclick="magictap(131)"><b>[131 Result</b><b>]</b></span></span></button>
+137 Stop and Output <span class="box"><span class="magic" onclick="magictap(131)"><b>[131 Result</b><b>]</b></span></span></button>
 <button class="button gDocuments" id="m138">
 138 Comment</button>
 	<div class="content commentcontent">

@@ -366,6 +366,8 @@ Get Input for target shortcut. ——&gt;</string>
 			<string>is.workflow.actions.file.createfolder</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>UUID</key>
+				<string>5D890A2E-DFED-46F9-952D-F10D1087F8C3</string>
 				<key>WFFilePath</key>
 				<dict>
 					<key>Value</key>
@@ -843,7 +845,6 @@ MIT License</string>
 														<array>
 															<string>com.shortcutspro.library.file-provider</string>
 															<string>com.shortcutspro.library.bustl-updater</string>
-															<string></string>
 														</array>
 														<key>WFSerializationType</key>
 														<string>WFArrayParameterState</string>
@@ -924,54 +925,6 @@ MIT License</string>
 														<string>WFNumberSubstitutableState</string>
 													</dict>
 												</dict>
-												<dict>
-													<key>WFItemType</key>
-													<integer>0</integer>
-													<key>WFKey</key>
-													<dict>
-														<key>Value</key>
-														<dict>
-															<key>string</key>
-															<string></string>
-														</dict>
-														<key>WFSerializationType</key>
-														<string>WFTextTokenString</string>
-													</dict>
-													<key>WFValue</key>
-													<dict>
-														<key>Value</key>
-														<dict>
-															<key>string</key>
-															<string></string>
-														</dict>
-														<key>WFSerializationType</key>
-														<string>WFTextTokenString</string>
-													</dict>
-												</dict>
-												<dict>
-													<key>WFItemType</key>
-													<integer>3</integer>
-													<key>WFKey</key>
-													<dict>
-														<key>Value</key>
-														<dict>
-															<key>string</key>
-															<string></string>
-														</dict>
-														<key>WFSerializationType</key>
-														<string>WFTextTokenString</string>
-													</dict>
-													<key>WFValue</key>
-													<dict>
-														<key>Value</key>
-														<dict>
-															<key>string</key>
-															<string></string>
-														</dict>
-														<key>WFSerializationType</key>
-														<string>WFTextTokenString</string>
-													</dict>
-												</dict>
 											</array>
 										</dict>
 										<key>WFSerializationType</key>
@@ -1034,30 +987,6 @@ MIT License</string>
 														<key>Value</key>
 														<dict>
 															<key>string</key>
-															<string>uuid</string>
-														</dict>
-														<key>WFSerializationType</key>
-														<string>WFTextTokenString</string>
-													</dict>
-													<key>WFValue</key>
-													<dict>
-														<key>Value</key>
-														<dict>
-															<key>string</key>
-															<string>data:text/html;charset=utf-8,&lt;script&gt;f='uuid'.trim().toLowerCase(),c=+'1'||1,r=(a,v,i)=&gt;a+(f=='hex'||i%2||i&lt;4||i&gt;10?'':'-')+('0'+v.toString(16)).substr(-2),document.write(Array(c).fill().map(_=&gt;(b=crypto.getRandomValues(new Uint8Array(16)),b[6]=64|15&amp;b[6],b[8]=128|63&amp;b[8],f=='base64'?btoa(String.fromCharCode(...b)):b.reduce(r,''))).join(','))&lt;/script&gt;</string>
-														</dict>
-														<key>WFSerializationType</key>
-														<string>WFTextTokenString</string>
-													</dict>
-												</dict>
-												<dict>
-													<key>WFItemType</key>
-													<integer>0</integer>
-													<key>WFKey</key>
-													<dict>
-														<key>Value</key>
-														<dict>
-															<key>string</key>
 															<string>regex</string>
 														</dict>
 														<key>WFSerializationType</key>
@@ -1069,30 +998,6 @@ MIT License</string>
 														<dict>
 															<key>string</key>
 															<string>^\s+|\s+$|\s+(?=\s)/g</string>
-														</dict>
-														<key>WFSerializationType</key>
-														<string>WFTextTokenString</string>
-													</dict>
-												</dict>
-												<dict>
-													<key>WFItemType</key>
-													<integer>0</integer>
-													<key>WFKey</key>
-													<dict>
-														<key>Value</key>
-														<dict>
-															<key>string</key>
-															<string>invisible</string>
-														</dict>
-														<key>WFSerializationType</key>
-														<string>WFTextTokenString</string>
-													</dict>
-													<key>WFValue</key>
-													<dict>
-														<key>Value</key>
-														<dict>
-															<key>string</key>
-															<string>‌</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -1380,22 +1285,30 @@ MIT License</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.exit</string>
+			<string>is.workflow.actions.output</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>WFResult</key>
+				<key>WFOutput</key>
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>OutputName</key>
-						<string>Shortcut</string>
-						<key>OutputUUID</key>
-						<string>ac00ed2a-13d0-4d05-95de-65a36ac9ea72</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Shortcut</string>
+								<key>OutputUUID</key>
+								<string>ac00ed2a-13d0-4d05-95de-65a36ac9ea72</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
 					</dict>
 					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
+					<string>WFTextTokenString</string>
 				</dict>
 			</dict>
 		</dict>
@@ -4174,6 +4087,8 @@ Load settings with current API ——&gt;</string>
 			<string>is.workflow.actions.url</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>Show-WFURLActionURL</key>
+				<true/>
 				<key>UUID</key>
 				<string>3ef1702b-0cc2-4d42-abd4-ab04e5c249ce</string>
 				<key>WFURLActionURL</key>
@@ -5848,22 +5763,30 @@ Check for update ——&gt;</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.exit</string>
+			<string>is.workflow.actions.output</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>WFResult</key>
+				<key>WFOutput</key>
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>OutputName</key>
-						<string>Result</string>
-						<key>OutputUUID</key>
-						<string>8bb2aee4-c1ab-4e74-a85a-668d75c93b51</string>
-						<key>Type</key>
-						<string>ActionOutput</string>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Result</string>
+								<key>OutputUUID</key>
+								<string>8bb2aee4-c1ab-4e74-a85a-668d75c93b51</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
 					</dict>
 					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
+					<string>WFTextTokenString</string>
 				</dict>
 			</dict>
 		</dict>
@@ -5889,7 +5812,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		</dict>
 	</array>
 	<key>WFWorkflowClientVersion</key>
-	<string>1092.11</string>
+	<string>1136.1</string>
+	<key>WFWorkflowHasOutputFallback</key>
+	<false/>
+	<key>WFWorkflowHasShortcutInputVariables</key>
+	<true/>
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
@@ -5920,13 +5847,37 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		<string>WFURLContentItem</string>
 	</array>
 	<key>WFWorkflowMinimumClientVersion</key>
-	<integer>900</integer>
+	<integer>1106</integer>
 	<key>WFWorkflowMinimumClientVersionString</key>
-	<string>900</string>
+	<string>1106</string>
+	<key>WFWorkflowOutputContentItemClasses</key>
+	<array>
+		<string>WFPDFContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFPhotoMediaContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFURLContentItem</string>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFDictionaryContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFMKMapItemContentItem</string>
+		<string>WFLocationContentItem</string>
+	</array>
 	<key>WFWorkflowTypes</key>
 	<array>
-		<string>ActionExtension</string>
 		<string>Watch</string>
+		<string>ActionExtension</string>
 	</array>
 </dict>
 </plist>
