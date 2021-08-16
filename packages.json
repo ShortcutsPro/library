@@ -191,29 +191,5 @@
       "name" : "@scottdwr"
     },
     "file_size" : "33 KB"
-  },
-  {
-    "id" : "io.cutz.bustl.library.integrity",
-    "category" : "",
-    "integrity" : false,
-    "fl" : "",
-    "{"description": "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.","application": "𝘽𝙪𝙨𝙩𝙡. Cutz","date": "Mon, 16 Aug 2021 01:20:34 -0500","color": "#86919B","certificate_expiration": "Thu, 15 Sep 2022 01:09:57 -0500","file_size": "32 KB","notes": "No release notes","version": "3.1","shortcut_download": "https://cvws.icloud-content.com/B/AXsxzO-w6Z93bttAW31r8Q5xtMwq/${f}?o" : "AtgAP5dI1rg0lUB5YWVSSkY7wtZeZdq8FH6o57VLkEf2bh2K5_nXaW9mn-BmhRjzsQ",
-    "x" : "3",
-    "a" : "CAogsRX1Mqarlc2j2cMmAudtK6rs0ML1DzbBh9-hYAFZaVASexCf1_fstC8Yn7TT7rQvIgEAUgRxtMwqajDb8pP50iTQlqTqajDfPBCA5hMIXowAKZ5VVQauEw08uBiW9p3X-T5GbdrJSmU2XRxyMGZKTTL-nGosK8GeHHl_HO0Xf7NzoEvFcoOPxC4UA8QEDcxQX4NyHq-0dEDMfT-V2w",
-    "ckc" : "com.apple.shortcuts",
-    "ckz" : "_defaultZone",
-    "r" : "3c6b6bce-aa76-4388-b6e8-55292b93bbf8-1",
-    "p" : "33",
-    "k" : "_",
-    "s" : "CaPxtLtaKKoX2_rzNlRQiOn8UHo","id": "com..shortscutpro.library.Integrity","date_modified": "Wed, 31 Dec 1969 18:00:00 -0600","input": "false","urls": {"info": "https://www.bustl.io"},"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892","quiet": true,"name": "INTEGRITY","minimum_version": 1106,"integrity": false,"date_created": "Mon, 16 Aug 2021 01:19:43 -0500","signed_download": "https://cvws.icloud-content.com/B/AY32csKsLv9zJrPRJRZn-a88QzrE/${f}?o=AlftQaUDrcKzhZJjvc0rKQy2lJZMd1o4Hu0Gxot1BuJTKztiatBzb0Es2YKhOLSfcA",
-    "release" : "Mon, 16 Aug 2021 01:22:29 -0500",
-    "icon" : "https://cutz.bustl.io/library/depiction/integrity.png",
-    "e" : "1629098400",
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : "https://github.com/scottdwr/"
-    },
-    "v" : "1",
-    "depiction" : "https://cutz.bustl.io/library/depiction/integrity.html"
   }
 ]

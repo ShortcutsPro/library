@@ -714,12 +714,18 @@
             category.push(option.value);
           };
         };
-        let input = "";
+        let input;
         select = form.input;
         for (let i = 0; i < select.options.length; i++) {
           let option = select.options[i];
           if (option.selected) {
-            input = option.value;
+            if (option.value == "text") {
+              input = form.text.value;
+            } else if (option.value == "clipboard") {
+              input = "clipboard";
+            } else {
+              input = null;
+            };
           };
         };
         let depends = [];
@@ -738,7 +744,6 @@
           category: category,
           depends: depends,
           input: input,
-          text: form.text.value,
           notes: form.notes.value,
         };
         console.log(JSON.stringify(data,null,'\t'));
