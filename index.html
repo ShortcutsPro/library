@@ -71,8 +71,8 @@
                 <div class="control">
                   <input class="input is-danger is-normal" type="text" id="version" placeholder="Enter new version">
                 </div>
-              </div>
-            </div>
+              </div> <!-- field-body -->
+            </div>  <!-- is-horizontal -->
             <div class="field is-horizontal">
               <div class="field-label">
                 <label class="label" for="category">Categories</label>
@@ -80,10 +80,10 @@
               <div class="field-body">
                 <div class="control">
                   <div class="select category is multiple is-info is-medium">
-                  <select multiple size="28" id="category">
+                  <select multiple size="29" id="category">
                     <option value="Books">Books</option>
                     <option value="Business">Business</option>
-                    <option value="Development Tools">Development</option>
+                    <option value="Development Tools">Development Tools</option>
                     <option value="Education">Education</option>
                     <option value="Entertainment">Entertainment</option>
                     <option value="Finance">Finance</option>
@@ -105,6 +105,7 @@
                     <option value="Snippets">Snippets</option>
                     <option value="Social Networking">Social Networking</option>
                     <option value="Sports">Sports</option>
+                    <option value="System Admin">System Admin</option>
                     <option value="Travel">Travel</option>
                     <option value="Utilities">Utilities</option>
                     <option value="Weather">Weather</option>
@@ -115,46 +116,44 @@
                   <p class="help">Select one to three categories</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </div>  <!-- field-body -->
+          </div>  <!-- is-horizontal -->
+        </div>  <!-- container -->
           
 
-          <div class="field">
-            <label class="label" for="description">Description</label>
-            <div class="control">
-              <textarea class="textarea is-info is-normal" id="description" placeholder="Brief description or tag-line" value=""></textarea>
-            </div>
-          </div>          
+        <div class="field">
+          <label class="label" for="description">Description</label>
+          <div class="control">
+            <textarea class="textarea is-info is-normal" id="description" placeholder="Brief description or tag-line" value=""></textarea>
+          </div>
+        </div>          
   
 
-          <div class="container is-centered">
-            <div class="field">
-              <label class="label" for="input">Does Shortcut Require Input?</label>
-              <div class="control">
-                <div class="select clipboard is-info is-info is-normal">
-                  <select id="input">
-                    <option value="false">Does Not Require Input</option>
-                    <option value="clipboard">Uses Clipboard</option>
-                    <option value="true">Uses Share Sheet</option>
-                    <option value="text">Statuc Text Input</option>
-                  </select>
-                </div>
+        <div class="container is-centered">
+          <div class="field">
+            <label class="label" for="input">Does Shortcut Require Input?</label>
+            <div class="control">
+              <div class="select clipboard is-info is-info is-normal">
+                <select id="input">
+                  <option value="false">Does Not Require Input</option>
+                  <option value="clipboard">Uses Clipboard</option>
+                  <option value="true">Uses Share Sheet</option>
+                  <option value="text">Statuc Text Input</option>
+                </select>
               </div>
             </div>
-              <div class="field is-horizontal">
-                <div class="field-label">
-                  <label class="label" for="text">Text Input</label>
+          </div>
+          <div class="field is-horizontal">
+            <div class="field-label">
+              <label class="label" for="text">Text Input</label>
+              </div>
+              <div class="field-body">
+                <div class="control">
+                  <input class="input is-light is-normal" type="text" id="text" placeholder="Static text">
                 </div>
-                <div class="field-body">
-                  <div class="control">
-                    <input class="input is-light is-normal" type="text" id="text" placeholder="Static text">
-                  </div>
-                </div>  <!-- field-body -->
-              </div>  <!-- is-horizontal -->
-            </div>
-
-
+              </div>  <!-- field-body -->
+            </div>  <!-- is-horizontal -->
+          </div>  <!-- container -->
 
 
           <div class="field is-horizontal">
@@ -187,16 +186,7 @@
                     <option value="user-input">User Input</option>
                     <option value="hex-color-to-rgb">Hex Color To RGB</option>
                     <option value="column-vcard-menu">2-Column vCard Menu</option>
-                    <option value="api">API</option>
-                    <option value="api-of-apis">API of APIs</option>
                     <option value="activate-new-client">Activate New Client</option>
-                    <option value="activate-new-client-og">Activate New Client OG</option>
-                    <option value="add-bustl">Add Bustl.</option>
-                    <option value="add-bustl-cutz">Add Bustl.Cutz</option>
-                    <option value="add-scott-profile">Add Scott Profile</option>
-                    <option value="add-shortcut">Add Shortcut</option>
-                    <option value="add-shortcuts-to-launch-center-pro">Add Shortcuts To Launch Center Pro</option>
-                    <option value="add-to-clipboard">Add To Clipboard</option>
                     <option value="adjust-image">Adjust Image</option>
                     <option value="all-actions">All Actions</option>
                     <option value="all-actions-ios-14-2">All Actions iOS 14.2</option>
