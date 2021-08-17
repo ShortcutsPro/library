@@ -1824,14 +1824,14 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 <button class="gScripting" id="m424">
 424 Get List First Item from <span class="box"><span class="magic" onclick="magictap(423)"><b>[423 Author Link</b><b>]</b></span></span></button>
 <button class="gVariable" id="m425">
-425 Set Variable <span class="box">ALink</span> to <span class="box"><span class="magic" onclick="magictap(424)"><b>[424 Item from List</b><b>]</b></span></span></button>
+425 Set Variable <span class="box">Author Link</span> to <span class="box"><span class="magic" onclick="magictap(424)"><b>[424 Item from List</b><b>]</b></span></span></button>
 <button class="button gLoop nonbottom closed" id="m426">
 426 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(423)"><b>[423 Author Link</b><b>]</b></span></span></button>
 	<div class="content contentloop" style="display:none">
 <button class="button gDocuments inside" id="m427">
 427 Text</button>
 	<div class="content inside">
-		<div class="col2">"<span class="magic" onclick="magictap(423)"><b>[423 Author Link</b><b>]</b></span>"</div></div></div>
+		<div class="col2">"<span class="var"><b>[Repeat Item</b><b>]</b></span>"</div></div></div>
 <button class="gLoop nontop" id="m428">
 428 End Repeat with Each</button>
 <button class="button gDocuments" id="m429">
@@ -1842,62 +1842,43 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 		<div class="row"><div class="col1">TextCustomSeparator</div>
 			<div class="col2"><span class="magic" onclick="magictap(422)"><b>[422 Text</b><b>]</b></span></div></div></div>
 <button class="gVariable" id="m430">
-430 Set Variable <span class="box">Author Link</span> to <span class="box"><span class="magic" onclick="magictap(429)"><b>[429 Combined Text</b><b>]</b></span></span></button>
-<button class="gScripting" id="m431">
-431 Nothing</button>
-<button class="button gScripting" id="m432">
-432 Dictionary</button>
-	<div class="content">
-		<div class="col2">{
-   "author": {
-      "name": "<span class="var"><b>[Author Name</b><b>]</b></span>",
-      "link": [
-         "<span class="var"><b>[Author Link</b><b>]</b></span>"
-      ]
-   }
-}</div></div>
-<button class="gScripting" id="m433">
-433 Set Dictionary Value for <span class="box">author</span> to <span class="box"><span class="magic" onclick="magictap(432)"><b>[432 Dictionary</b>.author<b>]</b></span></span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span></button>
-<button class="gVariable" id="m434">
-434 Set Variable <span class="box">Update</span> to <span class="box"><span class="magic" onclick="magictap(433)"><b>[433 Dictionary</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m435">
-435 Comment</button>
+430 Set Variable <span class="box">Author Link[]</span> to <span class="box"><span class="magic" onclick="magictap(429)"><b>[429 Combined Text</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m431">
+431 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
  </div></div>
-<button class="gScripting" id="m436">
-436 Get Dictionary Value for <span class="box">description</span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span> <b>&nbsp; ➔ Description</b></button>
-<button class="gVariable" id="m437">
-437 Set Variable <span class="box">Description</span> to <span class="box"><span class="magic" onclick="magictap(436)"><b>[436 Description</b><b>]</b></span></span></button>
-<button class="gScripting" id="m438">
-438 Nothing</button>
-<button class="button gDocuments" id="m439">
-439 Comment</button>
+<button class="gScripting" id="m432">
+432 Get Dictionary Value for <span class="box">description</span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span> <b>&nbsp; ➔ Description</b></button>
+<button class="gVariable" id="m433">
+433 Set Variable <span class="box">Description</span> to <span class="box"><span class="magic" onclick="magictap(432)"><b>[432 Description</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m434">
+434 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="gScripting" id="m440">
-440 Get Dictionary Value for <span class="box">link</span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span></button>
-<button class="gVariable" id="m441">
-441 Set Variable <span class="box">Link</span> to <span class="box"><span class="magic" onclick="magictap(440)"><b>[440 Dictionary Value</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m442">
-442 Comment</button>
+<button class="gScripting" id="m435">
+435 Get Dictionary Value for <span class="box">link</span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span></button>
+<button class="gVariable" id="m436">
+436 Set Variable <span class="box">Link</span> to <span class="box"><span class="magic" onclick="magictap(435)"><b>[435 Dictionary Value</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m437">
+437 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="button " id="m443">
-443 Get File <span class="box"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.html</span> from Folder</button>
+<button class="button " id="m438">
+438 Get File <span class="box"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.html</span> from Folder</button>
 	<div class="content">
 		<div class="row"><div class="col1">ShowFilePicker</div>
 			<div class="col2">false</div></div>
 		<div class="row"><div class="col1">GetFolderContents</div>
 			<div class="col2">true</div></div></div>
-<button class="gVariable" id="m444">
-444 Set Variable <span class="box">Source</span> to <span class="box"><span class="magic" onclick="magictap(443)"><b>[443 File</b><b>]</b></span></span></button>
-<button class="gVariable" id="m445">
-445 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m446">
-446 com.appliedphasor.working-copy.WriteFileIntent</button>
+<button class="gVariable" id="m439">
+439 Set Variable <span class="box">Source</span> to <span class="box"><span class="magic" onclick="magictap(438)"><b>[438 File</b><b>]</b></span></span></button>
+<button class="gVariable" id="m440">
+440 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m441">
+441 com.appliedphasor.working-copy.WriteFileIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">createMissing</div>
 			<div class="col2">true</div></div>
@@ -1909,46 +1890,46 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">mode</div>
 			<div class="col2">overwrite</div></div></div>
-<button class="button gDocuments" id="m447">
-447 Comment</button>
+<button class="button gDocuments" id="m442">
+442 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="button " id="m448">
-448 URL <span class="box">https://ShortcutsPro.GitHub.io/<span class="var"><b>[Repo</b><b>]</b></span>/shortcuts/<span class="var"><b>[identifier</b><b>]</b></span>/<span class="var"><b>[identifier</b><b>]</b></span>.html</span></button>
+<button class="button " id="m443">
+443 URL <span class="box">https://ShortcutsPro.GitHub.io/<span class="var"><b>[Repo</b><b>]</b></span>/shortcuts/<span class="var"><b>[identifier</b><b>]</b></span>/<span class="var"><b>[identifier</b><b>]</b></span>.html</span></button>
 	<div class="content">
 		<div class="row"><div class="col1">Show-WFURLActionURL</div>
 			<div class="col2">true</div></div></div>
-<button class="gVariable" id="m449">
-449 Set Variable <span class="box">Source URL</span> to <span class="box"><span class="magic" onclick="magictap(448)"><b>[448 URL</b><b>]</b></span></span></button>
-<button class="gScripting" id="m450">
-450 Nothing</button>
-<button class="button gDocuments" id="m451">
-451 Comment</button>
+<button class="gVariable" id="m444">
+444 Set Variable <span class="box">Source URL</span> to <span class="box"><span class="magic" onclick="magictap(443)"><b>[443 URL</b><b>]</b></span></span></button>
+<button class="gScripting" id="m445">
+445 Nothing</button>
+<button class="button gDocuments" id="m446">
+446 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="button gDocuments" id="m452">
-452 Text</button>
+<button class="button gDocuments" id="m447">
+447 Text</button>
 	<div class="content">
 		<div class="col2"># [![ <span class="var"><b>[Name</b><b>]</b></span>](<span class="var"><b>[Thumb</b><b>]</b></span>)](<span class="var"><b>[Thumb</b><b>]</b></span>) [**<span class="var"><b>[Name</b><b>]</b></span>**](<span class="var"><b>[Depiction</b><b>]</b></span>)
 
-### by [**<span class="var"><b>[Author Name</b><b>]</b></span>**](<span class="var"><b>[ALink</b><b>]</b></span>)
+### by [**<span class="var"><b>[Author Name</b><b>]</b></span>**](<span class="var"><b>[Author Link</b><b>]</b></span>)
 
 ------
 
 <span class="var"><b>[Description</b><b>]</b></span>  
 
 [**View contents.**](<span class="var"><b>[Source URL</b><b>]</b></span>)</div></div>
-<button class="" id="m453">
-453 Make Rich Text from Markdown <span class="box"><span class="magic" onclick="magictap(452)"><b>[452 Text</b><b>]</b></span></span></button>
-<button class="button " id="m454">
-454 Make HTML from Rich Text <span class="box"><span class="magic" onclick="magictap(453)"><b>[453 Rich Text from Markdown</b><b>]</b></span></span> <b>&nbsp; ➔ Html</b></button>
+<button class="" id="m448">
+448 Make Rich Text from Markdown <span class="box"><span class="magic" onclick="magictap(447)"><b>[447 Text</b><b>]</b></span></span></button>
+<button class="button " id="m449">
+449 Make HTML from Rich Text <span class="box"><span class="magic" onclick="magictap(448)"><b>[448 Rich Text from Markdown</b><b>]</b></span></span> <b>&nbsp; ➔ Html</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">MakeFullDocument</div>
 			<div class="col2">true</div></div></div>
-<button class="button gUnknown" id="m455">
-455 com.alexhay.ToolboxProForShortcuts.QuickMatchTextIntent <b>&nbsp; ➔ Body</b></button>
+<button class="button gUnknown" id="m450">
+450 com.alexhay.ToolboxProForShortcuts.QuickMatchTextIntent <b>&nbsp; ➔ Body</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">matchType</div>
 			<div class="col2">TextBetween</div></div>
@@ -1959,9 +1940,9 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 		<div class="row"><div class="col1">matchNewLines</div>
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">sourceText</div>
-			<div class="col2"><span class="magic" onclick="magictap(454)"><b>[454 Html</b><b>]</b></span></div></div></div>
-<button class="button gDocuments" id="m456">
-456 Text <b>&nbsp; ➔ Html</b></button>
+			<div class="col2"><span class="magic" onclick="magictap(449)"><b>[449 Html</b><b>]</b></span></div></div></div>
+<button class="button gDocuments" id="m451">
+451 Text <b>&nbsp; ➔ Html</b></button>
 	<div class="content">
 		<div class="col2">&lt;!-- Bustl.Cutz Depiction -->
 &lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
@@ -2010,20 +1991,20 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
       }
       i
 <b><i>(3 kbytes; content truncated)</i></b>
-…… <span class="magic" onclick="magictap(455)"><b>[455 Body</b><b>]</b></span></div></div>
-<button class="button gScripting" id="m457">
-457 Set Name of <span class="box"><span class="magic" onclick="magictap(456)"><b>[456 Html</b><b>]</b></span></span> to <span class="box"><span class="var"><b>[identifier</b><b>]</b></span>.html</span></button>
+…… <span class="magic" onclick="magictap(450)"><b>[450 Body</b><b>]</b></span></div></div>
+<button class="button gScripting" id="m452">
+452 Set Name of <span class="box"><span class="magic" onclick="magictap(451)"><b>[451 Html</b><b>]</b></span></span> to <span class="box"><span class="var"><b>[identifier</b><b>]</b></span>.html</span></button>
 	<div class="content">
 		<div class="row"><div class="col1">DontIncludeFileExtension</div>
 			<div class="col2">true</div></div></div>
-<button class="" id="m458">
-458 Get File of Type <span class="box">public.html</span> from <span class="box"><span class="magic" onclick="magictap(457)"><b>[457 Renamed Item</b><b>]</b></span></span></button>
-<button class="gVariable" id="m459">
-459 Set Variable <span class="box">HTML</span> to <span class="box"><span class="magic" onclick="magictap(457)"><b>[457 Renamed Item</b> as GenericFile<b>]</b></span></span></button>
-<button class="gDocuments" id="m460">
-460 Quick Look <span class="box"><span class="var"><b>[HTML</b><b>]</b></span></span></button>
-<button class="button " id="m461">
-461 Save <span class="box"><span class="var"><b>[HTML</b><b>]</b></span></span> to File</button>
+<button class="" id="m453">
+453 Get File of Type <span class="box">public.html</span> from <span class="box"><span class="magic" onclick="magictap(452)"><b>[452 Renamed Item</b><b>]</b></span></span></button>
+<button class="gVariable" id="m454">
+454 Set Variable <span class="box">HTML</span> to <span class="box"><span class="magic" onclick="magictap(452)"><b>[452 Renamed Item</b> as GenericFile<b>]</b></span></span></button>
+<button class="gDocuments" id="m455">
+455 Quick Look <span class="box"><span class="var"><b>[HTML</b><b>]</b></span></span></button>
+<button class="button " id="m456">
+456 Save <span class="box"><span class="var"><b>[HTML</b><b>]</b></span></span> to File</button>
 	<div class="content">
 		<div class="row"><div class="col1">AskWhereToSave</div>
 			<div class="col2">false</div></div>
@@ -2031,15 +2012,15 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">FileDestinationPath</div>
 			<div class="col2"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[identifier</b><b>]</b></span>.html</div></div></div>
-<button class="button gDocuments" id="m462">
-462 Comment</button>
+<button class="button gDocuments" id="m457">
+457 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="gVariable" id="m463">
-463 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m464">
-464 com.appliedphasor.working-copy.WriteFileIntent</button>
+<button class="gVariable" id="m458">
+458 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m459">
+459 com.appliedphasor.working-copy.WriteFileIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">createMissing</div>
 			<div class="col2">true</div></div>
@@ -2051,59 +2032,59 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">mode</div>
 			<div class="col2">overwrite</div></div></div>
-<button class="gScripting" id="m465">
-465 Nothing</button>
-<button class="gScripting" id="m466">
-466 Get Dictionary Value for <span class="box">integrity</span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span> <b>&nbsp; ➔ True</b></button>
-<button class="button gLoop nonbottom closed" id="m467">
-467 If <span class="box"><span class="magic" onclick="magictap(466)"><b>[466 True</b> as Boolean<b>]</b></span></span> is true</button>
+<button class="gScripting" id="m460">
+460 Nothing</button>
+<button class="gScripting" id="m461">
+461 Get Dictionary Value for <span class="box">integrity</span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span> <b>&nbsp; ➔ True</b></button>
+<button class="button gLoop nonbottom closed" id="m462">
+462 If <span class="box"><span class="magic" onclick="magictap(461)"><b>[461 True</b> as Boolean<b>]</b></span></span> is true</button>
 	<div class="content contentloop" style="display:none">
-<button class="button gDocuments inside" id="m468">
-468 Text</button>
+<button class="button gDocuments inside" id="m463">
+463 Text</button>
 	<div class="content inside">
 		<div class="col2">true</div></div></div>
-<button class="button gLoop nonbottom nontop closed" id="m469">
-469 Otherwise</button>
+<button class="button gLoop nonbottom nontop closed" id="m464">
+464 Otherwise</button>
 	<div class="content contentloop" style="display:none">
-<button class="button gDocuments inside" id="m470">
-470 Text</button>
+<button class="button gDocuments inside" id="m465">
+465 Text</button>
 	<div class="content inside">
 		<div class="col2">false</div></div></div>
-<button class="gLoop nontop" id="m471">
-471 End If</button>
-<button class="gVariable" id="m472">
-472 Set Variable <span class="box">integrity</span> to <span class="box"><span class="magic" onclick="magictap(471)"><b>[471 If Result</b><b>]</b></span></span></button>
-<button class="gScripting" id="m473">
-473 Nothing</button>
-<button class="gScripting" id="m474">
-474 Get Dictionary Value for <span class="box">quiet</span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span> <b>&nbsp; ➔ True</b></button>
-<button class="button gLoop nonbottom closed" id="m475">
-475 If <span class="box"><span class="magic" onclick="magictap(474)"><b>[474 True</b> as Boolean<b>]</b></span></span> is true</button>
+<button class="gLoop nontop" id="m466">
+466 End If</button>
+<button class="gVariable" id="m467">
+467 Set Variable <span class="box">integrity</span> to <span class="box"><span class="magic" onclick="magictap(466)"><b>[466 If Result</b><b>]</b></span></span></button>
+<button class="gScripting" id="m468">
+468 Nothing</button>
+<button class="gScripting" id="m469">
+469 Get Dictionary Value for <span class="box">quiet</span> in <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span> <b>&nbsp; ➔ True</b></button>
+<button class="button gLoop nonbottom closed" id="m470">
+470 If <span class="box"><span class="magic" onclick="magictap(469)"><b>[469 True</b> as Boolean<b>]</b></span></span> is true</button>
 	<div class="content contentloop" style="display:none">
-<button class="button gDocuments inside" id="m476">
-476 Text</button>
+<button class="button gDocuments inside" id="m471">
+471 Text</button>
 	<div class="content inside">
 		<div class="col2">true</div></div></div>
-<button class="button gLoop nonbottom nontop closed" id="m477">
-477 Otherwise</button>
+<button class="button gLoop nonbottom nontop closed" id="m472">
+472 Otherwise</button>
 	<div class="content contentloop" style="display:none">
-<button class="button gDocuments inside" id="m478">
-478 Text</button>
+<button class="button gDocuments inside" id="m473">
+473 Text</button>
 	<div class="content inside">
 		<div class="col2">false</div></div></div>
-<button class="gLoop nontop" id="m479">
-479 End If</button>
-<button class="gVariable" id="m480">
-480 Set Variable <span class="box">Quiet</span> to <span class="box"><span class="magic" onclick="magictap(479)"><b>[479 If Result</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m481">
-481 Comment</button>
+<button class="gLoop nontop" id="m474">
+474 End If</button>
+<button class="gVariable" id="m475">
+475 Set Variable <span class="box">Quiet</span> to <span class="box"><span class="magic" onclick="magictap(474)"><b>[474 If Result</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m476">
+476 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="gVariable" id="m482">
-482 Get Variable <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m483">
-483 Text</button>
+<button class="gVariable" id="m477">
+477 Get Variable <span class="box"><span class="var"><b>[Update</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m478">
+478 Text</button>
 	<div class="content">
 		<div class="col2">{
 	"id": "<span class="var"><b>[ID</b><b>]</b></span>",
@@ -2147,29 +2128,33 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 	"author": {
 		"name": "<span class="var"><b>[Author Name</b><b>]</b></span>",
 		"link": [
-			<span class="var"><b>[Author Link</b><b>]</b></span>
+			<span class="var"><b>[Author Link[]</b><b>]</b></span>
 		]
 	},
 	"file_size": "<span class="var"><b>[Update</b>.file_size<b>]</b></span>"
 }</div></div>
-<button class="button gUnknown" id="m484">
-484 com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent</button>
+<button class="button gDocuments" id="m479">
+479 Show Result</button>
+	<div class="content">
+		<div class="col2"><span class="magic" onclick="magictap(478)"><b>[478 Text</b><b>]</b></span></div></div>
+<button class="button gUnknown" id="m480">
+480 com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">dictionary</div>
-			<div class="col2"><span class="magic" onclick="magictap(483)"><b>[483 Text</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(478)"><b>[478 Text</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">Show-dictionary</div>
 			<div class="col2">true</div></div></div>
-<button class="gVariable" id="m485">
-485 Set Variable <span class="box">New Package</span> to <span class="box"><span class="magic" onclick="magictap(484)"><b>[484 Pretty Printed Dictionary</b><b>]</b></span></span></button>
-<button class="button gScripting" id="m486">
-486 Set Name of <span class="box"><span class="var"><b>[New Package</b><b>]</b></span></span> to <span class="box"><span class="var"><b>[AUUID</b><b>]</b></span>.txt</span> <b>&nbsp; ➔ Package</b></button>
+<button class="gVariable" id="m481">
+481 Set Variable <span class="box">New Package</span> to <span class="box"><span class="magic" onclick="magictap(480)"><b>[480 Pretty Printed Dictionary</b><b>]</b></span></span></button>
+<button class="button gScripting" id="m482">
+482 Set Name of <span class="box"><span class="var"><b>[New Package</b><b>]</b></span></span> to <span class="box"><span class="var"><b>[AUUID</b><b>]</b></span>.txt</span> <b>&nbsp; ➔ Package</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">DontIncludeFileExtension</div>
 			<div class="col2">true</div></div></div>
-<button class="gVariable" id="m487">
-487 Set Variable <span class="box">New Package</span> to <span class="box"><span class="magic" onclick="magictap(486)"><b>[486 Package</b><b>]</b></span></span></button>
-<button class="button " id="m488">
-488 Save <span class="box"><span class="var"><b>[New Package</b><b>]</b></span></span> to File</button>
+<button class="gVariable" id="m483">
+483 Set Variable <span class="box">New Package</span> to <span class="box"><span class="magic" onclick="magictap(482)"><b>[482 Package</b><b>]</b></span></span></button>
+<button class="button " id="m484">
+484 Save <span class="box"><span class="var"><b>[New Package</b><b>]</b></span></span> to File</button>
 	<div class="content">
 		<div class="row"><div class="col1">AskWhereToSave</div>
 			<div class="col2">false</div></div>
@@ -2177,10 +2162,10 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">FileDestinationPath</div>
 			<div class="col2"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[AUUID</b><b>]</b></span>.txt</div></div></div>
-<button class="gVariable" id="m489">
-489 Get Variable <span class="box"><span class="var"><b>[Library</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m490">
-490 com.appliedphasor.working-copy.WriteFileIntent</button>
+<button class="gVariable" id="m485">
+485 Get Variable <span class="box"><span class="var"><b>[Library</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m486">
+486 com.appliedphasor.working-copy.WriteFileIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">createMissing</div>
 			<div class="col2">true</div></div>
@@ -2192,19 +2177,19 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 			<div class="col2"><span class="var"><b>[Library</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">mode</div>
 			<div class="col2">overwrite</div></div></div>
-<button class="gVariable" id="m491">
-491 Get Variable <span class="box"><span class="var"><b>[Library</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m492">
-492 com.appliedphasor.working-copy.StageFilesIntent</button>
+<button class="gVariable" id="m487">
+487 Get Variable <span class="box"><span class="var"><b>[Library</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m488">
+488 com.appliedphasor.working-copy.StageFilesIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">path</div>
 			<div class="col2">/</div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Library</b><b>]</b></span></div></div></div>
-<button class="gVariable" id="m493">
-493 Get Variable <span class="box"><span class="var"><b>[Library</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m494">
-494 com.appliedphasor.working-copy.CommitRepositoryIntent</button>
+<button class="gVariable" id="m489">
+489 Get Variable <span class="box"><span class="var"><b>[Library</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m490">
+490 com.appliedphasor.working-copy.CommitRepositoryIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">message</div>
 			<div class="col2">Update <span class="var"><b>[Update</b>.name<b>]</b></span> to v<span class="var"><b>[Update</b>.version<b>]</b></span></div></div>
@@ -2214,69 +2199,69 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 			<div class="col2">false</div></div>
 		<div class="row"><div class="col1">target</div>
 			<div class="col2">staged</div></div></div>
-<button class="gVariable" id="m495">
-495 Get Variable <span class="box"><span class="var"><b>[Library</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m496">
-496 com.appliedphasor.working-copy.PushRepositoryIntent</button>
+<button class="gVariable" id="m491">
+491 Get Variable <span class="box"><span class="var"><b>[Library</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m492">
+492 com.appliedphasor.working-copy.PushRepositoryIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">remote</div>
 			<div class="col2"> Default </div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Library</b><b>]</b></span></div></div></div>
-<button class="gVariable" id="m497">
-497 Set Variable <span class="box">Status</span> to <span class="box"><span class="magic" onclick="magictap(496)"><b>[496 Status</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m498">
-498 Comment</button>
+<button class="gVariable" id="m493">
+493 Set Variable <span class="box">Status</span> to <span class="box"><span class="magic" onclick="magictap(492)"><b>[492 Status</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m494">
+494 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="gVariable" id="m499">
-499 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m500">
-500 com.appliedphasor.working-copy.GetFilesIntent</button>
+<button class="gVariable" id="m495">
+495 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m496">
+496 com.appliedphasor.working-copy.GetFilesIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">path</div>
 			<div class="col2">/packages.txt</div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div></div>
-<button class="gDocuments" id="m501">
-501 Get Text from <span class="box"><span class="magic" onclick="magictap(500)"><b>[500 Files</b><b>]</b></span></span></button>
-<button class="gScripting" id="m502">
-502 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(501)"><b>[501 Text</b><b>]</b></span></span></button>
-<button class="button gLoop nonbottom closed" id="m503">
-503 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(502)"><b>[502 Dictionary</b><b>]</b></span></span></button>
+<button class="gDocuments" id="m497">
+497 Get Text from <span class="box"><span class="magic" onclick="magictap(496)"><b>[496 Files</b><b>]</b></span></span></button>
+<button class="gScripting" id="m498">
+498 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(497)"><b>[497 Text</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom closed" id="m499">
+499 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(498)"><b>[498 Dictionary</b><b>]</b></span></span></button>
 	<div class="content contentloop" style="display:none">
-<button class="gScripting inside" id="m504">
-504 Get Dictionary Value for <span class="box">id</span> in <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button>
-<button class="button gDocuments inside" id="m505">
-505 Split Text <span class="box"><span class="magic" onclick="magictap(504)"><b>[504 Dictionary Value</b><b>]</b></span></span> by <span class="box">Custom</span></button>
+<button class="gScripting inside" id="m500">
+500 Get Dictionary Value for <span class="box">id</span> in <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button>
+<button class="button gDocuments inside" id="m501">
+501 Split Text <span class="box"><span class="magic" onclick="magictap(500)"><b>[500 Dictionary Value</b><b>]</b></span></span> by <span class="box">Custom</span></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Show-text</div>
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">TextCustomSeparator</div>
 			<div class="col2">.</div></div></div>
+<button class="gScripting inside" id="m502">
+502 Get List <span class="box">Last Item</span> from <span class="box"><span class="magic" onclick="magictap(501)"><b>[501 Split Text</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom inside" id="m503">
+503 If <span class="box"><span class="magic" onclick="magictap(502)"><b>[502 Item from List</b><b>]</b></span></span> <span class="box">is not</span> <span class="box"><span class="var"><b>[identifier</b><b>]</b></span></span></button>
+	<div class="content contentloop dashed inside">
+<button class="gVariable inside" id="m504">
+504 Get Variable <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop inside" id="m505">
+505 Otherwise</button>
+	<div class="content contentloop dashed inside">
 <button class="gScripting inside" id="m506">
-506 Get List <span class="box">Last Item</span> from <span class="box"><span class="magic" onclick="magictap(505)"><b>[505 Split Text</b><b>]</b></span></span></button>
-<button class="button gLoop nonbottom inside" id="m507">
-507 If <span class="box"><span class="magic" onclick="magictap(506)"><b>[506 Item from List</b><b>]</b></span></span> <span class="box">is not</span> <span class="box"><span class="var"><b>[identifier</b><b>]</b></span></span></button>
-	<div class="content contentloop dashed inside">
-<button class="gVariable inside" id="m508">
-508 Get Variable <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button></div>
-<button class="button gLoop nonbottom nontop inside" id="m509">
-509 Otherwise</button>
-	<div class="content contentloop dashed inside">
-<button class="gScripting inside" id="m510">
-510 Nothing</button></div>
-<button class="gLoop nontop inside" id="m511">
-511 End If</button></div>
-<button class="gLoop nontop" id="m512">
-512 End Repeat with Each</button>
-<button class="gVariable" id="m513">
-513 Set Variable <span class="box">Packages</span> to <span class="box"><span class="magic" onclick="magictap(512)"><b>[512 Repeat Results</b><b>]</b></span></span></button>
-<button class="gVariable" id="m514">
-514 Add <span class="box"><span class="var"><b>[New Package</b><b>]</b></span></span> to Variable <span class="box">Packages</span></button>
-<button class="button gDocuments" id="m515">
-515 Comment</button>
+506 Nothing</button></div>
+<button class="gLoop nontop inside" id="m507">
+507 End If</button></div>
+<button class="gLoop nontop" id="m508">
+508 End Repeat with Each</button>
+<button class="gVariable" id="m509">
+509 Set Variable <span class="box">Packages</span> to <span class="box"><span class="magic" onclick="magictap(508)"><b>[508 Repeat Results</b><b>]</b></span></span></button>
+<button class="gVariable" id="m510">
+510 Add <span class="box"><span class="var"><b>[New Package</b><b>]</b></span></span> to Variable <span class="box">Packages</span></button>
+<button class="button gDocuments" id="m511">
+511 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 
@@ -2284,129 +2269,129 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 
 
 </div></div>
-<button class="button gDocuments" id="m516">
-516 Combine Text <span class="box"><span class="var"><b>[Packages</b><b>]</b></span></span> with <span class="box">Custom</span> <b>&nbsp; ➔ Packages</b></button>
+<button class="button gDocuments" id="m512">
+512 Combine Text <span class="box"><span class="var"><b>[Packages</b><b>]</b></span></span> with <span class="box">Custom</span> <b>&nbsp; ➔ Packages</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">Show-text</div>
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">TextCustomSeparator</div>
 			<div class="col2">,</div></div></div>
-<button class="button gDocuments" id="m517">
-517 Text</button>
+<button class="button gDocuments" id="m513">
+513 Text</button>
 	<div class="content">
-		<div class="col2">[<span class="magic" onclick="magictap(516)"><b>[516 Packages</b><b>]</b></span>]</div></div>
-<button class="button gUnknown" id="m518">
-518 com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent</button>
+		<div class="col2">[<span class="magic" onclick="magictap(512)"><b>[512 Packages</b><b>]</b></span>]</div></div>
+<button class="button gUnknown" id="m514">
+514 com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">dictionary</div>
-			<div class="col2"><span class="magic" onclick="magictap(517)"><b>[517 Text</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(513)"><b>[513 Text</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">Show-dictionary</div>
 			<div class="col2">true</div></div></div>
-<button class="gDocuments" id="m519">
-519 Replace Text <span class="box">\</span> with <span class="box"></span>&nbsp; in <span class="box"><span class="magic" onclick="magictap(518)"><b>[518 Pretty Printed Dictionary</b><b>]</b></span></span> <b>&nbsp; ➔ New Package File</b></button>
-<button class="gVariable" id="m520">
-520 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m521">
-521 com.appliedphasor.working-copy.WriteFileIntent</button>
+<button class="gDocuments" id="m515">
+515 Replace Text <span class="box">\</span> with <span class="box"></span>&nbsp; in <span class="box"><span class="magic" onclick="magictap(514)"><b>[514 Pretty Printed Dictionary</b><b>]</b></span></span> <b>&nbsp; ➔ New Package File</b></button>
+<button class="gVariable" id="m516">
+516 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m517">
+517 com.appliedphasor.working-copy.WriteFileIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">createMissing</div>
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">path</div>
 			<div class="col2">/packages.txt</div></div>
 		<div class="row"><div class="col1">content</div>
-			<div class="col2"><span class="magic" onclick="magictap(519)"><b>[519 New Package File</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(515)"><b>[515 New Package File</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">mode</div>
 			<div class="col2">overwrite</div></div></div>
-<button class="gVariable" id="m522">
-522 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m523">
-523 com.appliedphasor.working-copy.WriteFileIntent</button>
+<button class="gVariable" id="m518">
+518 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m519">
+519 com.appliedphasor.working-copy.WriteFileIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">createMissing</div>
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">path</div>
 			<div class="col2">/packages.json</div></div>
 		<div class="row"><div class="col1">content</div>
-			<div class="col2"><span class="magic" onclick="magictap(519)"><b>[519 New Package File</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(515)"><b>[515 New Package File</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">mode</div>
 			<div class="col2">overwrite</div></div></div>
-<button class="gDocuments" id="m524">
-524 Comment</button>
-<button class="button " id="m525">
-525 Get File <span class="box"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.shortcut</span> from Folder</button>
+<button class="gDocuments" id="m520">
+520 Comment</button>
+<button class="button " id="m521">
+521 Get File <span class="box"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.shortcut</span> from Folder</button>
 	<div class="content">
 		<div class="row"><div class="col1">ShowFilePicker</div>
 			<div class="col2">false</div></div>
 		<div class="row"><div class="col1">GetFolderContents</div>
 			<div class="col2">true</div></div></div>
-<button class="button gLoop nonbottom closed" id="m526">
-526 If <span class="box"><span class="magic" onclick="magictap(525)"><b>[525 File</b><b>]</b></span></span> <span class="box">has any value</span></button>
+<button class="button gLoop nonbottom closed" id="m522">
+522 If <span class="box"><span class="magic" onclick="magictap(521)"><b>[521 File</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop" style="display:none">
-<button class="gVariable inside" id="m527">
-527 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown inside" id="m528">
-528 com.appliedphasor.working-copy.WriteFileIntent</button>
+<button class="gVariable inside" id="m523">
+523 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown inside" id="m524">
+524 com.appliedphasor.working-copy.WriteFileIntent</button>
 	<div class="content inside">
 		<div class="row"><div class="col1">createMissing</div>
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">path</div>
 			<div class="col2">/shortcuts/<span class="var"><b>[identifier</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.shortcut</div></div>
 		<div class="row"><div class="col1">content</div>
-			<div class="col2"><span class="magic" onclick="magictap(525)"><b>[525 File</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(521)"><b>[521 File</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">mode</div>
 			<div class="col2">overwrite</div></div></div></div>
-<button class="gLoop nontop" id="m529">
-529 End If</button>
-<button class="gDocuments" id="m530">
-530 Comment</button>
-<button class="button " id="m531">
-531 Get File <span class="box"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.xml</span> from Folder</button>
+<button class="gLoop nontop" id="m525">
+525 End If</button>
+<button class="gDocuments" id="m526">
+526 Comment</button>
+<button class="button " id="m527">
+527 Get File <span class="box"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.xml</span> from Folder</button>
 	<div class="content">
 		<div class="row"><div class="col1">ShowFilePicker</div>
 			<div class="col2">false</div></div>
 		<div class="row"><div class="col1">GetFolderContents</div>
 			<div class="col2">true</div></div></div>
-<button class="button gLoop nonbottom closed" id="m532">
-532 If <span class="box"><span class="magic" onclick="magictap(531)"><b>[531 File</b><b>]</b></span></span> <span class="box">has any value</span></button>
+<button class="button gLoop nonbottom closed" id="m528">
+528 If <span class="box"><span class="magic" onclick="magictap(527)"><b>[527 File</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop" style="display:none">
-<button class="gVariable inside" id="m533">
-533 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown inside" id="m534">
-534 com.appliedphasor.working-copy.WriteFileIntent</button>
+<button class="gVariable inside" id="m529">
+529 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown inside" id="m530">
+530 com.appliedphasor.working-copy.WriteFileIntent</button>
 	<div class="content inside">
 		<div class="row"><div class="col1">createMissing</div>
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">path</div>
 			<div class="col2">/shortcuts/<span class="var"><b>[identifier</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.xml</div></div>
 		<div class="row"><div class="col1">content</div>
-			<div class="col2"><span class="magic" onclick="magictap(531)"><b>[531 File</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(527)"><b>[527 File</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">mode</div>
 			<div class="col2">overwrite</div></div></div></div>
-<button class="gLoop nontop" id="m535">
-535 End If</button>
-<button class="gDocuments" id="m536">
-536 Comment</button>
-<button class="gVariable" id="m537">
-537 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m538">
-538 com.appliedphasor.working-copy.StageFilesIntent</button>
+<button class="gLoop nontop" id="m531">
+531 End If</button>
+<button class="gDocuments" id="m532">
+532 Comment</button>
+<button class="gVariable" id="m533">
+533 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m534">
+534 com.appliedphasor.working-copy.StageFilesIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">path</div>
 			<div class="col2">/</div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div></div>
-<button class="gVariable" id="m539">
-539 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m540">
-540 com.appliedphasor.working-copy.CommitRepositoryIntent</button>
+<button class="gVariable" id="m535">
+535 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m536">
+536 com.appliedphasor.working-copy.CommitRepositoryIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">message</div>
 			<div class="col2">Update <span class="var"><b>[Update</b>.name<b>]</b></span> to v<span class="var"><b>[Update</b>.version<b>]</b></span></div></div>
@@ -2416,17 +2401,17 @@ document.write([ ...new Set(["<span class="magic" onclick="magictap(353)"><b>[35
 			<div class="col2">false</div></div>
 		<div class="row"><div class="col1">target</div>
 			<div class="col2">staged</div></div></div>
-<button class="gVariable" id="m541">
-541 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
-<button class="button gUnknown" id="m542">
-542 com.appliedphasor.working-copy.PushRepositoryIntent</button>
+<button class="gVariable" id="m537">
+537 Get Variable <span class="box"><span class="var"><b>[Repository</b><b>]</b></span></span></button>
+<button class="button gUnknown" id="m538">
+538 com.appliedphasor.working-copy.PushRepositoryIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">remote</div>
 			<div class="col2"> Default </div></div>
 		<div class="row"><div class="col1">repo</div>
 			<div class="col2"><span class="var"><b>[Repository</b><b>]</b></span></div></div></div>
-<button class="button gDocuments" id="m543">
-543 Text</button>
+<button class="button gDocuments" id="m539">
+539 Text</button>
 	<div class="content">
 		<div class="col2"><span class="var"><b>[Name</b><b>]</b></span> v<span class="var"><b>[Update</b>.version<b>]</b></span>
 <span class="var"><b>[Update</b>.release<b>]</b></span>
@@ -2435,22 +2420,27 @@ ShortcutsPro Library :
 <span class="var"><b>[Status</b><b>]</b></span>
 
 Bustl.Cutz <span class="var"><b>[Repo</b><b>]</b></span> :
-<span class="magic" onclick="magictap(542)"><b>[542 Status</b><b>]</b></span> </div></div>
-<button class="button gDocuments" id="m544">
-544 Show Result</button>
+<span class="magic" onclick="magictap(538)"><b>[538 Status</b><b>]</b></span> </div></div>
+<button class="button gDocuments" id="m540">
+540 Show Result</button>
 	<div class="content">
-		<div class="col2"><span class="magic" onclick="magictap(543)"><b>[543 Text</b><b>]</b></span></div></div>
-<button class="button gDocuments" id="m545">
-545 Comment</button>
+		<div class="col2"><span class="magic" onclick="magictap(539)"><b>[539 Text</b><b>]</b></span></div></div>
+<button class="button gDocuments" id="m541">
+541 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="gVariable" id="m546">
-546 Get Variable <span class="box"><span class="magic" onclick="magictap(543)"><b>[543 Text</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m547">
-547 Comment</button>
+<button class="gVariable" id="m542">
+542 Get Variable <span class="box"><span class="magic" onclick="magictap(539)"><b>[539 Text</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m543">
+543 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">🔚</div></div>
+<button class="gLoop nonbottom" id="m544">
+544 Repeat with Each in <span class="box"></span>&nbsp;</button>
+	
+<button class="gLoop nontop" id="m545">
+545 End Repeat with Each</button>
 <script>
 for (b of document.getElementsByClassName('button')) {
 	b.addEventListener('click', function() {
