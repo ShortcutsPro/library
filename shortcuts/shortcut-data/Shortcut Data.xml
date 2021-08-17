@@ -5008,6 +5008,27 @@ function magictap(id) {
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.previewdocument</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Saved File</string>
+						<key>OutputUUID</key>
+						<string>FEF2AD06-A3D8-4F65-9E54-8B9997A097DF</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.comment</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -8848,29 +8869,6 @@ function magictap(id) {
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>dk.simonbs.Jayson.PrettifyJSONIntent</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>Show-json</key>
-				<true/>
-				<key>UUID</key>
-				<string>A8AA843B-9A01-44AA-9C0B-E42CDC78D807</string>
-				<key>json</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>Parameter</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.comment</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -8902,6 +8900,29 @@ function magictap(id) {
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
 				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Prettified JSON</string>
+						<key>OutputUUID</key>
+						<string>11E8B530-CC7B-4EAB-A40C-0B732D932ECC</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Data</string>
 			</dict>
 		</dict>
 		<dict>
@@ -8944,12 +8965,10 @@ function magictap(id) {
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>OutputName</key>
-						<string>Prettified JSON</string>
-						<key>OutputUUID</key>
-						<string>11E8B530-CC7B-4EAB-A40C-0B732D932ECC</string>
 						<key>Type</key>
-						<string>ActionOutput</string>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Data</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>

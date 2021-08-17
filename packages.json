@@ -105,60 +105,14 @@
     "depiction" : "https://cutz.bustl.io/library/depiction/integrity.html"
   },
   {
-    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
-    "color" : "#4A69C6",
-    "certificate_expiration" : "Wed, 14 Sep 2022 13:32:16 -0500",
-    "shortcuts_version" : "1136.1",
-    "link" : "https://www.icloud.com/shortcuts/abc83a6e12754df08ed4c3ea6e388d12",
-    "depiction" : "https://cutz.bustl.io/library/depiction/shortcut-data.html",
-    "release" : "Sun, 15 Aug 2021 13:43:41 -0500",
-    "depends" : [
-
-    ],
-    "integrity" : true,
-    "icon" : "https://cutz.bustl.io/library/depiction/shortcut-data.png",
-    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
-    "start_color" : 946986751,
-    "date_created" : "Sun, 15 Aug 2021 13:42:08 -0500",
-    "input" : "clipboard",
-    "category" : [
-      "Development",
-      "Utilities"
-    ],
-    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : "https://github.com/scottdwr/"
-    },
-    "version" : "1.1",
-    "name" : "Shortcut Data",
-    "auuid" : "A3D6DD56-CA28-466B-974F-71A7D5ACD9FC",
-    "arch" : "iOS15",
-    "id" : "io.bustl.cutz.library.shortcut-data",
-    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-    "quiet" : true,
-    "signed_download" : "https://cvws.icloud-content.com/B/AR-vwR1_galWSAvvMfTWV4PoZauN/${f}?o=AlPaXhw7HtsUkoWWD3Ym7sDP6KwHfbogGFk16Mr8jrAc2BDhtcDPFQBbB7uxylOhGQ&v=1&x=3&a=CAogKm0zwixYEbwnMS_Qxai_ZHe-QsPM2bewe-Eu_hJPk6ESexD_5vzYtC8Y_8PY2rQvIgEAUgToZauNajCdWI_TDNgktZtR_nK15c-iRhUMMjKA7IgCQ_JY3fjmDAy5_tKnndmxhL6GsrLme_dyMGsN_T6zu5xrSkZ-NWjFHDdUf6fXYr6aHm4qIVjAGVhZ4wjGkdO48OGw6zTp9c__pQ&e=1629056541&fl=&r=da33276f-2563-4372-a753-d24f65c3edff-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=yY7u2knUZWC-PCW6SexsEdRMw14",
-    "icon_glyph" : 61440,
-    "notes" : "Initial release ",
-    "minimum_version" : 1106,
-    "shortcut_download" : "https://cvws.icloud-content.com/B/Abu7VYxoQ4O9SQOfai7aiOtxRDYC/${f}?o=Am3a1r3CfxO42aOb9pOSqq5WMSaQPTYo-W-qF0_hgZMG4KKkUJl5JA0NmNha6csVQg&v=1&x=3&a=CAogVG8iR4xv_AhnrOg0JyApVM9ooZQ7Y119S_F6q54bNawSexD_5vzYtC8Y_8PY2rQvIgEAUgRxRDYCajCB_tHJlDe9_Zo1DuyxPc83h0Qk4qUVZeb0TcWX5DLvTAmnR7apxJKGhjcIj8LW8d9yMOIeB9rCQ2LNrrQke3sw-hspQx7-OppIUq8aNuDkcS17DYwKClS1j8w_jxi299R4Eg&e=1629056541&fl=&r=da33276f-2563-4372-a753-d24f65c3edff-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=X0cEByduXPANFQcVhBWgEtU8ftE",
-    "author" : {
-      "link" : "https://GitHub.com/scottdwr",
-      "name" : "@scottdwr"
-    },
-    "file_size" : "169 KB"
-  },
-  {
-    "depends" : [
-      "io.bustl.cutz.library.shortcut-data"
-    ],
+    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
     "color" : "#00CEAD",
     "shortcut_download" : "https://cvws.icloud-content.com/B/AWfj_POxRnIXjbZHg64erFDk7fZe/${f}?o=AodweUoDYpuWW7II2oQZP7ARL-rnBWnrCG2ZBbM2aVe1wPmo5zbJ_U_1TIfw2A1mYQ&v=1&x=3&a=CAogEwJjnz_-8KZ-D-pbXgNAUTgY5tBR4PCYtLdGMk_02PoSexCWjIjZtC8Ylunj2rQvIgEAUgTk7fZeajDQjW82Q13h8JXGWMNB-zrCIhBAL99AH1w7hgbJGrtSwgyajG9WrcxxxHrd59NQg4RyMEAnWGaBrJJqGAA2Ks0cTI9cKjja42saliSpUv-OglUvTWnf7dsOTpMJRx875cgAQA&e=1629056726&fl=&r=68a75efa-e09d-4d61-a0ea-abd010548fff-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=DjsFb4hXy3H4jVOM8yc1DB7iR3o",
     "shortcuts_version" : "1129",
     "link" : "https://www.icloud.com/shortcuts/804b7bf773734bbcae1dcea20d1aee9c",
     "depiction" : "https://cutz.bustl.io/library/depiction/shortcut-publisher.html",
     "release" : "Sun, 15 Aug 2021 13:46:47 -0500",
-    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
+    "file_size" : "33 KB",
     "integrity" : false,
     "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
     "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
@@ -184,12 +138,58 @@
     "signed_download" : "https://cvws.icloud-content.com/B/ASi1hRwI1cTaomOiHTOY5FVSWRdR/${f}?o=ArwY8fw6elfSJFPOocIrwk5gxJT27AOjxnPT14R0Ib6UVXeH-WQNHmP_w41pR8yOnw&v=1&x=3&a=CAogHIHAW2s7Yn6wtDqgiNTSYOKtGiZKnV-sjvKDeWQL6LsSexCVjIjZtC8Ylenj2rQvIgEAUgRSWRdRajC1GdjSYDy4i_XFK5GwILCBcv0gSvIDjhvPv-cLxZy5pQzZNOjOO5243u_L_3cUsiNyMFyV5x1LU27b6AAHp-xRTqLXG3nvnokffakaBG4E7skssFpTZXoMrM-sUe0C1HGjTA&e=1629056726&fl=&r=68a75efa-e09d-4d61-a0ea-abd010548fff-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=FSeCZt0pxi8iMWdCrQQjUYjwYQM",
     "notes" : "Initial release ",
     "icon_glyph" : 61456,
-    "minimum_version" : 1106,
     "certificate_expiration" : "Wed, 14 Sep 2022 13:35:23 -0500",
+    "minimum_version" : 1106,
     "author" : {
       "link" : "https://github.com/scottdwr/",
       "name" : "@scottdwr"
     },
-    "file_size" : "33 KB"
+    "depends" : [
+      "io.bustl.cutz.library.shortcut-data"
+    ]
+  },
+  {
+    "depends" : [
+
+    ],
+    "color" : "#4A69C6",
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : "https://GitHub.com/scottdwr"
+    },
+    "shortcuts_version" : "1136.1",
+    "link" : "https://www.icloud.com/shortcuts/fd3b4cda849847129bae236914ea9cbb",
+    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.html",
+    "release" : "Mon, 16 Aug 2021 22:21:05 -0500",
+    "file_size" : "169 KB",
+    "integrity" : true,
+    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+    "start_color" : 946986751,
+    "date_created" : "Mon, 16 Aug 2021 22:17:58 -0500",
+    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+    "input" : "clipboard",
+    "category" : [
+      "Development Tools",
+      "Utilities"
+    ],
+    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.png",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : "https://github.com/scottdwr/"
+    },
+    "version" : "1.1",
+    "auuid" : "A3D6DD56-CA28-466B-974F-71A7D5ACD9FC",
+    "name" : "Shortcut Data",
+    "arch" : "iOS15",
+    "id" : "com.shortcutspro.library.shortcut-data",
+    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+    "quiet" : true,
+    "signed_download" : "https://cvws.icloud-content.com/B/AZF2ovZC0lR6HeaY0iffjklKgQ9b/${f}?o=Ama9z4toEgvYJx7I7qE8j2nzk_2zcOKds6fEU4baJKvpWiLaIB05VHoSJlF7_xbpiw&v=1&x=3&a=CAogpCrY6xX8vez5Jo24XwWofMiBs-Hum66jlU3PUKATF-YSexCCqPeQtS8YgoXTkrUvIgEAUgRKgQ9bajB3gufECYKx8BYwAM9UVRiwANTDV0mGCpOIXHes3BQqEX61n5UDped9eEWGSDTJqOlyMFq1s6c1qVaXT9B6I_94NfCqVyfx_wqaMdv03ZOvPfLtoF4d032g5Xurr1IEMaNZSQ&e=1629173891&fl=&r=cc0a582d-c022-4a2c-ba79-ad5a513b6759-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=tcN2H6HI099bz_Ih8zk03JhgZr4",
+    "notes" : "Initial pre-release",
+    "icon_glyph" : 61440,
+    "certificate_expiration" : "Thu, 15 Sep 2022 22:08:07 -0500",
+    "shortcut_download" : "https://cvws.icloud-content.com/B/AazJ0e8vCGwUVR_OBU0dJ_jDMiYy/${f}?o=AsAwDq6VsCv8_GTdz7sAwwJSApIYZVBZGf81CfxAhSPL8ZOCBN3B0Rh05KDfBroRBQ&v=1&x=3&a=CAogNMou2KvBhc5bmfvk7MEGkFK8p7o23MI5qvWYbnwhY70SexCDqPeQtS8Yg4XTkrUvIgEAUgTDMiYyajBDivrQTcdlhnrN7dmpLCnpusAn1hd8o_8aKKW3GcxZhGa8IDKIHbwvLkprBvyREVByMLHg5Ngd5PrNY2A3lPxRplK-vf9mA2hv3eOSJmOcZoFL7FQmaTJz4I6ST2C3Adg53Q&e=1629173891&fl=&r=cc0a582d-c022-4a2c-ba79-ad5a513b6759-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=1-bdfR--faeQAjc2vH4tU1hMQPk",
+    "minimum_version" : 1106,
+    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API"
   }
 ]
