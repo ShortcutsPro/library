@@ -10,14 +10,14 @@
 	"color": "#4A69C6",
 	"icon_glyph": 61440,
 	"shortcuts_version": "1136.1",
-	"link": "https://www.icloud.com/shortcuts/fd3b4cda849847129bae236914ea9cbb",
+	"link": "https://www.icloud.com/shortcuts/3fb8c1d78ae6496eb0f7e83e325c4a41",
 	"depends": [
 		    "com.shortcutspro.library."
 	],
-	"release": "Mon, 16 Aug 2021 22:21:05 -0500",
+	"release": "Mon, 16 Aug 2021 22:35:38 -0500",
 	"integrity": Yes,
 	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
-	"date_created": "Mon, 16 Aug 2021 22:17:58 -0500",
+	"date_created": "Mon, 16 Aug 2021 22:33:48 -0500",
 	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
 	"input": "clipboard",
 	"category": [
@@ -33,14 +33,13 @@
 	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
 	"quiet": Yes,
 	"notes": "Initial pre-release",
-	"shortcut_download": "https://cvws.icloud-content.com/B/AazJ0e8vCGwUVR_OBU0dJ_jDMiYy/${f}?o=AsAwDq6VsCv8_GTdz7sAwwJSApIYZVBZGf81CfxAhSPL8ZOCBN3B0Rh05KDfBroRBQ&v=1&x=3&a=CAogNMou2KvBhc5bmfvk7MEGkFK8p7o23MI5qvWYbnwhY70SexCDqPeQtS8Yg4XTkrUvIgEAUgTDMiYyajBDivrQTcdlhnrN7dmpLCnpusAn1hd8o_8aKKW3GcxZhGa8IDKIHbwvLkprBvyREVByMLHg5Ngd5PrNY2A3lPxRplK-vf9mA2hv3eOSJmOcZoFL7FQmaTJz4I6ST2C3Adg53Q&e=1629173891&fl=&r=cc0a582d-c022-4a2c-ba79-ad5a513b6759-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=1-bdfR--faeQAjc2vH4tU1hMQPk",
-	"signed_download": "https://cvws.icloud-content.com/B/AZF2ovZC0lR6HeaY0iffjklKgQ9b/${f}?o=Ama9z4toEgvYJx7I7qE8j2nzk_2zcOKds6fEU4baJKvpWiLaIB05VHoSJlF7_xbpiw&v=1&x=3&a=CAogpCrY6xX8vez5Jo24XwWofMiBs-Hum66jlU3PUKATF-YSexCCqPeQtS8YgoXTkrUvIgEAUgRKgQ9bajB3gufECYKx8BYwAM9UVRiwANTDV0mGCpOIXHes3BQqEX61n5UDped9eEWGSDTJqOlyMFq1s6c1qVaXT9B6I_94NfCqVyfx_wqaMdv03ZOvPfLtoF4d032g5Xurr1IEMaNZSQ&e=1629173891&fl=&r=cc0a582d-c022-4a2c-ba79-ad5a513b6759-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=tcN2H6HI099bz_Ih8zk03JhgZr4",
-	"certificate_expiration": "Thu, 15 Sep 2022 22:08:07 -0500",
+	"signed_download": "https://cvws.icloud-content.com/B/ATV5KIAKGcDEWi61sxudMv4Rg6Ij/${f}?o=Aq7V5mBZWSMpoBpY7WFAMt7JXbkvEs7bMufjPUvp5YnvFBLv8wQHrvxhb8opgFC2yQ&v=1&x=3&a=CAogUIo-aL4pHYiYUGXzFdDE3l75oqH3KNDjG2bzFXNSbz0SexCZsbGRtS8YmY6Nk7UvIgEAUgQRg6IjajBCGj8paDS2OFNqNpY5iJgkzMFJL-uWv-Z6DHPQY9vLpTLjZmfr5NyhmXWYhlRwzr9yMITTUszU1V7djPMdbBRVwPOYItnCHcJm6_eFZzk0Sge6KO1hS7euUPazKlG84MZTfw&e=1629174843&fl=&r=60de58c9-ab99-4325-9403-8c0e37e97c36-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=pDC2336-eAGeFBdJFELD61dg0Rw",
+	"certificate_expiration": "Thu, 15 Sep 2022 22:23:55 -0500",
 	"minimum_version": 1106,
 	"author": {
 		"name": "@scottdwr",
 		"link": [
-			https://GitHub.com/scottdwr
+			"https://GitHub.com/scottdwr"
 		],
 	},
 	"file_size": "169 KB"
