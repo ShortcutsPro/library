@@ -75,46 +75,16 @@
     "depiction" : "https://cutz.bustl.io/library/depiction/file-provider.html"
   },
   {
-    "id" : "io.bustl.cutz.library.integrity",
-    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
-    "integrity" : false,
-    "version" : "3.141",
     "depends" : [
-      "io.bustl.cutz.library.file-provider",
-      "io.bustl.cutz.library.bustl-updater"
+
     ],
-    "author" : {
-      "name" : "@scottdwr",
-      "link" : "https://routinehub.co/user/scottdwr/"
-    },
-    "release" : "Mon, 02 Aug 2021 16:29:41 -0500",
-    "link" : "https://www.icloud.com/shortcuts/66bd51210c034cbc8eb0c8fe7e06dc13",
-    "auuid" : "90B9ED1A-1330-44A5-8B39-4E53A68A7632",
-    "color" : "#747D87",
-    "notes" : "We smashed some damn bugs and cranked up the speed.",
-    "catagories" : [
-      "Utilities"
-    ],
-    "icon" : "https://cutz.bustl.io/library/depiction/integrity.png",
-    "arch" : "ios14",
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : "https://scottdwr.github.io"
-    },
-    "name" : "INTEGRITY",
-    "depiction" : "https://cutz.bustl.io/library/depiction/integrity.html"
-  },
-  {
-    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
     "color" : "#4A69C6",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-data/shortcut-data.html",
     "shortcuts_version" : "1136.1",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.html",
     "link" : "https://www.icloud.com/shortcuts/5f210e319bf74282954eedcde8f6160f",
     "release" : "Tue, 17 Aug 2021 02:10:38 -0500",
-    "depends" : [
-
-    ],
+    "file_size" : "169 KB",
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.png",
     "start_color" : 946986751,
@@ -150,17 +120,19 @@
         "https://GitHub.com/scottdwr"
       ]
     },
-    "file_size" : "169 KB"
+    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API"
   },
   {
-    "file_size" : "50 KB",
+    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
     "color" : "#00CEAD",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-publisher/shortcut-publisher.html",
     "shortcuts_version" : "1129",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.html",
     "link" : "https://www.icloud.com/shortcuts/f6aa235227874ab2ae25094b06a40bb3",
     "release" : "Tue, 17 Aug 2021 02:16:06 -0500",
-    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
+    "depends" : [
+      "com.shortcutspro.library.shortcut-data"
+    ],
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.png",
     "start_color" : 431817727,
@@ -195,8 +167,6 @@
         "https://github.com/scottdwr/"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.shortcut-data"
-    ]
+    "file_size" : "50 KB"
   }
 ]

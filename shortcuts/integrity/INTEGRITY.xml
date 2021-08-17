@@ -10,8 +10,10 @@
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFCommentActionText</key>
-				<string>INTEGRITY • ™️𝘽𝙪𝙨𝙩𝙡. 𝖲ʜᴏʀᴛᴄ⁠ᴜᴛs
+				<string>               INTEGRITY             
+                     By ™️𝘽𝙪𝙨𝙩𝙡. C⁠ᴜᴛz
 
+▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
 Operates compatible shortcuts for data integrity, and to measure your results from automation.
 ——
 𝐈𝐍𝐓𝐄𝐆𝐑𝐈𝐓𝐘 Framework
@@ -19,7 +21,7 @@ Copyright © 2021 Scott Wright
 MIT License
 
 ——
-{"name":"INTEGRITY","auuid":"e6ce9cfc-b0ae-4b8b-9810-6229c86b3ef5","version":"3.1"}</string>
+{"name":"INTEGRITY","auuid":"e6ce9cfc-b0ae-4b8b-9810-6229c86b3ef5","version":"3"}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -117,7 +119,7 @@ MIT License
 								<key>WFValue</key>
 								<dict>
 									<key>Value</key>
-									<true/>
+									<false/>
 									<key>WFSerializationType</key>
 									<string>WFNumberSubstitutableState</string>
 								</dict>
@@ -140,7 +142,7 @@ MIT License
 									<key>Value</key>
 									<dict>
 										<key>string</key>
-										<string>45</string>
+										<string>nowait</string>
 									</dict>
 									<key>WFSerializationType</key>
 									<string>WFTextTokenString</string>
@@ -344,8 +346,9 @@ Get Input for target shortcut. ——&gt;</string>
 				<key>WFCommentActionText</key>
 				<string>&lt;—— Input for Target shortcut 
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
-▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
- initialize Integrity ——&gt;</string>
+
+ Initialize Integrity ——&gt;
+▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️</string>
 			</dict>
 		</dict>
 		<dict>
@@ -536,7 +539,7 @@ Get Input for target shortcut. ——&gt;</string>
 														<key>Value</key>
 														<dict>
 															<key>string</key>
-															<string>𝘽𝙪𝙨𝙩𝙡. Cutz</string>
+															<string>™️𝘽𝙪𝙨𝙩𝙡. C⁠ᴜᴛz</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -596,7 +599,7 @@ Get Input for target shortcut. ——&gt;</string>
 														<key>Value</key>
 														<dict>
 															<key>string</key>
-															<string>3.141</string>
+															<string>3</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -713,6 +716,8 @@ Get Input for target shortcut. ——&gt;</string>
 																			<key>Value</key>
 																			<array>
 																				<string>https://routinehub.co/user/scottdwr/</string>
+																				<string>https://scottdwr.github.io</string>
+																				<string>http://Scott.Wright.name</string>
 																			</array>
 																			<key>WFSerializationType</key>
 																			<string>WFArrayParameterState</string>
@@ -820,7 +825,7 @@ MIT License</string>
 														<key>Value</key>
 														<dict>
 															<key>string</key>
-															<string>ios14</string>
+															<string>iOS14</string>
 														</dict>
 														<key>WFSerializationType</key>
 														<string>WFTextTokenString</string>
@@ -1097,7 +1102,7 @@ MIT License</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>CustomOutputName</key>
-				<string>Shortcut</string>
+				<string>Identification</string>
 				<key>UUID</key>
 				<string>ac00ed2a-13d0-4d05-95de-65a36ac9ea72</string>
 				<key>WFInput</key>
@@ -1152,7 +1157,7 @@ MIT License</string>
 									</dict>
 								</array>
 								<key>OutputName</key>
-								<string>Shortcut</string>
+								<string>Identification</string>
 								<key>OutputUUID</key>
 								<string>ac00ed2a-13d0-4d05-95de-65a36ac9ea72</string>
 								<key>Type</key>
@@ -1170,7 +1175,7 @@ MIT License</string>
 									</dict>
 								</array>
 								<key>OutputName</key>
-								<string>Shortcut</string>
+								<string>Identification</string>
 								<key>OutputUUID</key>
 								<string>ac00ed2a-13d0-4d05-95de-65a36ac9ea72</string>
 								<key>Type</key>
@@ -1285,7 +1290,7 @@ MIT License</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.output</string>
+			<string>is.workflow.actions.exit</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFOutput</key>
@@ -1310,6 +1315,20 @@ MIT License</string>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
 				</dict>
+				<key>WFResult</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Identification</string>
+						<key>OutputUUID</key>
+						<string>ac00ed2a-13d0-4d05-95de-65a36ac9ea72</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
@@ -1331,7 +1350,11 @@ MIT License</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFCommentActionText</key>
-				<string>Check the first item in the shortcut input stack for a target shortcut.  If the item is a dictionary, check for a value  at key “input” and assign it to the target shortcut’s “Shortcut Input” variable.  Then check for a value at key “name”. If no dictionary is found, but there is valid text, assume it may be the target shortcut’s name.</string>
+				<string>Check the first item in the shortcut input stack for a target shortcut.  
+
+If the item is a dictionary, check for a value  at key “input” and assign it to the target shortcut’s “Shortcut Input” variable.  Then check for a value at key “name”.
+
+If no dictionary is found, but there is valid text, assume it may be the target shortcut’s name.</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1969,11 +1992,54 @@ If the variable “Target” has a text value, search the device shortcuts libra
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>23df7abb-5ace-4a9f-b794-3da80bc7303f</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getmyworkflows</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Folder</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Ask</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>UUID</key>
+				<string>6A9D814F-FEB9-4990-A502-F36AC5835B64</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Shortcuts</string>
+				<key>GroupingIdentifier</key>
+				<string>23df7abb-5ace-4a9f-b794-3da80bc7303f</string>
+				<key>UUID</key>
+				<string>9A18DA63-322D-412A-8157-7F2B6C3CBC92</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.choosefromlist</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>UUID</key>
-				<string>849bb3fb-115b-415a-8507-b1a415043f5e</string>
 				<key>WFChooseFromListActionPrompt</key>
 				<dict>
 					<key>Value</key>
@@ -2001,54 +2067,15 @@ If the variable “Target” has a text value, search the device shortcuts libra
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>Share Shortcuts</string>
+						<string>If Result</string>
 						<key>OutputUUID</key>
-						<string>ba7a4136-f512-43a4-b6fd-d281046aad47</string>
+						<string>9A18DA63-322D-412A-8157-7F2B6C3CBC92</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
 				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>23df7abb-5ace-4a9f-b794-3da80bc7303f</string>
-				<key>WFControlFlowMode</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.nothing</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>No input &amp; no shortcut
-
-Exit</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.conditional</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>23df7abb-5ace-4a9f-b794-3da80bc7303f</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -3193,25 +3220,10 @@ Verify and save results ——&gt;</string>
 										<dict>
 											<key>{0, 1}</key>
 											<dict>
-												<key>Aggrandizements</key>
-												<array>
-													<dict>
-														<key>CoercionItemClass</key>
-														<string>WFDictionaryContentItem</string>
-														<key>Type</key>
-														<string>WFCoercionVariableAggrandizement</string>
-													</dict>
-													<dict>
-														<key>DictionaryKey</key>
-														<string>client.cuuid</string>
-														<key>Type</key>
-														<string>WFDictionaryValueVariableAggrandizement</string>
-													</dict>
-												</array>
 												<key>OutputName</key>
-												<string>Profile</string>
+												<string>CUUID</string>
 												<key>OutputUUID</key>
-												<string>77c1f472-5c79-4905-b29e-b45bea26e36d</string>
+												<string>0d933c31-c356-44dd-afc5-17bb6e5b6508</string>
 												<key>Type</key>
 												<string>ActionOutput</string>
 											</dict>
@@ -4445,10 +4457,11 @@ Load settings with current API ——&gt;</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFCommentActionText</key>
-				<string>&lt;—— Load settings file with current API
+				<string>&lt;—— Load remote settings file
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
-▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
-Place HTTP POST API call——&gt;</string>
+
+Place HTTP POST API call——&gt;
+▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️</string>
 			</dict>
 		</dict>
 		<dict>
@@ -5560,17 +5573,8 @@ Place HTTP POST API call——&gt;</string>
 				<key>WFCommentActionText</key>
 				<string>&lt;—— handle server response
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
-▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
-Check for update ——&gt;</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>Pass results of target shortcut’s run on to the user.  </string>
+
+Pass results of target shortcut’s output on to the user.  </string>
 			</dict>
 		</dict>
 		<dict>
@@ -5648,6 +5652,18 @@ Check for update ——&gt;</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+
+▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
+Check for update ——&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.number.random</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -5705,7 +5721,7 @@ Check for update ——&gt;</string>
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>Shortcut</string>
+						<string>Identification</string>
 						<key>OutputUUID</key>
 						<string>ac00ed2a-13d0-4d05-95de-65a36ac9ea72</string>
 						<key>Type</key>
@@ -5763,7 +5779,7 @@ Check for update ——&gt;</string>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.output</string>
+			<string>is.workflow.actions.exit</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFOutput</key>
@@ -5787,6 +5803,20 @@ Check for update ——&gt;</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFResult</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Result</string>
+						<key>OutputUUID</key>
+						<string>8bb2aee4-c1ab-4e74-a85a-668d75c93b51</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
 				</dict>
 			</dict>
 		</dict>
@@ -5812,11 +5842,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		</dict>
 	</array>
 	<key>WFWorkflowClientVersion</key>
-	<string>1136.1</string>
-	<key>WFWorkflowHasOutputFallback</key>
-	<false/>
-	<key>WFWorkflowHasShortcutInputVariables</key>
-	<true/>
+	<string>1092.11</string>
 	<key>WFWorkflowIcon</key>
 	<dict>
 		<key>WFWorkflowIconGlyphNumber</key>
@@ -5825,7 +5851,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		<integer>255</integer>
 	</dict>
 	<key>WFWorkflowImportQuestions</key>
-	<array/>
+	<array>
+		<dict>
+			<key>ActionIndex</key>
+			<integer>2</integer>
+			<key>Category</key>
+			<string>Parameter</string>
+			<key>DefaultValue</key>
+			<string>Share</string>
+			<key>ParameterKey</key>
+			<string>WFTextActionText</string>
+			<key>Text</key>
+			<string>Enter the name of a custom Shortcuts App shortcuts folder which holds the shortcuts you'd like to use from INTEGRITY's Share Sheet Menu. </string>
+		</dict>
+	</array>
 	<key>WFWorkflowInputContentItemClasses</key>
 	<array>
 		<string>WFAppStoreAppContentItem</string>
@@ -5847,33 +5886,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		<string>WFURLContentItem</string>
 	</array>
 	<key>WFWorkflowMinimumClientVersion</key>
-	<integer>1106</integer>
+	<integer>900</integer>
 	<key>WFWorkflowMinimumClientVersionString</key>
-	<string>1106</string>
-	<key>WFWorkflowOutputContentItemClasses</key>
-	<array>
-		<string>WFPDFContentItem</string>
-		<string>WFArticleContentItem</string>
-		<string>WFPhotoMediaContentItem</string>
-		<string>WFStringContentItem</string>
-		<string>WFContactContentItem</string>
-		<string>WFURLContentItem</string>
-		<string>WFAppStoreAppContentItem</string>
-		<string>WFContentItem</string>
-		<string>WFGenericFileContentItem</string>
-		<string>WFDictionaryContentItem</string>
-		<string>WFAVAssetContentItem</string>
-		<string>WFEmailAddressContentItem</string>
-		<string>WFDateContentItem</string>
-		<string>WFSafariWebPageContentItem</string>
-		<string>WFiTunesProductContentItem</string>
-		<string>WFDCMapsLinkContentItem</string>
-		<string>WFImageContentItem</string>
-		<string>WFRichTextContentItem</string>
-		<string>WFPhoneNumberContentItem</string>
-		<string>WFMKMapItemContentItem</string>
-		<string>WFLocationContentItem</string>
-	</array>
+	<string>900</string>
 	<key>WFWorkflowTypes</key>
 	<array>
 		<string>Watch</string>
