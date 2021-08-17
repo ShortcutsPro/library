@@ -8467,9 +8467,32 @@ function magictap(id) {
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Repeat Item</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Key</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.getvalueforkey</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>CustomOutputName</key>
+				<string>Value</string>
 				<key>UUID</key>
 				<string>F77E2A91-DE1E-428F-8FC2-EA94CDE1F6B1</string>
 				<key>WFDictionaryKey</key>
@@ -8483,7 +8506,7 @@ function magictap(id) {
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Repeat Item</string>
+								<string>Key</string>
 							</dict>
 						</dict>
 						<key>string</key>
@@ -8503,6 +8526,38 @@ function magictap(id) {
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>2FD7E2A7-5C64-48B5-A70E-C9F77894F29A</string>
+				<key>WFCondition</key>
+				<integer>100</integer>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Value</string>
+							<key>OutputUUID</key>
+							<string>F77E2A91-DE1E-428F-8FC2-EA94CDE1F6B1</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -8536,7 +8591,7 @@ function magictap(id) {
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Repeat Item</string>
+								<string>Key</string>
 							</dict>
 						</dict>
 						<key>string</key>
@@ -8554,7 +8609,7 @@ function magictap(id) {
 							<key>{0, 1}</key>
 							<dict>
 								<key>OutputName</key>
-								<string>Dictionary Value</string>
+								<string>Value</string>
 								<key>OutputUUID</key>
 								<string>F77E2A91-DE1E-428F-8FC2-EA94CDE1F6B1</string>
 								<key>Type</key>
@@ -8590,6 +8645,19 @@ function magictap(id) {
 				</dict>
 				<key>WFVariableName</key>
 				<string>Data</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>2FD7E2A7-5C64-48B5-A70E-C9F77894F29A</string>
+				<key>UUID</key>
+				<string>013B95BB-7231-4833-8C00-3C3C9CE0345D</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -8879,26 +8947,32 @@ function magictap(id) {
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>dk.simonbs.Jayson.PrettifyJSONIntent</string>
+			<string>com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>Show-json</key>
+				<key>Show-dictionary</key>
 				<true/>
 				<key>UUID</key>
-				<string>11E8B530-CC7B-4EAB-A40C-0B732D932ECC</string>
-				<key>indentMode</key>
-				<string>tabs</string>
-				<key>json</key>
+				<string>C5185EA7-CA8E-4DF2-BF6C-6EFB4D37CF81</string>
+				<key>dictionary</key>
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>Data</string>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Data</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
 					</dict>
 					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
+					<string>WFTextTokenString</string>
 				</dict>
 			</dict>
 		</dict>
@@ -8912,9 +8986,9 @@ function magictap(id) {
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>Prettified JSON</string>
+						<string>Pretty Printed Dictionary</string>
 						<key>OutputUUID</key>
-						<string>11E8B530-CC7B-4EAB-A40C-0B732D932ECC</string>
+						<string>C5185EA7-CA8E-4DF2-BF6C-6EFB4D37CF81</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
@@ -9081,6 +9155,16 @@ function magictap(id) {
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.exit</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict/>
@@ -9093,12 +9177,6 @@ function magictap(id) {
 				<key>WFCommentActionText</key>
 				<string>🔚</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict/>
 		</dict>
 	</array>
 	<key>WFWorkflowClientVersion</key>
