@@ -1,45 +1,47 @@
 {
-	"depends": [],
-	"color": "#4A69C6",
-	"source": "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-data/shortcut-data.html",
-	"shortcuts_version": "1136.1",
-	"depiction": "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.html",
-	"link": "https://www.icloud.com/shortcuts/c83e93c29e4349abb752fbccc7a2ceb6",
-	"release": "Tue, 17 Aug 2021 00:04:10 -0500",
-	"file_size": "169 KB",
-	"integrity": true,
-	"icon": "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.png",
-	"start_color": 946986751,
-	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
-	"date_created": "Tue, 17 Aug 2021 00:02:50 -0500",
-	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
-	"input": "clipboard",
-	"category": [
-		"Utilities"
-	],
-	"maintainer": {
-		"name": "@scottdwr",
-		"link": [
-			"https://github.com/scottdwr/"
-		]
-	},
-	"name": "Shortcut Data",
-	"auuid": "A3D6DD56-CA28-466B-974F-71A7D5ACD9FC",
-	"version": "1.1",
-	"id": "com.shortcutspro.library.shortcut-data",
-	"arch": "iOS15",
-	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
-	"quiet": true,
-	"signed_download": "https://cvws.icloud-content.com/B/AUFZ3cqpefkhpLNNNvt0OmM3zMhW/${f}?o=AjkoRQWB0HfmeY6n8bbtj03vd8HgXqaEe8nxVNuE4Mi917uVsKep8-qi1Gdj1SsUeA&v=1&x=3&a=CAogOYRpS8QsrHGAI8neondvQb_H9fIPynmYC4CY6MLNiWgSexCDpPeTtS8Yg4HTlbUvIgEAUgQ3zMhWajDw_jLqtkTaQ1rjqxfI3_8szTvBM7df82gpFWnH8j-suDgtdBPUc63NsljXDH7VsptyMP_z8FuHC8fuZO2vq9KM_DwtaAvFU-GAxl9ZQIjQmIjLMyuvOgBNuoAtFAD4uAf10A&e=1629180182&fl=&r=4a49f4b3-8f53-45c2-8e8a-7478654cdee5-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=v6sqkJM21eIVq05bqCRvWa3YhZE",
-	"icon_glyph": 61440,
-	"notes": "Pre-Release",
-	"certificate_expiration": "Thu, 15 Sep 2022 23:52:56 -0500",
-	"minimum_version": 1106,
-	"author": {
-		"name": "@scottdwr",
-		"link": [
-			"https://GitHub.com/scottdwr"
-		]
-	},
-	"description": "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API"
+  "depends" : [
+
+  ],
+  "color" : "#4A69C6",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/shortcut-data\/shortcut-data.html",
+  "shortcuts_version" : "1136.1",
+  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/shortcut-data.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/70adbddd05674d1eb583d071e6a22842",
+  "release" : "Tue, 17 Aug 2021 00:37:26 -0500",
+  "file_size" : "169 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/shortcut-data.png",
+  "start_color" : 946986751,
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "date_created" : "Tue, 17 Aug 2021 00:35:56 -0500",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "input" : "clipboard",
+  "category" : [
+    "Utilities"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Shortcut Data",
+  "auuid" : "A3D6DD56-CA28-466B-974F-71A7D5ACD9FC",
+  "version" : "1.1",
+  "id" : "com.shortcutspro.library.shortcut-data",
+  "arch" : "iOS15",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : true,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ARu1MLJzVf5mxu_sayjp_8qdhAQ-\/${f}?o=ArF2a5j4buOVnS9RX3ZXKntb0dsDxs3GJ1eirGH0nErOElG7wVSUpw_H-e2u3oCG4w&v=1&x=3&a=CAogk9e1lwhmMkxHPsfDCjXT6qYNQaxo8EiFtzbwi9kFLy4SexC0rPCUtS8YtInMlrUvIgEAUgSdhAQ-ajCiVaD8qO5iZCy8ldUYerd05YsJpB0vltPdKxPiu2Ty-uTrWH8Vjgy3o9KB_tI2BexyMGXD9uQN6Nn8j-id35-07wM-ySS7oNpqtPcLcJZNZouWgg_ckf4RDu435O3rKXA0AQ&e=1629182166&fl=&r=0dca92bd-93d2-4354-991d-83227595f25f-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=_QCV_oIwciFVYwj1v1SVUqYoilo",
+  "icon_glyph" : 61440,
+  "notes" : "Pre-Release",
+  "certificate_expiration" : "Fri, 16 Sep 2022 00:26:01 -0500",
+  "minimum_version" : 1106,
+  "author" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/GitHub.com\/scottdwr"
+    ]
+  },
+  "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API"
 }
