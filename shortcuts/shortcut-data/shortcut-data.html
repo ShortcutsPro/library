@@ -1108,62 +1108,69 @@ button {
 <button class="button gLoop nonbottom inside" id="m245">
 245 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(244)"><b>[244 Dictionary Value</b><b>]</b></span></span></button>
 	<div class="content contentloop inside">
-<button class="gScripting inside" id="m246">
-246 Get Dictionary Value for <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span> in <span class="box"><span class="var"><b>[Identified</b><b>]</b></span></span></button>
+<button class="gVariable inside" id="m246">
+246 Set Variable <span class="box">Key</span> to <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span></button>
 <button class="gScripting inside" id="m247">
-247 Set Dictionary Value for <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span> to <span class="box"><span class="magic" onclick="magictap(246)"><b>[246 Dictionary Value</b><b>]</b></span></span> in <span class="box"><span class="var"><b>[Data</b><b>]</b></span></span></button>
-<button class="gVariable inside" id="m248">
-248 Set Variable <span class="box">Data</span> to <span class="box"><span class="magic" onclick="magictap(247)"><b>[247 Dictionary</b><b>]</b></span></span></button></div>
-<button class="gLoop nontop inside" id="m249">
-249 End Repeat with Each</button>
-<button class="gScripting inside" id="m250">
-250 Nothing</button>
-<button class="button gDocuments inside" id="m251">
-251 Comment</button>
-	<div class="content inside commentcontent">
-		<div class="col2">
-</div></div>
-<button class="gVariable inside" id="m252">
-252 Get Variable <span class="box"><span class="var"><b>[Identified</b><b>]</b></span></span></button></div>
-<button class="button gLoop nonbottom nontop inside" id="m253">
-253 Otherwise</button>
+247 Get Dictionary Value for <span class="box"><span class="var"><b>[Key</b><b>]</b></span></span> in <span class="box"><span class="var"><b>[Identified</b><b>]</b></span></span> <b>&nbsp; ➔ Value</b></button>
+<button class="button gLoop nonbottom inside" id="m248">
+248 If <span class="box"><span class="magic" onclick="magictap(247)"><b>[247 Value</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop dashed inside">
+<button class="gScripting inside" id="m249">
+249 Set Dictionary Value for <span class="box"><span class="var"><b>[Key</b><b>]</b></span></span> to <span class="box"><span class="magic" onclick="magictap(247)"><b>[247 Value</b><b>]</b></span></span> in <span class="box"><span class="var"><b>[Data</b><b>]</b></span></span></button>
+<button class="gVariable inside" id="m250">
+250 Set Variable <span class="box">Data</span> to <span class="box"><span class="magic" onclick="magictap(249)"><b>[249 Dictionary</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop inside" id="m251">
+251 End If</button></div>
+<button class="gLoop nontop inside" id="m252">
+252 End Repeat with Each</button>
+<button class="gScripting inside" id="m253">
+253 Nothing</button>
 <button class="button gDocuments inside" id="m254">
 254 Comment</button>
 	<div class="content inside commentcontent">
 		<div class="col2">
 </div></div>
-<button class="gScripting inside" id="m255">
-255 Nothing</button></div>
-<button class="gLoop nontop inside" id="m256">
-256 End If <span class="magic" onclick="magictap(243)">243</span></button></div>
-<button class="button gLoop nonbottom nontop" id="m257">
-257 Menu Item <span class="box">✖️   No, that wont work</span> <span class="magic" onclick="magictap(236)">236</span></button>
-	<div class="content contentloop">
-<button class="button gDocuments inside" id="m258">
-258 Comment</button>
+<button class="gVariable inside" id="m255">
+255 Get Variable <span class="box"><span class="var"><b>[Identified</b><b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop inside" id="m256">
+256 Otherwise <span class="magic" onclick="magictap(243)">243</span></button>
+	<div class="content contentloop dashed inside">
+<button class="button gDocuments inside" id="m257">
+257 Comment</button>
 	<div class="content inside commentcontent">
 		<div class="col2">
 </div></div>
-<button class="gScripting inside" id="m259">
-259 Nothing</button></div>
-<button class="gLoop nontop" id="m260">
-260 End Menu <span class="magic" onclick="magictap(236)">236</span></button>
-<button class="gScripting" id="m261">
-261 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(260)"><b>[260 Menu Result</b><b>]</b></span></span></button>
-<button class="gLoop nonbottom" id="m262">
-262 If <span class="box"><span class="magic" onclick="magictap(261)"><b>[261 Dictionary</b><b>]</b></span></span> <span class="box">has any value</span></button>
+<button class="gScripting inside" id="m258">
+258 Nothing</button></div>
+<button class="gLoop nontop inside" id="m259">
+259 End If <span class="magic" onclick="magictap(243)">243</span></button></div>
+<button class="button gLoop nonbottom nontop" id="m260">
+260 Menu Item <span class="box">✖️   No, that wont work</span> <span class="magic" onclick="magictap(236)">236</span></button>
+	<div class="content contentloop">
+<button class="button gDocuments inside" id="m261">
+261 Comment</button>
+	<div class="content inside commentcontent">
+		<div class="col2">
+</div></div>
+<button class="gScripting inside" id="m262">
+262 Nothing</button></div>
+<button class="gLoop nontop" id="m263">
+263 End Menu <span class="magic" onclick="magictap(236)">236</span></button>
+<button class="gScripting" id="m264">
+264 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(263)"><b>[263 Menu Result</b><b>]</b></span></span></button>
+<button class="gLoop nonbottom" id="m265">
+265 If <span class="box"><span class="magic" onclick="magictap(264)"><b>[264 Dictionary</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	
-<button class="button gLoop nonbottom nontop" id="m263">
-263 Otherwise</button>
+<button class="button gLoop nonbottom nontop" id="m266">
+266 Otherwise</button>
 	<div class="content contentloop">
-<button class="button gDocuments inside" id="m264">
-264 Comment</button>
+<button class="button gDocuments inside" id="m267">
+267 Comment</button>
 	<div class="content inside commentcontent">
 		<div class="col2">
 </div></div>
-<button class="button gUnknown inside" id="m265">
-265 com.alexhay.ToolboxProForShortcuts.DeleteFromDictionaryIntent</button>
+<button class="button gUnknown inside" id="m268">
+268 com.alexhay.ToolboxProForShortcuts.DeleteFromDictionaryIntent</button>
 	<div class="content inside">
 		<div class="row"><div class="col1">type</div>
 			<div class="col2">keyPairWithKeyContaining</div></div>
@@ -1173,28 +1180,26 @@ button {
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">keyQuery</div>
 			<div class="col2">_</div></div></div></div>
-<button class="gLoop nontop" id="m266">
-266 End If</button>
-<button class="gVariable" id="m267">
-267 Set Variable <span class="box">Parameter</span> to <span class="box"><span class="magic" onclick="magictap(266)"><b>[266 If Result</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m268">
-268 Comment</button>
+<button class="gLoop nontop" id="m269">
+269 End If</button>
+<button class="gVariable" id="m270">
+270 Set Variable <span class="box">Parameter</span> to <span class="box"><span class="magic" onclick="magictap(269)"><b>[269 If Result</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m271">
+271 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="button gUnknown" id="m269">
-269 dk.simonbs.Jayson.PrettifyJSONIntent</button>
+<button class="button gUnknown" id="m272">
+272 com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent</button>
 	<div class="content">
-		<div class="row"><div class="col1">Show-json</div>
-			<div class="col2">true</div></div>
-		<div class="row"><div class="col1">json</div>
+		<div class="row"><div class="col1">dictionary</div>
 			<div class="col2"><span class="var"><b>[Data</b><b>]</b></span></div></div>
-		<div class="row"><div class="col1">indentMode</div>
-			<div class="col2">tabs</div></div></div>
-<button class="gVariable" id="m270">
-270 Set Variable <span class="box">Data</span> to <span class="box"><span class="magic" onclick="magictap(269)"><b>[269 Prettified JSON</b><b>]</b></span></span></button>
-<button class="button " id="m271">
-271 Save <span class="box"><span class="var"><b>[Data</b><b>]</b></span></span> to File</button>
+		<div class="row"><div class="col1">Show-dictionary</div>
+			<div class="col2">true</div></div></div>
+<button class="gVariable" id="m273">
+273 Set Variable <span class="box">Data</span> to <span class="box"><span class="magic" onclick="magictap(272)"><b>[272 Pretty Printed Dictionary</b><b>]</b></span></span></button>
+<button class="button " id="m274">
+274 Save <span class="box"><span class="var"><b>[Data</b><b>]</b></span></span> to File</button>
 	<div class="content">
 		<div class="row"><div class="col1">AskWhereToSave</div>
 			<div class="col2">false</div></div>
@@ -1202,40 +1207,43 @@ button {
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">FileDestinationPath</div>
 			<div class="col2"><span class="var"><b>[Path</b><b>]</b></span>/<span class="var"><b>[Name</b><b>]</b></span>.json.txt</div></div></div>
-<button class="button gDocuments" id="m272">
-272 Comment</button>
+<button class="button gDocuments" id="m275">
+275 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="button gUnknown" id="m273">
-273 com.alexhay.ToolboxProForShortcuts.CreateQueryItemIntent</button>
+<button class="button gUnknown" id="m276">
+276 com.alexhay.ToolboxProForShortcuts.CreateQueryItemIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">dictionary</div>
 			<div class="col2"><span class="var"><b>[Parameter</b> as Dictionary<b>]</b></span></div></div>
 		<div class="row"><div class="col1">inputType</div>
 			<div class="col2">dictionary</div></div></div>
-<button class="button gUnknown" id="m274">
-274 com.alexhay.ToolboxProForShortcuts.BuildURLIntent</button>
+<button class="button gUnknown" id="m277">
+277 com.alexhay.ToolboxProForShortcuts.BuildURLIntent</button>
 	<div class="content">
 		<div class="row"><div class="col1">path</div>
 			<div class="col2">/library</div></div>
 		<div class="row"><div class="col1">host</div>
 			<div class="col2">cutz.bustl.io</div></div>
 		<div class="row"><div class="col1">queryItems</div>
-			<div class="col2"><span class="magic" onclick="magictap(273)"><b>[273 Query Item</b><b>]</b></span></div></div></div>
-<button class="button " id="m275">
-275 Open URL <span class="box"><span class="magic" onclick="magictap(274)"><b>[274 URL</b><b>]</b></span></span></button>
+			<div class="col2"><span class="magic" onclick="magictap(276)"><b>[276 Query Item</b><b>]</b></span></div></div></div>
+<button class="button " id="m278">
+278 Open URL <span class="box"><span class="magic" onclick="magictap(277)"><b>[277 URL</b><b>]</b></span></span></button>
 	<div class="content">
 		<div class="row"><div class="col1">Show-WFInput</div>
 			<div class="col2">true</div></div></div>
-<button class="gScripting" id="m276">
-276 Exit Shortcut with <span class="box"></span>&nbsp;</button>
-<button class="button gDocuments" id="m277">
-277 Comment</button>
+<button class="button gDocuments" id="m279">
+279 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="gScripting" id="m280">
+280 Exit Shortcut with <span class="box"></span>&nbsp;</button>
+<button class="button gDocuments" id="m281">
+281 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">🔚</div></div>
-<button class="gDocuments" id="m278">
-278 Comment</button>
 <script>
 for (b of document.getElementsByClassName('button')) {
 	b.addEventListener('click', function() {
