@@ -10,18 +10,17 @@
 	"color": "#4A69C6",
 	"icon_glyph": 61440,
 	"shortcuts_version": "1136.1",
-	"link": "https://www.icloud.com/shortcuts/3fb8c1d78ae6496eb0f7e83e325c4a41",
+	"link": "https://www.icloud.com/shortcuts/29999191198f4658b78f894f84147d41",
 	"depends": [
 		    "com.shortcutspro.library."
 	],
-	"release": "Mon, 16 Aug 2021 22:35:38 -0500",
+	"release": "Mon, 16 Aug 2021 22:44:12 -0500",
 	"integrity": Yes,
 	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
-	"date_created": "Mon, 16 Aug 2021 22:33:48 -0500",
+	"date_created": "Mon, 16 Aug 2021 22:42:44 -0500",
 	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
 	"input": "clipboard",
 	"category": [
-		"Development Tools",
 		"Utilities"
 	],
 	"maintainer": {
@@ -32,9 +31,9 @@
 	"arch": "iOS15",
 	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
 	"quiet": Yes,
-	"notes": "Initial pre-release",
-	"signed_download": "https://cvws.icloud-content.com/B/ATV5KIAKGcDEWi61sxudMv4Rg6Ij/${f}?o=Aq7V5mBZWSMpoBpY7WFAMt7JXbkvEs7bMufjPUvp5YnvFBLv8wQHrvxhb8opgFC2yQ&v=1&x=3&a=CAogUIo-aL4pHYiYUGXzFdDE3l75oqH3KNDjG2bzFXNSbz0SexCZsbGRtS8YmY6Nk7UvIgEAUgQRg6IjajBCGj8paDS2OFNqNpY5iJgkzMFJL-uWv-Z6DHPQY9vLpTLjZmfr5NyhmXWYhlRwzr9yMITTUszU1V7djPMdbBRVwPOYItnCHcJm6_eFZzk0Sge6KO1hS7euUPazKlG84MZTfw&e=1629174843&fl=&r=60de58c9-ab99-4325-9403-8c0e37e97c36-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=pDC2336-eAGeFBdJFELD61dg0Rw",
-	"certificate_expiration": "Thu, 15 Sep 2022 22:23:55 -0500",
+	"notes": "Initial Pre-release",
+	"signed_download": "https://cvws.icloud-content.com/B/Aflh3xDdxoGw55U9cHcLtZnJVp_r/${f}?o=Aqp3XWeeEKMpYnS9pJnC_pYJcPgQDPA3dMs4-iPgreoE5b7WX84dNoDqwO3LrvchEA&v=1&x=3&a=CAoggNuBgBMW8PxCyintf-aDP9HCWJykipQB2sOiTQAAJyQSexDP6tGRtS8Yz8etk7UvIgEAUgTJVp_rajBvaTT6-Eyb3m4Jy6i0SsmYT7_T5RhBHU1H0obVcJWQbcfDY2u3eOxlX3TI678FnGJyMA6kuQIMUB6L4UJdo1iLvDgHzStGhPu3uDyM_NSyJdkcC8kDyP-lGjnSEFdjTGAbzg&e=1629175374&fl=&r=cf89f1cd-2ce7-4a64-b9a4-5951f895c240-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=JvvwqfA-r7KEWfzTtGTE_E60Sck",
+	"certificate_expiration": "Thu, 15 Sep 2022 22:32:49 -0500",
 	"minimum_version": 1106,
 	"author": {
 		"name": "@scottdwr",
