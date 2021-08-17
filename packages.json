@@ -75,14 +75,16 @@
     "depiction" : "https://cutz.bustl.io/library/depiction/file-provider.html"
   },
   {
-    "file_size" : "169 KB",
+    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
     "color" : "#4A69C6",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-data/shortcut-data.html",
     "shortcuts_version" : "1136.1",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.html",
     "link" : "https://www.icloud.com/shortcuts/5f210e319bf74282954eedcde8f6160f",
     "release" : "Tue, 17 Aug 2021 02:10:38 -0500",
-    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
+    "depends" : [
+
+    ],
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.png",
     "start_color" : 946986751,
@@ -118,66 +120,20 @@
         "https://GitHub.com/scottdwr"
       ]
     },
-    "depends" : [
-
-    ]
+    "file_size" : "169 KB"
   },
   {
-    "depends" : [
-
-    ],
-    "color" : "#00CEAD",
-    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-publisher/shortcut-publisher.html",
-    "shortcuts_version" : "1136.1",
-    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.html",
-    "link" : "https://www.icloud.com/shortcuts/17f99b29ad6c43c1b7d5199ab7c4e356",
-    "release" : "Tue, 17 Aug 2021 12:48:28 -0500",
-    "file_size" : "206 KB",
-    "integrity" : true,
-    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.png",
-    "start_color" : 431817727,
-    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
-    "date_created" : "Tue, 17 Aug 2021 12:45:26 -0500",
-    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
-    "input" : "clipboard",
-    "category" : [
-      "Utilities"
-    ],
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : [
-        "https://github.com/scottdwr/"
-      ]
-    },
-    "name" : "Shortcut Publisher",
-    "auuid" : "DF104BCA-C7AA-4711-9544-CFB8B0CC691F",
-    "version" : "1.0.10",
-    "id" : "com.shortcutspro.library.shortcut-publisher",
-    "arch" : "iOS15",
-    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-    "quiet" : true,
-    "signed_download" : "https://cvws.icloud-content.com/B/AbsYGpcqk1FJl1MhnYwX3GKVxwMi/${f}?o=AkoWwmzqQ8PdNrkwU8301u9ffGlFiszIoM4_afGe20b7pttIbn7Hxigt81ygwCxgwg&v=1&x=3&a=CAogxIR1xnUzQVGiPAikI4smwZKvYSXYZLz1CuJSDjHxNswSexDkhuCptS8Y5OO7q7UvIgEAUgSVxwMiajAEN9Mpdry758XPnB9EPGfWgY3HX7LUao0NWl_U5xdApYTmBh63Ii0Vo-9AT9bdIY9yMFLIiw1iylVnx-8iov2u7vylCszwFuR7GUFn9v5e00gk0EV8hhGNhpHAkzq59PHFyw&e=1629225939&fl=&r=d3a9b75d-c854-40de-8d25-f09b3140b334-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=oMUsMNE2U2mFgfn85jqGPwADmMA",
-    "icon_glyph" : 61456,
-    "notes" : "Merged Shortcut Publisher with Shortcut Data",
-    "certificate_expiration" : "Fri, 16 Sep 2022 12:35:34 -0500",
-    "minimum_version" : 1113,
-    "author" : {
-      "name" : "@scottdwr",
-      "link" : [
-        "https://github.com/scottdwr/"
-      ]
-    },
-    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository."
-  },
-  {
-    "file_size" : "32 KB",
+    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
     "color" : "#86919B",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/integrity/integrity.html",
     "shortcuts_version" : "1092.11",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/integrity.html",
     "link" : "https://www.icloud.com/shortcuts/25fda771b42f460484445d1fb619feee",
     "release" : "Tue, 17 Aug 2021 13:11:37 -0500",
-    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
+    "depends" : [
+      "com.shortcutspro.library.file-provider",
+      "com.shortcutspro.library.bustl-updater"
+    ],
     "integrity" : false,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/integrity.png",
     "start_color" : 255,
@@ -215,9 +171,53 @@
         "http://Scott.Wright.name"
       ]
     },
+    "file_size" : "32 KB"
+  },
+  {
+    "file_size" : "205 KB",
+    "color" : "#00CEAD",
+    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-publisher/shortcut-publisher.html",
+    "shortcuts_version" : "1136.1",
+    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.html",
+    "link" : "https://www.icloud.com/shortcuts/760e4d8660b54fdda262dc5832932861",
+    "release" : "Tue, 17 Aug 2021 13:33:11 -0500",
+    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
+    "integrity" : true,
+    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.png",
+    "start_color" : 431817727,
+    "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+    "date_created" : "Tue, 17 Aug 2021 13:30:40 -0500",
+    "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+    "input" : "clipboard",
+    "category" : [
+      "Utilities"
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "Shortcut Publisher",
+    "auuid" : "DF104BCA-C7AA-4711-9544-CFB8B0CC691F",
+    "version" : "1.0.10",
+    "id" : "com.shortcutspro.library.shortcut-publisher",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+    "quiet" : true,
+    "signed_download" : "https://cvws.icloud-content.com/B/AcuhhVxddzIzijlD8OlDzy7m5wbM/${f}?o=AqPkiV3OfNIHSEg-iHyBp2-gUVLaGpa-q2SHEUOi-dl4X_TDjsRURllXkOdjPqdstQ&v=1&x=3&a=CAogJoJKTLtYNfEPLtw9yRYZ5OLwSRuwW4_nZniS-ff2UycSexC9mYertS8YvfbirLUvIgEAUgTm5wbMajBVOU2wOwAssJAyMog9_YiaQTTBG0uf8nFEtF-WequGwGlFVCe0OzuMWc2syE4IgA5yMKKISD33R5gI7e4Q8J-5jLDDIqLdkD1vJODhQLRhA6pgiwIQsnpYNJCGD1EG9EezvQ&e=1629228677&fl=&r=7419bf4f-836e-46c9-8612-f38a8514792d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=t2EoNiYS5fmOkoRgr46wxi60KtY",
+    "icon_glyph" : 61456,
+    "notes" : "Initial Release",
+    "certificate_expiration" : "Fri, 16 Sep 2022 13:21:12 -0500",
+    "minimum_version" : 1113,
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
     "depends" : [
-      "com.shortcutspro.library.file-provider",
-      "com.shortcutspro.library.bustl-updater"
+
     ]
   }
 ]
