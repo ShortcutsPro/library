@@ -75,16 +75,16 @@
     "depiction" : "https://cutz.bustl.io/library/depiction/file-provider.html"
   },
   {
-    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
+    "depends" : [
+
+    ],
     "color" : "#4A69C6",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-data/shortcut-data.html",
     "shortcuts_version" : "1136.1",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.html",
     "link" : "https://www.icloud.com/shortcuts/5f210e319bf74282954eedcde8f6160f",
     "release" : "Tue, 17 Aug 2021 02:10:38 -0500",
-    "depends" : [
-
-    ],
+    "file_size" : "169 KB",
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.png",
     "start_color" : 946986751,
@@ -120,17 +120,19 @@
         "https://GitHub.com/scottdwr"
       ]
     },
-    "file_size" : "169 KB"
+    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API"
   },
   {
-    "file_size" : "206 KB",
+    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
     "color" : "#00CEAD",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-publisher/shortcut-publisher.html",
     "shortcuts_version" : "1136.1",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.html",
     "link" : "https://www.icloud.com/shortcuts/17f99b29ad6c43c1b7d5199ab7c4e356",
     "release" : "Tue, 17 Aug 2021 12:48:28 -0500",
-    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
+    "depends" : [
+
+    ],
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.png",
     "start_color" : 431817727,
@@ -165,8 +167,6 @@
         "https://github.com/scottdwr/"
       ]
     },
-    "depends" : [
-
-    ]
+    "file_size" : "206 KB"
   }
 ]
