@@ -10,36 +10,39 @@
 	"color": "#4A69C6",
 	"icon_glyph": 61440,
 	"shortcuts_version": "1136.1",
-	"link": "https://www.icloud.com/shortcuts/29999191198f4658b78f894f84147d41",
+	"link": "https://www.icloud.com/shortcuts/1d2b339c5b894956a658a4f4ce63f636",
 	"depends": [
 		    "com.shortcutspro.library."
 	],
-	"release": "Mon, 16 Aug 2021 22:44:12 -0500",
-	"integrity": Yes,
+	"release": "Mon, 16 Aug 2021 23:34:41 -0500",
+	"integrity": true,
 	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
-	"date_created": "Mon, 16 Aug 2021 22:42:44 -0500",
+	"date_created": "Mon, 16 Aug 2021 23:33:17 -0500",
 	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
 	"input": "clipboard",
 	"category": [
+		"Development Tools",
 		"Utilities"
 	],
 	"maintainer": {
 		"name": "@scottdwr",
-		"link": "https://github.com/scottdwr/"
+		"link": [
+			"https://github.com/scottdwr/"
+		]
 	},
 	"version": "1.1",
 	"arch": "iOS15",
 	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
-	"quiet": Yes,
-	"notes": "Initial Pre-release",
-	"signed_download": "https://cvws.icloud-content.com/B/Aflh3xDdxoGw55U9cHcLtZnJVp_r/${f}?o=Aqp3XWeeEKMpYnS9pJnC_pYJcPgQDPA3dMs4-iPgreoE5b7WX84dNoDqwO3LrvchEA&v=1&x=3&a=CAoggNuBgBMW8PxCyintf-aDP9HCWJykipQB2sOiTQAAJyQSexDP6tGRtS8Yz8etk7UvIgEAUgTJVp_rajBvaTT6-Eyb3m4Jy6i0SsmYT7_T5RhBHU1H0obVcJWQbcfDY2u3eOxlX3TI678FnGJyMA6kuQIMUB6L4UJdo1iLvDgHzStGhPu3uDyM_NSyJdkcC8kDyP-lGjnSEFdjTGAbzg&e=1629175374&fl=&r=cf89f1cd-2ce7-4a64-b9a4-5951f895c240-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=JvvwqfA-r7KEWfzTtGTE_E60Sck",
-	"certificate_expiration": "Thu, 15 Sep 2022 22:32:49 -0500",
+	"quiet": true,
+	"notes": "Pre-Release ",
+	"signed_download": "https://cvws.icloud-content.com/B/AabBi11MZ1TS_NApHoOximQrsKqd/${f}?o=Au7vqr6GbCkwokRms4iYt7goBTM4vISj2F-HxidlZSqQ7lxqefs1GeIyTQa9u4H7Fw&v=1&x=3&a=CAog04MstQcyq_JoRdnsSQYy6fXSA7pscikE-MLCLRi9TnUSexDNhouTtS8YzePmlLUvIgEAUgQrsKqdajA4lXoX6gm46nk5X4a9dH5A5zTD9Hg1dytBD2u0ta2xRdo6GFWiCp7FvIcsqvkM_AtyMMgtfEUD-Nay514HrFvf6kq47MewaWiIDKSxtESl4TpGs3HAkAXvn-P-HzOAuL59CQ&e=1629178409&fl=&r=95439152-9a1b-4f7a-a084-1b33d4165e0d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uI0Nx-PKWNcGY6YmC2AzSp4jVwo",
+	"certificate_expiration": "Thu, 15 Sep 2022 23:23:23 -0500",
 	"minimum_version": 1106,
 	"author": {
 		"name": "@scottdwr",
 		"link": [
 			"https://GitHub.com/scottdwr"
-		],
+		]
 	},
 	"file_size": "169 KB"
 }
