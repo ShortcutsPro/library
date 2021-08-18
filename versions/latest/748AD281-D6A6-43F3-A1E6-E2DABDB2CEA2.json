@@ -1,29 +1,47 @@
 {
-  "id" : "io.github.shortcutspro.bustl-updater",
-  "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
-  "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-  "version" : "3.14",
   "depends" : [
-  
+
   ],
-  "author" : {
-    "name" : "scottdwr",
-    "link" : "https:\/\/routinehub.co\/user\/scottdwr\/"
-  },
-  "release" : "Sun, 01 Aug 2021 20:48:06 -0500",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/717e66ddca714453a28d5100075c17cb",
-  "catagories" : [
-    "utilities"
+  "color" : "#EDC500",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/bustl-updater\/bustl-updater.html",
+  "shortcuts_version" : "1134",
+  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/61b575cf4fee40079a513ea559bc1b6c",
+  "release" : "Wed, 18 Aug 2021 04:49:33 -0500",
+  "file_size" : "28 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.png",
+  "start_color" : 4274264319,
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "date_created" : "Wed, 18 Aug 2021 04:47:13 -0500",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "input" : "",
+  "category" : [
+    "Utilities"
   ],
-  "color" : "#EAC000",
-  "notes" : "We smashed some damn bugs and cranked up the speed.",
-  "icon" : "https:\/\/shortcutspro.github.io\/library\/depiction\/bustl.-updater.png",
-  "arch" : "ios15",
   "maintainer" : {
     "name" : "@scottdwr",
-    "link" : "https:\/\/shortcutspro.github.io"
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
   },
   "name" : "Bustl. Updater",
-  "integrity" : true,
-  "depiction" : "https:\/\/shortcutspro.github.io\/library\/depiction\/bustl.-updater.html"
+  "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
+  "version" : "3.14",
+  "id" : "com.shortcutspro.library.bustl-updater",
+  "arch" : "iOS15",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AQEs9chLk58WVbuwWtsmiglQWv0q\/${f}?o=Au8LPSuhmiJ7yXjM5wang28B6aa4EjvUxB9tqqSArau1NKPOdmIMybkPqzrI8uNjAg&v=1&x=3&a=CAogSv1q-ZUxUsnXmtE-MN50XErHDH3j2-mmQbbOy5C6X-cSexCsxaTFtS8YrKKAx7UvIgEAUgRQWv0qajCD7I-EDPH4Ax0ldCw1zXT_1I1WbQyaQg-zhiKeNdmwSNfVBAUM0MzoJL7dgVB0orRyMB_6iLp5DURJlsLj2z641_K-NcnyLfSawQ-yCzjKoEmD-IrSxvE4xdHCv6KTdTB2Bw&e=1629283684&fl=&r=e01a6558-ca9a-420b-a02f-4d773dc060e1-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=3y0zmFd07hTVKPrjac4kYQQKOnE",
+  "icon_glyph" : 59516,
+  "notes" : "Re-release",
+  "certificate_expiration" : "Sat, 17 Sep 2022 04:38:01 -0500",
+  "minimum_version" : 1113,
+  "author" : {
+    "name" : "scottdwr",
+    "link" : [
+      "https:\/\/routinehub.co\/user\/scottdwr\/"
+    ]
+  },
+  "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools."
 }

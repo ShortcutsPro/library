@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",>
+<meta name="format-detection" content="telephone=no,date=no">
+<title>Bustl. Updater</title>
+<style>
+body {
+	font-family: system-ui;
+	margin-top: 1rem;
+	margin-bottom: calc(1rem + env(safe-area-inset-bottom));
+	word-break: break-all;
+}
+
+button {
+	color: #000;
+	background-color: #e4e4ff;
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px #aaa;
+	border-style: solid;
+	border-radius: 8px;
+	cursor: initial;
+	touch-action: manipulation;
+}
+
+.button {
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: auto;
+}
+.button::after {
+	content: '\25A1';
+	float: right;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.closed {
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.closed::after { content: '\2212'; }
+
+.nonbottom {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-style: none;
+}
+.nontop {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.gLoop { background-color: #e0e0e0; }
+.gScripting { background-color: #ddffdd; }
+.gDocuments { background-color: #ffeebb; }
+.gVariable { background-color: #ffddcc; }
+.gUnknown { background-color: #bbffff; }
+.gParams {
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.content {
+	overflow: hidden;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 5px;
+	border: 1px #aaa;
+	border-style: none solid solid solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.contentloop {
+	padding-top: 5px;
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.dashed { border-left-style: dashed; }
+
+.inside {
+	border-right-style: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.commentcontent { background-color: #fff8dd; }
+
+.row { display: flex; }
+
+.col1 {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right-style: double;
+}
+.col2 { white-space: pre-wrap; }
+
+span.box {
+	display: inline;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+span.var { font-style: italic; }
+span.magic {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: #000; color: #eee; }
+	button { background: #404060; color: #eee; }
+	.gLoop { background-color: #404040; }
+	.gScripting { background-color: #305030; }
+	.gDocuments { background-color: #505020; }
+	.gVariable { background-color: #503030; }
+	.gUnknown { background-color: #205050; }
+	.gParams { background-color: #181818; }
+	.commentcontent { background-color: #505020; }
+	span.box { background-color: #000; }
+}
+</style>
+</head>
+<body>
+<button class="button gParams closed">Bustl. Updater</button>
+<div class="content" style="display:none"><div class="col2">"WFWorkflowClientVersion": "1134",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": true,
+"WFWorkflowIcon": {
+   "WFWorkflowIconStartColor": 4274264319,
+   "WFWorkflowIconGlyphNumber": 59516
+},
+"WFWorkflowImportQuestions": [],
+"WFWorkflowInputContentItemClasses": [
+   "WFStringContentItem",
+   "WFGenericFileContentItem"
+],
+"WFWorkflowMinimumClientVersion": 1113,
+"WFWorkflowMinimumClientVersionString": "1113",
+"WFWorkflowNoInputBehavior": {
+   "Name": "WFWorkflowNoInputBehaviorGetClipboard",
+   "Parameters": {}
+},
+"WFWorkflowOutputContentItemClasses": [
+   "WFBooleanContentItem",
+   "WFDictionaryContentItem"
+],
+"WFWorkflowTypes": []
+</div></div>
+
+<button class="button gDocuments" id="m0">
+0 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Bustl. Updater
+
+Auto-Updater for Bustl. sponsored Integrity Framwork tools.
+———
+{"name":"Bustl. Updater","auuid":"748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2","version":"10.3.1"}</div></div>
+<button class="button gScripting" id="m1">
+1 Dictionary</button>
+	<div class="content">
+		<div class="col2">{
+   "name": "Bustl. Updater",
+   "auuid": "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
+   "version": "3.14",
+   "quiet": false,
+   "description": "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
+   "true": true,
+   "id": "com.shortcutspro.updater",
+   "author": {
+      "name": "scottdwr",
+      "link": "https://routinehub.co/user/scottdwr/"
+   },
+   "false": false,
+   "category": [
+      "utilities"
+   ],
+   "integrity": true
+}</div></div>
+<button class="button gDocuments" id="m2">
+2 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">io.bustl.cutz.bustl-updater
+</div></div>
+<button class="button gDocuments" id="m3">
+3 Text <b>&nbsp; ➔ Shortcut Input</b></button>
+	<div class="content">
+		<div class="col2"><span class="var"><b>[Shortcut Input</b><b>]</b></span></div></div>
+<button class="button gLoop nonbottom" id="m4">
+4 If <span class="box"><span class="magic" onclick="magictap(3)"><b>[3 Shortcut Input</b><b>]</b></span></span> <span class="box">is</span> <span class="box">identify</span></button>
+	<div class="content contentloop">
+<button class="gScripting inside" id="m5">
+5 Stop and Output <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 Dictionary</b><b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop" id="m6">
+6 Otherwise</button>
+	<div class="content contentloop">
+<button class="button gLoop nonbottom inside" id="m7">
+7 If <span class="box"><span class="magic" onclick="magictap(3)"><b>[3 Shortcut Input</b><b>]</b></span></span> <span class="box">has any value</span></button>
+	<div class="content contentloop dashed inside">
+<button class="button gDocuments inside" id="m8">
+8 Comment</button>
+	<div class="content inside commentcontent">
+		<div class="col2">Required	          Optional
+—————————————-
+   name	              quiet
+   auuid	
+   version	</div></div>
+<button class="gScripting inside" id="m9">
+9 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(3)"><b>[3 Shortcut Input</b><b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop inside" id="m10">
+10 Otherwise</button>
+	<div class="content contentloop dashed inside">
+<button class="gVariable inside" id="m11">
+11 Get Variable <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 Dictionary</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop inside" id="m12">
+12 End If</button></div>
+<button class="gLoop nontop" id="m13">
+13 End If</button>
+<button class="gVariable" id="m14">
+14 Set Variable <span class="box">Input</span> to <span class="box"><span class="magic" onclick="magictap(13)"><b>[13 If Result</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m15">
+15 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+</div></div>
+<button class="gScripting" id="m16">
+16 Get Dictionary Value for <span class="box">name</span> in <span class="box"><span class="var"><b>[Input</b><b>]</b></span></span> <b>&nbsp; ➔ Name</b></button>
+<button class="gDocuments" id="m17">
+17 Get Text from <span class="box"><span class="var"><b>[Input</b>.version<b>]</b></span></span> <b>&nbsp; ➔ Current</b></button>
+<button class="gVariable" id="m18">
+18 Set Variable <span class="box">Current</span> to <span class="box"><span class="magic" onclick="magictap(17)"><b>[17 Current</b><b>]</b></span></span></button>
+<button class="gDocuments" id="m19">
+19 Get Text from <span class="box"><span class="var"><b>[Input</b>.auuid<b>]</b></span></span> <b>&nbsp; ➔ AUUID</b></button>
+<button class="gScripting" id="m20">
+20 Get Dictionary Value for <span class="box">quiet</span> in <span class="box"><span class="var"><b>[Input</b><b>]</b></span></span> <b>&nbsp; ➔ Quiet</b></button>
+<button class="gScripting" id="m21">
+21 Get Dictionary Value for <span class="box">true</span> in <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 Dictionary</b><b>]</b></span></span> <b>&nbsp; ➔ True</b></button>
+<button class="gVariable" id="m22">
+22 Set Variable <span class="box">True</span> to <span class="box"><span class="magic" onclick="magictap(21)"><b>[21 True</b> as Boolean<b>]</b></span></span></button>
+<button class="gVariable" id="m23">
+23 Set Variable <span class="box">Rollback</span> to <span class="box"><span class="var"><b>[True</b> as Boolean<b>]</b></span></span></button>
+<button class="gScripting" id="m24">
+24 Get Dictionary Value for <span class="box">false</span> in <span class="box"><span class="magic" onclick="magictap(1)"><b>[1 Dictionary</b><b>]</b></span></span> <b>&nbsp; ➔ False</b></button>
+<button class="gVariable" id="m25">
+25 Set Variable <span class="box">False</span> to <span class="box"><span class="magic" onclick="magictap(24)"><b>[24 False</b> as Boolean<b>]</b></span></span></button>
+<button class="button gDocuments" id="m26">
+26 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+
+
+
+</div></div>
+<button class="button " id="m27">
+27 URL <span class="box">https://Cutz.Bustl.io/library/versions/latest/<span class="magic" onclick="magictap(19)"><b>[19 AUUID</b><b>]</b></span>.json</span> <b>&nbsp; ➔ Bustl. Update API</b></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-WFURLActionURL</div>
+			<div class="col2">true</div></div></div>
+<button class="" id="m28">
+28 Get File of Type <span class="box">public.json</span> from <span class="box"><span class="magic" onclick="magictap(27)"><b>[27 Bustl. Update API</b><b>]</b></span></span> <b>&nbsp; ➔ Response</b></button>
+<button class="gScripting" id="m29">
+29 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(28)"><b>[28 Response</b><b>]</b></span></span></button>
+<button class="gVariable" id="m30">
+30 Set Variable <span class="box">Response</span> to <span class="box"><span class="magic" onclick="magictap(29)"><b>[29 Dictionary</b><b>]</b></span></span></button>
+<button class="gDocuments" id="m31">
+31 Get Text from <span class="box"><span class="var"><b>[Response</b>.version<b>]</b></span></span> <b>&nbsp; ➔ Latest</b></button>
+<button class="gVariable" id="m32">
+32 Set Variable <span class="box">Latest</span> to <span class="box"><span class="magic" onclick="magictap(31)"><b>[31 Latest</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m33">
+33 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+
+
+
+</div></div>
+<button class="button gDocuments" id="m34">
+34 Text <b>&nbsp; ➔ Script</b></button>
+	<div class="content">
+		<div class="col2">&lt;script>
+function cmp (a, b) {
+let pa = a.split('.');
+let pb = b.split('.');
+for (let i = 0; i &lt; Math.max(pa.length, pb.length); i++) {
+let na = Number(pa[i]);
+let nb = Number(pb[i]);
+if (isNaN(na)) na = 0;
+if (isNaN(nb)) nb = 0;
+if (na > nb) return "<span class="var"><b>[True</b> as Boolean<b>]</b></span>";
+if (nb > na) return "<span class="var"><b>[False</b> as Boolean<b>]</b></span>";
+}
+if (a != b) return "<span class="var"><b>[False</b> as Boolean<b>]</b></span>";
+return "<span class="var"><b>[True</b> as Boolean<b>]</b></span>";
+};
+let data = {"current":"<span class="var"><b>[Current</b><b>]</b></span>","new":"<span class="var"><b>[Latest</b><b>]</b></span>"};
+document.write(cmp(data.current, data.new));
+&lt;/script></div></div>
+<button class="button " id="m35">
+35 URL <span class="box">data:text/html;charset=utf-8,<span class="magic" onclick="magictap(34)"><b>[34 Script</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-WFURLActionURL</div>
+			<div class="col2">true</div></div></div>
+<button class="" id="m36">
+36 Get File of Type <span class="box">com.apple.webarchive</span> from <span class="box"><span class="magic" onclick="magictap(35)"><b>[35 URL</b><b>]</b></span></span> <b>&nbsp; ➔ Output</b></button>
+<button class="gDocuments" id="m37">
+37 Get Text from <span class="box"><span class="magic" onclick="magictap(36)"><b>[36 Output</b> as Text<b>]</b></span></span> <b>&nbsp; ➔ Check</b></button>
+<button class="gVariable" id="m38">
+38 Set Variable <span class="box">Up To Date</span> to <span class="box"><span class="magic" onclick="magictap(37)"><b>[37 Check</b> as Boolean<b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m39">
+39 If <span class="box"><span class="var"><b>[Up To Date</b> as Boolean<b>]</b></span></span> is true</button>
+	<div class="content contentloop">
+		<div class="row"><div class="col1">ConditionalActionString</div>
+			<div class="col2">up</div></div>
+<button class="button gLoop nonbottom inside" id="m40">
+40 If <span class="box"><span class="magic" onclick="magictap(20)"><b>[20 Quiet</b> as Boolean<b>]</b></span></span> is true</button>
+	<div class="content contentloop dashed inside">
+		<div class="row"><div class="col1">ConditionalActionString</div>
+			<div class="col2">Bustl. Updater</div></div>
+<button class="gScripting inside" id="m41">
+41 Stop and Output <span class="box"><span class="var"><b>[Up To Date</b> as Boolean<b>]</b></span></span></button></div>
+<button class="gLoop nontop inside" id="m42">
+42 End If</button></div>
+<button class="gLoop nonbottom nontop" id="m43">
+43 Otherwise</button>
+	
+<button class="gLoop nontop" id="m44">
+44 End If</button>
+<button class="button gDocuments" id="m45">
+45 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+
+
+
+</div></div>
+<button class="gDocuments" id="m46">
+46 Get Text from <span class="box"><span class="var"><b>[Response</b>.description<b>]</b></span></span> <b>&nbsp; ➔ Description</b></button>
+<button class="" id="m47">
+47 Get Dates from <span class="box"><span class="var"><b>[Response</b> as Dictionary.release<b>]</b></span></span> <b>&nbsp; ➔ Published</b></button>
+<button class="button gDocuments" id="m48">
+48 Split Text <span class="box"><span class="var"><b>[Response</b> as Dictionary.notes<b>]</b></span></span> by <span class="box">New Lines</span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">TextCustomSeparator</div>
+			<div class="col2">\n</div></div></div>
+<button class="button gDocuments" id="m49">
+49 Combine Text <span class="box"><span class="magic" onclick="magictap(48)"><b>[48 Split Text</b><b>]</b></span></span> with <span class="box">Custom</span> <b>&nbsp; ➔ Release Notes</b></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-text</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">TextCustomSeparator</div>
+			<div class="col2">&lt;br />— </div></div></div>
+<button class="button gDocuments" id="m50">
+50 Replace Text <span class="box">^.+?(?=\/shortcut)</span> with <span class="box">shortcuts:/</span> in <span class="box"><span class="var"><b>[Response</b> as Dictionary.link<b>]</b></span></span> <b>&nbsp; ➔ Download</b></button>
+	<div class="content">
+		<div class="row"><div class="col1">ReplaceTextRegularExpression</div>
+			<div class="col2">true</div></div></div>
+<button class="" id="m51">
+51 Get URLs from <span class="box"><span class="var"><b>[Response</b>.icon<b>]</b></span></span> <b>&nbsp; ➔ Icon URL</b></button>
+<button class="gDocuments" id="m52">
+52 Get Text from <span class="box"><span class="var"><b>[Response</b>.color<b>]</b></span></span> <b>&nbsp; ➔ Color</b></button>
+<button class="button gDocuments" id="m53">
+53 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+
+
+
+</div></div>
+<button class="button gDocuments" id="m54">
+54 Text <b>&nbsp; ➔ Head</b></button>
+	<div class="content">
+		<div class="col2">&lt;!---->
+&lt;!--Bustl.•io Shortcut Updater-->
+&lt;!---->
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1">
+    &lt;meta charset="utf-8">
+&lt;!---->
+    &lt;title><span class="magic" onclick="magictap(16)"><b>[16 Name</b><b>]</b></span>  |  Bustl.•io Updater&lt;/title>
+&lt;!---->
+    &lt;style>
+      body {
+        padding: 0px;
+        margin: 0;
+        font-family: Verdana;
+        background-color: #FFFEFF;
+      }
+      h2 {
+        font-size:30px;
+        margin-top: 5px;
+      }
+      h1 { 
+        text-align: center;
+      }
+      p, h3 {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+      }
+      .description {
+        font-family: Verdana;
+        margin-top: -20px;
+        margin-left: 90px;
+        margin-right: 1em;
+        margin-bottom: 15px;
+      }
+      .credit {
+        text-align: right;
+        font-size: 20px;
+        font-family: Verdana;
+        margin-right: 1em;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-style: italic;
+        color: black;
+      }
+      .foot {
+         border: 1px solid black;
+         padding: 5px;
+         border-radius: 5px;
+/* Shortcut Icon Color */
+         background-color: <span class="magic" onclick="magictap(52)"><b>[52 Color</b><b>]</b></span>;
+      }
+      .head {
+         border: 1px solid white;
+         padding: 5px;
+         border-radius: 5px;
+/*
+<b><i>(4 kbytes; content truncated)</i></b>
+…… <span class="magic" onclick="magictap(52)"><b>[52 Color</b><b>]</b></span>, <span class="magic" onclick="magictap(52)"><b>[52 Color</b><b>]</b></span>, <span class="magic" onclick="magictap(52)"><b>[52 Color</b><b>]</b></span>, <span class="magic" onclick="magictap(51)"><b>[51 Icon URL</b><b>]</b></span>, <span class="magic" onclick="magictap(16)"><b>[16 Name</b><b>]</b></span>, <span class="magic" onclick="magictap(46)"><b>[46 Description</b><b>]</b></span></div></div>
+<button class="button gLoop nonbottom" id="m55">
+55 If <span class="box"><span class="var"><b>[Up To Date</b> as Boolean<b>]</b></span></span> is true</button>
+	<div class="content contentloop">
+		<div class="row"><div class="col1">ConditionalActionString</div>
+			<div class="col2"><span class="var"><b>[Latest</b> as Text<b>]</b></span></div></div>
+<button class="button gDocuments inside" id="m56">
+56 Text</button>
+	<div class="content inside">
+		<div class="col2">&lt;!--Up-To-Date--> 
+&lt;!---->
+      &lt;div>&lt;center>
+        &lt;h1>Up-To-Date&lt;/h1>&lt;/center>
+        
+&lt;!--Latest Version &amp; Release Date-->
+        &lt;p style="padding-left: 10px;"><span class="magic" onclick="magictap(16)"><b>[16 Name</b><b>]</b></span> v<span class="var"><b>[Response</b>.version<b>]</b></span> was released on <span class="magic" onclick="magictap(47)"><b>[47 Published</b><b>]</b></span>.&lt;/p>
+
+&lt;!--Notes-->
+        &lt;p>&lt;h3 style="padding-left: 10px;">Release Notes&lt;/h3>
+        &lt;p style="padding-left: 10px;">— <span class="magic" onclick="magictap(49)"><b>[49 Release Notes</b><b>]</b></span>&lt;/p>&lt;br />&lt;/p>
+
+&lt;!--Up-To-DATE--> 
+        &lt;strong>&lt;p style="padding-left: 10px;">Press &lt;a onclick="window.open('shortcuts://'); window.close();">&lt;button class="button">DONE&lt;/button>&lt;/a> to continue.&lt;/p>&lt;br />&lt;/strong>
+      &lt;/div>
+&lt;!----></div></div></div>
+<button class="button gLoop nonbottom nontop" id="m57">
+57 Otherwise</button>
+	<div class="content contentloop">
+<button class="button gDocuments inside" id="m58">
+58 Text</button>
+	<div class="content inside">
+		<div class="col2">&lt;!--Update Available--> 
+&lt;!---->
+      &lt;div>&lt;center>
+        &lt;h1>New Version Available&lt;/h1>&lt;/center>
+        &lt;p>&lt;center>&lt;h3>Version <span class="var"><b>[Current</b><b>]</b></span> →<span class="var"><b>[Latest</b><b>]</b></span>&lt;/h3>&lt;/center>&lt;/p>
+        
+&lt;!--Latest Version &amp; Release Date-->
+        &lt;p style="padding-left: 10px;"><span class="magic" onclick="magictap(16)"><b>[16 Name</b><b>]</b></span> v<span class="var"><b>[Latest</b><b>]</b></span> was released on <span class="magic" onclick="magictap(47)"><b>[47 Published</b><b>]</b></span>.&lt;/p>
+
+&lt;!--Notes-->
+        &lt;p>&lt;h3 style="padding-left: 10px;">Release Notes&lt;/h3>
+        &lt;p style="padding-left: 10px;">—<span class="magic" onclick="magictap(49)"><b>[49 Release Notes</b><b>]</b></span> &lt;/p>&lt;br />&lt;/p>
+
+&lt;!--Updare Available-->
+        &lt;center>&lt;p>
+          &lt;a onclick="window.open('<span class="magic" onclick="magictap(50)"><b>[50 Download</b> as URL<b>]</b></span>'); window.close(); ">&lt;button class="update">UPDATE NOW&lt;/button>&lt;/a>
+        &lt;/p>&lt;/center>&lt;br />
+      &lt;/div>
+&lt;!----></div></div></div>
+<button class="gLoop nontop" id="m59">
+59 End If</button>
+<button class="button gDocuments" id="m60">
+60 Text <b>&nbsp; ➔ Foot</b></button>
+	<div class="content">
+		<div class="col2">    &lt;a onclick="window.open('https://www.bustl.io/'); window.close();;">
+      &lt;div class="foot">
+        &lt;div class="card" style="background-color: #000000;">
+          &lt;div class="grid">
+            &lt;img src="https://i.imgur.com/wU8q8qx.png" style="width: 50px; height: 50px; margin-top: 0px; margin-bottom: 0px;" />
+            &lt;div class="grid">
+               &lt;center> 
+               &lt;!-- &lt;img src="https://i.imgur.com/BLtjvIN.png" style="width:200px; align-items: center; margin-left: 1em; margin-right: 1em; margin-top: 0; margin-bottom: 0;" />-->
+              &lt;/center> 
+               &lt;span style="color: white; font-size: 20px; align-items: right; text-align: right; margin-right: auto; margin-top: 0; margin-bottom: 0;">Bustl.•io Updater&lt;/span>
+            &lt;/div>
+          &lt;/div>
+        &lt;/div>
+      &lt;/div>
+    &lt;/a>
+&lt;!---->
+  &lt;/body>
+&lt;/html></div></div>
+<button class="button gDocuments" id="m61">
+61 Text</button>
+	<div class="content">
+		<div class="col2"><span class="magic" onclick="magictap(54)"><b>[54 Head</b><b>]</b></span>
+&lt;!---->
+<span class="magic" onclick="magictap(59)"><b>[59 If Result</b><b>]</b></span>
+&lt;!---->
+<span class="magic" onclick="magictap(60)"><b>[60 Foot</b><b>]</b></span></div></div>
+<button class="button gScripting" id="m62">
+62 Base64 Encode <span class="box"><span class="magic" onclick="magictap(61)"><b>[61 Text</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Base64LineBreakMode</div>
+			<div class="col2">None</div></div></div>
+<button class="button " id="m63">
+63 URL <span class="box">data:text/html;charset=utf-8;base64,<span class="magic" onclick="magictap(62)"><b>[62 Base64 Encoded</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-WFURLActionURL</div>
+			<div class="col2">true</div></div></div>
+<button class="button " id="m64">
+64 Open URL <span class="box"><span class="magic" onclick="magictap(63)"><b>[63 URL</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-WFInput</div>
+			<div class="col2">true</div></div></div>
+<button class="" id="m65">
+65 Wait 1 seconds</button>
+<button class="button gDocuments" id="m66">
+66 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">
+
+</div></div>
+<button class="button gScripting" id="m67">
+67 Stop and Output <span class="box"><span class="var"><b>[Up To Date</b> as Boolean<b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">NoOutputSurfaceBehavior</div>
+			<div class="col2">Do Nothing</div></div>
+		<div class="row"><div class="col1">Response</div>
+			<div class="col2"><span class="var"><b>[Up To Date</b> as Boolean<b>]</b></span></div></div></div>
+<button class="button gDocuments" id="m68">
+68 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">INTEGRITY Updater
+                                        By  @̳̬̙͊ͪ͑̂ș̓͗c̰̗̺̹̎̃͑ͨ̉o̝̙̾̿́t̠ͮͧ͆t̨̠͈͒͂͌̽̈́̚͜͟d͛͆ͣw͖͙ͬŗ͎̩ͤ̒̒̓̿̚
+
+𝐈𝐍𝐓𝐄𝐆𝐑𝐈𝐓𝐘 Framework
+Copyright © 2021 Scott Wright
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</div></div>
+<script>
+for (b of document.getElementsByClassName('button')) {
+	b.addEventListener('click', function() {
+		this.classList.toggle('closed');
+		let s = this.nextElementSibling;
+		s.style.display = getComputedStyle(s).display==='none' ? 'block' : 'none';
+})}
+
+function magictap(id) {
+	event.stopPropagation();
+	let e = document.getElementById('m'+id);
+	let p = e;
+	while ((p = p.parentNode).tagName.toLowerCase() === 'div') {
+		p.style.display = 'block';
+		p.previousElementSibling.classList.remove('closed');
+	}
+	setTimeout(function(){ e.scrollIntoView({block:'nearest',behavior:'smooth'}); }, 10);
+}
+</script>
+</body>
+</html>
