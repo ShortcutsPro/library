@@ -1,0 +1,48 @@
+{
+  "depends" : [
+
+  ],
+  "color" : "#8757C2",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/color-menu\/color-menu.html",
+  "shortcuts_version" : "1092.9.13.2",
+  "depiction" : "shortcuts:\/\/x-callback-url\/run-shortcut?name=Color Menu&x-error=https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/color-menu.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/a06fcc4954a7468fa1a20274fa0a452d",
+  "release" : "Wed, 18 Aug 2021 14:14:50 -0500",
+  "file_size" : "205 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/color-menu.png",
+  "start_color" : 2071128575,
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "date_created" : "Wed, 18 Aug 2021 14:13:07 -0500",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "input" : "",
+  "category" : [
+    "Graphics & Design",
+    "Reference"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Color Menu",
+  "auuid" : "3FBB574A-9CCF-4B70-A430-90915B3EFD9C",
+  "version" : "1.0.0",
+  "id" : "com.shortcutspro.library.color-menu",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AaJ_UJGBFAU1jIVNHtEUM32apxJ4\/${f}?o=AkW5duRsSiUFHEDAHMhWf2aSEpf7x7iLob4QayDyOV7MwCHPJGbDYLaZvCiw65uhGA&v=1&x=3&a=CAog1OKzlh6Cj0XSm3V8062qVcZutcd15zevYqFsXzKpuYISexClyrvVtS8YpaeX17UvIgEAUgSapxJ4ajDGQ9sSCqwt3XNnoFRpFaIrcqwVKayONMrfxXZSqnPG5ma0J418CrgrzdNQZOya40FyMMONMpS2H4umro6NecgD-n-kO55hex89TM8LYtEw8Z3sJltSg6tXumkCVvi1dCCjbQ&e=1629317616&fl=&r=a1df6dee-0964-4787-b0b4-fd982361e26e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=nrkdPfD9SoSC65OhroZhSSMGECg",
+  "icon_glyph" : 59793,
+  "notes" : "Release",
+  "certificate_expiration" : "Sat, 17 Sep 2022 14:03:33 -0500",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Color MenunnChoose from 15 standard colors. 17 Basic colors, or 140+ Extended colors. Get the hex code, RGB code, or a color square on the clipboard."
+}
