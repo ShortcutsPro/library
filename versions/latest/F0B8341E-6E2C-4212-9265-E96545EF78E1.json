@@ -1,0 +1,49 @@
+{
+  "depends" : [
+
+  ],
+  "color" : "#8757C2",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/color-menu\/color-menu.html",
+  "shortcuts_version" : "1092.9.13.2",
+  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/color-menu.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/94a5ae25d1f7473e81ea6caa78c55b4a",
+  "release" : "Wed, 18 Aug 2021 18:02:36 -0500",
+  "file_size" : "205 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/color-menu.png",
+  "start_color" : 2071128575,
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "date_created" : "Wed, 18 Aug 2021 18:01:34 -0500",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "input" : "",
+  "category" : [
+    "Graphics & Design",
+    "Reference"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Color Menu",
+  "auuid" : "F0B8341E-6E2C-4212-9265-E96545EF78E1",
+  "version" : "1",
+  "callback" : "shortcuts:\/\/x-callback-url\/run-shortcut?name=Color%20Menu&x-error=https:\/\/cutz.bustl.io\/papercuts\/index.html%253Ff%253Ddepict%2526pkg%253D",
+  "id" : "com.shortcutspro.library.color-menu",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : false,
+  "signed_download" : "",
+  "icon_glyph" : 59793,
+  "notes" : "Release ",
+  "certificate_expiration" : "",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Color MenunnChoose from 15 standard colors. 17 Basic colors, or 140+ Extended colors. Get the hex code, RGB code, or a color square on the clipboard."
+}
