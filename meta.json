@@ -1,7 +1,7 @@
 {
-  "name": "Bustl. Library",
+  "name": "ShortcutsPro Library",
   "version": "1.0",
-  "description": "Bustl.Cutz - The Library Repository",
-  "icon": "https://Cutz.Bustl.io/library/depiction/library.png",
-  "id":"io.bustl.cutz.library"
+  "description": "ShortcutsPro - The Library Repository",
+  "icon": "https://ShortcutsPro.github.io/library/depiction/library.png",
+  "id":"com.shortcutspro.library"
 }

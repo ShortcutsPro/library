@@ -5,16 +5,16 @@
       "link" : "https://ShortcutsPro.com"
     },
     "arch" : "universal",
-    "id" : "io.bustl.cutz.library",
+    "id" : "com.shortcutspro.library",
     "catagory" : [
       "utilites"
     ],
-    "link" : "https://Cutz.Bustl.io/library/depiction/library.html",
+    "link" : "https://ShortcutsPro.github.io/library/depiction/library.html",
     "version" : "1.0",
-    "description" : "Bustl.Cutz - The Library Repository",
-    "depiction" : "https://Cutz.Bustl.io/library/depiction/library.html",
-    "name" : "Bustl. Library",
-    "icon" : "https://Cutz.Bustl.io/library/depiction/library.png"
+    "description" : "ShortcutsPro - The Library Repository",
+    "depiction" : "https://ShortcutsPro.github.io/library/depiction/library.html",
+    "name" : "ShortcutsPro Library",
+    "icon" : "https://ShortcutsPro.github.io/library/depiction/library.png"
   },
   {
     "id" : "io.bustl.cutz.library.bustl-updater",
