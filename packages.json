@@ -4,7 +4,7 @@
       "name" : "@ShortcutsPro",
       "link" : "https://ShortcutsPro.com"
     },
-    "arch" : "iOS99999999999999999999",
+    "arch" : "universal",
     "id" : "com.shortcutspro.library",
     "catagory" : [
       "utilites"
@@ -15,35 +15,6 @@
     "depiction" : "https://ShortcutsPro.github.io/library/depiction/library.html",
     "name" : "ShortcutsPro Library",
     "icon" : "https://ShortcutsPro.github.io/library/depiction/library.png"
-  },
-  {
-    "id" : "io.github.shortcutspro.library.file-provider",
-    "description" : "Provides profile lookup and default file path creation for a given shortcut.",
-    "integrity" : false,
-    "version" : "3.1",
-    "depends" : [
-
-    ],
-    "author" : {
-      "name" : "@shortcutspro",
-      "link" : "https://.github.com/shortcutspro/"
-    },
-    "release" : "Mon, 02 Aug 2021 02:56:44 -0500",
-    "link" : "https://www.icloud.com/shortcuts/97484abc8d414ba982d51feed4c1a847",
-    "auuid" : "ADE8C19E-B267-48C7-B3C9-B010580235E5",
-    "color" : "#747D87",
-    "notes" : "We smashed some damn bugs and cranked up the speed.",
-    "catagories" : [
-      "utilities"
-    ],
-    "icon" : "https://cutz.bustl.io/library/depiction/file-provider.png",
-    "arch" : "ios14",
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : "https://scottdwr.github.io"
-    },
-    "name" : "File Provider",
-    "depiction" : "https://cutz.bustl.io/library/depiction/file-provider.html"
   },
   {
     "depends" : [
@@ -95,7 +66,6 @@
   },
   {
     "depends" : [
-      "com.shortcutspro.library.file-provider",
       "com.shortcutspro.library.bustl-updater"
     ],
     "color" : "#86919B",

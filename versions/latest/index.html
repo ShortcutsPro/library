@@ -1,16 +1,15 @@
-<html><head><script>
-function api () {
-  let json;
-  const QUERY = new URL (window.location.href);
-  const auuid = decodeURIComponent(QUERY.searchParams.get('auuid'));
+<script>
+function api (id) {
   // const auuid = "90B9ED1A-1330-44A5-8B39-4E53A68A7632";
   const xhr = new XMLHttpRequest();
   xhr.onload = function() {
-    json = JSON.stringify(JSON.parse(this.responseText), null, 2);
-    console.log(json);
-    document.querySelector('body').innerHTML = "<pre>"+json+"</pre>";
+    let response = JSON.stringify(JSON.parse(this.responseText));
+    sessionStorage.setItem("id",response);
   };
-  xhr.open('get',"./"+auuid+".json");
+  xhr.open('get',"./"+id+".json");
   xhr.send();
-};</script></head><body onload="api();"></body></html>
-  
+  return sessionStorage.getItem("id");
+};
+document.write(JSON.stringify(api(decodeURIComponent(new URL (window.location.href).searchParams.get('id')))));
+// document.write(JSON.stringify(api(decodeURIComponent('90B9ED1A-1330-44A5-8B39-4E53A68A7632'))));
+</script>
