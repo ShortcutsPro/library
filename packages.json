@@ -4,7 +4,7 @@
       "name" : "@ShortcutsPro",
       "link" : "https://ShortcutsPro.com"
     },
-    "arch" : "universal",
+    "arch" : "iOS99999999999999999999",
     "id" : "com.shortcutspro.library",
     "catagory" : [
       "utilites"
