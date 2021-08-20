@@ -191,7 +191,7 @@
     "name" : "Color Menu",
     "auuid" : "E31AA8EE-0B76-4CB4-821A-B364CB1C2A8A",
     "version" : "1",
-    "callback" : "shortcuts://x-callback-url/run-shortcut?name=Color%20Menu&x-error=https://cutz.bustl.io/index.html%3Ff%3Ddepict%26id%3D",
+    "callback" : "shortcuts://x-callback-url/run-shortcut?name=Color%20Menu&x-error=https://cutz.bustl.io/pages/fallback-depiction.html",
     "id" : "com.shortcutspro.library.color-menu",
     "arch" : "iOS14",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
