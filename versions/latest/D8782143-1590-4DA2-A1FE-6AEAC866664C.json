@@ -1,0 +1,47 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#8757C2",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/featured\/shortcuts\/device-checkup\/device-checkup.html",
+  "shortcuts_version" : "1134",
+  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/featured\/depiction\/device-checkup.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/75624970de6e409092c52c05389634bc",
+  "release" : "Sat, 21 Aug 2021 05:19:12 -0500",
+  "file_size" : "25 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/featured\/depiction\/device-checkup.png",
+  "start_color" : 2071128575,
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "date_created" : "Sat, 21 Aug 2021 05:18:04 -0500",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "input" : "",
+  "category" : [
+    "Utilities"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Device Checkup",
+  "auuid" : "D8782143-1590-4DA2-A1FE-6AEAC866664C",
+  "version" : "1",
+  "id" : "io.bustl.cutz.featured.device-checkup",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AXrL-7XCdr9Mh5eG5umVCaMgaWeI\/${f}?o=AobZazIpuepIn0zd26nC7jsAIes6T6um_wDBb646llO6BkaCOQymaqlyeTBVtvlCuQ&v=1&x=3&a=CAogPho_V4Z3IB77FgJ8pMLjs7LpDP7fBeOmErh-6_R_d9cSexDh5t_Bti8Y4cO7w7YvIgEAUgQgaWeIajAOsrkQ2ReJC8gCtX5ln-1JpjMHr-k7xiTCxLnW2o_GbqxWlMV5ncCqki2XzyzJIPByMHCCkzbnZSC4XMSkdk2DW8WlmUegEpCG8vK8KnUIsmir7dvNt8y639AMWR11orlSqQ&e=1629544702&fl=&r=d10aff6f-9c8b-474e-a197-edcb05f65242-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=V4cSpKsJYsjc6xVrL_LBEKIWkr0",
+  "icon_glyph" : 59697,
+  "notes" : "Release",
+  "certificate_expiration" : "Tue, 20 Sep 2022 05:08:19 -0500",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Device CheckupnDescription: Using the get weather action to grab your general location quickly, generates an interactive device detail report.  this can be used when customzing your phone, when troubleshooting an issue, or simple curiosity. ncategory: device, utilityn---"
+}
