@@ -636,7 +636,8 @@
         name : decodeURIComponent(QUERY.searchParams.get('name')),
         auuid : decodeURIComponent(QUERY.searchParams.get('auuid')),
         version : decodeURIComponent(QUERY.searchParams.get('version')),
-        description : decodeURIComponent(QUERY.searchParams.get('description'))
+        description : decodeURIComponent(QUERY.searchParams.get('description')),
+        repo : decodeURIComponent(QUERY.searchParams.get('repo'))
       };
       // alert(JSON.stringify(DATA,null,'\t'));
       const form = { 
@@ -742,7 +743,8 @@
           description: form.description.value,
           integrity: integrity,
           category: category,
-          depends: depends
+          depends: depends,
+          repo: `${DATA.repo}`
         };
         
         if (input != null) {
