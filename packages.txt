@@ -7,14 +7,15 @@
     "arch" : "universal",
     "id" : "io.bustl.cutz.featured",
     "catagory" : [
-      "utilites"
+      "Repository"
     ],
     "link" : "./papercuts/x-callback-url/repos/add/?source=https://Cutz.Bustl.io/featured/",
     "version" : "1.0",
     "description" : "Featuring the most requested shortcuts for your business needs.",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
     "name" : "Bustl.Cutz Featured",
-    "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png"
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png",
+    "repo" : true
   },
   {
     "file_size" : "169 KB",
