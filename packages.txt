@@ -22,16 +22,16 @@
       "link" : "https://ShortcutsPro.com"
     },
     "arch" : "universal",
-    "id" : "io.bustl.cuts.featured",
+    "id" : "io.bustl.cutz.featured",
     "catagory" : [
       "utilites"
     ],
-    "link" : "https://cutz.bustl.io/featured/depiction/featured.html",
+    "link" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
     "version" : "1.0",
     "description" : "Featuring the most requested shortcuts for your business needs.",
-    "depiction" : "https://cutz.bustl.io/featured/depiction/featured.html",
-    "name" : "Bustl.Cuts Featured",
-    "icon" : "https://cutz.bustl.io/featured/depiction/featured.png"
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
+    "name" : "Bustl.Cutz Featured",
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png"
   },
   {
     "depends" : [
