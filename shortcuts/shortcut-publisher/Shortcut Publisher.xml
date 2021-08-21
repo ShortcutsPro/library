@@ -13012,7 +13012,32 @@ document.write([ ...new Set(["￼"])]);
 					<string>WFTextTokenAttachment</string>
 				</dict>
 				<key>WFImageResizeWidth</key>
-				<string>50</string>
+				<string>72</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.image.mask</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>15C2D286-B065-48CB-BB24-18E1F856BA22</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Resized Image</string>
+						<key>OutputUUID</key>
+						<string>4DC85F6B-36FE-4648-9C68-C06B4F2B73BE</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFMaskType</key>
+				<string>Ellipse</string>
 			</dict>
 		</dict>
 		<dict>
@@ -13029,9 +13054,9 @@ document.write([ ...new Set(["￼"])]);
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>Resized Image</string>
+						<string>Masked Image</string>
 						<key>OutputUUID</key>
-						<string>4DC85F6B-36FE-4648-9C68-C06B4F2B73BE</string>
+						<string>15C2D286-B065-48CB-BB24-18E1F856BA22</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
@@ -13200,12 +13225,10 @@ document.write([ ...new Set(["￼"])]);
 						<dict>
 							<key>{0, 1}</key>
 							<dict>
-								<key>OutputName</key>
-								<string>Depiction</string>
-								<key>OutputUUID</key>
-								<string>B2A33413-C109-483A-93E7-89605A8B0DB4</string>
 								<key>Type</key>
-								<string>ActionOutput</string>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Depiction</string>
 							</dict>
 						</dict>
 						<key>string</key>
@@ -13922,6 +13945,13 @@ document.write([ ...new Set(["￼"])]);
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
+							<key>{103, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Source URL</string>
+							</dict>
 							<key>{13, 1}</key>
 							<dict>
 								<key>Type</key>
@@ -13929,40 +13959,19 @@ document.write([ ...new Set(["￼"])]);
 								<key>VariableName</key>
 								<string>Thumb</string>
 							</dict>
-							<key>{19, 1}</key>
+							<key>{33, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Name</string>
 							</dict>
-							<key>{24, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Depiction</string>
-							</dict>
 							<key>{38, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Author Name</string>
-							</dict>
-							<key>{43, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Author Link</string>
-							</dict>
-							<key>{55, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Description</string>
+								<string>Depiction</string>
 							</dict>
 							<key>{6, 1}</key>
 							<dict>
@@ -13971,12 +13980,26 @@ document.write([ ...new Set(["￼"])]);
 								<key>VariableName</key>
 								<string>Name</string>
 							</dict>
-							<key>{81, 1}</key>
+							<key>{60, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Source URL</string>
+								<string>Author Name</string>
+							</dict>
+							<key>{65, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Author Link</string>
+							</dict>
+							<key>{77, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Description</string>
 							</dict>
 							<key>{9, 1}</key>
 							<dict>
@@ -13987,9 +14010,9 @@ document.write([ ...new Set(["￼"])]);
 							</dict>
 						</dict>
 						<key>string</key>
-						<string># [![ ￼](￼)](￼) [**￼**](￼)
+						<string># [![ ￼](￼)](￼) &amp;nbsp; &amp;nbsp; [**￼**](￼)
 
-### by [**￼**](￼)
+#### &amp;nbsp; by [**￼**](￼)
 
 ------
 
@@ -14108,7 +14131,7 @@ document.write([ ...new Set(["￼"])]);
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{2725, 1}</key>
+							<key>{1446, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Body</string>
@@ -14135,25 +14158,12 @@ document.write([ ...new Set(["￼"])]);
   &lt;head&gt;
     &lt;title&gt;￼&lt;/title&gt;
     &lt;meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no " /&gt;
-    &lt;link rel="stylesheet" href="depiction.css" type="text/css" /&gt;
+    &lt;link rel="stylesheet" href="../../styles.css" type="text/css" /&gt;
     &lt;style type="text/css"&gt;
       @charset "utf-8"; 
-      html { 
-        font-size: 100%;
-        font-family: Helvetica, Arial, Freesans, clean, sans-serif;
-      }     
-      body {
-        margin: 0;
-        padding: 1em;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-        background-color: #efeff4;
-        font-size: 17px;
-        font-weight: 200;
-      }
-      body &gt; * {
-        width: 100%;
-        padding: 0.25rem 0.5rem;
-        background-color: white;
+      html { font-size: 100%; font-family: Helvetica, Arial, Freesans, clean, sans-serif;}     
+      body { margin: 0; padding: 1em; font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; background-color: #efeff4; font-size: 17px; font-weight: 200; }
+      body &gt; * { width: 100%; padding: 0.25rem 0.5rem; background-color: white;
         margin: 0.25rem 0;
         border: 1px #c7c7c7;
         border-style: solid none;
@@ -14173,60 +14183,13 @@ document.write([ ...new Set(["￼"])]);
       }
       img {
          max-width: 90%;
-      }
-      p.p1 {
-        margin: 0.0px 0.0px 3.0px 0.0px; 
-        font: 30.2px 'Times New Roman'; 
-        color: #000000; 
-        -webkit-text-stroke: #000000;
-      }
-      p.p2 {
-        margin: 0.0px 0.0px 3.0px 0.0px; 
-        font: 30.2px STIXGeneral; 
-        color: #000000; 
-        -webkit-text-stroke: #000000;
-      }
-      span.s1 {
-        font-family: 'Times New Roman'; 
-        font-weight: normal; 
-        font-style: normal; 
-        font-size: 30.24px; 
-        font-kerning: none
-      }
-      span.s2 {
-        font-family: 'STIXGeneral-Regular'; 
-        font-weight: normal; 
-        font-style: normal; 
-        font-size: 30.24px; 
-        font-kerning: none
-      }
+}
     &lt;/style&gt;
   &lt;/head&gt;
   &lt;body type="text/html"&gt;
-    &lt;p class="p1"&gt;
-      &lt;!--  --&gt;
-    &lt;/p&gt;
-    &lt;p class="p1"&gt;
-      &lt;span class="s1"&gt;
-        &lt;span class="Apple-converted-space"&gt;
-          &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
-        &lt;/span&gt;
-          &amp;#x2122;&amp;#xFE0F;
-      &lt;/span&gt;
-      &lt;span class="s2"&gt;
-        &amp;#x1D63D;&amp;#x1D66A;&amp;#x1D668;&amp;#x1D669;&amp;#x1D661;
-      &lt;/span&gt;
-      &lt;span class="s1"&gt;
-        . C&amp;#x2060;&amp;#x1D1C;&amp;#x1D1B;z
-      &lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p class="p1"&gt;
-      &lt;!--  --&gt;
-    &lt;/p&gt;
    &lt;!-- Beg --&gt;
     ￼
    &lt;!-- End --&gt;
-   &lt;script src=""&gt;&lt;/script&gt;
   &lt;/body&gt;
 &lt;/html&gt;</string>
 					</dict>
@@ -14314,19 +14277,10 @@ document.write([ ...new Set(["￼"])]);
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>Aggrandizements</key>
-						<array>
-							<dict>
-								<key>CoercionItemClass</key>
-								<string>WFGenericFileContentItem</string>
-								<key>Type</key>
-								<string>WFCoercionVariableAggrandizement</string>
-							</dict>
-						</array>
 						<key>OutputName</key>
-						<string>Renamed Item</string>
+						<string>File of Type</string>
 						<key>OutputUUID</key>
-						<string>56459F87-E55D-4701-96F4-0A42FACFC335</string>
+						<string>B6BAAE18-20C2-4CB3-BFDD-2570990D746C</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
@@ -14775,6 +14729,84 @@ document.write([ ...new Set(["￼"])]);
 				</dict>
 				<key>WFVariableName</key>
 				<string>Quiet</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.replace</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>06311C1A-EA63-40C7-B321-95FFDFB68460</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Description</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFReplaceTextFind</key>
+				<string>\n</string>
+				<key>WFReplaceTextRegularExpression</key>
+				<true/>
+				<key>WFReplaceTextReplace</key>
+				<string>\n</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Updated Text</string>
+						<key>OutputUUID</key>
+						<string>06311C1A-EA63-40C7-B321-95FFDFB68460</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Description</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
 			</dict>
 		</dict>
 		<dict>
@@ -15255,35 +15287,6 @@ document.write([ ...new Set(["￼"])]);
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.showresult</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>Text</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>attachmentsByRange</key>
-						<dict>
-							<key>{0, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>Text</string>
-								<key>OutputUUID</key>
-								<string>580FAAD2-8E8F-4FF4-9D80-44FE73E7949D</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-						</dict>
-						<key>string</key>
-						<string>￼</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenString</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
 			<string>com.alexhay.ToolboxProForShortcuts.PrettyPrintIntent</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -15305,6 +15308,82 @@ document.write([ ...new Set(["￼"])]);
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
 				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>50ECB03E-7694-4798-9D95-F4D0E0C02104</string>
+				<key>WFCondition</key>
+				<integer>101</integer>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Pretty Printed Dictionary</string>
+							<key>OutputUUID</key>
+							<string>049DB75F-DFFA-4285-90D3-653D7BB996B5</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.showresult</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{28, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Text</string>
+								<key>OutputUUID</key>
+								<string>580FAAD2-8E8F-4FF4-9D80-44FE73E7949D</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>Something is wrong below, 
+
+￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>50ECB03E-7694-4798-9D95-F4D0E0C02104</string>
+				<key>UUID</key>
+				<string>85703454-B740-4CFA-84DC-BD1EBE76C988</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -16336,7 +16415,11 @@ document.write([ ...new Set(["￼"])]);
 			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.comment</string>
 			<key>WFWorkflowActionParameters</key>
-			<dict/>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
@@ -16512,7 +16595,11 @@ document.write([ ...new Set(["￼"])]);
 			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.comment</string>
 			<key>WFWorkflowActionParameters</key>
-			<dict/>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
@@ -16688,7 +16775,11 @@ document.write([ ...new Set(["￼"])]);
 			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.comment</string>
 			<key>WFWorkflowActionParameters</key>
-			<dict/>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
@@ -16879,11 +16970,39 @@ document.write([ ...new Set(["￼"])]);
 							<key>{0, 1}</key>
 							<dict>
 								<key>Type</key>
+								<string>CurrentDate</string>
+							</dict>
+							<key>{2, 1}</key>
+							<dict>
+								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Name</string>
 							</dict>
-							<key>{3, 1}</key>
+							<key>{32, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Status</string>
+							</dict>
+							<key>{46, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Repo</string>
+							</dict>
+							<key>{50, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Status</string>
+								<key>OutputUUID</key>
+								<string>5DE28E66-3040-442F-870B-2B2F403FFF25</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+							<key>{6, 1}</key>
 							<dict>
 								<key>Aggrandizements</key>
 								<array>
@@ -16899,49 +17018,10 @@ document.write([ ...new Set(["￼"])]);
 								<key>VariableName</key>
 								<string>Update</string>
 							</dict>
-							<key>{31, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Status</string>
-							</dict>
-							<key>{45, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Repo</string>
-							</dict>
-							<key>{49, 1}</key>
-							<dict>
-								<key>OutputName</key>
-								<string>Status</string>
-								<key>OutputUUID</key>
-								<string>5DE28E66-3040-442F-870B-2B2F403FFF25</string>
-								<key>Type</key>
-								<string>ActionOutput</string>
-							</dict>
-							<key>{5, 1}</key>
-							<dict>
-								<key>Aggrandizements</key>
-								<array>
-									<dict>
-										<key>DictionaryKey</key>
-										<string>release</string>
-										<key>Type</key>
-										<string>WFDictionaryValueVariableAggrandizement</string>
-									</dict>
-								</array>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Update</string>
-							</dict>
 						</dict>
 						<key>string</key>
-						<string>￼ v￼
-￼
+						<string>￼
+￼ v.￼
 
 ShortcutsPro Library :
 ￼
@@ -17016,33 +17096,40 @@ Bustl.Cutz ￼ :
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.output</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFOutput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Text</string>
+								<key>OutputUUID</key>
+								<string>EC1043E9-341B-4FCD-8956-9ADE901911B5</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.comment</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>WFCommentActionText</key>
-				<string>🔚</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>A0FB87E5-4D38-4434-87D2-398E1EE9661C</string>
-				<key>WFControlFlowMode</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.repeat.each</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>GroupingIdentifier</key>
-				<string>A0FB87E5-4D38-4434-87D2-398E1EE9661C</string>
-				<key>WFControlFlowMode</key>
-				<integer>2</integer>
+				<string> </string>
 			</dict>
 		</dict>
 	</array>
@@ -17078,11 +17165,11 @@ Bustl.Cutz ￼ :
 	</dict>
 	<key>WFWorkflowOutputContentItemClasses</key>
 	<array>
-		<string>WFNumberContentItem</string>
-		<string>WFDictionaryContentItem</string>
 		<string>WFDateContentItem</string>
 		<string>WFBooleanContentItem</string>
 		<string>WFStringContentItem</string>
+		<string>WFNumberContentItem</string>
+		<string>WFDictionaryContentItem</string>
 	</array>
 	<key>WFWorkflowTypes</key>
 	<array>
