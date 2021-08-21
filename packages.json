@@ -5,16 +5,16 @@
       "link" : "https://ShortcutsPro.com"
     },
     "arch" : "universal",
-    "id" : "com.shortcutspro.library",
+    "id" : "io.bustl.cutz.featured",
     "catagory" : [
       "utilites"
     ],
-    "link" : "https://ShortcutsPro.github.io/library/depiction/library.html",
+    "link" : "https://Cutz.Bustl.io/featured/",
     "version" : "1.0",
-    "description" : "ShortcutsPro - The Library Repository",
-    "depiction" : "https://ShortcutsPro.github.io/library/depiction/library.html",
-    "name" : "ShortcutsPro Library",
-    "icon" : "https://ShortcutsPro.github.io/library/depiction/library.png"
+    "description" : "Featuring the most requested shortcuts for your business needs.",
+    "depiction" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
+    "name" : "Bustl.Cutz Featured",
+    "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png"
   },
   {
     "author" : {
