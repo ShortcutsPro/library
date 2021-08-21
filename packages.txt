@@ -9,7 +9,7 @@
     "catagory" : [
       "utilites"
     ],
-    "link" : "https://Cutz.Bustl.io/featured/meta.json",
+    "link" : "https://Cutz.Bustl.io/featured/",
     "version" : "1.0",
     "description" : "Featuring the most requested shortcuts for your business needs.",
     "depiction" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
