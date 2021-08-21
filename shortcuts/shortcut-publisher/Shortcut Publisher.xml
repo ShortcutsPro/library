@@ -9770,6 +9770,172 @@ function magictap(id) {
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>com.appliedphasor.working-copy.ListRepositoriesIntent</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>9E82705E-B04D-495E-BA21-4233D19D8E21</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>512DA721-7885-4C6A-BD52-1CFEE4AFD5B5</string>
+				<key>WFChooseFromListActionPrompt</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{35, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Name</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>Which Repo will you be publishing  ￼ to? </string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Repositories</string>
+						<key>OutputUUID</key>
+						<string>9E82705E-B04D-495E-BA21-4233D19D8E21</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.detect.text</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Repo</string>
+				<key>UUID</key>
+				<string>1B9BCC8C-14D7-4D0B-8078-E4938A2FF87F</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>PropertyName</key>
+								<string>Name</string>
+								<key>PropertyUserInfo</key>
+								<string>WFItemName</string>
+								<key>Type</key>
+								<string>WFPropertyVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>Chosen Item</string>
+						<key>OutputUUID</key>
+						<string>512DA721-7885-4C6A-BD52-1CFEE4AFD5B5</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>68FB7F96-C12F-4AC8-83B3-F6BA1FD10609</string>
+				<key>WFDictionary</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Parameter</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFDictionaryKey</key>
+				<string>repo</string>
+				<key>WFDictionaryValue</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Repo</string>
+								<key>OutputUUID</key>
+								<string>1B9BCC8C-14D7-4D0B-8078-E4938A2FF87F</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Dictionary</string>
+						<key>OutputUUID</key>
+						<string>68FB7F96-C12F-4AC8-83B3-F6BA1FD10609</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Parameter</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>com.alexhay.ToolboxProForShortcuts.CreateQueryItemIntent</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -9818,7 +9984,27 @@ function magictap(id) {
 				<key>host</key>
 				<string>cutz.bustl.io</string>
 				<key>path</key>
-				<string>/library</string>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{1, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Repo</string>
+								<key>OutputUUID</key>
+								<string>1B9BCC8C-14D7-4D0B-8078-E4938A2FF87F</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>/￼/publish.html</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
 				<key>queryItems</key>
 				<dict>
 					<key>Value</key>
@@ -11013,6 +11199,27 @@ document.write([ ...new Set(["￼"])]);
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.appendvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Repeat Item</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Categories</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -11139,15 +11346,73 @@ document.write([ ...new Set(["￼"])]);
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Library</string>
+				<key>UUID</key>
+				<string>8938280B-0EE8-4ED2-9A1C-6DF0174FEB3C</string>
+				<key>WFTextActionText</key>
+				<string>library</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>com.appliedphasor.working-copy.ListRepositoriesIntent</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>CustomOutputName</key>
-				<string>library</string>
+				<string>Repositories</string>
 				<key>UUID</key>
 				<string>25FB1FFD-EF83-4087-91C8-B3080FA0F1B3</string>
 				<key>pattern</key>
-				<string>library</string>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Library</string>
+								<key>OutputUUID</key>
+								<string>8938280B-0EE8-4ED2-9A1C-6DF0174FEB3C</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getitemfromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Library</string>
+				<key>UUID</key>
+				<string>310262F0-BBF4-41BA-BE9E-F20CD9DF5C34</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Repositories</string>
+						<key>OutputUUID</key>
+						<string>25FB1FFD-EF83-4087-91C8-B3080FA0F1B3</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
@@ -11160,9 +11425,9 @@ document.write([ ...new Set(["￼"])]);
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>library</string>
+						<string>Library</string>
 						<key>OutputUUID</key>
-						<string>25FB1FFD-EF83-4087-91C8-B3080FA0F1B3</string>
+						<string>310262F0-BBF4-41BA-BE9E-F20CD9DF5C34</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
@@ -11186,12 +11451,10 @@ document.write([ ...new Set(["￼"])]);
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>OutputName</key>
-						<string>library</string>
-						<key>OutputUUID</key>
-						<string>25FB1FFD-EF83-4087-91C8-B3080FA0F1B3</string>
 						<key>Type</key>
-						<string>ActionOutput</string>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Library</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
@@ -11202,7 +11465,46 @@ document.write([ ...new Set(["￼"])]);
 			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.comment</string>
 			<key>WFWorkflowActionParameters</key>
-			<dict/>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Repo Name</string>
+				<key>UUID</key>
+				<string>3F1E4400-2EC3-4A06-8C1F-2559981DDCE7</string>
+				<key>WFDictionaryKey</key>
+				<string>repo</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Update</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
@@ -11211,19 +11513,37 @@ document.write([ ...new Set(["￼"])]);
 			<dict>
 				<key>UUID</key>
 				<string>6131A8F7-B911-4A72-8248-9A2FB25B9A42</string>
+				<key>pattern</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Repo Name</string>
+								<key>OutputUUID</key>
+								<string>3F1E4400-2EC3-4A06-8C1F-2559981DDCE7</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
 			</dict>
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.choosefromlist</string>
+			<string>is.workflow.actions.getitemfromlist</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>CustomOutputName</key>
-				<string>Repository</string>
 				<key>UUID</key>
-				<string>50B5974B-239E-4C3C-8275-3636C882B7E1</string>
-				<key>WFChooseFromListActionPrompt</key>
-				<string>Which Repository?</string>
+				<string>19052719-DA7D-4242-A2D5-5EF5B62B5CD1</string>
 				<key>WFInput</key>
 				<dict>
 					<key>Value</key>
@@ -11250,9 +11570,9 @@ document.write([ ...new Set(["￼"])]);
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>Repository</string>
+						<string>Item from List</string>
 						<key>OutputUUID</key>
-						<string>50B5974B-239E-4C3C-8275-3636C882B7E1</string>
+						<string>19052719-DA7D-4242-A2D5-5EF5B62B5CD1</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
@@ -11318,6 +11638,17 @@ document.write([ ...new Set(["￼"])]);
 				<dict>
 					<key>Value</key>
 					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>PropertyName</key>
+								<string>Name</string>
+								<key>PropertyUserInfo</key>
+								<string>WFItemName</string>
+								<key>Type</key>
+								<string>WFPropertyVariableAggrandizement</string>
+							</dict>
+						</array>
 						<key>Type</key>
 						<string>Variable</string>
 						<key>VariableName</key>
@@ -11366,6 +11697,71 @@ document.write([ ...new Set(["￼"])]);
 			<string>is.workflow.actions.getvalueforkey</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
+				<key>UUID</key>
+				<string>8D3A8834-E257-489F-9E92-BF0D3440A482</string>
+				<key>WFDictionaryKey</key>
+				<string>integrity</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Update</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFBooleanContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+						</array>
+						<key>OutputName</key>
+						<string>Dictionary Value</string>
+						<key>OutputUUID</key>
+						<string>8D3A8834-E257-489F-9E92-BF0D3440A482</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Integrity</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
 				<key>CustomOutputName</key>
 				<string>Depends</string>
 				<key>UUID</key>
@@ -11388,6 +11784,125 @@ document.write([ ...new Set(["￼"])]);
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Depends</string>
+						<key>OutputUUID</key>
+						<string>86DD14F6-68A3-4ACD-A09C-9BCCD609D740</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Depends</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>523ED68A-C254-48EE-ABA2-FE27A341B3C9</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>Aggrandizements</key>
+							<array>
+								<dict>
+									<key>CoercionItemClass</key>
+									<string>WFBooleanContentItem</string>
+									<key>Type</key>
+									<string>WFCoercionVariableAggrandizement</string>
+								</dict>
+							</array>
+							<key>Type</key>
+							<string>Variable</string>
+							<key>VariableName</key>
+							<string>Integrity</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>8B16C455-D9E4-481F-89A0-EB6212CEDDC5</string>
+				<key>WFTextActionText</key>
+				<string>com.shortcutspro.library.integrity</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.appendvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>8B16C455-D9E4-481F-89A0-EB6212CEDDC5</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Depends</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>523ED68A-C254-48EE-ABA2-FE27A341B3C9</string>
+				<key>UUID</key>
+				<string>418BD3EB-2F8D-4B73-9A58-C16799FD1D58</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.repeat.each</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -11399,12 +11914,10 @@ document.write([ ...new Set(["￼"])]);
 				<dict>
 					<key>Value</key>
 					<dict>
-						<key>OutputName</key>
-						<string>Depends</string>
-						<key>OutputUUID</key>
-						<string>86DD14F6-68A3-4ACD-A09C-9BCCD609D740</string>
 						<key>Type</key>
-						<string>ActionOutput</string>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Depends</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenAttachment</string>
@@ -12878,6 +13391,44 @@ document.write([ ...new Set(["￼"])]);
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>6530AD77-353C-4E3F-A460-727D8934DB92</string>
+				<key>WFCondition</key>
+				<integer>4</integer>
+				<key>WFConditionalActionString</key>
+				<string>library</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>Type</key>
+							<string>Variable</string>
+							<key>VariableName</key>
+							<string>Repo</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.url</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -12898,7 +13449,112 @@ document.write([ ...new Set(["￼"])]);
 								<key>VariableName</key>
 								<string>Repo</string>
 							</dict>
-							<key>{43, 1}</key>
+						</dict>
+						<key>string</key>
+						<string>https://ShortcutsPro.GitHub.io/￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>6530AD77-353C-4E3F-A460-727D8934DB92</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Show-WFURLActionURL</key>
+				<true/>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{22, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Repo</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>https://Cutz.Bustl.io/￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>6530AD77-353C-4E3F-A460-727D8934DB92</string>
+				<key>UUID</key>
+				<string>A011CC91-72D0-4098-BB7F-FD7A01DF966D</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>If Result</string>
+						<key>OutputUUID</key>
+						<string>A011CC91-72D0-4098-BB7F-FD7A01DF966D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Repo URL</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>4ABC7584-3017-4EC3-8117-679C8D14D3EC</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Repo URL</string>
+							</dict>
+							<key>{12, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -12907,7 +13563,7 @@ document.write([ ...new Set(["￼"])]);
 							</dict>
 						</dict>
 						<key>string</key>
-						<string>https://ShortcutsPro.GitHub.io/￼/depiction/￼.png</string>
+						<string>￼/depiction/￼.png</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
@@ -12943,10 +13599,19 @@ document.write([ ...new Set(["￼"])]);
 						<dict>
 							<key>{0, 1}</key>
 							<dict>
+								<key>Aggrandizements</key>
+								<array>
+									<dict>
+										<key>CoercionItemClass</key>
+										<string>WFURLContentItem</string>
+										<key>Type</key>
+										<string>WFCoercionVariableAggrandizement</string>
+									</dict>
+								</array>
 								<key>OutputName</key>
-								<string>URL</string>
+								<string>Text</string>
 								<key>OutputUUID</key>
-								<string>6CB4454D-CEC8-493D-92C7-6DB4B7A02E44</string>
+								<string>4ABC7584-3017-4EC3-8117-679C8D14D3EC</string>
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
@@ -13012,7 +13677,7 @@ document.write([ ...new Set(["￼"])]);
 					<string>WFTextTokenAttachment</string>
 				</dict>
 				<key>WFImageResizeWidth</key>
-				<string>72</string>
+				<string>50</string>
 			</dict>
 		</dict>
 		<dict>
@@ -13135,29 +13800,25 @@ document.write([ ...new Set(["￼"])]);
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.url</string>
+			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>CustomOutputName</key>
-				<string>Depiction</string>
-				<key>Show-WFURLActionURL</key>
-				<true/>
 				<key>UUID</key>
-				<string>B2A33413-C109-483A-93E7-89605A8B0DB4</string>
-				<key>WFURLActionURL</key>
+				<string>0A6205A3-E2D5-4B4A-AA4C-26129DC496F7</string>
+				<key>WFTextActionText</key>
 				<dict>
 					<key>Value</key>
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{31, 1}</key>
+							<key>{0, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Repo</string>
+								<string>Repo URL</string>
 							</dict>
-							<key>{43, 1}</key>
+							<key>{12, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -13166,7 +13827,7 @@ document.write([ ...new Set(["￼"])]);
 							</dict>
 						</dict>
 						<key>string</key>
-						<string>https://ShortcutsPro.GitHub.io/￼/depiction/￼.html</string>
+						<string>￼/depiction/￼.html</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
@@ -13183,9 +13844,9 @@ document.write([ ...new Set(["￼"])]);
 					<key>Value</key>
 					<dict>
 						<key>OutputName</key>
-						<string>Depiction</string>
+						<string>Text</string>
 						<key>OutputUUID</key>
-						<string>B2A33413-C109-483A-93E7-89605A8B0DB4</string>
+						<string>0A6205A3-E2D5-4B4A-AA4C-26129DC496F7</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
@@ -13850,34 +14511,32 @@ document.write([ ...new Set(["￼"])]);
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.url</string>
+			<string>is.workflow.actions.gettext</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
-				<key>Show-WFURLActionURL</key>
-				<true/>
 				<key>UUID</key>
-				<string>F7BA172D-92DE-44DC-AA61-2C7B4C245ED6</string>
-				<key>WFURLActionURL</key>
+				<string>8AC12604-F01B-48E9-B946-8021367221A1</string>
+				<key>WFTextActionText</key>
 				<dict>
 					<key>Value</key>
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{31, 1}</key>
+							<key>{0, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Repo</string>
+								<string>Repo URL</string>
 							</dict>
-							<key>{43, 1}</key>
+							<key>{12, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>identifier</string>
 							</dict>
-							<key>{45, 1}</key>
+							<key>{14, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -13886,7 +14545,7 @@ document.write([ ...new Set(["￼"])]);
 							</dict>
 						</dict>
 						<key>string</key>
-						<string>https://ShortcutsPro.GitHub.io/￼/shortcuts/￼/￼.html</string>
+						<string>￼/shortcuts/￼/￼.html</string>
 					</dict>
 					<key>WFSerializationType</key>
 					<string>WFTextTokenString</string>
@@ -13902,10 +14561,19 @@ document.write([ ...new Set(["￼"])]);
 				<dict>
 					<key>Value</key>
 					<dict>
+						<key>Aggrandizements</key>
+						<array>
+							<dict>
+								<key>CoercionItemClass</key>
+								<string>WFURLContentItem</string>
+								<key>Type</key>
+								<string>WFCoercionVariableAggrandizement</string>
+							</dict>
+						</array>
 						<key>OutputName</key>
-						<string>URL</string>
+						<string>Text</string>
 						<key>OutputUUID</key>
-						<string>F7BA172D-92DE-44DC-AA61-2C7B4C245ED6</string>
+						<string>8AC12604-F01B-48E9-B946-8021367221A1</string>
 						<key>Type</key>
 						<string>ActionOutput</string>
 					</dict>
@@ -13938,20 +14606,82 @@ document.write([ ...new Set(["￼"])]);
 			<key>WFWorkflowActionParameters</key>
 			<dict>
 				<key>UUID</key>
-				<string>0BE51025-E92C-4EC5-93D0-680FF36B7D01</string>
+				<string>221AE1FB-FBA4-4778-8113-B7E2D74099A7</string>
 				<key>WFTextActionText</key>
 				<dict>
 					<key>Value</key>
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{103, 1}</key>
+							<key>{11, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Source URL</string>
+								<string>Author Name</string>
 							</dict>
+							<key>{16, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Author Link</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>Author: [**￼**](￼)</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>221AE1FB-FBA4-4778-8113-B7E2D74099A7</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>By Line</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>C2B2B85D-1E4A-4043-94E4-EFA4118F61C6</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
 							<key>{13, 1}</key>
 							<dict>
 								<key>Type</key>
@@ -13959,14 +14689,14 @@ document.write([ ...new Set(["￼"])]);
 								<key>VariableName</key>
 								<string>Thumb</string>
 							</dict>
-							<key>{33, 1}</key>
+							<key>{25, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
 								<string>Name</string>
 							</dict>
-							<key>{38, 1}</key>
+							<key>{28, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -13980,27 +14710,6 @@ document.write([ ...new Set(["￼"])]);
 								<key>VariableName</key>
 								<string>Name</string>
 							</dict>
-							<key>{60, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Author Name</string>
-							</dict>
-							<key>{65, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Author Link</string>
-							</dict>
-							<key>{77, 1}</key>
-							<dict>
-								<key>Type</key>
-								<string>Variable</string>
-								<key>VariableName</key>
-								<string>Description</string>
-							</dict>
 							<key>{9, 1}</key>
 							<dict>
 								<key>Type</key>
@@ -14010,13 +14719,472 @@ document.write([ ...new Set(["￼"])]);
 							</dict>
 						</dict>
 						<key>string</key>
-						<string># [![ ￼](￼)](￼) &amp;nbsp; &amp;nbsp; [**￼**](￼)
+						<string>## [![￼](￼)](￼) &amp;nbsp;  [￼](￼)</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Text</string>
+						<key>OutputUUID</key>
+						<string>C2B2B85D-1E4A-4043-94E4-EFA4118F61C6</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Title Line</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.combine</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Show-text</key>
+				<true/>
+				<key>UUID</key>
+				<string>34B95FA5-3674-4C51-875A-765FED58F892</string>
+				<key>WFTextCustomSeparator</key>
+				<string>, </string>
+				<key>WFTextSeparator</key>
+				<string>Custom</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Categories</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Combined Text</string>
+						<key>OutputUUID</key>
+						<string>34B95FA5-3674-4C51-875A-765FED58F892</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Categories Line</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>Show-text</key>
+				<true/>
+				<key>UUID</key>
+				<string>9E67E9CC-483E-4581-93E3-6DC21E664F24</string>
+				<key>WFTextCustomSeparator</key>
+				<string>. </string>
+				<key>WFTextSeparator</key>
+				<string>Custom</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Description</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getitemfromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>689A2EA0-3EB8-458A-AF93-353DF653308F</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Split Text</string>
+						<key>OutputUUID</key>
+						<string>9E67E9CC-483E-4581-93E3-6DC21E664F24</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Item from List</string>
+						<key>OutputUUID</key>
+						<string>689A2EA0-3EB8-458A-AF93-353DF653308F</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Tag Line</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>D7E243A7-AECB-4F3C-86FD-CEF391AF09C4</string>
+				<key>WFDictionaryKey</key>
+				<string>markdown</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Update</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.ask</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>B60C338C-6F07-4751-9379-657BC2796AF3</string>
+				<key>WFAskActionDefaultAnswer</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Dictionary Value</string>
+								<key>OutputUUID</key>
+								<string>D7E243A7-AECB-4F3C-86FD-CEF391AF09C4</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFAskActionPrompt</key>
+				<string>Enter a Markdown format rich description, if any</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>385228D5-A100-4364-B3F3-6CCA52158A7C</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{1, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Provided Input</string>
+								<key>OutputUUID</key>
+								<string>B60C338C-6F07-4751-9379-657BC2796AF3</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>#￼#</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>60290127-99D2-49A8-BF00-500F6DA00C91</string>
+				<key>WFCondition</key>
+				<integer>5</integer>
+				<key>WFConditionalActionString</key>
+				<string>##</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+				<key>WFInput</key>
+				<dict>
+					<key>Type</key>
+					<string>Variable</string>
+					<key>Variable</key>
+					<dict>
+						<key>Value</key>
+						<dict>
+							<key>OutputName</key>
+							<string>Text</string>
+							<key>OutputUUID</key>
+							<string>385228D5-A100-4364-B3F3-6CCA52158A7C</string>
+							<key>Type</key>
+							<string>ActionOutput</string>
+						</dict>
+						<key>WFSerializationType</key>
+						<string>WFTextTokenAttachment</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFVariable</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Provided Input</string>
+						<key>OutputUUID</key>
+						<string>B60C338C-6F07-4751-9379-657BC2796AF3</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>60290127-99D2-49A8-BF00-500F6DA00C91</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFVariable</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Description</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>60290127-99D2-49A8-BF00-500F6DA00C91</string>
+				<key>UUID</key>
+				<string>F470B31A-1AA5-4D0C-80F8-927385EE55E8</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>If Result</string>
+						<key>OutputUUID</key>
+						<string>F470B31A-1AA5-4D0C-80F8-927385EE55E8</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Rich Description</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.comment</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFCommentActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>0BE51025-E92C-4EC5-93D0-680FF36B7D01</string>
+				<key>WFTextActionText</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Title Line</string>
+							</dict>
+							<key>{13, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Categories Line</string>
+							</dict>
+							<key>{21, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Rich Description</string>
+							</dict>
+							<key>{45, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Source URL</string>
+							</dict>
+							<key>{6, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>Tag Line</string>
+							</dict>
+							<key>{9, 1}</key>
+							<dict>
+								<key>Type</key>
+								<string>Variable</string>
+								<key>VariableName</key>
+								<string>By Line</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼
+### ￼
+_￼_
 
-#### &amp;nbsp; by [**￼**](￼)
+￼
 
-------
-
-￼  
+****
+￼
 
 [**View contents.**](￼)</string>
 					</dict>
@@ -14131,7 +15299,7 @@ document.write([ ...new Set(["￼"])]);
 					<dict>
 						<key>attachmentsByRange</key>
 						<dict>
-							<key>{1446, 1}</key>
+							<key>{1261, 1}</key>
 							<dict>
 								<key>OutputName</key>
 								<string>Body</string>
@@ -14140,7 +15308,7 @@ document.write([ ...new Set(["￼"])]);
 								<key>Type</key>
 								<string>ActionOutput</string>
 							</dict>
-							<key>{327, 1}</key>
+							<key>{303, 1}</key>
 							<dict>
 								<key>Type</key>
 								<string>Variable</string>
@@ -14151,45 +15319,40 @@ document.write([ ...new Set(["￼"])]);
 						<key>string</key>
 						<string>&lt;!-- Bustl.Cutz Depiction --&gt;
 &lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
-&lt;meta charset="UTF-8" /&gt;
-&lt;html lang="en" dir="ltr"&gt;
+&lt;html lang="en" dir="auto"&gt;
   &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
   &lt;meta http-equiv="Content-Style-Type" content="text/css" /&gt;
   &lt;head&gt;
     &lt;title&gt;￼&lt;/title&gt;
     &lt;meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no " /&gt;
-    &lt;link rel="stylesheet" href="../../styles.css" type="text/css" /&gt;
-    &lt;style type="text/css"&gt;
+    &lt;style&gt;
       @charset "utf-8"; 
-      html { font-size: 100%; font-family: Helvetica, Arial, Freesans, clean, sans-serif;}     
-      body { margin: 0; padding: 1em; font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; background-color: #efeff4; font-size: 17px; font-weight: 200; }
-      body &gt; * { width: 100%; padding: 0.25rem 0.5rem; background-color: white;
-        margin: 0.25rem 0;
-        border: 1px #c7c7c7;
-        border-style: solid none;
-      }
-      * {
-        box-sizing: border-box;
-        font-weight: normal;
-        margin: 0;
-      }
-      @media (max-device-width: 480px) { 
-      } 
-      @media (min-device-width: 481px) { 
-        body {
-          margin: auto;
-          max-width: 600px;
-        } 
-      }
-      img {
-         max-width: 90%;
-}
+      html { font-size: 100%; font-family:  Helvetica, Arial, Freesans, clean, sans-serif; }     
+      body { font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; background-color: #efeff4; margin: 0;padding: 1em; font-size: 17px; font-weight: 200; }
+      @media (max-device-width: 480px) { } 
+      @media (min-device-width: 481px) { body { margin: auto; max-width: 600px; } }
+      img { max-width: 90%; }
+  body &gt; * {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    background-color: white;
+    margin: 0.25rem 0;
+    border: 1px #c7c7c7;
+    border-style: solid none;
+  }
+  * {
+    box-sizing: border-box;
+    font-weight: normal;
+    margin:0;
+  }
     &lt;/style&gt;
   &lt;/head&gt;
-  &lt;body type="text/html"&gt;
-   &lt;!-- Beg --&gt;
-    ￼
-   &lt;!-- End --&gt;
+  &lt;body&gt;
+     &lt;article class="article"&gt;
+      &lt;div&gt;
+       ￼
+      &lt;/div&gt;
+     &lt;/article&gt;
   &lt;/body&gt;
 &lt;/html&gt;</string>
 					</dict>
@@ -14465,31 +15628,6 @@ document.write([ ...new Set(["￼"])]);
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.getvalueforkey</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>CustomOutputName</key>
-				<string>True</string>
-				<key>UUID</key>
-				<string>49E5207C-B68E-40B0-9BC9-9231674E2335</string>
-				<key>WFDictionaryKey</key>
-				<string>integrity</string>
-				<key>WFInput</key>
-				<dict>
-					<key>Value</key>
-					<dict>
-						<key>Type</key>
-						<string>Variable</string>
-						<key>VariableName</key>
-						<string>Update</string>
-					</dict>
-					<key>WFSerializationType</key>
-					<string>WFTextTokenAttachment</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.conditional</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -14516,12 +15654,10 @@ document.write([ ...new Set(["￼"])]);
 									<string>WFCoercionVariableAggrandizement</string>
 								</dict>
 							</array>
-							<key>OutputName</key>
-							<string>True</string>
-							<key>OutputUUID</key>
-							<string>49E5207C-B68E-40B0-9BC9-9231674E2335</string>
 							<key>Type</key>
-							<string>ActionOutput</string>
+							<string>Variable</string>
+							<key>VariableName</key>
+							<string>Integrity</string>
 						</dict>
 						<key>WFSerializationType</key>
 						<string>WFTextTokenAttachment</string>
@@ -14759,7 +15895,7 @@ document.write([ ...new Set(["￼"])]);
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Description</string>
+								<string>Rich Description</string>
 							</dict>
 						</dict>
 						<key>string</key>
