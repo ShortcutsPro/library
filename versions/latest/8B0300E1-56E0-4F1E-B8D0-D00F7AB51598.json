@@ -6,14 +6,14 @@
   "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/bustl-formz-builder\/bustl-formz-builder.html",
   "shortcuts_version" : "1129",
   "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/bustl-formz-builder.html",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/d34c9a302895486484b1365a2f83f407",
-  "release" : "Sun, 22 Aug 2021 00:27:17 -0500",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/7f3e09df41a14e1885673bd9f355d17e",
+  "release" : "Sun, 22 Aug 2021 00:33:16 -0500",
   "file_size" : "14 KB",
   "integrity" : true,
   "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/bustl-formz-builder.png",
   "start_color" : 3980825855,
   "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
-  "date_created" : "Sun, 22 Aug 2021 00:23:25 -0500",
+  "date_created" : "Sun, 22 Aug 2021 00:31:06 -0500",
   "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
   "input" : "",
   "category" : [
@@ -33,10 +33,10 @@
   "arch" : "iOS14",
   "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
   "quiet" : false,
-  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AfsDvRTzyyDVlK9_KaHWKfBVMwuU\/${f}?o=Anzuykgj-KfmcNWjX7KWH_0L4DdIvhK5FkwJRzDy8fNhXnO0wOWVva8lvaIUfhvN2w&v=1&x=3&a=CAogsiogmN4rdQ9eQV6AKxbudmO8exbVLS4CKeYBgetdJosSexCK7sHiti8Yisud5LYvIgEAUgRVMwuUajD4vIZwSl6UWW78ktc3xAs1jmhl83wKq3CNUTTDpYFqUdDbRx_qNhwv5cECzg6Eq0pyMAXvWkIMohy-vc8atF2bCHPodjYaxfXtQ_QO-VTaCfMQ_z7GPkaeOWXJbga4Z4_77g&e=1629613417&fl=&r=8cf0fdc6-6fee-41bf-8874-aefc164ccaeb-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uRxcY2JjCufclhpAdCocU3kCDSY",
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AT8aOvShYHjbO8S1Qu46G2Laig4N\/${f}?o=AhUlOMbGYh1pfktdvAXFKs2Jp51pQMHjlJswQMGe0tG0pHGHGmfAAcCnqn9BLXFbeg&v=1&x=3&a=CAogGKdWVKE5wth3Rn_TlEBCzzmhcdPCPD9eI-zBq0j_pBkSexDg9N3iti8Y4NG55LYvIgEAUgTaig4NajAzN2rU_uodng5HONmxpN6vFNXWJ5L5QX8YDltpNkcfJMglpp3S0sKZrqPqIvlg81pyMOI8KUfozVZ0T6zCS8EnSU9jaaZq5jaRGvZ_qzVxp1c8zEHEoCTTRBDCo09RmJ6TTw&e=1629613877&fl=&r=cfe5b962-cbe1-4c88-b951-f87deb3383cc-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=9uAt1Q6WtLmu-OhjeBV0vghehDY",
   "icon_glyph" : 59726,
   "notes" : "Initial release ",
-  "certificate_expiration" : "Wed, 21 Sep 2022 00:13:34 -0500",
+  "certificate_expiration" : "Wed, 21 Sep 2022 00:21:14 -0500",
   "minimum_version" : 900,
   "author" : {
     "name" : "anonymous",
@@ -44,5 +44,5 @@
       "about:blank"
     ]
   },
-  "description" : "Bustl Formz BuildernnCreates custom forms to open from a shortcut and input data into a shortcut.  n———"
+  "description" : "## Choose your fieldsn[![Menu](https:\/\/i.imgur.com\/S4cOwME.jpg)](https:\/\/i.imgur.com\/S4cOwME.jpg)nn## Clean, CSS Styling with BulmaCSSn[![NewForm](https:\/\/i.imgur.com\/4BxMDNb.jpg)](https:\/\/i.imgur.com\/4BxMDNb.jpg)nn## Auto-fill for standard typesn[![FilledForm](https:\/\/i.imgur.com\/IqshJh1.jpg)](https:\/\/i.imgur.com\/IqshJh1.jpg)nn## Fully mobile responsive HTMLn[![WideForm](https:\/\/i.imgur.com\/sW3yaV9.png)](https:\/\/i.imgur.com\/sW3yaV9.png)nn## Submit button starts a shortcut with inputn[![Results](ttps:\/\/i.imgur.com\/aaC4ZZg.jpg)](ttps:\/\/i.imgur.com\/aaC4ZZg.jpg)"
 }
