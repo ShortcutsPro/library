@@ -1,0 +1,48 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#F58BD5",
+  "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/bustl-formz-builder\/bustl-formz-builder.html",
+  "shortcuts_version" : "1129",
+  "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/bustl-formz-builder.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/d34c9a302895486484b1365a2f83f407",
+  "release" : "Sun, 22 Aug 2021 00:27:17 -0500",
+  "file_size" : "14 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/bustl-formz-builder.png",
+  "start_color" : 3980825855,
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "date_created" : "Sun, 22 Aug 2021 00:23:25 -0500",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "input" : "",
+  "category" : [
+    "Development Tools",
+    "Snippets"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Bustl Formz Builder",
+  "auuid" : "8B0300E1-56E0-4F1E-B8D0-D00F7AB51598",
+  "version" : "1.0",
+  "id" : "io.bustl.cutz.featured.bustl-formz-builder",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AfsDvRTzyyDVlK9_KaHWKfBVMwuU\/${f}?o=Anzuykgj-KfmcNWjX7KWH_0L4DdIvhK5FkwJRzDy8fNhXnO0wOWVva8lvaIUfhvN2w&v=1&x=3&a=CAogsiogmN4rdQ9eQV6AKxbudmO8exbVLS4CKeYBgetdJosSexCK7sHiti8Yisud5LYvIgEAUgRVMwuUajD4vIZwSl6UWW78ktc3xAs1jmhl83wKq3CNUTTDpYFqUdDbRx_qNhwv5cECzg6Eq0pyMAXvWkIMohy-vc8atF2bCHPodjYaxfXtQ_QO-VTaCfMQ_z7GPkaeOWXJbga4Z4_77g&e=1629613417&fl=&r=8cf0fdc6-6fee-41bf-8874-aefc164ccaeb-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uRxcY2JjCufclhpAdCocU3kCDSY",
+  "icon_glyph" : 59726,
+  "notes" : "Initial release ",
+  "certificate_expiration" : "Wed, 21 Sep 2022 00:13:34 -0500",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Bustl Formz BuildernnCreates custom forms to open from a shortcut and input data into a shortcut.  n———"
+}
