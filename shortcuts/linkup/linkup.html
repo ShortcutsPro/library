@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no",>
+<meta name="format-detection" content="telephone=no,date=no">
+<title>LinkUP</title>
+<style>
+body {
+	font-family: system-ui;
+	margin-top: 1rem;
+	margin-bottom: calc(1rem + env(safe-area-inset-bottom));
+	word-break: break-all;
+}
+
+button {
+	color: #000;
+	background-color: #e4e4ff;
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8;
+	text-align: left;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px #aaa;
+	border-style: solid;
+	border-radius: 8px;
+	cursor: initial;
+	touch-action: manipulation;
+}
+
+.button {
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	cursor: auto;
+}
+.button::after {
+	content: '\25A1';
+	float: right;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.closed {
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.closed::after { content: '\2212'; }
+
+.nonbottom {
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-style: none;
+}
+.nontop {
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.gLoop { background-color: #e0e0e0; }
+.gScripting { background-color: #ddffdd; }
+.gDocuments { background-color: #ffeebb; }
+.gVariable { background-color: #ffddcc; }
+.gUnknown { background-color: #bbffff; }
+.gParams {
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.content {
+	overflow: hidden;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 5px;
+	border: 1px #aaa;
+	border-style: none solid solid solid;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.contentloop {
+	padding-top: 5px;
+	margin-bottom: 0;
+	border-bottom-style: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.dashed { border-left-style: dashed; }
+
+.inside {
+	border-right-style: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.commentcontent { background-color: #fff8dd; }
+
+.row { display: flex; }
+
+.col1 {
+	padding-right: 5px;
+	margin-right: 5px;
+	border-right-style: double;
+}
+.col2 { white-space: pre-wrap; }
+
+span.box {
+	display: inline;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+span.var { font-style: italic; }
+span.magic {
+	cursor: pointer;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: #000; color: #eee; }
+	button { background: #404060; color: #eee; }
+	.gLoop { background-color: #404040; }
+	.gScripting { background-color: #305030; }
+	.gDocuments { background-color: #505020; }
+	.gVariable { background-color: #503030; }
+	.gUnknown { background-color: #205050; }
+	.gParams { background-color: #181818; }
+	.commentcontent { background-color: #505020; }
+	span.box { background-color: #000; }
+}
+</style>
+</head>
+<body>
+<button class="button gParams closed">LinkUP</button>
+<div class="content" style="display:none"><div class="col2">"WFWorkflowClientVersion": "1137.2",
+"WFWorkflowHasOutputFallback": false,
+"WFWorkflowHasShortcutInputVariables": true,
+"WFWorkflowIcon": {
+   "WFWorkflowIconStartColor": 1440408063,
+   "WFWorkflowIconGlyphNumber": 59745
+},
+"WFWorkflowImportQuestions": [],
+"WFWorkflowInputContentItemClasses": [
+   "WFAppStoreAppContentItem",
+   "WFArticleContentItem",
+   "WFGenericFileContentItem",
+   "WFiTunesProductContentItem",
+   "WFDCMapsLinkContentItem",
+   "WFRichTextContentItem",
+   "WFSafariWebPageContentItem",
+   "WFStringContentItem",
+   "WFURLContentItem"
+],
+"WFWorkflowMinimumClientVersion": 1113,
+"WFWorkflowMinimumClientVersionString": "1113",
+"WFWorkflowNoInputBehavior": {
+   "Name": "WFWorkflowNoInputBehaviorShowError",
+   "Parameters": {
+      "Error": "No urls present.  Please trigger from a site "
+   }
+},
+"WFWorkflowOutputContentItemClasses": [
+   "WFStringContentItem"
+],
+"WFWorkflowTypes": [
+   "ActionExtension"
+]
+</div></div>
+
+<button class="button gDocuments" id="m0">
+0 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Name:LinkUP
+Description: Save links from a website to view, reference or research later to your reading list &amp; notes.  category: device, utility
+---
+{"name":"LinkUP","auuid":"D1FBD30B-9DCA-4CEC-AA95-FE7F067ED7D2","version":"1"}</div></div>
+<button class="button gDocuments" id="m1">
+1 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">Get links from the shortcut input or clipboard, then repeats with each URL and downloads the page, then looks for all the links in the body, presents them in a menu with all selected.  Tap the links you dont want.</div></div>
+<button class="button gDocuments" id="m2">
+2 Text</button>
+	<div class="content">
+		<div class="col2">{"™️":{"™️":"Bustl","site":"https:\/\/Bustl.io","company":"Simpl System LLC","©️":"All rights reserved"},"shortcut":{"description":"Save links from a website to view, reference or research later to your reading list &amp; notes.\n","category":"device, utility","id":"com.github.shortcutpros.library.Integrity","version":1,"integrity":true,"author":{"name":"alex,scott","link":"https:\/\/bustl.io\/shortcuts","agency":"@itsbustl"},"depends":[],"link":"https:\/\/bustl.io\/shortcuts\/LinkUP","license":"Integrity Framework Copyright © 2021 Scott Wright  MIT License","application":"𝘽𝙪𝙨𝙩𝙡.","quiet":true,"urls":{"home":"https:\/\/bustl.io","news":"https:\/\/bustl.io\/news","info":"https:\/\/bustl.io\/shortcuts\/LinkUP"},"files":{"results":"LinkUP.txt","folder":"LinkUP","path":"\/LinkUP\/"},"date":"Aug 25, 2021 at 5:22 AM","error":{"499":"user shut off request in the middle of processing ","401":"Unauthorized request please make sure credentials are correct or contact ™️ Bustl.io","404":"no value was found","504":"Timeout - please try again in 1 minute.  If the error continues contact ™️ Bustl.io","403":"Forbidden request. You do not have access please contact ™️ Bustl.io","500":"Cannot be processed for unknown reasons ","503":"Your device isn't connected to interne","7474":"Your plan does not cover this support - please upgrade or contact an account manager at ™️ Bustl.io"},"arch":"ios15","auuid":"D1FBD30B-9DCA-4CEC-AA95-FE7F067ED7D2","name":"LinkUP"},"siri":fal
+<b><i>(7 kbytes; content truncated)</i></b></div></div>
+<button class="gVariable" id="m3">
+3 Set Variable <span class="box">Dictionary</span> to <span class="box"><span class="magic" onclick="magictap(2)"><b>[2 Text</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m4">
+4 Text</button>
+	<div class="content">
+		<div class="col2"><span class="var"><b>[Shortcut Input</b><b>]</b></span></div></div>
+<button class="button gLoop nonbottom" id="m5">
+5 If <span class="box"><span class="magic" onclick="magictap(4)"><b>[4 Text</b><b>]</b></span></span> <span class="box">is</span> <span class="box">identify</span></button>
+	<div class="content contentloop">
+<button class="gScripting inside" id="m6">
+6 Stop and Output <span class="box"><span class="var"><b>[Dictionary</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m7">
+7 End If</button>
+<button class="button gDocuments" id="m8">
+8 Comment</button>
+	<div class="content commentcontent">
+		<div class="col2">grabs link from share</div></div>
+<button class="button gLoop nonbottom" id="m9">
+9 If <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span> <span class="box">does not have any value</span></button>
+	<div class="content contentloop">
+<button class=" inside" id="m10">
+10 Get Clipboard</button></div>
+<button class="gLoop nontop" id="m11">
+11 End If</button>
+<button class="" id="m12">
+12 Get URLs from <span class="box"><span class="magic" onclick="magictap(11)"><b>[11 If Result</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m13">
+13 Repeat with Each in <span class="box"><span class="magic" onclick="magictap(12)"><b>[12 URLs</b><b>]</b></span></span></button>
+	<div class="content contentloop">
+<button class=" inside" id="m14">
+14 Get Article from <span class="box"><span class="var"><b>[Repeat Item</b><b>]</b></span></span> using Safari Reader</button>
+<button class=" inside" id="m15">
+15 Get URLs from <span class="box"><span class="magic" onclick="magictap(14)"><b>[14 Article</b>’s Body<b>]</b></span></span></button>
+<button class="button gScripting inside" id="m16">
+16 Choose from List <span class="box"><span class="magic" onclick="magictap(15)"><b>[15 URLs</b><b>]</b></span></span></button>
+	<div class="content inside">
+		<div class="row"><div class="col1">ChooseFromListActionPrompt</div>
+			<div class="col2">Which links do you want to save from "<span class="magic" onclick="magictap(14)"><b>[14 Article</b>’s Title<b>]</b></span>"?</div></div>
+		<div class="row"><div class="col1">ChooseFromListActionSelectMultiple</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">ChooseFromListActionSelectAll</div>
+			<div class="col2">true</div></div></div></div>
+<button class="gLoop nontop" id="m17">
+17 End Repeat with Each</button>
+<button class="button " id="m18">
+18 Add <span class="box"><span class="magic" onclick="magictap(17)"><b>[17 Repeat Results</b><b>]</b></span></span> to Reading List</button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-WFURL</div>
+			<div class="col2">true</div></div></div>
+<button class="button " id="m19">
+19 Create Note with <span class="box"><span class="magic" onclick="magictap(17)"><b>[17 Repeat Results</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">ShowWhenRun</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">NoteGroup</div>
+			<div class="col2">{"Identifier":"x-coredata://16D12E50-7545-4330-9BB4-DE7394D53EF2/ICFolder/p5?accountIdentifier=55B7E014-C04E-490A-A681-42AF9BEDDE55","DisplayString":"Notes"}</div></div></div>
+<script>
+for (b of document.getElementsByClassName('button')) {
+	b.addEventListener('click', function() {
+		this.classList.toggle('closed');
+		let s = this.nextElementSibling;
+		s.style.display = getComputedStyle(s).display==='none' ? 'block' : 'none';
+})}
+
+function magictap(id) {
+	event.stopPropagation();
+	let e = document.getElementById('m'+id);
+	let p = e;
+	while ((p = p.parentNode).tagName.toLowerCase() === 'div') {
+		p.style.display = 'block';
+		p.previousElementSibling.classList.remove('closed');
+	}
+	setTimeout(function(){ e.scrollIntoView({block:'nearest',behavior:'smooth'}); }, 10);
+}
+</script>
+</body>
+</html>
