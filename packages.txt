@@ -18,14 +18,16 @@
     "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png"
   },
   {
-    "file_size" : "169 KB",
+    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
     "color" : "#4A69C6",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-data/shortcut-data.html",
     "shortcuts_version" : "1136.1",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.html",
     "link" : "https://www.icloud.com/shortcuts/5f210e319bf74282954eedcde8f6160f",
     "release" : "Tue, 17 Aug 2021 02:10:38 -0500",
-    "description" : "Collects all available shortcut metadata from the file contents and the iCloud Shortcuts API",
+    "depends" : [
+
+    ],
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-data.png",
     "start_color" : 946986751,
@@ -61,19 +63,19 @@
         "https://GitHub.com/scottdwr"
       ]
     },
-    "depends" : [
-
-    ]
+    "file_size" : "169 KB"
   },
   {
-    "file_size" : "32 KB",
+    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
     "color" : "#86919B",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/integrity/integrity.html",
     "shortcuts_version" : "1092.11",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/integrity.html",
     "link" : "https://www.icloud.com/shortcuts/25fda771b42f460484445d1fb619feee",
     "release" : "Tue, 17 Aug 2021 13:11:37 -0500",
-    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
+    "depends" : [
+      "com.shortcutspro.library.bustl-updater"
+    ],
     "integrity" : false,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/integrity.png",
     "start_color" : 255,
@@ -111,21 +113,19 @@
         "http://Scott.Wright.name"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.bustl-updater"
-    ]
+    "file_size" : "32 KB"
   },
   {
-    "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
+    "depends" : [
+
+    ],
     "color" : "#EDC500",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/bustl-updater/bustl-updater.html",
     "shortcuts_version" : "1134",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/bustl-updater.html",
     "link" : "https://www.icloud.com/shortcuts/417bc0f93812403092ad2b7a8c3a680b",
     "release" : "Fri, 20 Aug 2021 21:25:04 -0500",
-    "depends" : [
-
-    ],
+    "file_size" : "28 KB",
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/bustl-updater.png",
     "start_color" : 4274264319,
@@ -160,19 +160,17 @@
         "https://routinehub.co/user/scottdwr/"
       ]
     },
-    "file_size" : "28 KB"
+    "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools."
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "210 KB",
     "color" : "#00CEAD",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-publisher/shortcut-publisher.html",
     "shortcuts_version" : "1136.1",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.html",
     "link" : "https://www.icloud.com/shortcuts/b4f58c11d47c4920ac26f8cc3f34cbd0",
     "release" : "Sat, 21 Aug 2021 15:29:14 -0500",
-    "file_size" : "210 KB",
+    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository.",
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.png",
     "start_color" : 431817727,
@@ -207,19 +205,21 @@
         "https://github.com/scottdwr/"
       ]
     },
-    "description" : "Publishes new or updated shortcuts to a combined Papercuts repository & Integrity repository."
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "description" : "# PicFlyn## Finds a random picture by category from your keyword search & sets it as a wallpaper.n---ni.e. When prompted enter:n- carsn- flowersn- tech",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "color" : "#FF8467",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/picfly/picfly.html",
     "shortcuts_version" : "1092.6",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/picfly.html",
     "link" : "https://www.icloud.com/shortcuts/12d40bfdf03a42cbb0c1acd56c45d982",
     "release" : "Sat, 21 Aug 2021 21:12:24 -0700",
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
+    "file_size" : "20 KB",
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/picfly.png",
     "start_color" : 4251333119,
@@ -254,17 +254,19 @@
         "about:blank"
       ]
     },
-    "file_size" : "20 KB"
+    "description" : "# PicFlyn## Finds a random picture by category from your keyword search & sets it as a wallpaper.n---ni.e. When prompted enter:n- carsn- flowersn- tech"
   },
   {
-    "file_size" : "19 KB",
+    "description" : "Name:LinkUPnDescription: Save links from a website to view, reference or research later to your reading list & notes.  category: device, utilityn---",
     "color" : "#00CBDF",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/linkup/linkup.html",
     "shortcuts_version" : "1137.2",
     "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/linkup.html",
     "link" : "https://www.icloud.com/shortcuts/d4080d1a8fa6494ca01279259ea64dbd",
     "release" : "Wed, 25 Aug 2021 06:10:20 -0700",
-    "description" : "Name:LinkUPnDescription: Save links from a website to view, reference or research later to your reading list & notes.  category: device, utilityn---",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
     "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/linkup.png",
     "start_color" : 1440408063,
@@ -293,6 +295,51 @@
     "notes" : "",
     "certificate_expiration" : "Sat, 24 Sep 2022 05:59:42 -0700",
     "minimum_version" : 1113,
+    "author" : {
+      "name" : "anonymous",
+      "link" : [
+        "about:blank"
+      ]
+    },
+    "file_size" : "19 KB"
+  },
+  {
+    "file_size" : "22 KB",
+    "color" : "#12B4F6",
+    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/docscanner/docscanner.html",
+    "shortcuts_version" : "1137.2",
+    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/docscanner.html",
+    "link" : "https://www.icloud.com/shortcuts/cfd0f1eb6f1f48478d55eed28c4ebfd1",
+    "release" : "Wed, 25 Aug 2021 07:34:56 -0700",
+    "description" : "DocScannernScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app. category: device, utilityn---",
+    "integrity" : true,
+    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/docscanner.png",
+    "start_color" : 463140863,
+    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+    "date_created" : "Wed, 25 Aug 2021 07:34:08 -0700",
+    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+    "input" : "",
+    "category" : [
+      ""
+    ],
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "name" : "DocScanner",
+    "auuid" : "2D9FBA9D-50B6-4B04-B74F-948BF64C7EB5",
+    "version" : "1",
+    "id" : "com.shortcutspro.library.docscanner",
+    "arch" : "iOS15",
+    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+    "quiet" : false,
+    "signed_download" : "https://cvws.icloud-content.com/B/AcpOVFMngSEz3kUPfGpIFYjT5tRp/${f}?o=Anttx2p7n5mteVxy5Nqp4OnDQya6cC7CsmkLprfgAFsL4A8CFwDwqsGremfeRegjIA&v=1&x=3&a=CAogXXiHEb6OtmICemr_QQEHVE93CmQLa7DuUM0DyZQhGz4SexD__e7tty8Y_9rK77cvIgEAUgTT5tRpajCYwuEXqTbQ6yMBCIn628xJQx_z7DJ3T_RMfYZkFWVBKQFxUUYpa222rr2Epj06vtJyMFMVmJPPzdfe1-HE9kwknV32UU7PRHvRXVg6CJGXXZSJGgKMwCdP0Z4rDnmzQyyOOg&e=1629905661&fl=&r=7e5c1ca4-3359-4af0-967d-f92faf9660b7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=66VnYIHj5c6DblfG6uPLwcMgpHo",
+    "icon_glyph" : 61524,
+    "notes" : "",
+    "certificate_expiration" : "Sat, 24 Sep 2022 07:24:18 -0700",
+    "minimum_version" : 1106,
     "author" : {
       "name" : "anonymous",
       "link" : [
