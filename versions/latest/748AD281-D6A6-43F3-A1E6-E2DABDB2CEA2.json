@@ -7,7 +7,7 @@
   "shortcuts_version" : "1092.11",
   "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.html",
   "link" : "https:\/\/www.icloud.com\/shortcuts\/f1596e0eb0c54ebfa49f3e410d8115c7",
-  "release" : "Thu, 26 Aug 2021 09:04:07 -0500",
+  "release" : "Thu, 26 Aug 2021 14:21:20 -0500",
   "file_size" : "26 KB",
   "integrity" : true,
   "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.png",
@@ -32,9 +32,9 @@
   "arch" : "iOS14",
   "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
   "quiet" : false,
-  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AY5N3VVpNzH6C5v1zUMe7gpZBv7x\/${f}?o=AlAY1AB3i5D5DZeIC7CSKN6OAdCSopdD_kUvhbRhihawfUQkOjPw9ZPP5CcpiVV4SQ&v=1&x=3&a=CAogORIIhcxvJifo_RNMVQSoNiNlF8k3yIFrj3mtQyXtJRcSexDdg5KWuC8Y3eDtl7gvIgEAUgRZBv7xajCVy1SqyC3pYEC4nF5ZC_aSDiBnRSqhwjUvoKzUFtbG0zgDq4B0fVUMnGvpy-MWbsFyMHgxCAugnAtCdGj__544yGnFqmM3ZIXFK-M3YqrLEss_Cqg3-u75sD2voj-mQlp8ew&e=1629990121&fl=&r=c0ee0b9a-f4dd-4c38-a116-213fd95834cb-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=T4djvOc2FMt5Z1PkcbZKXPkgcuE",
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AY5N3VVpNzH6C5v1zUMe7gpZBv7x\/${f}?o=Au1Kyatbfr71IU6cfblqRXWcZF8B4Oeg5h_3ORFGcl5QvIO2d2dKByWWylkGQbRLZw&v=1&x=3&a=CAogY3NRfnLC_LhiBq5MImZlaZ3dCr51DI4VLiOaUj3q9SUSexC_0JyfuC8Yv634oLgvIgEAUgRZBv7xajDEIWGBSMRMHepGNBZjzQzjxYtNBmmJd6UVzcS3Kv5N_oL9G6Nd6miIek9nZMZf4TpyMIw6WvrMg6uLjZqFigwQVj-yqFrvLv4HgHGVUAs2DO7SlJR6pHj4uhNawaX0QbaAgg&e=1630009169&fl=&r=94bf040c-e587-4163-b01b-fb1ac8e79df7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=o72-8RqLJxtemaiVd2IxySXXCRY",
   "icon_glyph" : 59516,
-  "notes" : "Re-Release with new update engine nand iOS14 compatibility. ",
+  "notes" : "Re-Release with new Update Engine and\niOS14 compatibility. ",
   "certificate_expiration" : "Sun, 25 Sep 2022 08:42:35 -0500",
   "minimum_version" : 900,
   "author" : {
@@ -43,5 +43,5 @@
       "about:blank"
     ]
   },
-  "description" : "Bustl. UpdaternnAuto-Updater for Bustl. sponsored Integrity Framwork tools.n———"
+  "description" : "Bustl. Updater\n\nAuto-Updater for Bustl. sponsored Integrity Framwork tools.\n———"
 }
