@@ -14829,7 +14829,7 @@ document.write([ ...new Set(["￼"])]);
 				<key>UUID</key>
 				<string>9E67E9CC-483E-4581-93E3-6DC21E664F24</string>
 				<key>WFTextCustomSeparator</key>
-				<string>. </string>
+				<string>.  </string>
 				<key>WFTextSeparator</key>
 				<string>Custom</string>
 				<key>text</key>
@@ -15879,6 +15879,20 @@ _￼_
 		</dict>
 		<dict>
 			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>New Line</string>
+				<key>UUID</key>
+				<string>E46D0913-5F1E-4654-94AA-3AC8FCBCAE0A</string>
+				<key>WFTextActionText</key>
+				<string>
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
 			<string>is.workflow.actions.text.replace</string>
 			<key>WFWorkflowActionParameters</key>
 			<dict>
@@ -15895,7 +15909,7 @@ _￼_
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Rich Description</string>
+								<string>Description</string>
 							</dict>
 						</dict>
 						<key>string</key>
@@ -15905,9 +15919,29 @@ _￼_
 					<string>WFTextTokenString</string>
 				</dict>
 				<key>WFReplaceTextFind</key>
-				<string>\n</string>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>New Line</string>
+								<key>OutputUUID</key>
+								<string>E46D0913-5F1E-4654-94AA-3AC8FCBCAE0A</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
 				<key>WFReplaceTextRegularExpression</key>
-				<true/>
+				<false/>
 				<key>WFReplaceTextReplace</key>
 				<string>\n</string>
 			</dict>
@@ -15943,6 +15977,109 @@ _￼_
 				<key>WFCommentActionText</key>
 				<string>
 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>43B5AF02-E022-4E86-8C2B-7F75F156A99F</string>
+				<key>WFDictionaryKey</key>
+				<string>notes</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>Update</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.replace</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>C0C1CED7-5002-49BB-B6A6-72542A71BC3D</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Dictionary Value</string>
+								<key>OutputUUID</key>
+								<string>43B5AF02-E022-4E86-8C2B-7F75F156A99F</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFReplaceTextFind</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>New Line</string>
+								<key>OutputUUID</key>
+								<string>E46D0913-5F1E-4654-94AA-3AC8FCBCAE0A</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFReplaceTextRegularExpression</key>
+				<false/>
+				<key>WFReplaceTextReplace</key>
+				<string>\n</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Updated Text</string>
+						<key>OutputUUID</key>
+						<string>C0C1CED7-5002-49BB-B6A6-72542A71BC3D</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFVariableName</key>
+				<string>Notes</string>
 			</dict>
 		</dict>
 		<dict>
@@ -16244,19 +16381,10 @@ _￼_
 							</dict>
 							<key>{534, 1}</key>
 							<dict>
-								<key>Aggrandizements</key>
-								<array>
-									<dict>
-										<key>DictionaryKey</key>
-										<string>notes</string>
-										<key>Type</key>
-										<string>WFDictionaryValueVariableAggrandizement</string>
-									</dict>
-								</array>
 								<key>Type</key>
 								<string>Variable</string>
 								<key>VariableName</key>
-								<string>Update</string>
+								<string>Notes</string>
 							</dict>
 							<key>{559, 1}</key>
 							<dict>
