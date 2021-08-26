@@ -1,20 +1,20 @@
 {
   "depends" : [
-
+    "com.shortcutspro.library.integrity"
   ],
   "color" : "#EDC500",
   "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/bustl-updater\/bustl-updater.html",
-  "shortcuts_version" : "1134",
+  "shortcuts_version" : "1092.11",
   "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.html",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/417bc0f93812403092ad2b7a8c3a680b",
-  "release" : "Fri, 20 Aug 2021 21:25:04 -0500",
-  "file_size" : "28 KB",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/f1596e0eb0c54ebfa49f3e410d8115c7",
+  "release" : "Thu, 26 Aug 2021 09:04:07 -0500",
+  "file_size" : "26 KB",
   "integrity" : true,
   "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.png",
   "start_color" : 4274264319,
-  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
-  "date_created" : "Fri, 20 Aug 2021 21:24:02 -0500",
-  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "user_record" : "_1ffe4fd02b3430bb2ccc3419712bf320",
+  "date_created" : "Thu, 26 Aug 2021 08:51:25 -0500",
+  "device_id" : "2A9671DACAFEDA90755DA4D530EDFA57F1E744D4939CBA130A0100BB60E8A9FE",
   "input" : "",
   "category" : [
     "Utilities"
@@ -27,21 +27,21 @@
   },
   "name" : "Bustl. Updater",
   "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-  "version" : "11.0.9a",
+  "version" : "11.1",
   "id" : "com.shortcutspro.library.bustl-updater",
-  "arch" : "iOS15",
+  "arch" : "iOS14",
   "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
   "quiet" : false,
-  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AQ4PN4g0V9m1qhwUy3-vdT8pnQ49\/${f}?o=Avu-POlSLn0re58dXrWtaBki5l7aGPpgMNcvOT4KFUWKtN4h2kfqlbG8HqD9JJ5MIA&v=1&x=3&a=CAogs0Q_YlOoNWWLX3DHC37EXD_X8ZRYlYejDQ5APgap_AkSexDF25e0ti8YxbjztbYvIgEAUgQpnQ49ajCiu6kYqAx4t51v5WHW_wba339wEL5DwEh3JS_8Cj7lPN7TnS0tDaV82Va90bhf3TxyMFOt0Ts2_cNy5iCAO4azCQRnluMvbU1MfXC957QEqd6eYztuPvcduevcnYxwUJE_zQ&e=1629516258&fl=&r=8b11053a-b85e-4174-85f2-e70421c00e4c-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=RBVLDAmkMGaEVmNdeFCBcIa_41w",
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AY5N3VVpNzH6C5v1zUMe7gpZBv7x\/${f}?o=AlAY1AB3i5D5DZeIC7CSKN6OAdCSopdD_kUvhbRhihawfUQkOjPw9ZPP5CcpiVV4SQ&v=1&x=3&a=CAogORIIhcxvJifo_RNMVQSoNiNlF8k3yIFrj3mtQyXtJRcSexDdg5KWuC8Y3eDtl7gvIgEAUgRZBv7xajCVy1SqyC3pYEC4nF5ZC_aSDiBnRSqhwjUvoKzUFtbG0zgDq4B0fVUMnGvpy-MWbsFyMHgxCAugnAtCdGj__544yGnFqmM3ZIXFK-M3YqrLEss_Cqg3-u75sD2voj-mQlp8ew&e=1629990121&fl=&r=c0ee0b9a-f4dd-4c38-a116-213fd95834cb-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=T4djvOc2FMt5Z1PkcbZKXPkgcuE",
   "icon_glyph" : 59516,
-  "notes" : "Release ",
-  "certificate_expiration" : "Mon, 19 Sep 2022 21:14:15 -0500",
-  "minimum_version" : 1113,
+  "notes" : "Re-Release with new update engine nand iOS14 compatibility. ",
+  "certificate_expiration" : "Sun, 25 Sep 2022 08:42:35 -0500",
+  "minimum_version" : 900,
   "author" : {
-    "name" : "scottdwr",
+    "name" : "anonymous",
     "link" : [
-      "https:\/\/routinehub.co\/user\/scottdwr\/"
+      "about:blank"
     ]
   },
-  "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools."
+  "description" : "Bustl. UpdaternnAuto-Updater for Bustl. sponsored Integrity Framwork tools.n———"
 }
