@@ -1,19 +1,20 @@
 {
   "depends" : [
+    "com.shortcutspro.library.bustl-updater",
     "com.shortcutspro.library.integrity"
   ],
   "color" : "#00CEAD",
   "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/shortcut-publisher\/shortcut-publisher.html",
   "shortcuts_version" : "1136.1",
   "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/shortcut-publisher.html",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/1731afab66fc448ea299e1cb16a2219f",
-  "release" : "Thu, 26 Aug 2021 14:24:56 -0500",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/e1e46c5614884ab186d02aaddce58a81",
+  "release" : "Thu, 26 Aug 2021 22:40:18 -0500",
   "file_size" : "210 KB",
   "integrity" : true,
   "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/shortcut-publisher.png",
   "start_color" : 431817727,
   "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
-  "date_created" : "Thu, 26 Aug 2021 14:23:01 -0500",
+  "date_created" : "Thu, 26 Aug 2021 22:37:28 -0500",
   "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
   "input" : "clipboard",
   "category" : [
@@ -32,10 +33,10 @@
   "arch" : "iOS15",
   "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
   "quiet" : true,
-  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AXjLHDmb8hLVg3tGuKXM_g6A-WaA\/${f}?o=Ahs4GLuwjOGHfcwKzHtsETvo78owim66A41KKpnImqr1E0AEt0-lNG6jgpubse78-Q&v=1&x=3&a=CAogjRbsQumQZ0SyP1tMF2cxWJ6uI2PQwf48-ekjWC9LNIYSexC2pKqfuC8YtoGGobgvIgEAUgSA-WaAajDYiLExOtBLfj-4C7bC-O1n8JiSNVEg8oerEUoKzlss-W1WGH7D9aG906EwQqOIt-dyMEyEqteeb6gJg8YVwhcvsViN3RBx0aWFf10KADStMUO8WEkr3iWsQ4uKYQdKavqMPw&e=1630009393&fl=&r=f269b381-0f31-4070-8327-776a626690c8-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=bWbZj4lbxN5u6YU970Hlh0XGUQQ",
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AZ5lhR1dgX80Qu9m1LVVIevJoeVR\/${f}?o=AsY4kzR3YqdStTDkwrRtdgyUc5yobA86n6svTLtqZMyB7BHioHxUwVOehvIyJXnDqA&v=1&x=3&a=CAog0am8mIJQnH88UlS1vsZ-HAkMpuCW7yyNtp2H73pKy-8SexCUi76tuC8YlOiZr7gvIgEAUgTJoeVRajBhUD_ZOoKrp3zl4xBq0DWxDpTMRkBsVWX153GYizH3jas2Iqs67Ier3MqFdXb9MxNyMMhQWhvKaxuRbvxIrUJIuDT3SB3Y5YuVFN0rCqZ_YOgdhqih2eQWJYvmIUQ80ari8Q&e=1630039077&fl=&r=c46208b8-9f6e-4797-ad7f-49227635581f-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=PjrEcz5frDlV8HXqKBGjSLBS0n8",
   "icon_glyph" : 61456,
-  "notes" : "Now correctly handles new lines in the description and release notes.",
-  "certificate_expiration" : "Sun, 25 Sep 2022 14:13:10 -0500",
+  "notes" : "Now handles new lines in description and release notes correctly. \nIntegrated Bustl. Updater",
+  "certificate_expiration" : "Sun, 25 Sep 2022 22:27:55 -0500",
   "minimum_version" : 1113,
   "author" : {
     "name" : "@scottdwr",
