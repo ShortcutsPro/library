@@ -116,53 +116,6 @@
     "file_size" : "32 KB"
   },
   {
-    "file_size" : "22 KB",
-    "color" : "#12B4F6",
-    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/docscanner/docscanner.html",
-    "shortcuts_version" : "1137.2",
-    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/docscanner.html",
-    "link" : "https://www.icloud.com/shortcuts/cfd0f1eb6f1f48478d55eed28c4ebfd1",
-    "release" : "Wed, 25 Aug 2021 07:34:56 -0700",
-    "description" : "DocScannernScan anything into text, auto captures the subject even multiple pages. Aim at subject it will auto capture, then aim at next subject when done, tap save.  It grabs the text, generates a pdf and saves it to your files app. Requires toolbox pro app. category: device, utilityn---",
-    "integrity" : true,
-    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/docscanner.png",
-    "start_color" : 463140863,
-    "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
-    "date_created" : "Wed, 25 Aug 2021 07:34:08 -0700",
-    "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
-    "input" : "",
-    "category" : [
-      ""
-    ],
-    "maintainer" : {
-      "name" : "@scottdwr",
-      "link" : [
-        "https://github.com/scottdwr/"
-      ]
-    },
-    "name" : "DocScanner",
-    "auuid" : "2D9FBA9D-50B6-4B04-B74F-948BF64C7EB5",
-    "version" : "1",
-    "id" : "com.shortcutspro.library.docscanner",
-    "arch" : "iOS15",
-    "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
-    "quiet" : false,
-    "signed_download" : "https://cvws.icloud-content.com/B/AcpOVFMngSEz3kUPfGpIFYjT5tRp/${f}?o=Anttx2p7n5mteVxy5Nqp4OnDQya6cC7CsmkLprfgAFsL4A8CFwDwqsGremfeRegjIA&v=1&x=3&a=CAogXXiHEb6OtmICemr_QQEHVE93CmQLa7DuUM0DyZQhGz4SexD__e7tty8Y_9rK77cvIgEAUgTT5tRpajCYwuEXqTbQ6yMBCIn628xJQx_z7DJ3T_RMfYZkFWVBKQFxUUYpa222rr2Epj06vtJyMFMVmJPPzdfe1-HE9kwknV32UU7PRHvRXVg6CJGXXZSJGgKMwCdP0Z4rDnmzQyyOOg&e=1629905661&fl=&r=7e5c1ca4-3359-4af0-967d-f92faf9660b7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=66VnYIHj5c6DblfG6uPLwcMgpHo",
-    "icon_glyph" : 61524,
-    "notes" : "",
-    "certificate_expiration" : "Sat, 24 Sep 2022 07:24:18 -0700",
-    "minimum_version" : 1106,
-    "author" : {
-      "name" : "anonymous",
-      "link" : [
-        "about:blank"
-      ]
-    },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
-  },
-  {
     "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
     "color" : "#EDC500",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/bustl-updater/bustl-updater.html",
