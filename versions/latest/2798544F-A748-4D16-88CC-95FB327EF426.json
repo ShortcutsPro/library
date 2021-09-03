@@ -1,0 +1,47 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#00CBDF",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/reckon\/reckon.html",
+  "shortcuts_version" : "1137.4",
+  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/reckon.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/4b904ca3ba864dad848ffb73b6c75887",
+  "release" : "Fri, 03 Sep 2021 04:20:17 -0700",
+  "file_size" : "22 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/reckon.png",
+  "start_color" : 1440408063,
+  "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+  "date_created" : "Fri, 03 Sep 2021 04:19:21 -0700",
+  "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+  "input" : "",
+  "category" : [
+    ""
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Reckon",
+  "auuid" : "2798544F-A748-4D16-88CC-95FB327EF426",
+  "version" : "1",
+  "id" : "com.shortcutspro.library.reckon",
+  "arch" : "iOS15",
+  "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ATcfxnQUdMY-xyMCBU-31HTR5-HL\/${f}?o=AqWdodbzNtwhmOppJUiPcnMq_szK8GEUXws0qEKgGfA-gHWiLFP5hZ-L93RWca8iIQ&v=1&x=3&a=CAogOSKoUiSUl1bQWOrkFp6O3UsaG6a73bgryNRJLeYZshsSexDYg4vbui8Y2ODm3LovIgEAUgTR5-HLajBx4vGVUkqcSHCQ-I0XFm6JpPkVKXcczJSjSKSjy_gUnI4ZdcncalJYoRAzlmsdS-pyMNxklwL0J2g3plfxJtb5vRn43uK0_csx9CNs72GiTC85b0QBgmkMOgft4Iy5ywfH_g&e=1630671581&fl=&r=6b412aeb-6153-4011-8da2-f4456c32f777-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=t99bqBGOslOnOTYpAcTAFdcnDVI",
+  "icon_glyph" : 59698,
+  "notes" : "",
+  "certificate_expiration" : "Mon, 03 Oct 2022 04:09:38 -0700",
+  "minimum_version" : 1113,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "** Copy measurements from the measure app & then run this shortcut when working with an irregular wall."
+}
