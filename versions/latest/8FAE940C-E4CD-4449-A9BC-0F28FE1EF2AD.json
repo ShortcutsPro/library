@@ -1,0 +1,48 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#12B4F6",
+  "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/appquery\/appquery.html",
+  "shortcuts_version" : "1137.4",
+  "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/appquery.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/95232db81f5f48b7b8edfa485fcba264",
+  "release" : "Fri, 10 Sep 2021 03:06:17 -0700",
+  "file_size" : "20 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/appquery.png",
+  "start_color" : 463140863,
+  "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+  "date_created" : "Fri, 10 Sep 2021 03:04:50 -0700",
+  "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+  "input" : "",
+  "category" : [
+    "Development Tools",
+    "Utilities"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "AppQuery",
+  "auuid" : "8FAE940C-E4CD-4449-A9BC-0F28FE1EF2AD",
+  "version" : "1",
+  "id" : "io.bustl.cutz.featured.appquery",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AdXHbrmu0-1bo2vTU5a5DR552Etp\/${f}?o=AtX1gOVUosRRWvfect1L4HRs5RjFzzlrGPyVVKLphC2ycq33krLaXnsIz27c-KtOtQ&v=1&x=3&a=CAogu1jZgdPnfsKSwxyrPGsYxpn0fxP-ySQQTMs8xQYT5KYSexDA_6v5vC8YwNyH-7wvIgEAUgR52EtpajBIUxP1vwJrKGCKvWnCD2q-zZx7Aeg1jvkJfXQ9LGaz-jk968rmVpo9RIOel55WCkZyMIzFWjN9W_xlPehjRuj8Am_mKd6AAEFGhJ_NUau-8HhijWvLTOjGlqdnTfHeVMlXRw&e=1631271906&fl=&r=9202a145-3cf6-4331-897b-4fc0c56652cf-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=LT_qnm4BKDkyPF1BHNwvBc2IX_w",
+  "icon_glyph" : 59822,
+  "notes" : "",
+  "certificate_expiration" : "Mon, 10 Oct 2022 02:55:03 -0700",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Name: AppQuerynDescription: Quick search by category or keyword, drop down list menu, extract information about the app you selected, backed up to your notes, ends with share menu, send to anyone or anywhere.nncategory: device, utilityn---"
+}
