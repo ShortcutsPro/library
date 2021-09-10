@@ -1,0 +1,48 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#F58BD5",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/simpl-showcase\/simpl-showcase.html",
+  "shortcuts_version" : "1137.4",
+  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/d8678fd20e264e94bcab2c6b9d23e89a",
+  "release" : "Fri, 10 Sep 2021 16:25:23 -0500",
+  "file_size" : "180 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.png",
+  "start_color" : 3980825855,
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "date_created" : "Fri, 10 Sep 2021 16:19:36 -0500",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "input" : "",
+  "category" : [
+    "Business",
+    "Photo & Video"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Simpl. Showcase",
+  "auuid" : "0A8123E2-CA99-4643-9B63-B874D6D2A031",
+  "version" : "1.0.0",
+  "id" : "com.shortcutspro.library.simpl-showcase",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : true,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AWqtNqjooO51t8NPfJ8-znej8HnI\/${f}?o=AmQYflSqHiKha7Q3hxdrrtr9Bne6yNzZ8wBLfn70i7Z3cPvfu4YuivxSCur6s4ck8w&v=1&x=3&a=CAogQTjChe96mYYcYlUJtDkUm9s09B08H7G2zJbkBoexvMwSexDSgdOMvS8Y0t6ujr0vIgEAUgSj8HnIajCcBvEuIi4mRxQoAEtzVGOZ6TvR85KpII6mFMlWFXpER4Z4Yt_a-jzMchTXGLg-NidyMGw5dT5PjhxyafHwfX8ON1C7sECiBTWQ4_q_YpCT-F10NSFIFxfqFmOl2vnLRvtkBg&e=1631312392&fl=&r=3dcc09a0-5a34-44d9-b6d8-1bacebdbe7e3-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=dzwA17D6XXPCMo8LKHbYDSwgeJs",
+  "icon_glyph" : 61500,
+  "notes" : "First public test release ",
+  "certificate_expiration" : "Mon, 10 Oct 2022 16:09:48 -0500",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Simpl. Showcase\n\nShare AI optimized and properly cropped photos in a custom slideshow\n———"
+}
