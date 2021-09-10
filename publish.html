@@ -129,9 +129,9 @@
         </div>          
 
         <div class="field">
-          <label class="label" for="markup">Markup Complete Description</label>
+          <label class="label" for="markdown">Full Description (Markdown)</label>
           <div class="control">
-            <textarea class="textarea is-info is-normal" id="markup" value=""></textarea>
+            <textarea class="textarea is-info is-normal" id="markdown" placeholder="optional" value=""></textarea>
           </div>
         </div>          
 
@@ -651,7 +651,7 @@
         auuid: document.getElementById('auuid'),
         version: document.getElementById('version'),
         description: document.getElementById('description'),
-        markup: document.getElementById('markup'),
+        markdown: document.getElementById('markdown'),
         category: document.getElementById('category'),
         depends: document.getElementById('depends'),
         input: document.getElementById('input'),
@@ -748,7 +748,7 @@
           notes: form.notes.value,
           version: form.version.value,
           description: form.description.value,
-          markup: form.markup.value,
+          markdown: encodeURIComponent(form.markdown.value),
           integrity: integrity,
           category: category,
           depends: depends,
