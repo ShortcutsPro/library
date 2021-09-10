@@ -122,12 +122,18 @@
           
 
         <div class="field">
-          <label class="label" for="description">Description</label>
+          <label class="label" for="description">Brief Description</label>
           <div class="control">
-            <textarea class="textarea is-info is-normal" id="description" placeholder="Brief description or tag-line" value=""></textarea>
+            <input class="input is-info is-normal" id="description" placeholder="Brief description or tag-line" value="">
           </div>
         </div>          
-  
+
+        <div class="field">
+          <label class="label" for="markup">Markup Complete Description</label>
+          <div class="control">
+            <textarea class="textarea is-info is-normal" id="markup" value=""></textarea>
+          </div>
+        </div>          
 
         <div class="container is-centered">
           <div class="field">
@@ -645,6 +651,7 @@
         auuid: document.getElementById('auuid'),
         version: document.getElementById('version'),
         description: document.getElementById('description'),
+        markup: document.getElementById('markup'),
         category: document.getElementById('category'),
         depends: document.getElementById('depends'),
         input: document.getElementById('input'),
@@ -741,6 +748,7 @@
           notes: form.notes.value,
           version: form.version.value,
           description: form.description.value,
+          markup: form.markup.value,
           integrity: integrity,
           category: category,
           depends: depends,
