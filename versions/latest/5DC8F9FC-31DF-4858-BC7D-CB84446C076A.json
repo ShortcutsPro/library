@@ -1,0 +1,48 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#12B4F6",
+  "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/blinkit\/blinkit.html",
+  "shortcuts_version" : "1137.4",
+  "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/blinkit.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/6deef12990a04edfad58137ef38a18dc",
+  "release" : "Fri, 10 Sep 2021 03:02:23 -0700",
+  "file_size" : "20 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/blinkit.png",
+  "start_color" : 463140863,
+  "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+  "date_created" : "Fri, 10 Sep 2021 02:59:03 -0700",
+  "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+  "input" : "",
+  "category" : [
+    "Business",
+    "Social Networking"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Blinkit",
+  "auuid" : "5DC8F9FC-31DF-4858-BC7D-CB84446C076A",
+  "version" : "0.1",
+  "id" : "io.bustl.cutz.featured.blinkit",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AdwFUhH3s1EiTb_RO0bXru9O-oED\/${f}?o=AjbZdVzaY7a9IxniZzpsAhLl8zAvnOkeiDu6llO8mdC9qnCY1hGopUHSODcjykNVnw&v=1&x=3&a=CAog2Dpo8XSk4jo536HPhdESK5svJ21ZCcJY7trweED7W2YSexCQ95b5vC8YkNTy-rwvIgEAUgRO-oEDajDCuItBchpvGfuYQ2RFm6gwGg5kamw4RQve0960tPV-qDbu6uMKxTIUi6VxBSy2VL1yMCbBMQ3y5Qbp9LgPb3QyYThdY8oeLEk497LX9jUVmGK-rfp7IIp75QBlJsgWpg5bwQ&e=1631271561&fl=&r=9766b99b-d4cb-42b7-bfde-212d823f1b01-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=PSkRaRnQZfDZ4Uw8YY8Fk6klAgY",
+  "icon_glyph" : 61545,
+  "notes" : "Requires tool box pro",
+  "certificate_expiration" : "Mon, 10 Oct 2022 02:49:18 -0700",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Blinkit, setsup your Blink page NFC tag. "
+}
