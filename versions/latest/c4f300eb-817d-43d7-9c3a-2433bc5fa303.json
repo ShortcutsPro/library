@@ -1,0 +1,48 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#44C85E",
+  "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/send2quickbooks\/send2quickbooks.html",
+  "shortcuts_version" : "1091.5.1",
+  "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/send2quickbooks.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/51f7ac34cec841f1974608a4005945ba",
+  "release" : "Fri, 10 Sep 2021 03:14:59 -0700",
+  "file_size" : "20 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/send2quickbooks.png",
+  "start_color" : 4292093695,
+  "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+  "date_created" : "Fri, 10 Sep 2021 03:14:06 -0700",
+  "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+  "input" : "",
+  "category" : [
+    "Business",
+    "Finance"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Send2Quickbooks",
+  "auuid" : "c4f300eb-817d-43d7-9c3a-2433bc5fa303",
+  "version" : "1",
+  "id" : "io.bustl.cutz.featured.send2quickbooks",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AR9CSeBU691RmLLeMTb_Cu42C51m\/${f}?o=Amy2n1mpKapuLL7xt_b9DjVmrr3CD1otUVC0V25TYTtcw8ig1bpHoVCRHjSBQtz4ow&v=1&x=3&a=CAogW4gEiMtM4QxTvOdVAYhmw-IisNKVPGPqJnF0KgQWXaESexDh5s35vC8Y4cOp-7wvIgEAUgQ2C51majCnDX09-HRHPmKPHFMEzTE2-EkQAt2VY6eEC4HULpPfgY2unBAkbxdiocMt1pjMNhlyMMAg02j-3AIXZjNeSYG7YusLR3_sEr_rlEnK4QHhS5gdwuqBoWmPiWrNPkDI8U_o-g&e=1631272460&fl=&r=c730787d-4c57-4f9d-a32e-ab086d962698-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=w4uxro2-Cl6mqfRNrofVyQeOKIk",
+  "icon_glyph" : 59395,
+  "notes" : "",
+  "certificate_expiration" : "Mon, 10 Oct 2022 03:04:17 -0700",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Send2QuickbooksnTakes pictures of receipts and submits them to your quickbooks account.n---"
+}
