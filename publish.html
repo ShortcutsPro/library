@@ -79,7 +79,7 @@
               </div>
               <div class="field-body">
                 <div class="control">
-                  <div class="select category is multiple is-info is-medium">
+                  <div class="select category is multiple is-danger is-medium">
                   <select multiple size="29" id="category" class="category">
                     <option value="Books">Books</option>
                     <option value="Business">Business</option>
@@ -124,7 +124,7 @@
         <div class="field">
           <label class="label" for="description">Brief Description</label>
           <div class="control">
-            <input class="input is-info is-normal" id="description" placeholder="Brief description or tag-line" value="">
+            <input class="input is-danger is-normal" id="description" placeholder="Brief description or tag-line" value="">
           </div>
         </div>          
 
@@ -619,13 +619,29 @@
             </div>
           </div>
 
+          
+          <div class="field">
+            <label class="label" for="authorName">Author's Name</label>
+            <div class="control">
+              <input class="input is-danger is-normal" type="text" id="authorName" value="" placeholder="Name, username, or pseudonym">
+            </div>
+          </div>
+          
+          <div class="field">
+            <label class="label" for="authorLink">Author's Link</label>
+            <div class="control">
+              <input class="input is-danger is-normal" type="text" id="authorLink" value="" placeholder="Email, Social Profile, or website">
+            </div>
+          </div>
+          
+          
           <div class="field">
             <label class="label" for="notes">Release Notes</label>
             <div class="control">
               <textarea class="textarea is-info is-normal" placeholder="Release Notes" id="notes"></textarea>
             </div>
           </div>
-
+          
           <div class="field is-grouped is-grouped-centered">
             <div class="field">
               <div class="control">
@@ -643,7 +659,9 @@
         auuid : decodeURIComponent(QUERY.searchParams.get('auuid')),
         version : decodeURIComponent(QUERY.searchParams.get('version')),
         description : decodeURIComponent(QUERY.searchParams.get('description')),
-        repo : decodeURIComponent(QUERY.searchParams.get('repo'))
+        repo : decodeURIComponent(QUERY.searchParams.get('repo')),
+        authorName : decodeURIComponent(QUERY.searchParams.get('authorName')),
+        authorLink : decodeURIComponent(QUERY.searchParams.get('authorLink'))
       };
       // alert(JSON.stringify(DATA,null,'\t'));
       const form = { 
@@ -657,6 +675,8 @@
         input: document.getElementById('input'),
         text: document.getElementById('text'),
         notes: document.getElementById('notes'),
+        authorName: document.getElementById('authorName'),
+        authorLink: document.getElementById('authorLink'),
         submit: document.getElementById('submit')
       };
       if (DATA.name != 'null') {
@@ -674,6 +694,14 @@
           form.description.setAttribute("value", DATA.description);
           form.description.setAttribute("class", "input is-primary is-normal");         
         }; 
+        if (DATA.authorName != 'null') {
+          form.authorName.setAttribute("value", DATA.authorName);
+          form.authorName.setAttribute("class", "input is-primary is-normal");         
+        }; 
+        if (DATA.authorLink != 'null') {
+          form.authorLink.setAttribute("value", DATA.authorLink);
+          form.authorLink.setAttribute("class", "input is-primary is-normal");         
+        }; 
       } else { 
         alert("No shortcut received");
       };      
@@ -687,7 +715,13 @@
         document.querySelector('.category').setAttribute("class", "select is multiple is-primary is-medium");
       });
       form.description.addEventListener('change', () => {
-        form.description.setAttribute("class", "textarea is-primary is-normal");
+        form.description.setAttribute("class", "input is-primary is-normal");
+      });
+      form.authorName.addEventListener('change', () => {
+        form.authorName.setAttribute("class", "input is-primary is-normal");
+      });
+      form.authorLink.addEventListener('change', () => {
+        form.authorLink.setAttribute("class", "input is-primary is-normal");
       });
       form.input.addEventListener('change', () => {
         document.querySelector('.clipboard').setAttribute("class", "select is-primary is-normal");
@@ -742,12 +776,20 @@
           };
         };
         
+        let authorLink = [];
+        authorLink.push(form.authorLink.value)
+        
+        const author = {
+          name: form.authorName.value,
+          link: authorLink
+        }
         const data = {
           name: form.name.value,
           auuid: form.auuid.value,
           notes: form.notes.value,
           version: form.version.value,
           description: form.description.value,
+          author: author,
           markdown: encodeURIComponent(form.markdown.value),
           integrity: integrity,
           category: category,
