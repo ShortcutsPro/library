@@ -671,8 +671,8 @@
           form.version.setAttribute("class", "input is-primary is-normal");         
         };
         if (DATA.description != 'null') {
-          form.description.innerText = DATA.description;
-          form.description.setAttribute("class", "textarea is-primary is-normal");         
+          form.description.setAttribute("value", DATA.description);
+          form.description.setAttribute("class", "input is-primary is-normal");         
         }; 
       } else { 
         alert("No shortcut received");
