@@ -1,0 +1,48 @@
+{
+  "depends" : [
+
+  ],
+  "color" : "#00CBDF",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/brand-mark-my-pages\/brand-mark-my-pages.html",
+  "shortcuts_version" : "1092.11",
+  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/brand-mark-my-pages.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/ebe5f8c1d4f2475a8bb83e0a11052723",
+  "release" : "Sat, 11 Sep 2021 05:12:47 -0500",
+  "file_size" : "12 KB",
+  "integrity" : false,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/brand-mark-my-pages.png",
+  "start_color" : 1440408063,
+  "user_record" : "_1ffe4fd02b3430bb2ccc3419712bf320",
+  "date_created" : "Sat, 11 Sep 2021 04:15:12 -0500",
+  "device_id" : "2A9671DACAFEDA90755DA4D530EDFA57F1E744D4939CBA130A0100BB60E8A9FE",
+  "input" : "",
+  "category" : [
+    "Business",
+    "Graphics & Design"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Brand Mark My Pages",
+  "auuid" : "D74A9D4A-11DE-48CE-9801-035C73269599",
+  "version" : "1.0.0",
+  "id" : "com.shortcutspro.library.brand-mark-my-pages",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AYFjmPHzEDSHnoMQ2CDcGZKmRMrM\/${f}?o=AiZZDALVrtxuM9dWlgq_Tlf0NStqBf8Tc8WQmROWepMprkqST_LntqRfxupE774OEw&v=1&x=3&a=CAogCtIUPPwcuY6EPwiHcNaHYfdWnm-EL-dM0NeLh-FhNWYSexDi3O6hvS8Y4rnKo70vIgEAUgSmRMrMajBvKYaOxR1UkOhky7sDr-qWk9dsvrX1HMQZhZ5oPrgYkbF1QuSgeID0K7ezrCpO9nFyMFL58taY9rMjGRStz9iA5rexNzgpBoQCB6GHZNHVFzHES4_-7PTCWIkcIB9PfUKdsA&e=1631356886&fl=&r=7bba6946-5c44-4df2-9893-577c673986d7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=nTCDf0IrCJ_7Ct0Soh0IKx8koPk",
+  "icon_glyph" : 59841,
+  "notes" : "Initial public release ",
+  "certificate_expiration" : "Tue, 11 Oct 2022 04:06:52 -0500",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/scottdwr.github.io"
+    ]
+  },
+  "description" : "Overlay your professional brand, mark, or label on any PDF or Image"
+}
