@@ -6,14 +6,14 @@
   "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/simpl-showcase\/simpl-showcase.html",
   "shortcuts_version" : "1137.4",
   "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.html",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/56dfc81a46734f8db4b4d25146b48818",
-  "release" : "Fri, 10 Sep 2021 16:45:51 -0500",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/779252cfbeab4ca585cbdab6aef83850",
+  "release" : "Fri, 10 Sep 2021 21:04:02 -0500",
   "file_size" : "180 KB",
   "integrity" : true,
   "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.png",
   "start_color" : 3980825855,
   "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
-  "date_created" : "Fri, 10 Sep 2021 16:41:20 -0500",
+  "date_created" : "Fri, 10 Sep 2021 20:58:04 -0500",
   "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
   "input" : "",
   "category" : [
@@ -33,10 +33,10 @@
   "arch" : "iOS14",
   "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
   "quiet" : true,
-  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AQmbf-fuggbrZkiAflCz3z5Ta9hG\/${f}?o=AnrSr2tit_FsPBjfOJubWyg9n2y3YM7eaXP_cNyMwB2SO09l1Z6-ERmiW3sFAETVNA&v=1&x=3&a=CAogfSfNVBjMgDt5BbyKJ5KibgI8Q1OC7Cruxq-49Yhg7voSexDOs6KNvS8YzpD-jr0vIgEAUgRTa9hGajBAU97P8Xw1ZinHdQtFAdDQY7nDnd3fQEM2wxPQXDbiBsenXD37qc1oOr3X98se44pyMC_CvY60SQdUW7OUCY4pFwfFB3OCywCpGUqyr5weiIOCRVOXBvxEiB6Rnq5SpvTEMg&e=1631313692&fl=&r=42ebcc0b-6f38-4cd9-871f-fff3da0bb268-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=bToG7uUjbiSbt0jNkLpaVnV4Va8",
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/Ad3hjTXFAZzSZu2klxrUlbM-P3tC\/${f}?o=AuNafl4s3aOSJOoge8Pq3Sor9m2IvUPOo2EN0VUzAd9klPaMLCJMm-yRHr7m6ehqjA&v=1&x=3&a=CAogldSSNF0QAjlILF-RfDKQ13W7ys84NmZnoEY7yzGzjeASexCw5c-UvS8YsMKrlr0vIgEAUgQ-P3tCajC8FbcZFU6h0SN-u_37gVwRDH4b0vqmTwZWaJvO8NseXMJTtHsdUagmBlWqU46ZmFFyMCAN7W0a73quEDsRdpUzRL69NheINAoNGEmQNUFRsDzli_aE2EG5EfL_XV8ae3BB-A&e=1631329116&fl=&r=0d46f8e3-40fd-40a7-a5a6-11ad6115a65e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uackbGNcj7XPZiIfsao3cEwsPSM",
   "icon_glyph" : 61500,
   "notes" : "Initial test release ",
-  "certificate_expiration" : "Mon, 10 Oct 2022 16:31:29 -0500",
+  "certificate_expiration" : "Mon, 10 Oct 2022 20:48:33 -0500",
   "minimum_version" : 900,
   "author" : {
     "name" : "anonymous",
@@ -44,5 +44,5 @@
       "about:blank"
     ]
   },
-  "description" : "Simpl. Showcase\n\nShare AI optimized and properly cropped photos in a custom slideshow\n———"
+  "description" : "Share images as custom  slideshow link"
 }
