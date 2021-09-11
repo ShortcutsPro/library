@@ -12,7 +12,7 @@
 				<key>WFCommentActionText</key>
 				<string>Simpl. Showcase
 
-Share AI optimized and properly cropped photos in a custom slideshow
+Share images as custom  slideshow link
 ———</string>
 			</dict>
 		</dict>
@@ -156,6 +156,30 @@ Share AI optimized and properly cropped photos in a custom slideshow
 									<true/>
 									<key>WFSerializationType</key>
 									<string>WFNumberSubstitutableState</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>WFItemType</key>
+								<integer>0</integer>
+								<key>WFKey</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>string</key>
+										<string>description</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
+								</dict>
+								<key>WFValue</key>
+								<dict>
+									<key>Value</key>
+									<dict>
+										<key>string</key>
+										<string>Share images as custom  slideshow link</string>
+									</dict>
+									<key>WFSerializationType</key>
+									<string>WFTextTokenString</string>
 								</dict>
 							</dict>
 						</array>
