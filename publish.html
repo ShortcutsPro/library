@@ -660,9 +660,9 @@
         version : decodeURIComponent(QUERY.searchParams.get('version')),
         description : decodeURIComponent(QUERY.searchParams.get('description')),
         repo : decodeURIComponent(QUERY.searchParams.get('repo')),
-        author : JSON.parse(decodeURIComponent(QUERY.searchParams.get('author')))
+        author : decodeURIComponent(QUERY.searchParams.get('author'))
       };
-      // alert(JSON.stringify(DATA,null,'\t'));
+       alert(`${DATA.author}`,null,'\t');
       const form = { 
         name: document.getElementById('name'),
         auuid: document.getElementById('auuid'),
@@ -694,9 +694,10 @@
           form.description.setAttribute("class", "input is-primary is-normal");         
         }; 
         if (DATA.author != 'null') {
-          form.authorName.setAttribute("value", author.name);
+          let author = JSON.parse(DATA.author);
+          form.authorName.setAttribute("value", `${author.name}`);
           form.authorName.setAttribute("class", "input is-primary is-normal");         
-          form.authorLink.setAttribute("value", author.link);
+          form.authorLink.setAttribute("value", `${author.link}`);
           form.authorLink.setAttribute("class", "input is-primary is-normal");         
         }; 
       } else { 
