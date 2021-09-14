@@ -660,8 +660,7 @@
         version : decodeURIComponent(QUERY.searchParams.get('version')),
         description : decodeURIComponent(QUERY.searchParams.get('description')),
         repo : decodeURIComponent(QUERY.searchParams.get('repo')),
-        authorName : decodeURIComponent(QUERY.searchParams.get('authorName')),
-        authorLink : decodeURIComponent(QUERY.searchParams.get('authorLink'))
+        author : decodeURIComponent(QUERY.searchParams.get('author'))
       };
       // alert(JSON.stringify(DATA,null,'\t'));
       const form = { 
@@ -694,12 +693,11 @@
           form.description.setAttribute("value", DATA.description);
           form.description.setAttribute("class", "input is-primary is-normal");         
         }; 
-        if (DATA.authorName != 'null') {
-          form.authorName.setAttribute("value", DATA.authorName);
+        if (DATA.author != 'null') {
+          let author = JSON.parse(DATA.author);
+          form.authorName.setAttribute("value", author.name);
           form.authorName.setAttribute("class", "input is-primary is-normal");         
-        }; 
-        if (DATA.authorLink != 'null') {
-          form.authorLink.setAttribute("value", DATA.authorLink);
+          form.authorLink.setAttribute("value", author.link[0]);
           form.authorLink.setAttribute("class", "input is-primary is-normal");         
         }; 
       } else { 
