@@ -641,7 +641,7 @@
               <textarea class="textarea is-info is-normal" placeholder="Release Notes" id="notes"></textarea>
             </div>
           </div>
-          
+        
           <div class="field is-grouped is-grouped-centered">
             <div class="field">
               <div class="control">
@@ -660,9 +660,10 @@
         version : decodeURIComponent(QUERY.searchParams.get('version')),
         description : decodeURIComponent(QUERY.searchParams.get('description')),
         repo : decodeURIComponent(QUERY.searchParams.get('repo')),
-        author : decodeURIComponent(QUERY.searchParams.get('author'))
+        authorName : decodeURIComponent(QUERY.searchParams.get('authorName')),
+        authorLink : decodeURIComponent(QUERY.searchParams.get('authorLink'))
       };
-       alert(`${DATA.author}`,null,'\t');
+      let hide = false;
       const form = { 
         name: document.getElementById('name'),
         auuid: document.getElementById('auuid'),
@@ -693,11 +694,12 @@
           form.description.setAttribute("value", DATA.description);
           form.description.setAttribute("class", "input is-primary is-normal");         
         }; 
-        if (DATA.author != 'null') {
-          let author = JSON.parse(DATA.author);
-          form.authorName.setAttribute("value", `${author.name}`);
-          form.authorName.setAttribute("class", "input is-primary is-normal");         
-          form.authorLink.setAttribute("value", `${author.link}`);
+        if (DATA.authorName != 'null') {
+          form.authorName.setAttribute("value", DATA.authorName);
+          form.authorName.setAttribute("class", "input is-primary is-normal");
+        };
+        if (DATA.authorLink != 'null') {
+          form.authorLink.setAttribute("value", DATA.authorLink);
           form.authorLink.setAttribute("class", "input is-primary is-normal");         
         }; 
       } else { 
@@ -733,7 +735,7 @@
       form.notes.addEventListener('change', () => {
         form.notes.setAttribute("class", "textarea is-primary is-normal");
       });
-      
+
       form.submit.addEventListener('click', (e) => {
         e.preventDefault;
         
@@ -781,6 +783,7 @@
           name: form.authorName.value,
           link: authorLink
         }
+        
         const data = {
           name: form.name.value,
           auuid: form.auuid.value,
