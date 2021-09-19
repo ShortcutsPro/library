@@ -1,0 +1,48 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#4A69C6",
+  "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/quickconnect\/quickconnect.html",
+  "shortcuts_version" : "1134",
+  "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/quickconnect.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/d8f61daf08744812a3787ae5cacf3154",
+  "release" : "Sat, 18 Sep 2021 22:52:11 -0700",
+  "file_size" : "18 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/quickconnect.png",
+  "start_color" : 946986751,
+  "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+  "date_created" : "Sat, 18 Sep 2021 22:50:29 -0700",
+  "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+  "input" : "",
+  "category" : [
+    "System Admin",
+    "Utilities"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "QuickConnect",
+  "auuid" : "A6129FDF-1B9D-457C-A33E-E58AE4DF9D98",
+  "version" : "1",
+  "id" : "io.bustl.cutz.featured.quickconnect",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AXH2FxHudMmnMxb-qfxsAN1HFC-T\/${f}?o=AnPAu0kRohpp0EhDddlXHu8FpMb9sBKcZ3z26yEQJnPU3k4rwR3NWPq8yFAGA6eeVg&v=1&x=3&a=CAogtA0zt015aaVy7vpO8lCPa_YMYoZBcyE75MEUzG0vZ8YSexDFuO3kvy8YxZXJ5r8vIgEAUgRHFC-TajAoBgvJS6Oz-EI8P6m1DqF-QmomZn-7Dy3z1dd8OMe_FvOoljVYcCwLrMIVaUoYMl1yMP2XfIGad-tAuKT2lk3wbO9RPZwDBO8Tpc1i-qD4wLqjs3rjp6x6qS6Bb3Oe0q_C7A&e=1632034245&fl=&r=6c435edb-016f-445a-82c5-be64c49d3ae0-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=6Baea5QVnze5oL74fVY791kxPPw",
+  "icon_glyph" : 59867,
+  "notes" : "",
+  "certificate_expiration" : "Tue, 18 Oct 2022 22:40:42 -0700",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Name: QuickConnectnDescription: if you're like me and don't like wifi at home but sometimes you have to connect for a min for a transfer or special action & you also believe the control center is 5 too many taps - this for you.  This works for know networks only.  category: device, utilityn---"
+}
