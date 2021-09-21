@@ -1,0 +1,48 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#F26369",
+  "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/pdfanything\/pdfanything.html",
+  "shortcuts_version" : "1137.4",
+  "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/pdfanything.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/ba9f76307fd348aaab20b34c009f9bbe",
+  "release" : "Mon, 20 Sep 2021 19:39:35 -0700",
+  "file_size" : "17 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/pdfanything.png",
+  "start_color" : 4282601983,
+  "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+  "date_created" : "Mon, 20 Sep 2021 19:31:34 -0700",
+  "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+  "input" : "",
+  "category" : [
+    "Development Tools",
+    "Utilities"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "PDFAnything",
+  "auuid" : "D5564900-1E15-45DC-8F23-51ADBF5A9504",
+  "version" : "1",
+  "id" : "io.bustl.cutz.featured.pdfanything",
+  "arch" : "iOS15",
+  "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ASbqeTeMNufENqjcib_NV42HO27x\/${f}?o=Ar2T4-CQ06HQwuzweJvKa2fK-Vzs2rSU4asHXOPTeaWzgnOG3_UFXQimyFGGfqzsxg&v=1&x=3&a=CAog43R1CXWdLubYeeI092Xs2xGTVk43V-2UPUnka7VCc9QSexCI7MexwC8YiMmjs8AvIgEAUgSHO27xajDhmH0_XIcjEVLX2dWJw3r6ilGh76Eg4wRC5mIBGDtYyWeBNPL98YSfM7gc4HKz7AVyMKR92sCHg5djKEfsaeh_UTjwpxhVMzgzrPYgTmRhU26sjT6wWTnm1iQKiXuXWHBS8A&e=1632195110&fl=&r=ecd4d51a-aca1-4815-8711-8eba4b5736d7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=UMx1AtSN5Xri37LRI6pIcAxI5jU",
+  "icon_glyph" : 59791,
+  "notes" : "",
+  "certificate_expiration" : "Thu, 20 Oct 2022 19:21:47 -0700",
+  "minimum_version" : 1106,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "PDF Anything converts any documents, notes, images into a pdf file."
+}
