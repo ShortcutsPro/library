@@ -1,0 +1,48 @@
+{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#F26369",
+  "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/colorpalette\/colorpalette.html",
+  "shortcuts_version" : "1137.2",
+  "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/colorpalette.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/c97a286e1076402bb0b54af24fd1e281",
+  "release" : "Thu, 23 Sep 2021 21:52:22 -0700",
+  "file_size" : "23 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/colorpalette.png",
+  "start_color" : 4282601983,
+  "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
+  "date_created" : "Thu, 23 Sep 2021 21:49:19 -0700",
+  "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+  "input" : "",
+  "category" : [
+    "Graphics & Design",
+    "Photo & Video"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "ColorPalette",
+  "auuid" : "33480345-F6E4-4212-9379-9D7413E19295",
+  "version" : "1",
+  "id" : "io.bustl.cutz.featured.colorpalette",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
+  "quiet" : false,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AZNz-PehAt8lISv5BCWtVHVquhnu\/${f}?o=AoxBEg5s6BNc1KWtROtPWoMysKq8e3mnhzeQNFBaE18t_4yin8n6UZ23YUt75kbsng&v=1&x=3&a=CAogNjsPHUGPnsMMjfEb0e0jUSb1qx0E1hl3frXhc4DwFQMSexDE1oyxwS8YxLPossEvIgEAUgRquhnuajBhxWH8rxiGYTX7e863VUzz4OLwKZSJkTJLtzzpxtJVf0nmvcymZq1k8-Stt-vMBC1yMPovauibOTxY9RNYTw8OlqKKLz4WxaQYWatoDwZx0EciKf9RUnE7cpHZoPsZow4BZw&e=1632462576&fl=&r=6b5494ec-e648-471a-9c6b-d1e35c64c7cf-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=NkAzhSLIp75_xZndagEwu_kSbrU",
+  "icon_glyph" : 59716,
+  "notes" : "",
+  "certificate_expiration" : "Sun, 23 Oct 2022 21:39:31 -0700",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Name: ColorPalettenDescription: ColorPalette - build a color palette with samples & hex codes.ncategory: device, utilityn---"
+}
