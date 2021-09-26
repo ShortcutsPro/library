@@ -1,0 +1,47 @@
+{
+	"id": "io.bustl.cutz.featured.simple-template",
+	"auuid": "92B85B46-362E-4369-BDDD-E3E234C30380",
+	"name": "Simple Template",
+	"description": "Shortcut Name\n\nA simple shortcut menu template",
+	"release": "Sun, 26 Sep 2021 15:00:40 -0500",
+	"version": "1.0.0",
+	"notes": "Test publish",
+	"category": [
+		"Development Tools"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/simple-template.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/simple-template/simple-template.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/simple-template.png",
+	"start_color": 3679049983,
+	"color": "#BB7AE3",
+	"icon_glyph": 59849,
+	"shortcuts_version": "1137.4",
+	"link": "https://www.icloud.com/shortcuts/80a1d7e3006a47b0a9550032041f3f6f",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
+	"date_created": "Sun, 26 Sep 2021 14:56:20 -0500",
+	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AZEGLN8W0FH2NXvExJU2_RsS3qkU/${f}?o=Ai5mSjpOsakbeavb74uZ6JtilLkAGQUQF0L7Oglj4O-zPxDqPDgll8ZglKW7_ZXktw&v=1&x=3&a=CAog3DFNlqF3DbMVX0lfVAze-mLldJh0imB0WMDpNImtkc0SexDvpbmdwi8Y74KVn8IvIgEAUgQS3qkUajDkztIVC5zgkYe6ylf6-HEtaABq9sOzKA_ZLQZVRpTuzWO0HMuByLTmhyXCmtwRvRdyMLZAaM2HZl7SSZ81tt_MDFrqFKidGR5UOLWRSkl5RwDJO6r2BEiqMQxOViLlwAoGYA&e=1632689799&fl=&r=93a0adc5-4606-4095-a30b-da045c7a7aa2-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=XeF313Hbf01Xo7DeT4W41nOovYA",
+	"certificate_expiration": "Wed, 26 Oct 2022 14:46:36 -0500",
+	"minimum_version": 900,
+	"file_size": "8 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
