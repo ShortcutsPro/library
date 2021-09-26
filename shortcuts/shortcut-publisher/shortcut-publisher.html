@@ -159,11 +159,11 @@ span.magic {
    "Parameters": {}
 },
 "WFWorkflowOutputContentItemClasses": [
-   "WFBooleanContentItem",
-   "WFStringContentItem",
    "WFNumberContentItem",
    "WFDictionaryContentItem",
-   "WFDateContentItem"
+   "WFDateContentItem",
+   "WFBooleanContentItem",
+   "WFStringContentItem"
 ],
 "WFWorkflowTypes": [
    "ActionExtension"
@@ -178,14 +178,14 @@ span.magic {
 Publishes shortcuts to a Papercuts / Integrity repository.
 ——
 
-{"name":"Shortcut Publisher ","auuid":"DF104BCA-C7AA-4711-9544-CFB8B0CC691F","version":"1.0.11"}</div></div>
+{"name":"Shortcut Publisher ","auuid":"DF104BCA-C7AA-4711-9544-CFB8B0CC691F","version":"1.0.13"}</div></div>
 <button class="button gScripting" id="m1">
 1 Dictionary</button>
 	<div class="content">
 		<div class="col2">{
    "shortcut": {
       "name": "Shortcut Publisher",
-      "version": "1.0.11",
+      "version": "1.0.13",
       "auuid": "DF104BCA-C7AA-4711-9544-CFB8B0CC691F",
       "author": {
          "name": "@scottdwr",
@@ -5169,24 +5169,57 @@ _<span class="var"><b>[By Line</b><b>]</b></span>_
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="button gDocuments" id="m673">
-673 Text</button>
+<button class="" id="m673">
+673 Get File <span class="box">/Shortcut Publisher</span> from Folder <b>&nbsp; ➔ Folder</b></button>
+<button class="" id="m674">
+674 Get Contents of Folder <span class="box"><span class="magic" onclick="magictap(673)"><b>[673 Folder</b> as Folder<b>]</b></span></span></button>
+<button class="button " id="m675">
+675 Filter Files <span class="box"><span class="magic" onclick="magictap(674)"><b>[674 Contents of Folder</b><b>]</b></span></span> <b>&nbsp; ➔ Input Folder</b></button>
 	<div class="content">
-		<div class="col2"><span class="var"><b>[Name</b><b>]</b></span></div></div>
-<button class="button " id="m674">
-674 Run Shortcut <span class="box">Archive Release</span></button>
+		<div class="row"><div class="col1">ContentItemSortProperty</div>
+			<div class="col2">Last Modified Date</div></div>
+		<div class="row"><div class="col1">ContentItemSortOrder</div>
+			<div class="col2">Latest First</div></div>
+		<div class="row"><div class="col1">ContentItemLimitNumber</div>
+			<div class="col2">1</div></div>
+		<div class="row"><div class="col1">ContentItemLimitEnabled</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">ContentItemFilter</div>
+			<div class="col2">Name is <span class="var"><b>[Name</b><b>]</b></span></div></div></div>
+<button class="button " id="m676">
+676 Folder</button>
 	<div class="content">
-		<div class="row"><div class="col1">Input</div>
-			<div class="col2"><span class="magic" onclick="magictap(673)"><b>[673 Text</b><b>]</b></span></div></div>
-		<div class="row"><div class="col1">Workflow</div>
-			<div class="col2">{"workflowIdentifier":"C023FE44-8900-443D-84ED-4324A327E2B1","isSelf":false,"workflowName":"Archive Release"}</div></div></div>
-<button class="button gDocuments" id="m675">
-675 Comment</button>
+		<div class="row"><div class="col1">Folder</div>
+			<div class="col2"><span class="magic" onclick="magictap(675)"><b>[675 Input Folder</b><b>]</b></span></div></div></div>
+<button class="" id="m677">
+677 Get Contents of Folder <span class="box"><span class="magic" onclick="magictap(676)"><b>[676 Folder</b><b>]</b></span></span></button>
+<button class="gVariable" id="m678">
+678 Set Variable <span class="box">Release Files</span> to <span class="box"><span class="magic" onclick="magictap(677)"><b>[677 Contents of Folder</b><b>]</b></span></span></button>
+<button class="button " id="m679">
+679 Make <span class="box">tar.xz</span> Archive from <span class="box"><span class="var"><b>[Release Files</b><b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">ZIPName</div>
+			<div class="col2"><span class="var"><b>[Name</b><b>]</b></span>_v<span class="var"><b>[Update</b>.version<b>]</b></span>_<span class="var"><b>[CurrentDate</b>’s Name<b>]</b></span></div></div></div>
+<button class="gVariable" id="m680">
+680 Add <span class="box"><span class="magic" onclick="magictap(679)"><b>[679 Archive</b><b>]</b></span></span> to Variable <span class="box">Release Files</span></button>
+<button class="button " id="m681">
+681 Save <span class="box"><span class="var"><b>[Release Files</b><b>]</b></span></span> to File</button>
+	<div class="content">
+		<div class="row"><div class="col1">Folder</div>
+			<div class="col2">{"fileLocation":{"appContainerBundleIdentifier":"com.apple.shortcuts","fileProviderDomainID":"com.apple.CloudDocs.MobileDocumentsFileProvider","crossDeviceItemID":"docs.icloud.com:iCloud.is.workflow.my.workflows/A795D405-7E64-4300-B45A-53653F6BC038/df9edcb9b39b6b211ff7d95a5c70e3fa2e0e3186","displayName":"Shortcut Publisher","WFFileLocationType":"Shortcuts","relativeSubpath":"Shortcut Publisher"},"filename":"Shortcut Publisher","displayName":"Shortcut Publisher"}</div></div>
+		<div class="row"><div class="col1">AskWhereToSave</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">SaveFileOverwrite</div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">FileDestinationPath</div>
+			<div class="col2">/<span class="var"><b>[Name</b><b>]</b></span>/</div></div></div>
+<button class="button gDocuments" id="m682">
+682 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 </div></div>
-<button class="button gDocuments" id="m676">
-676 Text</button>
+<button class="button gDocuments" id="m683">
+683 Text</button>
 	<div class="content">
 		<div class="col2"><span class="var"><b>[CurrentDate</b><b>]</b></span>
 <span class="var"><b>[Name</b><b>]</b></span> v.<span class="var"><b>[Update</b>.version<b>]</b></span>
@@ -5196,22 +5229,17 @@ ShortcutsPro Library :
 
 Bustl.Cutz <span class="var"><b>[Repo</b><b>]</b></span> :
 <span class="magic" onclick="magictap(671)"><b>[671 Status</b><b>]</b></span> </div></div>
-<button class="button gScripting" id="m677">
-677 Stop and Output <span class="box"><span class="magic" onclick="magictap(676)"><b>[676 Text</b><b>]</b></span></span></button>
+<button class="button gScripting" id="m684">
+684 Stop and Output <span class="box"><span class="magic" onclick="magictap(683)"><b>[683 Text</b><b>]</b></span></span></button>
 	<div class="content">
 		<div class="row"><div class="col1">NoOutputSurfaceBehavior</div>
 			<div class="col2">Respond</div></div>
 		<div class="row"><div class="col1">Response</div>
-			<div class="col2"><span class="magic" onclick="magictap(676)"><b>[676 Text</b><b>]</b></span></div></div></div>
-<button class="button gDocuments" id="m678">
-678 Comment</button>
+			<div class="col2"><span class="magic" onclick="magictap(683)"><b>[683 Text</b><b>]</b></span></div></div></div>
+<button class="button gDocuments" id="m685">
+685 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2"> </div></div>
-<button class="button gUnknown" id="m679">
-679 com.brave.ios.browser.OpenWebsiteIntent</button>
-	<div class="content">
-		<div class="row"><div class="col1">websiteURL</div>
-			<div class="col2">https://onlyhot.vip/wp-content/uploads/2021/09/Superboys-Hentai-Art-Collection-Vol.-2-50.jpg</div></div></div>
 <script>
 for (b of document.getElementsByClassName('button')) {
 	b.addEventListener('click', function() {

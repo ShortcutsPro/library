@@ -3,9 +3,9 @@
 	"auuid": "DF104BCA-C7AA-4711-9544-CFB8B0CC691F",
 	"name": "Shortcut Publisher",
 	"description": "Publishes shortcuts to a Papercuts / Integrity repository.",
-	"release": "Mon, 13 Sep 2021 23:56:28 -0500",
-	"version": "1.0.11",
-	"notes": "Incremental improvements to user interface.\nStreamline to minimize interactions.\nExpand description to highlight hidden features",
+	"release": "Sun, 26 Sep 2021 15:53:25 -0500",
+	"version": "1.0.13",
+	"notes": "Update version number",
 	"category": [
 		"Utilities",
 		"System Admin"
@@ -23,22 +23,22 @@
 	"color": "#00CEAD",
 	"icon_glyph": 61456,
 	"shortcuts_version": "1136.1",
-	"link": "https://www.icloud.com/shortcuts/954d3e91874d47a697cb85adbfcc0805",
+	"link": "https://www.icloud.com/shortcuts/a8c03d83679247e3b1556add24da408f",
 	"depends": [
 		    "com.shortcutspro.library.integrity"
 	],
 	"integrity": true,
 	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
-	"date_created": "Mon, 13 Sep 2021 23:36:54 -0500",
+	"date_created": "Sun, 26 Sep 2021 15:50:52 -0500",
 	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
 	"input": "clipboard",
 	"arch": "iOS15",
 	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
 	"quiet": true,
-	"signed_download": "https://cvws.icloud-content.com/B/ARo9NG57QlbYChadCNgocojgLVnH/${f}?o=AlpH_UrY3PYY64leu1siP4CzfdhtuqJc-YRXi81JBpz0kANXtiA5CQ0yJaRKOeRnxQ&v=1&x=3&a=CAog267HYggYVIRNTlMVdb1_FpOZEu4b7OuMjgLSX3viA0QSexCCleGUvi8YgvK8lr4vIgEAUgTgLVnHajDA60JnyrbRu6uTqMH5vd9dEjbmLyrvqc3B4g0cLic3wwBqjPwnFcOIU-AA_GrqenByMJJTp2Bf4hXD-kPipFVANAJLyz7V1irGx6-HMi5FH2WaM4xhJKY12z-q6gyieTi5SA&e=1631597836&fl=&r=ee9882f3-b5bb-43cb-8940-15c66c807a69-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=laLSmQrsH-EiSqGD0ldxyZPcjRI",
-	"certificate_expiration": "Thu, 13 Oct 2022 23:27:13 -0500",
+	"signed_download": "https://cvws.icloud-content.com/B/AbN1TOGx8HaKxChE_xln3wWPYSDO/${f}?o=ArET2RUYN80w6n0kF16T7lcsnqE3mFTt54_e522mvObrjqwzX7mL3RLphjVSA5GcDw&v=1&x=3&a=CAogXHSRIKRdBmt4ZZVyM0dtBaNtZGI0rbHxWbnSM9jXgFMSexCdnoGfwi8YnfvcoMIvIgEAUgSPYSDOajAsob1ho4-EbQrq6kUIOaeVDoV1acF2TyYc97vh2-Vw3ysdZ6Oz46w1Jcup0WgypWpyMGLr5x-q5f4a51Yp1p-4BmC5qETh6c2LM5UdIyXh7ZC3UisUPm_AEhbMjYlVnVL50g&e=1632693075&fl=&r=3cbd7128-b595-4360-be82-84a475c242a5-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=JP2EpS1UcsBP_6eyN3t81Sg96bU",
+	"certificate_expiration": "Wed, 26 Oct 2022 15:41:12 -0500",
 	"minimum_version": 1113,
-	"file_size": "224 KB",
+	"file_size": "226 KB",
 	"maintainer": {
 		"name": "@scottdwr",
 		"link": [
