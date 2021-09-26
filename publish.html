@@ -736,7 +736,7 @@
       });
 
       form.submit.addEventListener('click', (e) => {
-        e.preventDefault;
+        e.preventDefault
         
         let category = [];
         let select = form.category;
@@ -776,12 +776,12 @@
         };
         
         let authorLink = [];
-        authorLink.push(form.authorLink.value)
+        authorLink.push(`${form.authorLink.value}`)
         
         const author = {
-          name: form.authorName.value,
+          name: `${form.authorName.value}`,
           link: authorLink
-        }
+        };
         
         const data = {
           name: form.name.value,
