@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.bulk64archive",
+	"auuid": "BB71AAEC-35CF-45EA-A0B6-E18B0DCB6207",
+	"name": "Bulk64Archive",
+	"description": "Name: Bulk64Archive Description: Bulk base 64 encode files & archive all of the encoded files into a zip.  great for sharing large number of documents. category: device, utility ---",
+	"release": "Thu, 07 Oct 2021 22:30:19 -0700",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Development Tools",
+		"Utilities"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/bulk64archive.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/bulk64archive/bulk64archive.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/bulk64archive.png",
+	"start_color": 255,
+	"color": "#86919B",
+	"icon_glyph": 61565,
+	"shortcuts_version": "1143",
+	"link": "https://www.icloud.com/shortcuts/3acd905a3c1a45a19917ee9bb34babc1",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 07 Oct 2021 22:24:57 -0700",
+	"device_id": "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
+	"input": "",
+	"arch": "iOS15",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AZzcg6Q2iMaYk7OeGfjPBg6Nlutn/${f}?o=AiqJ70F6TWHvPqM7VA5idezUGWG_OXQwfwAelYfdv9j5BwRLUdNyA1p9dRbuiSwPeQ&v=1&x=3&a=CAogoSpm6pjSBD4-yaNvNsFbRjMgZ29ijoMZ6X7Xoq_fyiQSexCJq_PyxS8YiYjP9MUvIgEAUgSNlutnajBhx9VFtWmxsWsE9DUBkcc-pKcjwFIW68j8adsQT8eo0Ug6KB8GRkktsZLVRwR2bfdyMNHuUxI-lZoq4mhGkJZZuHZqkDSk6d-eekZrsDUB7WhhZdHpB5aZLp0SSF5oxhvXPw&e=1633674314&fl=&r=f2962b20-f718-4522-a3df-5dda50ff9c1f-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=PfgUi8wy35XvxAVMzOyr2U_zZ4s",
+	"certificate_expiration": "Sun, 06 Nov 2022 21:15:12 -0800",
+	"minimum_version": 1106,
+	"file_size": "19 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
