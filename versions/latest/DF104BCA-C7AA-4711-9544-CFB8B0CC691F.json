@@ -3,9 +3,9 @@
 	"auuid": "DF104BCA-C7AA-4711-9544-CFB8B0CC691F",
 	"name": "Shortcut Publisher",
 	"description": "Publishes shortcuts to a Papercuts / Integrity repository.",
-	"release": "Sun, 26 Sep 2021 15:53:25 -0500",
+	"release": "Sat, 09 Oct 2021 13:26:14 -0500",
 	"version": "1.0.13",
-	"notes": "Update version number",
+	"notes": "Re-publish",
 	"category": [
 		"Utilities",
 		"System Admin"
@@ -23,22 +23,22 @@
 	"color": "#00CEAD",
 	"icon_glyph": 61456,
 	"shortcuts_version": "1136.1",
-	"link": "https://www.icloud.com/shortcuts/a8c03d83679247e3b1556add24da408f",
+	"link": "https://www.icloud.com/shortcuts/536acde5479a4aae8ffaa23eb4b6d32a",
 	"depends": [
 		    "com.shortcutspro.library.integrity"
 	],
 	"integrity": true,
 	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
-	"date_created": "Sun, 26 Sep 2021 15:50:52 -0500",
+	"date_created": "Sat, 09 Oct 2021 13:22:46 -0500",
 	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
 	"input": "clipboard",
 	"arch": "iOS15",
 	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
 	"quiet": true,
-	"signed_download": "https://cvws.icloud-content.com/B/AbN1TOGx8HaKxChE_xln3wWPYSDO/${f}?o=ArET2RUYN80w6n0kF16T7lcsnqE3mFTt54_e522mvObrjqwzX7mL3RLphjVSA5GcDw&v=1&x=3&a=CAogXHSRIKRdBmt4ZZVyM0dtBaNtZGI0rbHxWbnSM9jXgFMSexCdnoGfwi8YnfvcoMIvIgEAUgSPYSDOajAsob1ho4-EbQrq6kUIOaeVDoV1acF2TyYc97vh2-Vw3ysdZ6Oz46w1Jcup0WgypWpyMGLr5x-q5f4a51Yp1p-4BmC5qETh6c2LM5UdIyXh7ZC3UisUPm_AEhbMjYlVnVL50g&e=1632693075&fl=&r=3cbd7128-b595-4360-be82-84a475c242a5-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=JP2EpS1UcsBP_6eyN3t81Sg96bU",
-	"certificate_expiration": "Wed, 26 Oct 2022 15:41:12 -0500",
+	"signed_download": "https://cvws.icloud-content.com/B/AY-dQSq2LUfMykfqBzlAJcgm1urw/${f}?o=At94JpxhU-zBo5n2wupF__JFEuSp2BtX85PVeu6vGEYCB29rGfInGZMvRb392uXVxw&v=1&x=3&a=CAogIQPN3V74m0KXLMMhqfcUbtBOsHTD_yfK-piBCBgYbuoSexCG762yxi8YhsyJtMYvIgEAUgQm1urwajB5SUWjJLgmBVYFLlquO9Wi5wo_n8qpNJBXRjpbiRq0pJEDYFU9fptqU0U77DXwrb1yMNtgUoqBB_CbCKyLsA4jH-ure9FpGqj-rBQ5PlmY8JVehO9w75ZSLvSWU9PjC3p3TQ&e=1633807394&fl=&r=b641569b-4eb2-43f9-8dd4-2b48cab4ea69-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=yFfOuvu0yuzB91Q90L8DMd9yx0U",
+	"certificate_expiration": "Tue, 08 Nov 2022 12:13:11 -0600",
 	"minimum_version": 1113,
-	"file_size": "226 KB",
+	"file_size": "227 KB",
 	"maintainer": {
 		"name": "@scottdwr",
 		"link": [
