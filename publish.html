@@ -779,7 +779,7 @@
         authorLink.push(`${form.authorLink.value}`)
         
         const author = {
-          name: `${form.authorName.value}`,
+          name: form.authorName,
           link: authorLink
         };
         
@@ -806,7 +806,7 @@
         
         let parameter = encodeURIComponent(JSON.stringify(data));
         window.open('shortcuts://run-shortcut?name=Shortcut Publisher&input=text&text='+parameter);
-        window.close();
+        // window.close();
       });
     </script>
   </body>
