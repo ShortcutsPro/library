@@ -1,47 +1,48 @@
 {
-  "depends" : [
-    "com.shortcutspro.library.integrity"
-  ],
-  "color" : "#EDC500",
-  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/bustl-updater\/bustl-updater.html",
-  "shortcuts_version" : "1092.11",
-  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.html",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/f1596e0eb0c54ebfa49f3e410d8115c7",
-  "release" : "Thu, 26 Aug 2021 14:21:20 -0500",
-  "file_size" : "26 KB",
-  "integrity" : true,
-  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.png",
-  "start_color" : 4274264319,
-  "user_record" : "_1ffe4fd02b3430bb2ccc3419712bf320",
-  "date_created" : "Thu, 26 Aug 2021 08:51:25 -0500",
-  "device_id" : "2A9671DACAFEDA90755DA4D530EDFA57F1E744D4939CBA130A0100BB60E8A9FE",
-  "input" : "",
-  "category" : [
-    "Utilities"
-  ],
-  "maintainer" : {
-    "name" : "@scottdwr",
-    "link" : [
-      "https:\/\/github.com\/scottdwr\/"
-    ]
-  },
-  "name" : "Bustl. Updater",
-  "auuid" : "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
-  "version" : "11.1",
-  "id" : "com.shortcutspro.library.bustl-updater",
-  "arch" : "iOS14",
-  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-  "quiet" : false,
-  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AY5N3VVpNzH6C5v1zUMe7gpZBv7x\/${f}?o=Au1Kyatbfr71IU6cfblqRXWcZF8B4Oeg5h_3ORFGcl5QvIO2d2dKByWWylkGQbRLZw&v=1&x=3&a=CAogY3NRfnLC_LhiBq5MImZlaZ3dCr51DI4VLiOaUj3q9SUSexC_0JyfuC8Yv634oLgvIgEAUgRZBv7xajDEIWGBSMRMHepGNBZjzQzjxYtNBmmJd6UVzcS3Kv5N_oL9G6Nd6miIek9nZMZf4TpyMIw6WvrMg6uLjZqFigwQVj-yqFrvLv4HgHGVUAs2DO7SlJR6pHj4uhNawaX0QbaAgg&e=1630009169&fl=&r=94bf040c-e587-4163-b01b-fb1ac8e79df7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=o72-8RqLJxtemaiVd2IxySXXCRY",
-  "icon_glyph" : 59516,
-  "notes" : "Re-Release with new Update Engine and\niOS14 compatibility. ",
-  "certificate_expiration" : "Sun, 25 Sep 2022 08:42:35 -0500",
-  "minimum_version" : 900,
-  "author" : {
-    "name" : "anonymous",
-    "link" : [
-      "about:blank"
-    ]
-  },
-  "description" : "Bustl. Updater\n\nAuto-Updater for Bustl. sponsored Integrity Framwork tools.\n———"
+	"id": "com.shortcutspro.library.bustl-updater",
+	"auuid": "748AD281-D6A6-43F3-A1E6-E2DABDB2CEA2",
+	"name": "Bustl. Updater",
+	"description": "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
+	"release": "Sat, 09 Oct 2021 14:28:17 -0500",
+	"version": "11.3",
+	"notes": "New release outputs an update notification url, or nothing. \nBeta: Run Bustl. Updater by itself to select and update multiple shortcuts.  ",
+	"category": [
+		"Utilities"
+	],
+	"author": {
+		"name": "scottdwr",
+		"link": [
+			"https://routinehub.co/user/scottdwr/"
+		]
+	},
+	"depiction": "https://ShortcutsPro.GitHub.io/library/depiction/bustl-updater.html",
+	"source": "https://ShortcutsPro.GitHub.io/library/shortcuts/bustl-updater/bustl-updater.html",
+	"icon": "https://ShortcutsPro.GitHub.io/library/depiction/bustl-updater.png",
+	"start_color": 4274264319,
+	"color": "#EDC500",
+	"icon_glyph": 59516,
+	"shortcuts_version": "1134",
+	"link": "https://www.icloud.com/shortcuts/eed15359acf549f78b3dcb476b780969",
+	"depends": [
+		
+	],
+	"integrity": false,
+	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
+	"date_created": "Sat, 09 Oct 2021 14:22:42 -0500",
+	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AZuV7o2nEBeyPjUQimnAylp-jBUE/${f}?o=AuLt-bXdRz537u8smOwoMjaKsE8oDDT87ShhnEEr-rON2GFSyE451KW7NeiLkdZ04A&v=1&x=3&a=CAog8s7vB186ELX_wv4fELXeHkSWPaXoKARHo1DRTaPSrBkSexDVt4m0xi8Y1ZTltcYvIgEAUgR-jBUEajA-BIjq9FdZymUqQBCJy4sC6YQmddi2Xn9iHB5ervRkOCS-eCdr0mLnytNaaH5gEblyMG-JxjHKhrz4xJn1lSUuytEyU6k3Heb0KoTER96ikf8c3blgq7R-mcErqikWUWEnsA&e=1633810991&fl=&r=a1262bf2-1425-468e-99a6-df9ab739102a-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=R-i643oeGJ6EfTiHHoQcTMLPnK0",
+	"certificate_expiration": "Tue, 08 Nov 2022 13:13:08 -0600",
+	"minimum_version": 900,
+	"file_size": "29 KB",
+	"repository": "library",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
 }
