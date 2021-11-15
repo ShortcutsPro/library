@@ -16,18 +16,22 @@
         margin: 0;
         padding: 0;
         font-size: 1em/1.5em;
-        font-style: normal;
-        font-weight: normal;
       }
       html { 
+/*        *
+        font-family: Helvetica, Arial, Freesans, clean, sans-serif; 
+/*.       */
+        font-family: -apple-system; 
+/*        */
         font-size:100%;
-/*        font-family: Helvetica, Arial, Freesans, clean, sans-serif;*/
-          font-family: -apple-system;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
       }     
       body {
         margin: 0;
-        padding: 1em;
-        max-width: 100%;
+        padding: 1ex;
+        width: 100%;
       }
       img {
          max-width: 90%;
@@ -43,56 +47,24 @@
         body { margin:auto; max-width:100%;
       } 
       @media (min-device-width: 481px) { 
-        body { margin:auto; max-width:600px; } 
+        body { margin:auto; max-width:600px; }
       }
-      @media (min-device-width: 640px) { 
-        body { margin:auto; max-width:880px; } 
-      }
-      @media (min-device-width: 880px) { 
-        body { margin:auto; max-width:1024; } 
-      }
-      h1 {
+      h1, h2, h3, h4 {
         font-family: -apple-system;
         color: black;
-        font-weight: 800;
-        font-size: 2em;
+        font-style: bold;
+        font-weight: 900;
+        font-size: 2em;;
       }
       h2 {
-        font-family: -apple-system;
-        font-weight: 800;
-        color: black;
+        font-weight: 700;
         font-size: 1.7em;
       }
       h3, h4 {
-        font-family: -apple-system;
-        font-weight: 800;
-        color: black;
         font-size: 1.3em;
       }
-      p, ul {
-        font-family: -apple-system;
-        font-weight: 400;
-        color: black;
-        font-size: 1em;
-      }
-      blockquote {
-        font-family: -apple-system;
-        font-weight: 300;
-        color: black;
-        font-size: 1em;
-        font-style: italic;
-      }
-      ol {
-        font-family: -apple-system;
-        font-weight: 400;
-        color: black;
-        font-size: 1em;
-        margin: 15px;
-      }
-    a {
-    color: midnightblue;
-    }
-  </style>
+      .footer {}
+    </style>
   </head>
   <body>
     <script>
@@ -117,6 +89,7 @@
         api.open('GET', 'https://routinehub.co/api/v1/shortcuts/'+id+'/versions/latest', false)
         api.send()
         let response = api.responseText
+        // let response = sample
         if (response != 'undefined' && response != 'null') {
           response = JSON.parse(response);
           if (check(v, response.Version)) {
@@ -127,6 +100,8 @@
       }
       
       function update(id, v) {
+        id = id
+        v = v
         const data = API(id, v)
         console.log(data)
         if (!data) return '';
@@ -134,36 +109,41 @@
 <div>
   <center style="width:100%;">
     <div style="max-width:480px;">
-      <hr />
       <br />
+    <hr />
       <br />
-      <h1 style="color:midnightblue;font-style:bold;">
+      <h1 style="padding:1ex;color:midnightblue;font-weight:990;">
         An Update Is Required
       </h1>
-      <br />
        <!-- <img class="icon" src="${data.icon}" /> -->
       <br />
       <h3>
-        <span style="font-style:bold;">
+        <span hidden>
           ${Q.get('n')} 
         </span>
-         version ${data.Version}
+          <span style="letter-spacing:0.2ex;font-style:normal;font-weight:300;">
+            From v${v} to v${data.Version}
+          </span>
         <br />
-        <blockquote>
-          ${data.Notes}
-        </blockquote>
       </h3>
+        <p>
+          ${data.Notes}
+        </p>
       <br />
       <br />
       <h2>
-        <a href="https://routinehub.co/download/${data.id}" style="color:darkred;font-style:bold;">Click [Here] To REPLACE</a>
+        <a href="https://routinehub.co/download/${data.id}" style="color:darkred">Click [Here] To REPLACE</a>
       </h2>
       <br />
       <br />
       <hr />
         <!-- <iframe width="90%" height="640" border="none" src="https://routinehub.co/shortcut/${id}/" hidden></iframe> -->
       <p>
-        <a href="https://ShortcutsPro.com">ShortcutsPro</a>
+        <a href="https://ShortcutsPro.com">
+          <span>
+            ShortcutsPro
+          </span>
+        </a>
       </p>
     </div>
   </center>
