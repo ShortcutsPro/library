@@ -1,0 +1,217 @@
+<!-- Novel Updater -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="text/html" content="utf-8" />
+    <meta name="viewport" content="size=device-width, initial-scale=1,viewport-fit=cover"/>
+    <title>
+      Bustl.•io Updater
+    </title>
+    <style>
+      @charset: utf-8;
+      *,*::before,*::after {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 1em/1.5em;
+        font-style: normal;
+        font-weight: normal;
+      }
+      html { 
+        font-size:100%;
+/*        font-family: Helvetica, Arial, Freesans, clean, sans-serif;*/
+          font-family: -apple-system;
+      }     
+      body {
+        margin: 0;
+        padding: 1em;
+        max-width: 100%;
+      }
+      img {
+         max-width: 90%;
+         object-fit: cover;
+      }
+      .icon {
+         max-width: 70px;
+         object-fit: cover;
+         border: 1px solid white;
+         border-radius: 9px;
+       }
+      @media (max-device-width: 480px) {
+        body { margin:auto; max-width:100%;
+      } 
+      @media (min-device-width: 481px) { 
+        body { margin:auto; max-width:600px; } 
+      }
+      @media (min-device-width: 640px) { 
+        body { margin:auto; max-width:880px; } 
+      }
+      @media (min-device-width: 880px) { 
+        body { margin:auto; max-width:1024; } 
+      }
+      h1 {
+        font-family: -apple-system;
+        color: black;
+        font-weight: 800;
+        font-size: 2em;
+      }
+      h2 {
+        font-family: -apple-system;
+        font-weight: 800;
+        color: black;
+        font-size: 1.7em;
+      }
+      h3, h4 {
+        font-family: -apple-system;
+        font-weight: 800;
+        color: black;
+        font-size: 1.3em;
+      }
+      p, ul {
+        font-family: -apple-system;
+        font-weight: 400;
+        color: black;
+        font-size: 1em;
+      }
+      blockquote {
+        font-family: -apple-system;
+        font-weight: 300;
+        color: black;
+        font-size: 1em;
+        font-style: italic;
+      }
+      ol {
+        font-family: -apple-system;
+        font-weight: 400;
+        color: black;
+        font-size: 1em;
+        margin: 15px;
+      }
+    a {
+    color: black;
+    }
+  </style>
+  </head>
+  <body>
+    <script>
+      // Novel Updater
+      //
+      const sample = `{
+  "depends" : [
+    "com.shortcutspro.library.integrity"
+  ],
+  "color" : "#F58BD5",
+  "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/simpl-showcase\/simpl-showcase.html",
+  "shortcuts_version" : "1137.4",
+  "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.html",
+  "link" : "https:\/\/www.icloud.com\/shortcuts\/779252cfbeab4ca585cbdab6aef83850",
+  "release" : "Fri, 10 Sep 2021 21:04:02 -0500",
+  "file_size" : "180 KB",
+  "integrity" : true,
+  "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.png",
+  "start_color" : 3980825855,
+  "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
+  "date_created" : "Fri, 10 Sep 2021 20:58:04 -0500",
+  "device_id" : "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+  "input" : "",
+  "category" : [
+    "Business",
+    "Photo & Video"
+  ],
+  "maintainer" : {
+    "name" : "@scottdwr",
+    "link" : [
+      "https:\/\/github.com\/scottdwr\/"
+    ]
+  },
+  "name" : "Simpl. Showcase",
+  "auuid" : "0A8123E2-CA99-4643-9B63-B874D6D2A031",
+  "version" : "1.0.0",
+  "id" : "com.shortcutspro.library.simpl-showcase",
+  "arch" : "iOS14",
+  "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+  "quiet" : true,
+  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/Ad3hjTXFAZzSZu2klxrUlbM-P3tC\/?o=AuNafl4s3aOSJOoge8Pq3Sor9m2IvUPOo2EN0VUzAd9klPaMLCJMm-yRHr7m6ehqjA&v=1&x=3&a=CAogldSSNF0QAjlILF-RfDKQ13W7ys84NmZnoEY7yzGzjeASexCw5c-UvS8YsMKrlr0vIgEAUgQ-P3tCajC8FbcZFU6h0SN-u_37gVwRDH4b0vqmTwZWaJvO8NseXMJTtHsdUagmBlWqU46ZmFFyMCAN7W0a73quEDsRdpUzRL69NheINAoNGEmQNUFRsDzli_aE2EG5EfL_XV8ae3BB-A&e=1631329116&fl=&r=0d46f8e3-40fd-40a7-a5a6-11ad6115a65e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uackbGNcj7XPZiIfsao3cEwsPSM",
+  "icon_glyph" : 61500,
+  "notes" : "Initial test release ",
+  "certificate_expiration" : "Mon, 10 Oct 2022 20:48:33 -0500",
+  "minimum_version" : 900,
+  "author" : {
+    "name" : "anonymous",
+    "link" : [
+      "about:blank"
+    ]
+  },
+  "description" : "Share images as custom  slideshow link"
+}`;
+      function check(a, b) { 
+        if (a != b) return true;  
+        return false; 
+      }
+      
+      function API(id, v) {
+        let api = new XMLHttpRequest()
+        api.open('GET', id+'.json', false)
+        api.send()
+        // api.responseText2 = JSON.stringify(JSON.parse(sample))
+        let response = api.responseText
+        if (response != 'undefined' && response != 'null') {
+          response = JSON.parse(response);
+          if (check(v, response.version)) {
+            return response
+          }
+        }
+          return false
+      }
+      
+      function update(id, v) {
+        const data = API(id, v)
+        console.log(data)
+        if (!data) return '';
+        return `
+<div>
+  <center style="width:100%;">
+  <div style="max-width:480px;">
+    <hr />
+    <br />
+    <br />
+    <h1 style="color:midnightblue;font-style:bold;">
+      An Update Is Required
+    </h1>
+    <br />
+      <img class="icon" src="${data.icon}" />
+    <br />
+    <h3>
+      <span style="color:${data.color};font-style:bold;">
+        ${data.name} 
+      </span>
+      version ${data.version}
+      <br />
+      ${data.notes}
+    </h3>
+    <br />
+    <br />
+    <h2>
+      <a href="${data.link}" style="color:darkred;font-style:bold;">Click [Here] To REPLACE</a>
+    </h2>
+    <br />
+    <br />
+    <hr />
+      <iframe width="90%" height="640" border="none" src="${data.depiction}" hidden></iframe>
+    <p>
+      <a href="about:blank">Bustl.•io Updater</a>
+    </p>
+    </div>
+  </center>
+</div>`
+      }
+      const Q = new URL(window.location.href).searchParams
+      const div = document.createElement('div')
+      //div.innerHTML = update('', '1.0.0')
+      div.innerHTML = update(Q.get('id'), Q.get('v'))
+      document.body.appendChild(div)
+    </script>
+  </body>
+</html>
