@@ -98,6 +98,7 @@
     <script>
       // Novel Updater
       //
+      const Q = new URL(window.location.href).searchParams
       const sample = `{
   "result": "success",
   "id": 30472,
@@ -144,7 +145,7 @@
       <br />
       <h3>
         <span style="font-style:bold;">
-          ${data.name} 
+          ${Q.get('name')} 
         </span>
         version ${data.Version}
         <br />
@@ -166,10 +167,9 @@
   </center>
 </div>`
       }
-      const Q = new URL(window.location.href).searchParams
       const div = document.createElement('div')
-      div.innerHTML = update('30348', '1.1')
-      // div.innerHTML = update(Q.get('id'), Q.get('v'))
+      // div.innerHTML = update('10398', '1.1')
+      div.innerHTML = update(Q.get('id'), Q.get('v'))
       document.body.appendChild(div)
     </script>
   </body>
