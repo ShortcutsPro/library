@@ -134,25 +134,24 @@
       // Novel Updater
       //
       const Q = new URL(window.location.href).searchParams
-      const sample = `{
-  "result": "success",
-  "id": 30472,
-  "Version": "1.2",
-  "URL": "https://www.icloud.com/shortcuts/ad0eb0b746fc4e82b81ce1f9d45db24c",
-  "Release": "November 05, 2021",
-  "Notes": "Contains bug fixes and the option to change the font name before install."
-}`;
+
       function check(a, b) { 
         if (a != b) return true;  
         return false; 
       }
-      
+
+      function parseId(id) {
+        if (id.split('-').length > 1)
+          return '/versions/latest/'+id+'.json';
+        return 'https://routinehub.co/api/v1/shortcuts/'+id+'/versions/latest';
+      }
+
       function API(id, v) {
         let api = new XMLHttpRequest()
-        api.open('GET', 'https://routinehub.co/api/v1/shortcuts/'+id+'/versions/latest', false)
+        api.open('GET', parseId(id), false)
         api.send()
         let response = api.responseText
-        //response = sample
+        // response = sample
         if (response != 'undefined' && response != 'null') {
           response = JSON.parse(response);
           if (check(v, response.Version)) {
@@ -161,13 +160,25 @@
         }
           return false
       }
-      
+
+      function formatData(d) {
+        let data = {
+          'version': d.version || d.Version,
+          'name':  d.name || Q.get('n'),
+          'notes': d.notes || d.Notes,
+          'link': d.link || `https://routinehub.co/download/${d.id}`,
+          'depict': d.depiction || `https://routinehub.co/shortcut/${d.id}/`
+        }
+        return data
+      }
+
       function update(id, v) {
         id = id
         v = v
         const data = API(id, v)
         console.log(data)
         if (!data) return '';
+        const d = formatData(data)
         return `
 <div>
   <center style="width:100%;">
@@ -182,28 +193,28 @@
       <br />
       <h2 style="letter-spacing:0.2ex;font-style:normal;">
         <span>
-          ${Q.get('n')} 
+          ${d.name} 
         </span>
         <br />
         <span>
-            v${v} → v${data.Version}
+            v${v} → v${d.version}
         </span>
       </h2>
       <br />
       <h3>
-        ${data.Notes}
+        ${d.notes}
       </h3>
       <br />
       <br />
       <h2>
-        <a onclick="window.open('https://routinehub.co/download/${data.id}');window.close()">
+        <a onclick="window.open('${d.link}');window.close()">
           Click [Here] To REPLACE
         </a>
       </h2>
       <br />
       <br />
       <hr />
- <!-- <iframe width="90%" height="640" border="none" src="https://routinehub.co/shortcut/${id}/" hidden></iframe> -->
+ <!-- <iframe width="90%" height="640" border="none" src="${d.depict}" hidden></iframe> -->
       <table>
         <tr>
           <td></td>
@@ -220,7 +231,7 @@
 </div>`
       }
       const div = document.createElement('div')
-      //div.innerHTML = update('10398', '1.1')
+      // div.innerHTML = update('E6CE9CFC-B0AE-4B8B-9810-6229C86B3EF5', '1.1')
       div.innerHTML = update(Q.get('id'), Q.get('v'))
       document.body.appendChild(div)
     </script>
