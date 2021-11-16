@@ -3,67 +3,130 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="text/html" content="utf-8" />
     <meta name="viewport" content="size=device-width, initial-scale=1,viewport-fit=cover"/>
     <title>
       ShortcutsPro Updater
     </title>
     <style>
       @charset: utf-8;
+/*  Root Variables. */
+      :root {
+        --dark: #001046;
+        --light: #fff7e8;
+        --dark-blue: midnightblue;
+        --light-blue: powderblue;
+        --dark-red: darkred;
+        --light-red: #ffc777;
+        --yellow: yellow;
+        --weight: 900;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --background: var(--light);
+          --color: var(--dark);
+          --red: var(--dark-red);
+          --blue: var(--dark-blue);
+          --weight: 900;
+          --border: var(--dark-blue);
+          --title: var(--dark-blue);
+          --link: var(--dark-red);
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: var(--dark);
+          --color: var(--light);
+          --red: var(--light-red);
+          --blue: var(--light-blue);
+          --weight: 90;
+          --border: var(--light-blue);
+          --title: var(--light-blue);
+          --link: var(--light-red);
+        }
+      }
+/* Clear Default Settings. */
       *,*::before,*::after {
         box-sizing: border-box;
         width: 100%;
         margin: 0;
-        padding: 0;
-        font-size: 1em/1.5em;
       }
+      
+/*. Basic CSS Options. */
       html { 
-/*        *
+/*                                             */
         font-family: Helvetica, Arial, Freesans, clean, sans-serif; 
-/*.       */
-        font-family: -apple-system; 
-/*        */
+/*.                                            *
+        font-family: -apple-system;
+/*                                             *
+        font-family: 'Acme', sans-serif;
+/*                                             *
+        font-family: Verdana, Geneva, sans-serif;
+/* */
         font-size:100%;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: none;
       }     
       body {
         margin: 0;
-        padding: 1ex;
         width: 100%;
+        background:var(--background);
+        color: var(--color);
+        padding: 5%;
       }
       img {
-         max-width: 90%;
-         object-fit: cover;
+        display: block;
+        max-width: 90%;
+        object-fit: cover;
       }
-      .icon {
+      img.icon {
          max-width: 70px;
-         object-fit: cover;
          border: 1px solid white;
          border-radius: 9px;
-       }
+      }
+      table, td, tr, th {border: none;}
+      td {padding:2px; text-align:center;}
+      
+/*. Type Formatting. */
+      h1, h2, h3, h4, {
+        text-align: center;
+        font-weight: var(--weight);
+        margin: 0 1ex 0 1ex;
+      }
+      h1 {font-size:2em; color:var(--title)} 
+      h2 {font-size:1.5em;}
+      h3 {font-size:1em;} 
+
+/*. CSS Animations. */
+      hr {
+        width:100%;
+        margin: 0 1ex 0 1ex;
+        border: 2px solid var(--border);
+        animation-name: horizontalRule;
+        animation-direction:  alternate;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 5s;
+      } 
+      @keyframes horizontalRule {0% {width:20%;}}
+
+      a {
+        color: var(--link); 
+        animation-name: linkFlash;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      } 
+      @keyframes linkFlash {
+        45%  {color:var(--blue);}
+        55%  {color:var(--yellow);}
+        60%  {color:var(--red);}
+        40%  {color:var(--red);} 
+      }
+
+/*. Responsive Adjustments. */
       @media (max-device-width: 480px) {
         body { margin:auto; max-width:100%;
-      } 
+        } 
       @media (min-device-width: 481px) { 
-        body { margin:auto; max-width:600px; }
+        body {margin:auto; max-width:600px;}
       }
-      h1, h2, h3, h4 {
-        font-family: -apple-system;
-        color: black;
-        font-style: bold;
-        font-weight: 900;
-        font-size: 2em;;
-      }
-      h2 {
-        font-weight: 700;
-        font-size: 1.7em;
-      }
-      h3, h4 {
-        font-size: 1.3em;
-      }
-      .footer {}
     </style>
   </head>
   <body>
@@ -89,7 +152,7 @@
         api.open('GET', 'https://routinehub.co/api/v1/shortcuts/'+id+'/versions/latest', false)
         api.send()
         let response = api.responseText
-        // let response = sample
+        //response = sample
         if (response != 'undefined' && response != 'null') {
           response = JSON.parse(response);
           if (check(v, response.Version)) {
@@ -112,45 +175,52 @@
       <br />
     <hr />
       <br />
-      <h1 style="padding:1ex;color:midnightblue;font-weight:990;">
+      <h1>
         An Update Is Required
       </h1>
        <!-- <img class="icon" src="${data.icon}" /> -->
       <br />
-      <h3>
-        <span hidden>
+      <h2 style="letter-spacing:0.2ex;font-style:normal;">
+        <span>
           ${Q.get('n')} 
         </span>
-          <span style="letter-spacing:0.2ex;font-style:normal;font-weight:300;">
-            From v${v} to v${data.Version}
-          </span>
         <br />
+        <span>
+            v${v} → v${data.Version}
+        </span>
+      </h2>
+      <br />
+      <h3>
+        ${data.Notes}
       </h3>
-        <p>
-          ${data.Notes}
-        </p>
       <br />
       <br />
       <h2>
-        <a href="https://routinehub.co/download/${data.id}" style="color:darkred">Click [Here] To REPLACE</a>
+        <a onclick="window.open('https://routinehub.co/download/${data.id}');window.close()">
+          Click [Here] To REPLACE
+        </a>
       </h2>
       <br />
       <br />
       <hr />
-        <!-- <iframe width="90%" height="640" border="none" src="https://routinehub.co/shortcut/${id}/" hidden></iframe> -->
-      <p>
-        <a href="https://ShortcutsPro.com">
-          <span>
-            ShortcutsPro
-          </span>
-        </a>
-      </p>
+ <!-- <iframe width="90%" height="640" border="none" src="https://routinehub.co/shortcut/${id}/" hidden></iframe> -->
+      <table>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>
+            <a href="about:blank">
+              ShortcutsPro
+            </a>
+          </td>
+        </tr>
+      </table>
     </div>
   </center>
 </div>`
       }
       const div = document.createElement('div')
-      // div.innerHTML = update('10398', '1.1')
+      //div.innerHTML = update('10398', '1.1')
       div.innerHTML = update(Q.get('id'), Q.get('v'))
       document.body.appendChild(div)
     </script>
