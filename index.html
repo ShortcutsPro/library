@@ -141,7 +141,7 @@
       }
 
       function parseId(id) {
-        if (id.split('-')[1].length > 0)
+        if (id.split('-')[1] != undefined)
           return 'versions/latest/'+id+'.json';
         return 'https://routinehub.co/api/v1/shortcuts/'+id+'/versions/latest';
       }
@@ -151,8 +151,7 @@
         api.open('GET', parseId(id), false)
         api.send()
         let response = api.responseText
-        // response = sample
-        if (response != 'undefined' && response != 'null') {
+        if (response != undefined && response != null) {
           response = JSON.parse(response);
           if (check(v, response.Version)) {
             return response
@@ -231,7 +230,7 @@
 </div>`
       }
       const div = document.createElement('div')
-      //div.innerHTML = update('E6CE9CFC-B0AE-4B8B-9810-6229C86B3EF5', '1.1')
+      // div.innerHTML = update('10398', '1.1')
       div.innerHTML = update(Q.get('id'), Q.get('v'))
       document.body.appendChild(div)
     </script>
