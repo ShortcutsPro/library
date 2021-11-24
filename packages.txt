@@ -1,35 +1,15 @@
 [
   {
-    "author" : {
-      "name" : "@ShortcutsPro",
-      "link" : "https://ShortcutsPro.com"
-    },
-    "arch" : "universal",
-    "repo" : true,
-    "id" : "io.bustl.cutz.featured",
-    "catagory" : [
-      "Repository"
-    ],
-    "link" : "./papercuts/x-callback-url/repos/add/?source=https://Cutz.Bustl.io/featured/",
-    "version" : "1.0",
-    "description" : "Featuring the most requested shortcuts for your business needs.",
-    "depiction" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
-    "name" : "Bustl.Cutz Featured",
-    "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png"
-  },
-  {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
-    "color" : "#00CBDF",
-    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/reckon/reckon.html",
-    "shortcuts_version" : "1137.4",
-    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/reckon.html",
-    "link" : "https://www.icloud.com/shortcuts/f710ad23d749423bb1dc457826f5c6c3",
-    "release" : "Fri, 03 Sep 2021 05:01:10 -0700",
     "file_size" : "22 KB",
+    "color" : "#00CBDF",
+    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/reckon\/reckon.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/reckon.html",
+    "link" : "https:\/\/www.icloud.com\/shortcuts\/f710ad23d749423bb1dc457826f5c6c3",
+    "release" : "Fri, 03 Sep 2021 05:01:10 -0700",
+    "description" : "Measure the wall in the measure app. Select measurements & copy. The. Run this shortcut for calculation.",
     "integrity" : true,
-    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/reckon.png",
+    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/reckon.png",
     "start_color" : 1440408063,
     "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
     "date_created" : "Fri, 03 Sep 2021 04:58:46 -0700",
@@ -41,7 +21,7 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://github.com/scottdwr/"
+        "https:\/\/github.com\/scottdwr\/"
       ]
     },
     "name" : "Reckon",
@@ -51,7 +31,7 @@
     "arch" : "iOS15",
     "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
     "quiet" : false,
-    "signed_download" : "https://cvws.icloud-content.com/B/AQQ9Ny2uF5ChiRNWnZ9Ohz8397Pj/${f}?o=Aq64SIp-gAZSt7S32Yns6bmgzu2qj_81li3EvLU8jUYjzG3wOKazZTWK2jFB3-UmLw&v=1&x=3&a=CAog2VR5BM742UaS18o5hMnNzYdhwmjS4VQ-GcBCvwsGUyASexDgiJ_cui8Y4OX63bovIgEAUgQ397PjajCtsjH_VA-QrZSMDpQ0QN7nz_QD365wC0Kq_JtftlTJFctOPgEwgaJUIH6FZ2szK7ByMH2e_9w-VleXhYyTakHot_OYYRAdhZqvrlS74agRHJz_09dIyJkHKF9UuYfxPcDugQ&e=1630674006&fl=&r=6f233e99-6135-4603-9b20-b81e455cf20d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=Lud7CWJD7T0io6d2nRFDHfL2Nqk",
+    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AQQ9Ny2uF5ChiRNWnZ9Ohz8397Pj\/${f}?o=Aq64SIp-gAZSt7S32Yns6bmgzu2qj_81li3EvLU8jUYjzG3wOKazZTWK2jFB3-UmLw&v=1&x=3&a=CAog2VR5BM742UaS18o5hMnNzYdhwmjS4VQ-GcBCvwsGUyASexDgiJ_cui8Y4OX63bovIgEAUgQ397PjajCtsjH_VA-QrZSMDpQ0QN7nz_QD365wC0Kq_JtftlTJFctOPgEwgaJUIH6FZ2szK7ByMH2e_9w-VleXhYyTakHot_OYYRAdhZqvrlS74agRHJz_09dIyJkHKF9UuYfxPcDugQ&e=1630674006&fl=&r=6f233e99-6135-4603-9b20-b81e455cf20d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=Lud7CWJD7T0io6d2nRFDHfL2Nqk",
     "icon_glyph" : 59698,
     "notes" : "",
     "certificate_expiration" : "Mon, 03 Oct 2022 04:50:03 -0700",
@@ -62,21 +42,23 @@
         "about:blank"
       ]
     },
-    "description" : "Measure the wall in the measure app. Select measurements & copy. The. Run this shortcut for calculation."
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
   },
   {
-    "description" : "Share images as custom  slideshow link",
-    "color" : "#F58BD5",
-    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/simpl-showcase/simpl-showcase.html",
-    "shortcuts_version" : "1137.4",
-    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/simpl-showcase.html",
-    "link" : "https://www.icloud.com/shortcuts/779252cfbeab4ca585cbdab6aef83850",
-    "release" : "Fri, 10 Sep 2021 21:04:02 -0500",
     "depends" : [
       "com.shortcutspro.library.integrity"
     ],
+    "color" : "#F58BD5",
+    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/simpl-showcase\/simpl-showcase.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.html",
+    "link" : "https:\/\/www.icloud.com\/shortcuts\/779252cfbeab4ca585cbdab6aef83850",
+    "release" : "Fri, 10 Sep 2021 21:04:02 -0500",
+    "file_size" : "180 KB",
     "integrity" : true,
-    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/simpl-showcase.png",
+    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.png",
     "start_color" : 3980825855,
     "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
     "date_created" : "Fri, 10 Sep 2021 20:58:04 -0500",
@@ -89,7 +71,7 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://github.com/scottdwr/"
+        "https:\/\/github.com\/scottdwr\/"
       ]
     },
     "name" : "Simpl. Showcase",
@@ -99,7 +81,7 @@
     "arch" : "iOS14",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
     "quiet" : true,
-    "signed_download" : "https://cvws.icloud-content.com/B/Ad3hjTXFAZzSZu2klxrUlbM-P3tC/${f}?o=AuNafl4s3aOSJOoge8Pq3Sor9m2IvUPOo2EN0VUzAd9klPaMLCJMm-yRHr7m6ehqjA&v=1&x=3&a=CAogldSSNF0QAjlILF-RfDKQ13W7ys84NmZnoEY7yzGzjeASexCw5c-UvS8YsMKrlr0vIgEAUgQ-P3tCajC8FbcZFU6h0SN-u_37gVwRDH4b0vqmTwZWaJvO8NseXMJTtHsdUagmBlWqU46ZmFFyMCAN7W0a73quEDsRdpUzRL69NheINAoNGEmQNUFRsDzli_aE2EG5EfL_XV8ae3BB-A&e=1631329116&fl=&r=0d46f8e3-40fd-40a7-a5a6-11ad6115a65e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uackbGNcj7XPZiIfsao3cEwsPSM",
+    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/Ad3hjTXFAZzSZu2klxrUlbM-P3tC\/${f}?o=AuNafl4s3aOSJOoge8Pq3Sor9m2IvUPOo2EN0VUzAd9klPaMLCJMm-yRHr7m6ehqjA&v=1&x=3&a=CAogldSSNF0QAjlILF-RfDKQ13W7ys84NmZnoEY7yzGzjeASexCw5c-UvS8YsMKrlr0vIgEAUgQ-P3tCajC8FbcZFU6h0SN-u_37gVwRDH4b0vqmTwZWaJvO8NseXMJTtHsdUagmBlWqU46ZmFFyMCAN7W0a73quEDsRdpUzRL69NheINAoNGEmQNUFRsDzli_aE2EG5EfL_XV8ae3BB-A&e=1631329116&fl=&r=0d46f8e3-40fd-40a7-a5a6-11ad6115a65e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uackbGNcj7XPZiIfsao3cEwsPSM",
     "icon_glyph" : 61500,
     "notes" : "Initial test release ",
     "certificate_expiration" : "Mon, 10 Oct 2022 20:48:33 -0500",
@@ -110,19 +92,21 @@
         "about:blank"
       ]
     },
-    "file_size" : "180 KB"
+    "description" : "Share images as custom  slideshow link"
   },
   {
-    "file_size" : "12 KB",
-    "color" : "#00CBDF",
-    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/brand-mark-my-pages/brand-mark-my-pages.html",
-    "shortcuts_version" : "1092.11",
-    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/brand-mark-my-pages.html",
-    "link" : "https://www.icloud.com/shortcuts/ebe5f8c1d4f2475a8bb83e0a11052723",
-    "release" : "Sat, 11 Sep 2021 05:12:47 -0500",
     "description" : "Overlay your professional brand, mark, or label on any PDF or Image",
+    "color" : "#00CBDF",
+    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/brand-mark-my-pages\/brand-mark-my-pages.html",
+    "shortcuts_version" : "1092.11",
+    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/brand-mark-my-pages.html",
+    "link" : "https:\/\/www.icloud.com\/shortcuts\/ebe5f8c1d4f2475a8bb83e0a11052723",
+    "release" : "Sat, 11 Sep 2021 05:12:47 -0500",
+    "depends" : [
+
+    ],
     "integrity" : false,
-    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/brand-mark-my-pages.png",
+    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/brand-mark-my-pages.png",
     "start_color" : 1440408063,
     "user_record" : "_1ffe4fd02b3430bb2ccc3419712bf320",
     "date_created" : "Sat, 11 Sep 2021 04:15:12 -0500",
@@ -135,7 +119,7 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://github.com/scottdwr/"
+        "https:\/\/github.com\/scottdwr\/"
       ]
     },
     "name" : "Brand Mark My Pages",
@@ -145,7 +129,7 @@
     "arch" : "iOS14",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
     "quiet" : false,
-    "signed_download" : "https://cvws.icloud-content.com/B/AYFjmPHzEDSHnoMQ2CDcGZKmRMrM/${f}?o=AiZZDALVrtxuM9dWlgq_Tlf0NStqBf8Tc8WQmROWepMprkqST_LntqRfxupE774OEw&v=1&x=3&a=CAogCtIUPPwcuY6EPwiHcNaHYfdWnm-EL-dM0NeLh-FhNWYSexDi3O6hvS8Y4rnKo70vIgEAUgSmRMrMajBvKYaOxR1UkOhky7sDr-qWk9dsvrX1HMQZhZ5oPrgYkbF1QuSgeID0K7ezrCpO9nFyMFL58taY9rMjGRStz9iA5rexNzgpBoQCB6GHZNHVFzHES4_-7PTCWIkcIB9PfUKdsA&e=1631356886&fl=&r=7bba6946-5c44-4df2-9893-577c673986d7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=nTCDf0IrCJ_7Ct0Soh0IKx8koPk",
+    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AYFjmPHzEDSHnoMQ2CDcGZKmRMrM\/${f}?o=AiZZDALVrtxuM9dWlgq_Tlf0NStqBf8Tc8WQmROWepMprkqST_LntqRfxupE774OEw&v=1&x=3&a=CAogCtIUPPwcuY6EPwiHcNaHYfdWnm-EL-dM0NeLh-FhNWYSexDi3O6hvS8Y4rnKo70vIgEAUgSmRMrMajBvKYaOxR1UkOhky7sDr-qWk9dsvrX1HMQZhZ5oPrgYkbF1QuSgeID0K7ezrCpO9nFyMFL58taY9rMjGRStz9iA5rexNzgpBoQCB6GHZNHVFzHES4_-7PTCWIkcIB9PfUKdsA&e=1631356886&fl=&r=7bba6946-5c44-4df2-9893-577c673986d7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=nTCDf0IrCJ_7Ct0Soh0IKx8koPk",
     "icon_glyph" : 59841,
     "notes" : "Initial public release ",
     "certificate_expiration" : "Tue, 11 Oct 2022 04:06:52 -0500",
@@ -153,24 +137,25 @@
     "author" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://scottdwr.github.io"
+        "https:\/\/scottdwr.github.io"
       ]
     },
-    "depends" : [
-
-    ]
+    "file_size" : "12 KB"
   },
   {
-    "file_size" : "227 KB",
+    "description" : "Publishes shortcuts to a Papercuts \/ Integrity repository.",
     "color" : "#00CEAD",
-    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-publisher/shortcut-publisher.html",
+    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/shortcut-publisher\/shortcut-publisher.html",
     "shortcuts_version" : "1136.1",
-    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.html",
-    "link" : "https://www.icloud.com/shortcuts/fa4b8232bc084d8cb9976256a92aace5",
+    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/shortcut-publisher.html",
+    "link" : "https:\/\/www.icloud.com\/shortcuts\/fa4b8232bc084d8cb9976256a92aace5",
     "release" : "Sat, 09 Oct 2021 13:41:14 -0500",
-    "description" : "Publishes shortcuts to a Papercuts / Integrity repository.",
+    "depends" : [
+      "com.shortcutspro.library.bustl-updater",
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
-    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.png",
+    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/shortcut-publisher.png",
     "start_color" : 431817727,
     "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
     "date_created" : "Sat, 09 Oct 2021 13:37:21 -0500",
@@ -187,14 +172,14 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://github.com/scottdwr/"
+        "https:\/\/github.com\/scottdwr\/"
       ]
     },
     "id" : "com.shortcutspro.library.shortcut-publisher",
     "arch" : "iOS15",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
     "quiet" : true,
-    "signed_download" : "https://cvws.icloud-content.com/B/ATsNuABqU6CYt_BPLL6eWn2J3GZ_/${f}?o=Aq0RItH0qyg5NQgxxoZPkBU1T5ELdRSSajCWnPLiE7JLzJgZ_lVa4SrEUyoyCXnm9Q&v=1&x=3&a=CAogZ9craF1QP1kH82VDAijhaFXBvLBS2xKwBoBMIwsXq_USexCh6OSyxi8YocXAtMYvIgEAUgSJ3GZ_ajBXiPak8q1utyNk1B1lE-vQY1wa1p4Bu0NYKsFn8RTTHJ2HmtqOVgbqPb2Ayd32MTNyMG-jQmAZCy7H7AIIqbE5I3fVlEZrySyVl91L-cDbVen_dHlgwKtvzD6aWTJUy-QcnQ&e=1633808294&fl=&r=dc6b6849-e4aa-4a9e-82c3-0d9c41187b56-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=OswEar_-L1GpSZcJsnf9om8VYoo",
+    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ATsNuABqU6CYt_BPLL6eWn2J3GZ_\/${f}?o=Aq0RItH0qyg5NQgxxoZPkBU1T5ELdRSSajCWnPLiE7JLzJgZ_lVa4SrEUyoyCXnm9Q&v=1&x=3&a=CAogZ9craF1QP1kH82VDAijhaFXBvLBS2xKwBoBMIwsXq_USexCh6OSyxi8YocXAtMYvIgEAUgSJ3GZ_ajBXiPak8q1utyNk1B1lE-vQY1wa1p4Bu0NYKsFn8RTTHJ2HmtqOVgbqPb2Ayd32MTNyMG-jQmAZCy7H7AIIqbE5I3fVlEZrySyVl91L-cDbVen_dHlgwKtvzD6aWTJUy-QcnQ&e=1633808294&fl=&r=dc6b6849-e4aa-4a9e-82c3-0d9c41187b56-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=OswEar_-L1GpSZcJsnf9om8VYoo",
     "notes" : "Integrated Bustl. Updater",
     "icon_glyph" : 61456,
     "certificate_expiration" : "Tue, 08 Nov 2022 12:28:11 -0600",
@@ -202,27 +187,24 @@
     "author" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://github.com/scottdwr/"
+        "https:\/\/github.com\/scottdwr\/"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.bustl-updater",
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "227 KB"
   },
   {
-    "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools.",
-    "color" : "#EDC500",
-    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/bustl-updater/bustl-updater.html",
-    "shortcuts_version" : "1134",
-    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/bustl-updater.html",
-    "link" : "https://www.icloud.com/shortcuts/eed15359acf549f78b3dcb476b780969",
-    "release" : "Sat, 09 Oct 2021 14:28:17 -0500",
     "depends" : [
 
     ],
+    "color" : "#EDC500",
+    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/bustl-updater\/bustl-updater.html",
+    "shortcuts_version" : "1134",
+    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.html",
+    "link" : "https:\/\/www.icloud.com\/shortcuts\/eed15359acf549f78b3dcb476b780969",
+    "release" : "Sat, 09 Oct 2021 14:28:17 -0500",
+    "file_size" : "29 KB",
     "integrity" : false,
-    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/bustl-updater.png",
+    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/bustl-updater.png",
     "start_color" : 4274264319,
     "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
     "date_created" : "Sat, 09 Oct 2021 14:22:42 -0500",
@@ -238,14 +220,14 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://github.com/scottdwr/"
+        "https:\/\/github.com\/scottdwr\/"
       ]
     },
     "id" : "com.shortcutspro.library.bustl-updater",
     "arch" : "iOS14",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
     "quiet" : false,
-    "signed_download" : "https://cvws.icloud-content.com/B/AZuV7o2nEBeyPjUQimnAylp-jBUE/${f}?o=AuLt-bXdRz537u8smOwoMjaKsE8oDDT87ShhnEEr-rON2GFSyE451KW7NeiLkdZ04A&v=1&x=3&a=CAog8s7vB186ELX_wv4fELXeHkSWPaXoKARHo1DRTaPSrBkSexDVt4m0xi8Y1ZTltcYvIgEAUgR-jBUEajA-BIjq9FdZymUqQBCJy4sC6YQmddi2Xn9iHB5ervRkOCS-eCdr0mLnytNaaH5gEblyMG-JxjHKhrz4xJn1lSUuytEyU6k3Heb0KoTER96ikf8c3blgq7R-mcErqikWUWEnsA&e=1633810991&fl=&r=a1262bf2-1425-468e-99a6-df9ab739102a-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=R-i643oeGJ6EfTiHHoQcTMLPnK0",
+    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AZuV7o2nEBeyPjUQimnAylp-jBUE\/${f}?o=AuLt-bXdRz537u8smOwoMjaKsE8oDDT87ShhnEEr-rON2GFSyE451KW7NeiLkdZ04A&v=1&x=3&a=CAog8s7vB186ELX_wv4fELXeHkSWPaXoKARHo1DRTaPSrBkSexDVt4m0xi8Y1ZTltcYvIgEAUgR-jBUEajA-BIjq9FdZymUqQBCJy4sC6YQmddi2Xn9iHB5ervRkOCS-eCdr0mLnytNaaH5gEblyMG-JxjHKhrz4xJn1lSUuytEyU6k3Heb0KoTER96ikf8c3blgq7R-mcErqikWUWEnsA&e=1633810991&fl=&r=a1262bf2-1425-468e-99a6-df9ab739102a-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=R-i643oeGJ6EfTiHHoQcTMLPnK0",
     "notes" : "New release outputs an update notification url, or nothing. nBeta: Run Bustl. Updater by itself to select and update multiple shortcuts.  ",
     "icon_glyph" : 59516,
     "certificate_expiration" : "Tue, 08 Nov 2022 13:13:08 -0600",
@@ -253,42 +235,22 @@
     "author" : {
       "name" : "scottdwr",
       "link" : [
-        "https://routinehub.co/user/scottdwr/"
+        "https:\/\/routinehub.co\/user\/scottdwr\/"
       ]
     },
-    "file_size" : "29 KB"
+    "description" : "Auto-Updater for Bustl. sponsored Integrity Framwork tools."
   },
   {
-    "author" : {
-      "name" : "@ShortcutsPro",
-      "link" : "https://ShortcutsPro.com"
-    },
-    "arch" : "universal",
-    "repo" : true,
-    "id" : "io.bustl.cutz.featured",
-    "catagory" : [
-      "Repository"
-    ],
-    "link" : "./papercuts/x-callback-url/repos/add/?source=https://Cutz.Bustl.io/featured/",
-    "version" : "1.0",
-    "description" : "Featuring the most requested shortcuts for your business needs.",
-    "depiction" : "https://Cutz.Bustl.io/featured/depiction/featured.html",
-    "name" : "Bustl.Cutz Featured",
-    "icon" : "https://Cutz.Bustl.io/featured/depiction/featured.png"
-  },
-  {
-    "depends" : [
-      "com.shortcutspro.library.bustl-updater"
-    ],
-    "color" : "#86919B",
-    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/integrity/integrity.html",
-    "shortcuts_version" : "1137.4",
-    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/integrity.html",
-    "link" : "https://www.icloud.com/shortcuts/fc45133cba9c47de99cbb58228abb45d",
-    "release" : "Mon, 15 Nov 2021 23:34:17 -0600",
     "file_size" : "33 KB",
+    "color" : "#86919B",
+    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/integrity\/integrity.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/integrity.html",
+    "link" : "https:\/\/www.icloud.com\/shortcuts\/fc45133cba9c47de99cbb58228abb45d",
+    "release" : "Mon, 15 Nov 2021 23:34:17 -0600",
+    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
     "integrity" : false,
-    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/integrity.png",
+    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/integrity.png",
     "start_color" : 255,
     "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
     "date_created" : "Mon, 15 Nov 2021 23:28:00 -0600",
@@ -305,14 +267,14 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://github.com/scottdwr/"
+        "https:\/\/github.com\/scottdwr\/"
       ]
     },
     "id" : "com.shortcutspro.library.integrity",
     "arch" : "iOS14",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
     "quiet" : false,
-    "signed_download" : "https://cvws.icloud-content.com/B/ATsoF4jGMIie9oObyTb0gawCcsQw/${f}?o=An_dAxicEX9KVz5am25HaZx5m4EHlXaF2QEyfV2EjCPD2o-lO8b_4nq-Exp3A1aoNA&v=1&x=3&a=CAogHcdpBpfPiq0Xog3b2bHHTCq6zK2vF1YXPpMj6DjJ-6MSexDY1eC50i8Y2LK8u9IvIgEAUgQCcsQwajAyKymd1onXjwPtPXF8V7yc1va29zMJcSA6kssSRnieb6x7RS20HWLZitixCtq3vBhyMD62l3loZU2c9BhdO1foPLx_JjqCjZLxRSsmrOjTqfM0RpS9Pug68Ycp3dBelZMCSQ&e=1637044132&fl=&r=e196b903-07f5-49b9-aaca-6b73634018e5-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=4JdZMzsac3YnfkriflGiFixXnsY",
+    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ATsoF4jGMIie9oObyTb0gawCcsQw\/${f}?o=An_dAxicEX9KVz5am25HaZx5m4EHlXaF2QEyfV2EjCPD2o-lO8b_4nq-Exp3A1aoNA&v=1&x=3&a=CAogHcdpBpfPiq0Xog3b2bHHTCq6zK2vF1YXPpMj6DjJ-6MSexDY1eC50i8Y2LK8u9IvIgEAUgQCcsQwajAyKymd1onXjwPtPXF8V7yc1va29zMJcSA6kssSRnieb6x7RS20HWLZitixCtq3vBhyMD62l3loZU2c9BhdO1foPLx_JjqCjZLxRSsmrOjTqfM0RpS9Pug68Ycp3dBelZMCSQ&e=1637044132&fl=&r=e196b903-07f5-49b9-aaca-6b73634018e5-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=4JdZMzsac3YnfkriflGiFixXnsY",
     "notes" : "Integrated new Updater by ShortcutsPro",
     "icon_glyph" : 59690,
     "certificate_expiration" : "Thu, 15 Dec 2022 23:18:49 -0600",
@@ -320,11 +282,13 @@
     "author" : {
       "name" : "@scottdwr",
       "link" : [
-        "https://routinehub.co/user/scottdwr/",
-        "https://scottdwr.github.io",
-        "http://Scott.Wright.name"
+        "https:\/\/routinehub.co\/user\/scottdwr\/",
+        "https:\/\/scottdwr.github.io",
+        "http:\/\/Scott.Wright.name"
       ]
     },
-    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance."
+    "depends" : [
+      "com.shortcutspro.library.bustl-updater"
+    ]
   }
 ]
