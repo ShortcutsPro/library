@@ -27,7 +27,6 @@
 	"shortcuts_version": "1137.4",
 	"link": "https://www.icloud.com/shortcuts/3390e59d19b6469a8c385d37a63d98b8",
 	"depends": [
-		    "com.shortcutspro.library.bustl-updater"
 	],
 	"integrity": false,
 	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
