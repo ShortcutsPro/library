@@ -1,4 +1,4 @@
 {
-  "mode" : "notify",
-  "key" : "primary"
+  "mode" : "run",
+  "key" : "alternate"
 }
