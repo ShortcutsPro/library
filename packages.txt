@@ -18,7 +18,7 @@
     "device_id" : "C0F8BCF32675B765B2D2C551BCBBCC22A7609076D300C0312E6809B66872B481",
     "input" : "",
     "category" : [
-      ""
+      "tilities"
     ],
     "maintainer" : {
       "name" : "@scottdwr",
@@ -32,7 +32,6 @@
     "id" : "com.shortcutspro.library.reckon",
     "arch" : "iOS15",
     "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
-    "quiet" : false,
     "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AQQ9Ny2uF5ChiRNWnZ9Ohz8397Pj\/${f}?o=Aq64SIp-gAZSt7S32Yns6bmgzu2qj_81li3EvLU8jUYjzG3wOKazZTWK2jFB3-UmLw&v=1&x=3&a=CAog2VR5BM742UaS18o5hMnNzYdhwmjS4VQ-GcBCvwsGUyASexDgiJ_cui8Y4OX63bovIgEAUgQ397PjajCtsjH_VA-QrZSMDpQ0QN7nz_QD365wC0Kq_JtftlTJFctOPgEwgaJUIH6FZ2szK7ByMH2e_9w-VleXhYyTakHot_OYYRAdhZqvrlS74agRHJz_09dIyJkHKF9UuYfxPcDugQ&e=1630674006&fl=&r=6f233e99-6135-4603-9b20-b81e455cf20d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=Lud7CWJD7T0io6d2nRFDHfL2Nqk",
     "icon_glyph" : 59698,
     "notes" : "",
