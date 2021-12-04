@@ -2,10 +2,10 @@
 	"id": "io.bustl.cutz.featured.siriringtonegenerator",
 	"auuid": "80D1F78F-AABA-47D7-A840-A04A1F6870DB",
 	"name": "SiriRingtoneGenerator",
-	"description": "SiriRingtone SiriRingtone allows you to generate custom announcement ringtones to assign them in your ringtone settings for different types of notifications, a contact call &/or text announcements. ---",
+	"description": "Siri Ringtone Generator allows you to generate custom announcement ringtones to assign them in your ringtone settings for different types of notifications, a contact call &/or text announcements. ---",
 	"release": "Sat, 16 Oct 2021 10:09:47 -0700",
 	"version": "1",
-	"notes": "",
+	"notes": "initial release",
 	"category": [
 		"Productivity",
 		"Utilities"
@@ -34,7 +34,6 @@
 	"input": "",
 	"arch": "iOS15",
 	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
-	"quiet": false,
 	"signed_download": "https://cvws.icloud-content.com/B/Afw_HY2w3LhYq2iYIzaFGh1fTru4/${f}?o=AhkgpYUte-bTh33eKfQjPuutwQTgnEr_SNH3CZVmZaods_AEf-lrmFnhqL6doIexhg&v=1&x=3&a=CAoglnD_v6w9wDfJa02JUTgt7zvNuchIU3epGs0p11CRjvASexCy9cvQyC8YstKn0sgvIgEAUgRfTru4ajAuL49G_kSxpqy-gwBn9Md33DobphzVR1s6hBgsRY6fr5A436fT1TsgIk2NYriscMJyMCL8UB5eJhqJHah6qaY9lDdy6kzEjopzSbldx68y0ZHIIpCULi50cU_I1xy7b9hUvQ&e=1634407672&fl=&r=355ad07d-c8e0-42a3-9fca-ac14d75c0507-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=TAClqdijTYRecSESuaqYFtGPsm4",
 	"certificate_expiration": "Tue, 15 Nov 2022 08:57:46 -0800",
 	"minimum_version": 1106,

@@ -3,14 +3,14 @@
     "com.shortcutspro.library.integrity"
   ],
   "color" : "#12B4F6",
-  "source" : "https:\/\/Cutz.Bustl.io\/featured\/shortcuts\/masterhashtag\/masterhashtag.html",
+  "source" : "https://Cutz.Bustl.io/featured/shortcuts/masterhashtag/masterhashtag.html",
   "shortcuts_version" : "1134",
-  "depiction" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/masterhashtag.html",
-  "link" : "https:\/\/www.icloud.com\/shortcuts\/caa46a23873a43ceb6227519bb1994f4",
+  "depiction" : "https://Cutz.Bustl.io/featured/depiction/masterhashtag.html",
+  "link" : "https://www.icloud.com/shortcuts/caa46a23873a43ceb6227519bb1994f4",
   "release" : "Thu, 23 Sep 2021 21:30:14 -0700",
   "file_size" : "49 KB",
   "integrity" : true,
-  "icon" : "https:\/\/Cutz.Bustl.io\/featured\/depiction\/masterhashtag.png",
+  "icon" : "https://Cutz.Bustl.io/featured/depiction/masterhashtag.png",
   "start_color" : 463140863,
   "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
   "date_created" : "Thu, 23 Sep 2021 21:27:55 -0700",
@@ -23,7 +23,7 @@
   "maintainer" : {
     "name" : "@scottdwr",
     "link" : [
-      "https:\/\/github.com\/scottdwr\/"
+      "https://github.com/scottdwr/"
     ]
   },
   "name" : "MasterHashtag",
@@ -32,8 +32,7 @@
   "id" : "io.bustl.cutz.featured.masterhashtag",
   "arch" : "iOS14",
   "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
-  "quiet" : false,
-  "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AXq816Tyfh_NP1RaLAco929wpZo_\/${f}?o=AjBKLtmhm93Fk5Acp5FY3NpZ6vwODhYL7WGWnj7grWlHL500rvJtby-8me8ZH2p5PA&v=1&x=3&a=CAogJNovsPXjR1l4TeujY6lI8ZM7HqYIMiDET1IwmSwGssQSexDMu76wwS8YzJiassEvIgEAUgRwpZo_ajDO3sD8Pge0IxiylyfP6FCn6gFjcDOAss5AjS3DmKl34yediYE0Y3WUEno3nWbe9btyMCFiCjzINOSPhFgWOaaOE5dWt-bFzIb2y0_E0A-6NxY6v_vWL5LDBEAF3R5c--TTFw&e=1632461294&fl=&r=8783e5c5-59c0-45c4-8674-861dbf6f3e74-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=GF-fZfIMmqTpA-nhq_loSNAEDxo",
+  "signed_download" : "https://cvws.icloud-content.com/B/AXq816Tyfh_NP1RaLAco929wpZo_/${f}?o=AjBKLtmhm93Fk5Acp5FY3NpZ6vwODhYL7WGWnj7grWlHL500rvJtby-8me8ZH2p5PA&v=1&x=3&a=CAogJNovsPXjR1l4TeujY6lI8ZM7HqYIMiDET1IwmSwGssQSexDMu76wwS8YzJiassEvIgEAUgRwpZo_ajDO3sD8Pge0IxiylyfP6FCn6gFjcDOAss5AjS3DmKl34yediYE0Y3WUEno3nWbe9btyMCFiCjzINOSPhFgWOaaOE5dWt-bFzIb2y0_E0A-6NxY6v_vWL5LDBEAF3R5c--TTFw&e=1632461294&fl=&r=8783e5c5-59c0-45c4-8674-861dbf6f3e74-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=GF-fZfIMmqTpA-nhq_loSNAEDxo",
   "icon_glyph" : 61549,
   "notes" : "",
   "certificate_expiration" : "Sun, 23 Oct 2022 21:18:11 -0700",
@@ -44,5 +43,5 @@
       "about:blank"
     ]
   },
-  "description" : "Name: MasterHashtagnDescription: MasterHashtagn3000 hashtags organized by + 100 categories.  It will prompt you for a category and then will present you with the hashtags. it automatically copies them (no more than 26-30) so you can paste in wherever you want. next update will be categories inside topics by popularity of top 10,20,30. with a preset total # of hashtags. category: device, utilityn---"
+  "description" : "Hashtags organized by + 100 categories.  It will prompt you for a category and then will present you with the hashtags. it automatically copies them (no more than 26-30) so you can paste in wherever you want. next update will be categories inside topics by popularity of top 10,20,30. with a preset total # of hashtags. ---"
 }

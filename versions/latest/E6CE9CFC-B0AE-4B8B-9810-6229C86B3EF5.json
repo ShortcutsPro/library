@@ -27,13 +27,12 @@
 	"shortcuts_version": "1137.4",
 	"link": "https://www.icloud.com/shortcuts/fc45133cba9c47de99cbb58228abb45d",
 	"depends": [
-		    "com.shortcutspro.library.bustl-updater"
 	],
 	"integrity": false,
 	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
 	"date_created": "Mon, 15 Nov 2021 23:28:00 -0600",
 	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
-	"input": "",
+	"input": "clipboard",
 	"arch": "iOS14",
 	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
 	"quiet": false,
