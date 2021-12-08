@@ -46,7 +46,7 @@
     "description" : "Measure the wall in the measure app. Select measurements & copy. The. Run this shortcut for calculation."
   },
   {
-    "description" : "Share images as custom  slideshow link",
+    "description" : "Share images as custom slideshow link",
     "color" : "#F58BD5",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/simpl-showcase/simpl-showcase.html",
     "shortcuts_version" : "1137.4",
@@ -235,6 +235,7 @@
         "http://Scott.Wright.name"
       ]
     },
-    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance."
+    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
+    "callback" : "shortcuts://x-callback-url/run-shortcut?name=INTEGRITY&input=clipboard"
   }
-]
+  ]
