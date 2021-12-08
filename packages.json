@@ -186,55 +186,5 @@
       ]
     },
     "description" : "Publishes shortcuts to a Papercuts \/ Integrity repository."
-  },
-  {
-    "id": "com.shortcutspro.library.integrity",
-    "auuid": "E6CE9CFC-B0AE-4B8B-9810-6229C86B3EF5",
-    "name": "INTEGRITY",
-    "description": "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
-    "release": "Mon, 15 Nov 2021 23:34:17 -0600",
-    "version": "3.141",
-    "notes": "Integrated new Updater by ShortcutsPro",
-    "category": [
-        "Utilities",
-        "Productivity"
-    ],
-    "author": {
-        "name": "@scottdwr",
-        "link": [
-            "https:\/\/routinehub.co\/user\/scottdwr\/",
-            "https:\/\/scottdwr.github.io",
-            "http:\/\/Scott.Wright.name"
-        ]
-    },
-    "depiction": "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/integrity.html",
-    "source": "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/integrity\/integrity.html",
-    "icon": "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/integrity.png",
-    "start_color": 255,
-    "color": "#86919B",
-    "icon_glyph": 59690,
-    "shortcuts_version": "1137.4",
-    "link": "https:\/\/www.icloud.com\/shortcuts\/3390e59d19b6469a8c385d37a63d98b8",
-    "depends": [
-    ],
-    "integrity": false,
-    "user_record": "_eba6e6c4b05d698a64c2062b023355f3",
-    "date_created": "Mon, 15 Nov 2021 23:28:00 -0600",
-    "device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
-    "input": "clipboard",
-    "arch": "iOS14",
-    "date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
-    "quiet": false,
-    "signed_download": "https:\/\/cvws.icloud-content.com\/B\/ATsoF4jGMIie9oObyTb0gawCcsQw\/${f}?o=An_dAxicEX9KVz5am25HaZx5m4EHlXaF2QEyfV2EjCPD2o-lO8b_4nq-Exp3A1aoNA&v=1&x=3&a=CAogHcdpBpfPiq0Xog3b2bHHTCq6zK2vF1YXPpMj6DjJ-6MSexDY1eC50i8Y2LK8u9IvIgEAUgQCcsQwajAyKymd1onXjwPtPXF8V7yc1va29zMJcSA6kssSRnieb6x7RS20HWLZitixCtq3vBhyMD62l3loZU2c9BhdO1foPLx_JjqCjZLxRSsmrOjTqfM0RpS9Pug68Ycp3dBelZMCSQ&e=1637044132&fl=&r=e196b903-07f5-49b9-aaca-6b73634018e5-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=4JdZMzsac3YnfkriflGiFixXnsY",
-    "certificate_expiration": "Thu, 15 Dec 2022 23:18:49 -0600",
-    "minimum_version": 1106,
-    "file_size": "33 KB",
-    "repository": "library",
-    "maintainer": {
-        "name": "@scottdwr",
-        "link": [
-            "https:\/\/github.com\/scottdwr\/"
-        ]
-    }
   }
 ]
