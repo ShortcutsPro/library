@@ -189,7 +189,7 @@
   },
   {
     "depends" : [
-      "com.shortcutspro.library.bustl-updater"
+
     ],
     "color" : "#86919B",
     "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/integrity/integrity.html",
