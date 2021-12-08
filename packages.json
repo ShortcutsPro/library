@@ -1,17 +1,17 @@
 [
   {
-    "description" : "Measure the wall in the measure app. Select measurements & copy. The. Run this shortcut for calculation.",
-    "color" : "#00CBDF",
-    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/reckon\/reckon.html",
-    "shortcuts_version" : "1137.4",
-    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/reckon.html",
-    "link" : "https:\/\/www.icloud.com\/shortcuts\/f710ad23d749423bb1dc457826f5c6c3",
-    "release" : "Fri, 03 Sep 2021 05:01:10 -0700",
     "depends" : [
       "com.shortcutspro.library.integrity"
     ],
+    "color" : "#00CBDF",
+    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/reckon/reckon.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/reckon.html",
+    "link" : "https://www.icloud.com/shortcuts/f710ad23d749423bb1dc457826f5c6c3",
+    "release" : "Fri, 03 Sep 2021 05:01:10 -0700",
+    "file_size" : "22 KB",
     "integrity" : true,
-    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/reckon.png",
+    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/reckon.png",
     "start_color" : 1440408063,
     "user_record" : "_119b220cbdaf3a9a41b9e7c737fa4a37",
     "date_created" : "Fri, 03 Sep 2021 04:58:46 -0700",
@@ -23,7 +23,7 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https:\/\/github.com\/scottdwr\/"
+        "https://github.com/scottdwr/"
       ]
     },
     "name" : "Reckon",
@@ -32,7 +32,7 @@
     "id" : "com.shortcutspro.library.reckon",
     "arch" : "iOS15",
     "date_modified" : "Wed, 31 Dec 1969 16:00:00 -0800",
-    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AQQ9Ny2uF5ChiRNWnZ9Ohz8397Pj\/${f}?o=Aq64SIp-gAZSt7S32Yns6bmgzu2qj_81li3EvLU8jUYjzG3wOKazZTWK2jFB3-UmLw&v=1&x=3&a=CAog2VR5BM742UaS18o5hMnNzYdhwmjS4VQ-GcBCvwsGUyASexDgiJ_cui8Y4OX63bovIgEAUgQ397PjajCtsjH_VA-QrZSMDpQ0QN7nz_QD365wC0Kq_JtftlTJFctOPgEwgaJUIH6FZ2szK7ByMH2e_9w-VleXhYyTakHot_OYYRAdhZqvrlS74agRHJz_09dIyJkHKF9UuYfxPcDugQ&e=1630674006&fl=&r=6f233e99-6135-4603-9b20-b81e455cf20d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=Lud7CWJD7T0io6d2nRFDHfL2Nqk",
+    "signed_download" : "https://cvws.icloud-content.com/B/AQQ9Ny2uF5ChiRNWnZ9Ohz8397Pj/${f}?o=Aq64SIp-gAZSt7S32Yns6bmgzu2qj_81li3EvLU8jUYjzG3wOKazZTWK2jFB3-UmLw&v=1&x=3&a=CAog2VR5BM742UaS18o5hMnNzYdhwmjS4VQ-GcBCvwsGUyASexDgiJ_cui8Y4OX63bovIgEAUgQ397PjajCtsjH_VA-QrZSMDpQ0QN7nz_QD365wC0Kq_JtftlTJFctOPgEwgaJUIH6FZ2szK7ByMH2e_9w-VleXhYyTakHot_OYYRAdhZqvrlS74agRHJz_09dIyJkHKF9UuYfxPcDugQ&e=1630674006&fl=&r=6f233e99-6135-4603-9b20-b81e455cf20d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=Lud7CWJD7T0io6d2nRFDHfL2Nqk",
     "icon_glyph" : 59698,
     "notes" : "",
     "certificate_expiration" : "Mon, 03 Oct 2022 04:50:03 -0700",
@@ -43,19 +43,21 @@
         "about:blank"
       ]
     },
-    "file_size" : "22 KB"
+    "description" : "Measure the wall in the measure app. Select measurements & copy. The. Run this shortcut for calculation."
   },
   {
-    "file_size" : "180 KB",
-    "color" : "#F58BD5",
-    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/simpl-showcase\/simpl-showcase.html",
-    "shortcuts_version" : "1137.4",
-    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.html",
-    "link" : "https:\/\/www.icloud.com\/shortcuts\/779252cfbeab4ca585cbdab6aef83850",
-    "release" : "Fri, 10 Sep 2021 21:04:02 -0500",
     "description" : "Share images as custom  slideshow link",
+    "color" : "#F58BD5",
+    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/simpl-showcase/simpl-showcase.html",
+    "shortcuts_version" : "1137.4",
+    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/simpl-showcase.html",
+    "link" : "https://www.icloud.com/shortcuts/779252cfbeab4ca585cbdab6aef83850",
+    "release" : "Fri, 10 Sep 2021 21:04:02 -0500",
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ],
     "integrity" : true,
-    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/simpl-showcase.png",
+    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/simpl-showcase.png",
     "start_color" : 3980825855,
     "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
     "date_created" : "Fri, 10 Sep 2021 20:58:04 -0500",
@@ -68,7 +70,7 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https:\/\/github.com\/scottdwr\/"
+        "https://github.com/scottdwr/"
       ]
     },
     "name" : "Simpl. Showcase",
@@ -77,7 +79,7 @@
     "id" : "com.shortcutspro.library.simpl-showcase",
     "arch" : "iOS14",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/Ad3hjTXFAZzSZu2klxrUlbM-P3tC\/${f}?o=AuNafl4s3aOSJOoge8Pq3Sor9m2IvUPOo2EN0VUzAd9klPaMLCJMm-yRHr7m6ehqjA&v=1&x=3&a=CAogldSSNF0QAjlILF-RfDKQ13W7ys84NmZnoEY7yzGzjeASexCw5c-UvS8YsMKrlr0vIgEAUgQ-P3tCajC8FbcZFU6h0SN-u_37gVwRDH4b0vqmTwZWaJvO8NseXMJTtHsdUagmBlWqU46ZmFFyMCAN7W0a73quEDsRdpUzRL69NheINAoNGEmQNUFRsDzli_aE2EG5EfL_XV8ae3BB-A&e=1631329116&fl=&r=0d46f8e3-40fd-40a7-a5a6-11ad6115a65e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uackbGNcj7XPZiIfsao3cEwsPSM",
+    "signed_download" : "https://cvws.icloud-content.com/B/Ad3hjTXFAZzSZu2klxrUlbM-P3tC/${f}?o=AuNafl4s3aOSJOoge8Pq3Sor9m2IvUPOo2EN0VUzAd9klPaMLCJMm-yRHr7m6ehqjA&v=1&x=3&a=CAogldSSNF0QAjlILF-RfDKQ13W7ys84NmZnoEY7yzGzjeASexCw5c-UvS8YsMKrlr0vIgEAUgQ-P3tCajC8FbcZFU6h0SN-u_37gVwRDH4b0vqmTwZWaJvO8NseXMJTtHsdUagmBlWqU46ZmFFyMCAN7W0a73quEDsRdpUzRL69NheINAoNGEmQNUFRsDzli_aE2EG5EfL_XV8ae3BB-A&e=1631329116&fl=&r=0d46f8e3-40fd-40a7-a5a6-11ad6115a65e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uackbGNcj7XPZiIfsao3cEwsPSM",
     "icon_glyph" : 61500,
     "notes" : "Initial test release ",
     "certificate_expiration" : "Mon, 10 Oct 2022 20:48:33 -0500",
@@ -88,23 +90,19 @@
         "about:blank"
       ]
     },
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ]
+    "file_size" : "180 KB"
   },
   {
-    "depends" : [
-      "com.shortcutspro.library.integrity"
-    ],
-    "color" : "#00CBDF",
-    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/brand-mark-my-pages\/brand-mark-my-pages.html",
-    "shortcuts_version" : "1092.11",
-    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/brand-mark-my-pages.html",
-    "link" : "https:\/\/www.icloud.com\/shortcuts\/ebe5f8c1d4f2475a8bb83e0a11052723",
-    "release" : "Sat, 11 Sep 2021 05:12:47 -0500",
     "file_size" : "12 KB",
+    "color" : "#00CBDF",
+    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/brand-mark-my-pages/brand-mark-my-pages.html",
+    "shortcuts_version" : "1092.11",
+    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/brand-mark-my-pages.html",
+    "link" : "https://www.icloud.com/shortcuts/ebe5f8c1d4f2475a8bb83e0a11052723",
+    "release" : "Sat, 11 Sep 2021 05:12:47 -0500",
+    "description" : "Overlay your professional brand, mark, or label on any PDF or Image",
     "integrity" : true,
-    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/brand-mark-my-pages.png",
+    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/brand-mark-my-pages.png",
     "start_color" : 1440408063,
     "user_record" : "_1ffe4fd02b3430bb2ccc3419712bf320",
     "date_created" : "Sat, 11 Sep 2021 04:15:12 -0500",
@@ -117,7 +115,7 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https:\/\/github.com\/scottdwr\/"
+        "https://github.com/scottdwr/"
       ]
     },
     "name" : "Brand Mark My Pages",
@@ -126,7 +124,7 @@
     "id" : "com.shortcutspro.library.brand-mark-my-pages",
     "arch" : "iOS14",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/AYFjmPHzEDSHnoMQ2CDcGZKmRMrM\/${f}?o=AiZZDALVrtxuM9dWlgq_Tlf0NStqBf8Tc8WQmROWepMprkqST_LntqRfxupE774OEw&v=1&x=3&a=CAogCtIUPPwcuY6EPwiHcNaHYfdWnm-EL-dM0NeLh-FhNWYSexDi3O6hvS8Y4rnKo70vIgEAUgSmRMrMajBvKYaOxR1UkOhky7sDr-qWk9dsvrX1HMQZhZ5oPrgYkbF1QuSgeID0K7ezrCpO9nFyMFL58taY9rMjGRStz9iA5rexNzgpBoQCB6GHZNHVFzHES4_-7PTCWIkcIB9PfUKdsA&e=1631356886&fl=&r=7bba6946-5c44-4df2-9893-577c673986d7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=nTCDf0IrCJ_7Ct0Soh0IKx8koPk",
+    "signed_download" : "https://cvws.icloud-content.com/B/AYFjmPHzEDSHnoMQ2CDcGZKmRMrM/${f}?o=AiZZDALVrtxuM9dWlgq_Tlf0NStqBf8Tc8WQmROWepMprkqST_LntqRfxupE774OEw&v=1&x=3&a=CAogCtIUPPwcuY6EPwiHcNaHYfdWnm-EL-dM0NeLh-FhNWYSexDi3O6hvS8Y4rnKo70vIgEAUgSmRMrMajBvKYaOxR1UkOhky7sDr-qWk9dsvrX1HMQZhZ5oPrgYkbF1QuSgeID0K7ezrCpO9nFyMFL58taY9rMjGRStz9iA5rexNzgpBoQCB6GHZNHVFzHES4_-7PTCWIkcIB9PfUKdsA&e=1631356886&fl=&r=7bba6946-5c44-4df2-9893-577c673986d7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=nTCDf0IrCJ_7Ct0Soh0IKx8koPk",
     "icon_glyph" : 59841,
     "notes" : "Initial public release ",
     "certificate_expiration" : "Tue, 11 Oct 2022 04:06:52 -0500",
@@ -134,24 +132,24 @@
     "author" : {
       "name" : "@scottdwr",
       "link" : [
-        "https:\/\/scottdwr.github.io"
+        "https://scottdwr.github.io"
       ]
     },
-    "description" : "Overlay your professional brand, mark, or label on any PDF or Image"
-  },
-  {
     "depends" : [
       "com.shortcutspro.library.integrity"
-    ],
-    "color" : "#00CEAD",
-    "source" : "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/shortcut-publisher\/shortcut-publisher.html",
-    "shortcuts_version" : "1136.1",
-    "depiction" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/shortcut-publisher.html",
-    "link" : "https:\/\/www.icloud.com\/shortcuts\/fa4b8232bc084d8cb9976256a92aace5",
-    "release" : "Sat, 09 Oct 2021 13:41:14 -0500",
+    ]
+  },
+  {
     "file_size" : "227 KB",
+    "color" : "#00CEAD",
+    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/shortcut-publisher/shortcut-publisher.html",
+    "shortcuts_version" : "1136.1",
+    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.html",
+    "link" : "https://www.icloud.com/shortcuts/fa4b8232bc084d8cb9976256a92aace5",
+    "release" : "Sat, 09 Oct 2021 13:41:14 -0500",
+    "description" : "Publishes shortcuts to a Papercuts / Integrity repository.",
     "integrity" : true,
-    "icon" : "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/shortcut-publisher.png",
+    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/shortcut-publisher.png",
     "start_color" : 431817727,
     "user_record" : "_eba6e6c4b05d698a64c2062b023355f3",
     "date_created" : "Sat, 09 Oct 2021 13:37:21 -0500",
@@ -168,13 +166,13 @@
     "maintainer" : {
       "name" : "@scottdwr",
       "link" : [
-        "https:\/\/github.com\/scottdwr\/"
+        "https://github.com/scottdwr/"
       ]
     },
     "id" : "com.shortcutspro.library.shortcut-publisher",
     "arch" : "iOS15",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-    "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ATsNuABqU6CYt_BPLL6eWn2J3GZ_\/${f}?o=Aq0RItH0qyg5NQgxxoZPkBU1T5ELdRSSajCWnPLiE7JLzJgZ_lVa4SrEUyoyCXnm9Q&v=1&x=3&a=CAogZ9craF1QP1kH82VDAijhaFXBvLBS2xKwBoBMIwsXq_USexCh6OSyxi8YocXAtMYvIgEAUgSJ3GZ_ajBXiPak8q1utyNk1B1lE-vQY1wa1p4Bu0NYKsFn8RTTHJ2HmtqOVgbqPb2Ayd32MTNyMG-jQmAZCy7H7AIIqbE5I3fVlEZrySyVl91L-cDbVen_dHlgwKtvzD6aWTJUy-QcnQ&e=1633808294&fl=&r=dc6b6849-e4aa-4a9e-82c3-0d9c41187b56-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=OswEar_-L1GpSZcJsnf9om8VYoo",
+    "signed_download" : "https://cvws.icloud-content.com/B/ATsNuABqU6CYt_BPLL6eWn2J3GZ_/${f}?o=Aq0RItH0qyg5NQgxxoZPkBU1T5ELdRSSajCWnPLiE7JLzJgZ_lVa4SrEUyoyCXnm9Q&v=1&x=3&a=CAogZ9craF1QP1kH82VDAijhaFXBvLBS2xKwBoBMIwsXq_USexCh6OSyxi8YocXAtMYvIgEAUgSJ3GZ_ajBXiPak8q1utyNk1B1lE-vQY1wa1p4Bu0NYKsFn8RTTHJ2HmtqOVgbqPb2Ayd32MTNyMG-jQmAZCy7H7AIIqbE5I3fVlEZrySyVl91L-cDbVen_dHlgwKtvzD6aWTJUy-QcnQ&e=1633808294&fl=&r=dc6b6849-e4aa-4a9e-82c3-0d9c41187b56-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=OswEar_-L1GpSZcJsnf9om8VYoo",
     "notes" : "Integrated Bustl. Updater",
     "icon_glyph" : 61456,
     "certificate_expiration" : "Tue, 08 Nov 2022 12:28:11 -0600",
@@ -182,9 +180,61 @@
     "author" : {
       "name" : "@scottdwr",
       "link" : [
-        "https:\/\/github.com\/scottdwr\/"
+        "https://github.com/scottdwr/"
       ]
     },
-    "description" : "Publishes shortcuts to a Papercuts \/ Integrity repository."
+    "depends" : [
+      "com.shortcutspro.library.integrity"
+    ]
+  },
+  {
+    "depends" : [
+      "com.shortcutspro.library.bustl-updater"
+    ],
+    "color" : "#86919B",
+    "source" : "https://ShortcutsPro.GitHub.io/library/shortcuts/integrity/integrity.html",
+    "shortcuts_version" : "1092.11",
+    "depiction" : "https://ShortcutsPro.GitHub.io/library/depiction/integrity.html",
+    "link" : "https://www.icloud.com/shortcuts/3390e59d19b6469a8c385d37a63d98b8",
+    "release" : "Wed, 08 Dec 2021 07:46:36 -0600",
+    "file_size" : "33 KB",
+    "integrity" : false,
+    "icon" : "https://ShortcutsPro.GitHub.io/library/depiction/integrity.png",
+    "start_color" : 255,
+    "user_record" : "_1ffe4fd02b3430bb2ccc3419712bf320",
+    "date_created" : "Fri, 26 Nov 2021 14:50:14 -0600",
+    "device_id" : "2A9671DACAFEDA90755DA4D530EDFA57F1E744D4939CBA130A0100BB60E8A9FE",
+    "category" : [
+      "Utilities",
+      "Productivity"
+    ],
+    "input" : "clipboard",
+    "repository" : "library",
+    "name" : "INTEGRITY",
+    "auuid" : "E6CE9CFC-B0AE-4B8B-9810-6229C86B3EF5",
+    "version" : "3.141",
+    "maintainer" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://github.com/scottdwr/"
+      ]
+    },
+    "id" : "com.shortcutspro.library.integrity",
+    "arch" : "iOS14",
+    "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
+    "signed_download" : "https://cvws.icloud-content.com/B/AVmLJ-qx6tMVhN_Hf7-4LzE2dwzE/${f}?o=AnB-s1Qpwaon8oNHSE4P6vMTLVUoi8adJX1tBeVOoueesWlP3bCdRb6kdFAGzfuf1w&v=1&x=3&a=CAogNYXsMuEj-U4czAlnJTj-S90GfJjjBdl7ssLSvgyomhcSexDKnKnS2S8YyvmE1NkvIgEAUgQ2dwzEajBCU0-CdHVDLVDypvWpyPL13buhc9hld7t14g9zXDIfp8gDmU_hOrvh27fi2GSATsNyMEwVs51wHEOFxQoUiNzoZEBvGy6tDoRur7AnEe0smwhOK2a4n8_eRTgECaS25RKHyQ&e=1638974700&fl=&r=1ca24760-7f54-448b-b864-a280719008a0-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=MmYJSZtKlisna5YD7jzrQ2PT3uM",
+    "notes" : "Re upload ",
+    "icon_glyph" : 59690,
+    "certificate_expiration" : "Mon, 26 Dec 2022 15:31:33 -0600",
+    "minimum_version" : 900,
+    "author" : {
+      "name" : "@scottdwr",
+      "link" : [
+        "https://routinehub.co/user/scottdwr/",
+        "https://scottdwr.github.io",
+        "http://Scott.Wright.name"
+      ]
+    },
+    "description" : "Operates compatible shortcuts  to improve code quality and provide data integrity assurance."
   }
 ]
