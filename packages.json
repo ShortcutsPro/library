@@ -77,7 +77,6 @@
     "id" : "com.shortcutspro.library.simpl-showcase",
     "arch" : "iOS14",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-    "quiet" : true,
     "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/Ad3hjTXFAZzSZu2klxrUlbM-P3tC\/${f}?o=AuNafl4s3aOSJOoge8Pq3Sor9m2IvUPOo2EN0VUzAd9klPaMLCJMm-yRHr7m6ehqjA&v=1&x=3&a=CAogldSSNF0QAjlILF-RfDKQ13W7ys84NmZnoEY7yzGzjeASexCw5c-UvS8YsMKrlr0vIgEAUgQ-P3tCajC8FbcZFU6h0SN-u_37gVwRDH4b0vqmTwZWaJvO8NseXMJTtHsdUagmBlWqU46ZmFFyMCAN7W0a73quEDsRdpUzRL69NheINAoNGEmQNUFRsDzli_aE2EG5EfL_XV8ae3BB-A&e=1631329116&fl=&r=0d46f8e3-40fd-40a7-a5a6-11ad6115a65e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=uackbGNcj7XPZiIfsao3cEwsPSM",
     "icon_glyph" : 61500,
     "notes" : "Initial test release ",
