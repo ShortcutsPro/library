@@ -3,9 +3,9 @@
 	"auuid": "E6CE9CFC-B0AE-4B8B-9810-6229C86B3EF5",
 	"name": "INTEGRITY",
 	"description": "Operates compatible shortcuts  to improve code quality and provide data integrity assurance.",
-	"release": "Mon, 15 Nov 2021 23:34:17 -0600",
+	"release": "Wed, 08 Dec 2021 07:46:36 -0600",
 	"version": "3.141",
-	"notes": "Integrated new Updater by ShortcutsPro",
+	"notes": "Re upload ",
 	"category": [
 		"Utilities",
 		"Productivity"
@@ -13,38 +13,38 @@
 	"author": {
 		"name": "@scottdwr",
 		"link": [
-			"https:\/\/routinehub.co\/user\/scottdwr\/",
-			"https:\/\/scottdwr.github.io",
-			"http:\/\/Scott.Wright.name"
+			"https://routinehub.co/user/scottdwr/",
+			"https://scottdwr.github.io",
+			"http://Scott.Wright.name"
 		]
 	},
-	"depiction": "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/integrity.html",
-	"source": "https:\/\/ShortcutsPro.GitHub.io\/library\/shortcuts\/integrity\/integrity.html",
-	"icon": "https:\/\/ShortcutsPro.GitHub.io\/library\/depiction\/integrity.png",
+	"depiction": "https://ShortcutsPro.GitHub.io/library/depiction/integrity.html",
+	"source": "https://ShortcutsPro.GitHub.io/library/shortcuts/integrity/integrity.html",
+	"icon": "https://ShortcutsPro.GitHub.io/library/depiction/integrity.png",
 	"start_color": 255,
 	"color": "#86919B",
 	"icon_glyph": 59690,
-	"shortcuts_version": "1137.4",
-	"link": "https:\/\/www.icloud.com\/shortcuts\/3390e59d19b6469a8c385d37a63d98b8",
+	"shortcuts_version": "1092.11",
+	"link": "https://www.icloud.com/shortcuts/3390e59d19b6469a8c385d37a63d98b8",
 	"depends": [
+		    "com.shortcutspro.library.bustl-updater"
 	],
 	"integrity": false,
-	"user_record": "_eba6e6c4b05d698a64c2062b023355f3",
-	"date_created": "Mon, 15 Nov 2021 23:28:00 -0600",
-	"device_id": "D6A614DFC5E26EA6BB58C0352089E14F6779974DBDB9C4E28BF4367763464892",
+	"user_record": "_1ffe4fd02b3430bb2ccc3419712bf320",
+	"date_created": "Fri, 26 Nov 2021 14:50:14 -0600",
+	"device_id": "2A9671DACAFEDA90755DA4D530EDFA57F1E744D4939CBA130A0100BB60E8A9FE",
 	"input": "clipboard",
 	"arch": "iOS14",
 	"date_modified": "Wed, 31 Dec 1969 18:00:00 -0600",
-	"quiet": false,
-	"signed_download": "https:\/\/cvws.icloud-content.com\/B\/ATsoF4jGMIie9oObyTb0gawCcsQw\/${f}?o=An_dAxicEX9KVz5am25HaZx5m4EHlXaF2QEyfV2EjCPD2o-lO8b_4nq-Exp3A1aoNA&v=1&x=3&a=CAogHcdpBpfPiq0Xog3b2bHHTCq6zK2vF1YXPpMj6DjJ-6MSexDY1eC50i8Y2LK8u9IvIgEAUgQCcsQwajAyKymd1onXjwPtPXF8V7yc1va29zMJcSA6kssSRnieb6x7RS20HWLZitixCtq3vBhyMD62l3loZU2c9BhdO1foPLx_JjqCjZLxRSsmrOjTqfM0RpS9Pug68Ycp3dBelZMCSQ&e=1637044132&fl=&r=e196b903-07f5-49b9-aaca-6b73634018e5-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=4JdZMzsac3YnfkriflGiFixXnsY",
-	"certificate_expiration": "Thu, 15 Dec 2022 23:18:49 -0600",
-	"minimum_version": 1106,
+	"signed_download": "https://cvws.icloud-content.com/B/AVmLJ-qx6tMVhN_Hf7-4LzE2dwzE/${f}?o=AnB-s1Qpwaon8oNHSE4P6vMTLVUoi8adJX1tBeVOoueesWlP3bCdRb6kdFAGzfuf1w&v=1&x=3&a=CAogNYXsMuEj-U4czAlnJTj-S90GfJjjBdl7ssLSvgyomhcSexDKnKnS2S8YyvmE1NkvIgEAUgQ2dwzEajBCU0-CdHVDLVDypvWpyPL13buhc9hld7t14g9zXDIfp8gDmU_hOrvh27fi2GSATsNyMEwVs51wHEOFxQoUiNzoZEBvGy6tDoRur7AnEe0smwhOK2a4n8_eRTgECaS25RKHyQ&e=1638974700&fl=&r=1ca24760-7f54-448b-b864-a280719008a0-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=MmYJSZtKlisna5YD7jzrQ2PT3uM",
+	"certificate_expiration": "Mon, 26 Dec 2022 15:31:33 -0600",
+	"minimum_version": 900,
 	"file_size": "33 KB",
 	"repository": "library",
 	"maintainer": {
 		"name": "@scottdwr",
 		"link": [
-			"https:\/\/github.com\/scottdwr\/"
+			"https://github.com/scottdwr/"
 		]
 	}
 }

@@ -141,7 +141,8 @@ span.magic {
 </head>
 <body>
 <button class="button gParams closed">INTEGRITY</button>
-<div class="content" style="display:none"><div class="col2">"WFWorkflowClientVersion": "1137.4",
+<div class="content" style="display:none"><div class="col2">"WFQuickActionSurfaces": [],
+"WFWorkflowClientVersion": "1137.4",
 "WFWorkflowHasOutputFallback": false,
 "WFWorkflowHasShortcutInputVariables": true,
 "WFWorkflowIcon": {
@@ -186,34 +187,11 @@ span.magic {
 "WFWorkflowMinimumClientVersion": 1106,
 "WFWorkflowMinimumClientVersionString": "1106",
 "WFWorkflowOutputContentItemClasses": [
-   "WFDCMapsLinkContentItem",
-   "WFRichTextContentItem",
-   "WFImageContentItem",
-   "WFPhoneNumberContentItem",
-   "WFMKMapItemContentItem",
-   "WFPhotoMediaContentItem",
-   "WFiTunesProductContentItem",
-   "WFArticleContentItem",
-   "WFPDFContentItem",
-   "WFLocationContentItem",
-   "WFStringContentItem",
-   "WFContactContentItem",
-   "WFURLContentItem",
-   "WFContentItem",
-   "WFGenericFileContentItem",
-   "WFDictionaryContentItem",
-   "WFAVAssetContentItem",
-   "WFEmailAddressContentItem",
-   "WFAppStoreAppContentItem",
-   "WFSafariWebPageContentItem",
-   "WFDateContentItem"
+   "WFDictionaryContentItem"
 ],
 "WFWorkflowTypes": [
-   "MenuBar",
-   "ActionExtension",
    "Watch",
-   "QuickActions",
-   "ReceivesOnScreenContent"
+   "ActionExtension"
 ]
 </div></div>
 
@@ -231,7 +209,7 @@ Copyright © 2021 Scott Wright
 MIT License
 
 ——
-{"name":"INTEGRITY","auuid":"E6CE9CFC-B0AE-4B8B-9810-6229C86B3EF5","version":"3.14"}</div></div>
+{"name":"INTEGRITY","auuid":"E6CE9CFC-B0AE-4B8B-9810-6229C86B3EF5","version":"3.141"}</div></div>
 <button class="button gDocuments" id="m1">
 1 Text <b>&nbsp; ➔ Profile</b></button>
 	<div class="content">
@@ -269,59 +247,66 @@ MIT License
 7 Dictionary <b>&nbsp; ➔ Switches</b></button>
 	<div class="content">
 		<div class="col2">{
-   "debug": false,
-   "wait": "nowait",
+   "debug": true,
+   "wait": "30",
    "mode": "run",
    "key": "primary"
 }</div></div>
 <button class="" id="m8">
 8 Date Current Date</button>
-<button class="button gDocuments" id="m9">
-9 Comment</button>
+<button class="button " id="m9">
+9 Format Date <span class="box"><span class="magic" onclick="magictap(8)"><b>[8 Date</b><b>]</b></span></span> <b>&nbsp; ➔ Today</b></button>
+	<div class="content">
+		<div class="row"><div class="col1">DateFormatStyle</div>
+			<div class="col2">RFC 2822</div></div></div>
+<button class="gVariable" id="m10">
+10 Set Variable <span class="box">Today</span> to <span class="box"><span class="magic" onclick="magictap(9)"><b>[9 Today</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m11">
+11 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
   🚫        No changes below       🚫
 
 Get Input for target shortcut. ——></div></div>
-<button class="" id="m10">
-10 Count Items in <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button>
-<button class="button gLoop nonbottom" id="m11">
-11 If <span class="box"><span class="magic" onclick="magictap(10)"><b>[10 Count</b><b>]</b></span></span> <span class="box">&gt;</span> <span class="box">1</span></button>
+<button class="" id="m12">
+12 Count Items in <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m13">
+13 If <span class="box"><span class="magic" onclick="magictap(12)"><b>[12 Count</b><b>]</b></span></span> <span class="box">&gt;</span> <span class="box">1</span></button>
 	<div class="content contentloop">
-<button class="gScripting inside" id="m12">
-12 Get List <span class="box">Items in Range</span> <span class="box">2</span> to <span class="box"></span> from <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button>
-<button class="gVariable inside" id="m13">
-13 Add <span class="box"><span class="magic" onclick="magictap(12)"><b>[12 Item from List</b><b>]</b></span></span> to Variable <span class="box">Shortcut Input</span></button></div>
-<button class="gLoop nontop" id="m14">
-14 End If</button>
-<button class="button gDocuments" id="m15">
-15 Comment</button>
+<button class="gScripting inside" id="m14">
+14 Get List <span class="box">Items in Range</span> <span class="box">2</span> to <span class="box"></span> from <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button>
+<button class="gVariable inside" id="m15">
+15 Add <span class="box"><span class="magic" onclick="magictap(14)"><b>[14 Item from List</b><b>]</b></span></span> to Variable <span class="box">Shortcut Input</span></button></div>
+<button class="gLoop nontop" id="m16">
+16 End If</button>
+<button class="button gDocuments" id="m17">
+17 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">&lt;—— Input for Target shortcut 
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
 
  Initialize Integrity ——>
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️</div></div>
-<button class="button gDocuments" id="m16">
-16 Text <b>&nbsp; ➔ INTEGRITY</b></button>
+<button class="button gDocuments" id="m18">
+18 Text <b>&nbsp; ➔ INTEGRITY</b></button>
 	<div class="content">
 		<div class="col2">INTEGRITY</div></div>
-<button class="button " id="m17">
-17 Create Folder</button>
+<button class="button " id="m19">
+19 Create Folder</button>
 	<div class="content">
 		<div class="row"><div class="col1">FilePath</div>
-			<div class="col2"><span class="magic" onclick="magictap(16)"><b>[16 INTEGRITY</b><b>]</b></span></div></div></div>
-<button class="button gScripting" id="m18">
-18 Dictionary</button>
+			<div class="col2">/<span class="magic" onclick="magictap(18)"><b>[18 INTEGRITY</b><b>]</b></span>/</div></div></div>
+<button class="button gScripting" id="m20">
+20 Dictionary</button>
 	<div class="content">
 		<div class="col2">{
    "™️": "𝘽𝙪𝙨𝙩𝙡.",
    "shortcut": {
       "integrity": false,
-      "date": "<span class="magic" onclick="magictap(8)"><b>[8 Date</b>{\"Date Style\":\"RFC 2822\",\"WFISO8601IncludeTime\":false}<b>]</b></span>",
+      "date": "<span class="magic" onclick="magictap(9)"><b>[9 Today</b><b>]</b></span>",
       "application": "™️𝘽𝙪𝙨𝙩𝙡. C⁠ᴜᴛz",
-      "name": "<span class="magic" onclick="magictap(16)"><b>[16 INTEGRITY</b><b>]</b></span>",
-      "version": "3.14",
+      "name": "<span class="magic" onclick="magictap(18)"><b>[18 INTEGRITY</b><b>]</b></span>",
+      "version": "3.141",
       "id": "com.shortscutpro.library.Integrity",
       "auuid": "E6CE9CFC-B0AE-4B8B-9810-6229C86B3EF5",
       "author": {
@@ -352,99 +337,99 @@ Get Input for target shortcut. ——></div></div>
       "false": false
    }
 }</div></div>
-<button class="gScripting" id="m19">
-19 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(18)"><b>[18 Dictionary</b>.shortcut<b>]</b></span></span> <b>&nbsp; ➔ Identification</b></button>
-<button class="button gDocuments" id="m20">
-20 Text <b>&nbsp; ➔ Display Billboard</b></button>
+<button class="gScripting" id="m21">
+21 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(20)"><b>[20 Dictionary</b>.shortcut<b>]</b></span></span> <b>&nbsp; ➔ Identification</b></button>
+<button class="button gDocuments" id="m22">
+22 Text <b>&nbsp; ➔ Display Billboard</b></button>
 	<div class="content">
-		<div class="col2">               <span class="magic" onclick="magictap(19)"><b>[19 Identification</b>.name<b>]</b></span>             
-                     By <span class="magic" onclick="magictap(19)"><b>[19 Identification</b>.application<b>]</b></span></div></div>
-<button class="button gDocuments" id="m21">
-21 Comment</button>
+		<div class="col2">               <span class="magic" onclick="magictap(21)"><b>[21 Identification</b>.name<b>]</b></span>             
+                     By <span class="magic" onclick="magictap(21)"><b>[21 Identification</b>.application<b>]</b></span></div></div>
+<button class="button gDocuments" id="m23">
+23 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">If the shortcut input is the Integrity framework command “identify,” exit with the initializing shortcut dictionary. </div></div>
-<button class="gScripting" id="m22">
-22 Get List First Item from <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span> <b>&nbsp; ➔ First Item</b></button>
-<button class="button gDocuments" id="m23">
-23 Text <b>&nbsp; ➔ First Input</b></button>
+<button class="gScripting" id="m24">
+24 Get List First Item from <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span> <b>&nbsp; ➔ First Item</b></button>
+<button class="button gDocuments" id="m25">
+25 Text <b>&nbsp; ➔ First Input</b></button>
 	<div class="content">
-		<div class="col2"><span class="magic" onclick="magictap(22)"><b>[22 First Item</b><b>]</b></span></div></div>
-<button class="button gLoop nonbottom" id="m24">
-24 If <span class="box"><span class="magic" onclick="magictap(23)"><b>[23 First Input</b><b>]</b></span></span> <span class="box">is</span> <span class="box">identify</span></button>
+		<div class="col2"><span class="magic" onclick="magictap(24)"><b>[24 First Item</b><b>]</b></span></div></div>
+<button class="button gLoop nonbottom" id="m26">
+26 If <span class="box"><span class="magic" onclick="magictap(25)"><b>[25 First Input</b><b>]</b></span></span> <span class="box">is</span> <span class="box">identify</span></button>
 	<div class="content contentloop">
-<button class="gScripting inside" id="m25">
-25 Stop and Output <span class="box"><span class="magic" onclick="magictap(19)"><b>[19 Identification</b><b>]</b></span></span></button></div>
-<button class="gLoop nontop" id="m26">
-26 End If</button>
-<button class="button gDocuments" id="m27">
-27 Comment</button>
+<button class="gScripting inside" id="m27">
+27 Stop and Output <span class="box"><span class="magic" onclick="magictap(21)"><b>[21 Identification</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m28">
+28 End If</button>
+<button class="button gDocuments" id="m29">
+29 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">Check the first item in the shortcut input stack for a target shortcut.  
 
 If the item is a dictionary, check for a value  at key “input” and assign it to the target shortcut’s “Shortcut Input” variable.  Then check for a value at key “name”.
 
 If no dictionary is found, but there is valid text, assume it may be the target shortcut’s name.</div></div>
-<button class="gScripting" id="m28">
-28 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(23)"><b>[23 First Input</b><b>]</b></span></span></button>
-<button class="button gLoop nonbottom" id="m29">
-29 If <span class="box"><span class="magic" onclick="magictap(28)"><b>[28 Dictionary</b><b>]</b></span></span> <span class="box">has any value</span></button>
+<button class="gScripting" id="m30">
+30 Get Dictionary from <span class="box"><span class="magic" onclick="magictap(25)"><b>[25 First Input</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m31">
+31 If <span class="box"><span class="magic" onclick="magictap(30)"><b>[30 Dictionary</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop">
-<button class="button gLoop nonbottom inside" id="m30">
-30 If <span class="box"><span class="magic" onclick="magictap(28)"><b>[28 Dictionary</b>.input<b>]</b></span></span> <span class="box">has any value</span></button>
+<button class="button gLoop nonbottom inside" id="m32">
+32 If <span class="box"><span class="magic" onclick="magictap(30)"><b>[30 Dictionary</b>.input<b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop dashed inside">
-<button class="gScripting inside" id="m31">
-31 Get Dictionary Value for <span class="box">input</span> in <span class="box"><span class="magic" onclick="magictap(28)"><b>[28 Dictionary</b><b>]</b></span></span></button>
-<button class="gVariable inside" id="m32">
-32 Set Variable <span class="box">Shortcut Input</span> to <span class="box"><span class="magic" onclick="magictap(31)"><b>[31 Dictionary Value</b><b>]</b></span></span></button></div>
-<button class="gLoop nontop inside" id="m33">
-33 End If</button>
-<button class="gScripting inside" id="m34">
-34 Get Dictionary Value for <span class="box">name</span> in <span class="box"><span class="magic" onclick="magictap(28)"><b>[28 Dictionary</b><b>]</b></span></span></button></div>
-<button class="button gLoop nonbottom nontop" id="m35">
-35 Otherwise</button>
+<button class="gScripting inside" id="m33">
+33 Get Dictionary Value for <span class="box">input</span> in <span class="box"><span class="magic" onclick="magictap(30)"><b>[30 Dictionary</b><b>]</b></span></span></button>
+<button class="gVariable inside" id="m34">
+34 Set Variable <span class="box">Shortcut Input</span> to <span class="box"><span class="magic" onclick="magictap(33)"><b>[33 Dictionary Value</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop inside" id="m35">
+35 End If</button>
+<button class="gScripting inside" id="m36">
+36 Get Dictionary Value for <span class="box">name</span> in <span class="box"><span class="magic" onclick="magictap(30)"><b>[30 Dictionary</b><b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop" id="m37">
+37 Otherwise</button>
 	<div class="content contentloop">
-<button class="button gDocuments inside" id="m36">
-36 Text</button>
+<button class="button gDocuments inside" id="m38">
+38 Text</button>
 	<div class="content inside">
-		<div class="col2">#<span class="magic" onclick="magictap(23)"><b>[23 First Input</b><b>]</b></span>#</div></div>
-<button class="button gLoop nonbottom inside" id="m37">
-37 If <span class="box"><span class="magic" onclick="magictap(36)"><b>[36 Text</b><b>]</b></span></span> <span class="box">is not</span> <span class="box">##</span></button>
+		<div class="col2">#<span class="magic" onclick="magictap(25)"><b>[25 First Input</b><b>]</b></span>#</div></div>
+<button class="button gLoop nonbottom inside" id="m39">
+39 If <span class="box"><span class="magic" onclick="magictap(38)"><b>[38 Text</b><b>]</b></span></span> <span class="box">is not</span> <span class="box">##</span></button>
 	<div class="content contentloop dashed inside">
-<button class="gVariable inside" id="m38">
-38 Get Variable <span class="box"><span class="magic" onclick="magictap(23)"><b>[23 First Input</b><b>]</b></span></span></button></div>
-<button class="button gLoop nonbottom nontop inside" id="m39">
-39 Otherwise</button>
+<button class="gVariable inside" id="m40">
+40 Get Variable <span class="box"><span class="magic" onclick="magictap(25)"><b>[25 First Input</b><b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop inside" id="m41">
+41 Otherwise</button>
 	<div class="content contentloop dashed inside">
-<button class="gScripting inside" id="m40">
-40 Nothing</button></div>
-<button class="gLoop nontop inside" id="m41">
-41 End If</button></div>
-<button class="gLoop nontop" id="m42">
-42 End If <span class="magic" onclick="magictap(29)">29</span> <b>&nbsp; ➔ Target</b></button>
-<button class="gVariable" id="m43">
-43 Set Variable <span class="box">Target</span> to <span class="box"><span class="magic" onclick="magictap(42)"><b>[42 Target</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m44">
-44 Comment</button>
+<button class="gScripting inside" id="m42">
+42 Nothing</button></div>
+<button class="gLoop nontop inside" id="m43">
+43 End If</button></div>
+<button class="gLoop nontop" id="m44">
+44 End If <span class="magic" onclick="magictap(31)">31</span> <b>&nbsp; ➔ Target</b></button>
+<button class="gVariable" id="m45">
+45 Set Variable <span class="box">Target</span> to <span class="box"><span class="magic" onclick="magictap(44)"><b>[44 Target</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m46">
+46 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">&lt;—— initialize Integrity 
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
 If the variable “Target” has a text value, search the device shortcuts library for a shortcut with that name.  
 If there is no target shortcut, but there IS input data to process, present a menu from the user-defined "share" shortcuts folder.  
 Otherwise, present a menu of all available shortcuts.  </div></div>
-<button class="" id="m45">
-45 Get My Shortcuts</button>
-<button class="button gUnknown" id="m46">
-46 is.workflow.actions.properties.workflow <b>&nbsp; ➔ Name</b></button>
+<button class="" id="m47">
+47 Get My Shortcuts</button>
+<button class="button gUnknown" id="m48">
+48 is.workflow.actions.properties.workflow <b>&nbsp; ➔ Name</b></button>
 	<div class="content">
 		<div class="row"><div class="col1">Input</div>
-			<div class="col2"><span class="magic" onclick="magictap(45)"><b>[45 My Shortcuts</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(47)"><b>[47 My Shortcuts</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">ContentItemPropertyName</div>
 			<div class="col2">Name</div></div></div>
-<button class="button gLoop nonbottom" id="m47">
-47 If <span class="box"><span class="magic" onclick="magictap(46)"><b>[46 Name</b><b>]</b></span></span> <span class="box">contains</span> <span class="box"><span class="var"><b>[Target</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m49">
+49 If <span class="box"><span class="magic" onclick="magictap(48)"><b>[48 Name</b><b>]</b></span></span> <span class="box">contains</span> <span class="box"><span class="var"><b>[Target</b><b>]</b></span></span></button>
 	<div class="content contentloop">
-<button class="button  inside" id="m48">
-48 Filter Files <span class="box"><span class="magic" onclick="magictap(45)"><b>[45 My Shortcuts</b><b>]</b></span></span></button>
+<button class="button  inside" id="m50">
+50 Filter Files <span class="box"><span class="magic" onclick="magictap(47)"><b>[47 My Shortcuts</b><b>]</b></span></span></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">ContentItemLimitEnabled</div>
 			<div class="col2">true</div></div>
@@ -452,157 +437,143 @@ Otherwise, present a menu of all available shortcuts.  </div></div>
 			<div class="col2">1</div></div>
 		<div class="row"><div class="col1">ContentItemFilter</div>
 			<div class="col2">Name is <span class="var"><b>[Target</b><b>]</b></span></div></div></div></div>
-<button class="button gLoop nonbottom nontop" id="m49">
-49 Otherwise</button>
+<button class="button gLoop nonbottom nontop" id="m51">
+51 Otherwise</button>
 	<div class="content contentloop">
-<button class="gVariable inside" id="m50">
-50 Set Variable <span class="box">Shortcut Input</span> to <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button>
-<button class="button gLoop nonbottom inside" id="m51">
-51 If <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span> <span class="box">has any value</span></button>
+<button class="gVariable inside" id="m52">
+52 Set Variable <span class="box">Shortcut Input</span> to <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button>
+<button class="button gLoop nonbottom inside" id="m53">
+53 If <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop dashed inside">
-<button class="button  inside" id="m52">
-52 Get My Shortcuts <b>&nbsp; ➔ Share Shortcuts</b></button>
+<button class="button  inside" id="m54">
+54 Get My Shortcuts <b>&nbsp; ➔ Share Shortcuts</b></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Folder</div>
 			<div class="col2"><span class="var"><b>[Share Folder</b><b>]</b></span></div></div></div>
-<button class="button gLoop nonbottom inside" id="m53">
-53 If <span class="box"><span class="magic" onclick="magictap(52)"><b>[52 Share Shortcuts</b><b>]</b></span></span> <span class="box">has any value</span></button>
+<button class="button gLoop nonbottom inside" id="m55">
+55 If <span class="box"><span class="magic" onclick="magictap(54)"><b>[54 Share Shortcuts</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop inside">
-<button class="gVariable inside" id="m54">
-54 Get Variable <span class="box"><span class="magic" onclick="magictap(52)"><b>[52 Share Shortcuts</b><b>]</b></span></span></button></div>
-<button class="button gLoop nonbottom nontop inside" id="m55">
-55 Otherwise</button>
+<button class="gVariable inside" id="m56">
+56 Get Variable <span class="box"><span class="magic" onclick="magictap(54)"><b>[54 Share Shortcuts</b><b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop inside" id="m57">
+57 Otherwise</button>
 	<div class="content contentloop inside">
-<button class="button  inside" id="m56">
-56 Get My Shortcuts</button>
+<button class="button  inside" id="m58">
+58 Get My Shortcuts</button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Folder</div>
 			<div class="col2"><span class="var"><b>[Ask</b><b>]</b></span></div></div></div></div>
-<button class="gLoop nontop inside" id="m57">
-57 End If</button></div>
-<button class="button gLoop nonbottom nontop inside" id="m58">
-58 Otherwise</button>
+<button class="gLoop nontop inside" id="m59">
+59 End If</button></div>
+<button class="button gLoop nonbottom nontop inside" id="m60">
+60 Otherwise</button>
 	<div class="content contentloop dashed inside">
-<button class="button  inside" id="m59">
-59 Get My Shortcuts</button>
+<button class="button  inside" id="m61">
+61 Get My Shortcuts</button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Folder</div>
 			<div class="col2"><span class="var"><b>[Ask</b><b>]</b></span></div></div></div></div>
-<button class="gLoop nontop inside" id="m60">
-60 End If <b>&nbsp; ➔ Shortcuts</b></button>
-<button class="button gScripting inside" id="m61">
-61 Choose from List <span class="box"><span class="magic" onclick="magictap(60)"><b>[60 If Result</b><b>]</b></span></span></button>
+<button class="gLoop nontop inside" id="m62">
+62 End If <b>&nbsp; ➔ Shortcuts</b></button>
+<button class="button gScripting inside" id="m63">
+63 Choose from List <span class="box"><span class="magic" onclick="magictap(62)"><b>[62 If Result</b><b>]</b></span></span></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">ChooseFromListActionPrompt</div>
-			<div class="col2"><span class="magic" onclick="magictap(20)"><b>[20 Display Billboard</b><b>]</b></span></div></div></div></div>
-<button class="gLoop nontop" id="m62">
-62 End If <span class="magic" onclick="magictap(47)">47</span> <b>&nbsp; ➔ Target</b></button>
-<button class="button gLoop nonbottom" id="m63">
-63 If <span class="box"><span class="magic" onclick="magictap(62)"><b>[62 Target</b><b>]</b></span></span> <span class="box">has any value</span></button>
+			<div class="col2"><span class="magic" onclick="magictap(22)"><b>[22 Display Billboard</b><b>]</b></span></div></div></div></div>
+<button class="gLoop nontop" id="m64">
+64 End If <span class="magic" onclick="magictap(49)">49</span> <b>&nbsp; ➔ Target</b></button>
+<button class="button gLoop nonbottom" id="m65">
+65 If <span class="box"><span class="magic" onclick="magictap(64)"><b>[64 Target</b><b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop">
-<button class="button gUnknown inside" id="m64">
-64 is.workflow.actions.properties.workflow <b>&nbsp; ➔ Icon</b></button>
+<button class="button gUnknown inside" id="m66">
+66 is.workflow.actions.properties.workflow <b>&nbsp; ➔ Icon</b></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Input</div>
-			<div class="col2"><span class="magic" onclick="magictap(62)"><b>[62 Target</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(64)"><b>[64 Target</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">ContentItemPropertyName</div>
 			<div class="col2">Icon</div></div></div>
-<button class="button gUnknown inside" id="m65">
-65 is.workflow.actions.properties.workflow <b>&nbsp; ➔ Target</b></button>
+<button class="button gUnknown inside" id="m67">
+67 is.workflow.actions.properties.workflow <b>&nbsp; ➔ Target</b></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Input</div>
-			<div class="col2"><span class="magic" onclick="magictap(62)"><b>[62 Target</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(64)"><b>[64 Target</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">ContentItemPropertyName</div>
 			<div class="col2">Name</div></div></div>
-<button class="gScripting inside" id="m66">
-66 Nothing</button>
-<button class="button gDocuments inside" id="m67">
-67 Text</button>
+<button class="gScripting inside" id="m68">
+68 Nothing</button>
+<button class="button gDocuments inside" id="m69">
+69 Text</button>
 	<div class="content inside">
 		<div class="col2"><span class="var"><b>[Shortcut Input</b><b>]</b></span></div></div>
-<button class="button gLoop nonbottom inside" id="m68">
-68 If <span class="box"><span class="magic" onclick="magictap(67)"><b>[67 Text</b><b>]</b></span></span> <span class="box">is</span> <span class="box">clipboard</span></button>
+<button class="button gLoop nonbottom inside" id="m70">
+70 If <span class="box"><span class="magic" onclick="magictap(69)"><b>[69 Text</b><b>]</b></span></span> <span class="box">is</span> <span class="box">clipboard</span></button>
 	<div class="content contentloop dashed inside">
-<button class="gVariable inside" id="m69">
-69 Set Variable <span class="box">Shortcut Input</span> to <span class="box"><span class="var"><b>[Clipboard</b> as <b>]</b></span></span></button></div>
-<button class="gLoop nontop inside" id="m70">
-70 End If</button>
-<button class="gScripting inside" id="m71">
-71 Nothing</button>
-<button class="button gDocuments inside" id="m72">
-72 Comment</button>
+<button class="gVariable inside" id="m71">
+71 Set Variable <span class="box">Shortcut Input</span> to <span class="box"><span class="var"><b>[Clipboard</b> as <b>]</b></span></span></button></div>
+<button class="gLoop nontop inside" id="m72">
+72 End If</button>
+<button class="gScripting inside" id="m73">
+73 Nothing</button>
+<button class="button gDocuments inside" id="m74">
+74 Comment</button>
 	<div class="content inside commentcontent">
 		<div class="col2">🟢                🟢              
  🟢🟢           🟢🟢
   🟢🟢🟢     🟢🟢🟢
  🟢🟢           🟢🟢
 🟢                🟢</div></div>
-<button class=" inside" id="m73">
-73 Date <span class="box">Current Date</span> <b>&nbsp; ➔ start</b></button>
-<button class="button  inside" id="m74">
-74 Run Shortcut <span class="box"><span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span></span></button>
+<button class=" inside" id="m75">
+75 Date <span class="box">Current Date</span> <b>&nbsp; ➔ start</b></button>
+<button class="button  inside" id="m76">
+76 Run Shortcut <span class="box"><span class="magic" onclick="magictap(67)"><b>[67 Name</b><b>]</b></span></span></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Input</div>
 			<div class="col2"><span class="var"><b>[Shortcut Input</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">Workflow</div>
-			<div class="col2"><span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span></div></div></div>
-<button class=" inside" id="m75">
-75 Date Current Date <b>&nbsp; ➔ end</b></button>
-<button class="button gDocuments inside" id="m76">
-76 Comment</button>
+			<div class="col2"><span class="magic" onclick="magictap(67)"><b>[67 Name</b><b>]</b></span></div></div></div>
+<button class=" inside" id="m77">
+77 Date Current Date <b>&nbsp; ➔ end</b></button>
+<button class="button gDocuments inside" id="m78">
+78 Comment</button>
 	<div class="content inside commentcontent">
 		<div class="col2">              🔴              🔴
        🔴🔴        🔴🔴
 🔴🔴🔴   🔴🔴🔴
        🔴🔴        🔴🔴
               🔴              🔴</div></div>
-<button class="gScripting inside" id="m77">
-77 Nothing</button>
-<button class="button gDocuments inside" id="m78">
-78 Comment</button>
+<button class="gScripting inside" id="m79">
+79 Nothing</button>
+<button class="button gDocuments inside" id="m80">
+80 Comment</button>
 	<div class="content inside commentcontent">
 		<div class="col2">&lt;—— Run desired Shortcut 
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
 Verify and save results ——></div></div>
-<button class=" inside" id="m79">
-79 Get Time Between <span class="box"><span class="magic" onclick="magictap(73)"><b>[73 start</b><b>]</b></span></span> and <span class="box"><span class="magic" onclick="magictap(75)"><b>[75 end</b><b>]</b></span></span> in <span class="box">Seconds</span> <b>&nbsp; ➔ Time</b></button>
-<button class="button  inside" id="m80">
-80 Format Date <span class="box"><span class="magic" onclick="magictap(73)"><b>[73 start</b><b>]</b></span></span> <b>&nbsp; ➔ Start</b></button>
-	<div class="content inside">
-		<div class="row"><div class="col1">DateFormatStyle</div>
-			<div class="col2">RFC 2822</div></div>
-		<div class="row"><div class="col1">ISO8601IncludeTime</div>
-			<div class="col2">true</div></div></div>
-<button class="button  inside" id="m81">
-81 Format Date <span class="box"><span class="magic" onclick="magictap(75)"><b>[75 end</b><b>]</b></span></span> <b>&nbsp; ➔ End</b></button>
-	<div class="content inside">
-		<div class="row"><div class="col1">DateFormatStyle</div>
-			<div class="col2">RFC 2822</div></div>
-		<div class="row"><div class="col1">ISO8601IncludeTime</div>
-			<div class="col2">true</div></div></div>
+<button class=" inside" id="m81">
+81 Get Time Between <span class="box"><span class="magic" onclick="magictap(75)"><b>[75 start</b><b>]</b></span></span> and <span class="box"><span class="magic" onclick="magictap(77)"><b>[77 end</b><b>]</b></span></span> in <span class="box">Seconds</span> <b>&nbsp; ➔ Time</b></button>
 <button class="button  inside" id="m82">
-82 Format Date <span class="box"><span class="var"><b>[CurrentDate</b><b>]</b></span></span> <b>&nbsp; ➔ Now</b></button>
+82 Format Date <span class="box"><span class="magic" onclick="magictap(75)"><b>[75 start</b><b>]</b></span></span> <b>&nbsp; ➔ Start</b></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">DateFormatStyle</div>
-			<div class="col2">Custom</div></div>
-		<div class="row"><div class="col1">DateFormat</div>
-			<div class="col2">y-M-d_HH-mm-ss</div></div></div>
+			<div class="col2">RFC 2822</div></div>
+		<div class="row"><div class="col1">ISO8601IncludeTime</div>
+			<div class="col2">true</div></div></div>
 <button class="button gLoop nonbottom inside" id="m83">
-83 If <span class="box"><span class="magic" onclick="magictap(74)"><b>[74 Shortcut Result</b> as <b>]</b></span></span> <span class="box">has any value</span></button>
+83 If <span class="box"><span class="magic" onclick="magictap(76)"><b>[76 Shortcut Result</b> as <b>]</b></span></span> <span class="box">has any value</span></button>
 	<div class="content contentloop dashed inside">
 <button class="button  inside" id="m84">
 84 Create Folder</button>
 	<div class="content inside">
 		<div class="row"><div class="col1">FilePath</div>
-			<div class="col2">/<span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span>/</div></div></div>
-<button class="button  inside" id="m85">
-85 Make .zip Archive from <span class="box"><span class="magic" onclick="magictap(74)"><b>[74 Shortcut Result</b> as <b>]</b></span></span></button>
+			<div class="col2">/<span class="magic" onclick="magictap(67)"><b>[67 Name</b><b>]</b></span>/</div></div></div>
+<button class="button gScripting inside" id="m85">
+85 Base64 Encode <span class="box"><span class="magic" onclick="magictap(76)"><b>[76 Shortcut Result</b> as <b>]</b></span></span></button>
 	<div class="content inside">
-		<div class="row"><div class="col1">ZIPName</div>
-			<div class="col2"><span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span>_<span class="magic" onclick="magictap(82)"><b>[82 Now</b><b>]</b></span></div></div></div>
+		<div class="row"><div class="col1">Base64LineBreakMode</div>
+			<div class="col2">None</div></div></div>
 <button class="button gScripting inside" id="m86">
-86 Set Name of <span class="box"><span class="magic" onclick="magictap(85)"><b>[85 Archive</b><b>]</b></span></span> to <span class="box"><span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span>_<span class="magic" onclick="magictap(82)"><b>[82 Now</b><b>]</b></span>.zip</span></button>
+86 Set Name of <span class="box"><span class="magic" onclick="magictap(85)"><b>[85 Base64 Encoded</b><b>]</b></span></span> to <span class="box"><span class="magic" onclick="magictap(67)"><b>[67 Name</b><b>]</b></span>_<span class="var"><b>[Today</b><b>]</b></span>.txt</span></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">DontIncludeFileExtension</div>
 			<div class="col2">true</div></div></div>
@@ -614,7 +585,7 @@ Verify and save results ——></div></div>
 		<div class="row"><div class="col1">SaveFileOverwrite</div>
 			<div class="col2">true</div></div>
 		<div class="row"><div class="col1">FileDestinationPath</div>
-			<div class="col2"><span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span>/<span class="magic" onclick="magictap(86)"><b>[86 Renamed Item</b>’s Name<b>]</b></span></div></div></div></div>
+			<div class="col2">/<span class="magic" onclick="magictap(67)"><b>[67 Name</b><b>]</b></span>/<span class="magic" onclick="magictap(86)"><b>[86 Renamed Item</b>’s Name<b>]</b></span></div></div></div></div>
 <button class="gLoop nontop inside" id="m88">
 88 End If <b>&nbsp; ➔ Shortcut Result</b></button>
 <button class="gScripting inside" id="m89">
@@ -624,12 +595,10 @@ Verify and save results ——></div></div>
 	<div class="content inside">
 		<div class="col2">{
    "date": "<span class="magic" onclick="magictap(8)"><b>[8 Date</b>{\"Date Style\":\"RFC 2822\",\"WFISO8601IncludeTime\":false}<b>]</b></span>",
-   "name": "<span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span>",
-   "start": "<span class="magic" onclick="magictap(80)"><b>[80 Start</b><b>]</b></span>",
-   "end": "<span class="magic" onclick="magictap(81)"><b>[81 End</b><b>]</b></span>",
-   "time": "<span class="magic" onclick="magictap(79)"><b>[79 Time Between Dates</b><b>]</b></span>",
-   "cuuid": "<span class="magic" onclick="magictap(89)"><b>[89 CUUID</b><b>]</b></span>",
-   "data": "null"
+   "name": "<span class="magic" onclick="magictap(67)"><b>[67 Name</b><b>]</b></span>",
+   "start": "<span class="magic" onclick="magictap(82)"><b>[82 Start</b><b>]</b></span>",
+   "time": "<span class="magic" onclick="magictap(81)"><b>[81 Time Between Dates</b><b>]</b></span>",
+   "cuuid": "<span class="magic" onclick="magictap(89)"><b>[89 CUUID</b><b>]</b></span>"
 }</div></div>
 <button class="button gScripting inside" id="m91">
 91 Dictionary <b>&nbsp; ➔ Payload</b></button>
@@ -641,7 +610,7 @@ Verify and save results ——></div></div>
 <button class="gScripting inside" id="m92">
 92 Set Dictionary Value for <span class="box">tracker</span> to <span class="box"><span class="magic" onclick="magictap(90)"><b>[90 Dictionary</b><b>]</b></span></span> in <span class="box"><span class="magic" onclick="magictap(91)"><b>[91 Payload</b><b>]</b></span></span> <b>&nbsp; ➔ Payload</b></button>
 <button class="button gScripting inside" id="m93">
-93 Set Name of <span class="box"><span class="magic" onclick="magictap(92)"><b>[92 Payload</b> as GenericFile<b>]</b></span></span> to <span class="box"><span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span>_<span class="magic" onclick="magictap(82)"><b>[82 Now</b><b>]</b></span>.json</span> <b>&nbsp; ➔ Payload</b></button>
+93 Set Name of <span class="box"><span class="magic" onclick="magictap(92)"><b>[92 Payload</b> as GenericFile<b>]</b></span></span> to <span class="box"><span class="magic" onclick="magictap(67)"><b>[67 Name</b><b>]</b></span><span class="var"><b>[Today</b><b>]</b></span>_.json</span> <b>&nbsp; ➔ Payload</b></button>
 	<div class="content inside">
 		<div class="row"><div class="col1">DontIncludeFileExtension</div>
 			<div class="col2">true</div></div></div>
@@ -651,7 +620,7 @@ Verify and save results ——></div></div>
 		<div class="row"><div class="col1">AskWhereToSave</div>
 			<div class="col2">false</div></div>
 		<div class="row"><div class="col1">FileDestinationPath</div>
-			<div class="col2"><span class="magic" onclick="magictap(16)"><b>[16 INTEGRITY</b><b>]</b></span>/<span class="magic" onclick="magictap(93)"><b>[93 Payload</b> as GenericFile’s Name<b>]</b></span></div></div>
+			<div class="col2">/<span class="magic" onclick="magictap(18)"><b>[18 INTEGRITY</b><b>]</b></span>/<span class="magic" onclick="magictap(93)"><b>[93 Payload</b> as GenericFile’s Name<b>]</b></span></div></div>
 		<div class="row"><div class="col1">SaveFileOverwrite</div>
 			<div class="col2">true</div></div></div>
 <button class="button gDocuments inside" id="m95">
@@ -748,7 +717,7 @@ Place HTTP POST API call——>
 	<div class="content inside">
 		<div class="row"><div class="col1">JSONValues</div>
 			<div class="col2">{
-   "title": "“<span class="magic" onclick="magictap(65)"><b>[65 Name</b><b>]</b></span>” ran in <span class="magic" onclick="magictap(79)"><b>[79 Time</b><b>]</b></span>  sec.",
+   "title": "“<span class="magic" onclick="magictap(67)"><b>[67 Name</b><b>]</b></span>” ran in <span class="magic" onclick="magictap(81)"><b>[81 Time</b><b>]</b></span>  sec.",
    "text": "Confirm to update records.",
    "input": "<span class="var"><b>[Payload</b><b>]</b></span>",
    "defaultAction": {
@@ -778,98 +747,104 @@ Place HTTP POST API call——>
 		<div class="row"><div class="col1">HTTPBodyType</div>
 			<div class="col2">JSON</div></div></div>
 <button class="button gLoop nonbottom inside" id="m118">
-118 If <span class="box"><span class="magic" onclick="magictap(117)"><b>[117 API Response</b> as Dictionary<b>]</b></span></span> <span class="box">has any value</span></button>
+118 If <span class="box"><span class="magic" onclick="magictap(117)"><b>[117 API Response</b> as Dictionary’s Keys<b>]</b></span></span> <span class="box">does not contain</span> <span class="box">error</span></button>
 	<div class="content contentloop dashed inside">
-<button class="button gLoop nonbottom inside" id="m119">
-119 If <span class="box"><span class="magic" onclick="magictap(117)"><b>[117 API Response</b> as Dictionary’s Keys<b>]</b></span></span> <span class="box">does not contain</span> <span class="box">error</span></button>
-	<div class="content contentloop inside">
-<button class="button  inside" id="m120">
-120 Show Notification</button>
+<button class="button  inside" id="m119">
+119 Show Notification</button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Input</div>
-			<div class="col2"><span class="magic" onclick="magictap(64)"><b>[64 Icon</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(66)"><b>[66 Icon</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">NotificationActionBody</div>
 			<div class="col2"><span class="magic" onclick="magictap(117)"><b>[117 API Response</b> as Dictionary’s Values<b>]</b></span></div></div>
 		<div class="row"><div class="col1">NotificationActionTitle</div>
 			<div class="col2"><span class="magic" onclick="magictap(117)"><b>[117 API Response</b> as Dictionary’s Keys<b>]</b></span></div></div>
 		<div class="row"><div class="col1">NotificationActionSound</div>
 			<div class="col2">false</div></div></div></div>
-<button class="button gLoop nonbottom nontop inside" id="m121">
-121 Otherwise</button>
-	<div class="content contentloop inside">
-<button class="button gLoop nonbottom inside" id="m122">
-122 If <span class="box"><span class="magic" onclick="magictap(100)"><b>[100 Debug</b> as Boolean<b>]</b></span></span> is true</button>
+<button class="button gLoop nonbottom nontop inside" id="m120">
+120 Otherwise</button>
 	<div class="content contentloop dashed inside">
-<button class="button  inside" id="m123">
-123 Show Notification</button>
+<button class="button gLoop nonbottom inside" id="m121">
+121 If <span class="box"><span class="magic" onclick="magictap(100)"><b>[100 Debug</b> as Boolean<b>]</b></span></span> is true</button>
+	<div class="content contentloop inside">
+<button class="button  inside" id="m122">
+122 Show Notification</button>
 	<div class="content inside">
 		<div class="row"><div class="col1">Input</div>
-			<div class="col2"><span class="magic" onclick="magictap(64)"><b>[64 Icon</b><b>]</b></span></div></div>
+			<div class="col2"><span class="magic" onclick="magictap(66)"><b>[66 Icon</b><b>]</b></span></div></div>
 		<div class="row"><div class="col1">NotificationActionBody</div>
 			<div class="col2"><span class="magic" onclick="magictap(117)"><b>[117 API Response</b> as Dictionary’s Values<b>]</b></span></div></div>
-		<div class="row"><div class="col1">NotificationActionTitle</div>
-			<div class="col2"><span class="magic" onclick="magictap(117)"><b>[117 API Response</b> as Dictionary’s Keys<b>]</b></span></div></div>
 		<div class="row"><div class="col1">NotificationActionSound</div>
-			<div class="col2">true</div></div></div></div>
+			<div class="col2">true</div></div>
+		<div class="row"><div class="col1">NotificationActionTitle</div>
+			<div class="col2"><span class="magic" onclick="magictap(117)"><b>[117 API Response</b> as Dictionary’s Keys<b>]</b></span></div></div></div></div>
+<button class="gLoop nontop inside" id="m123">
+123 End If</button></div>
 <button class="gLoop nontop inside" id="m124">
-124 End If</button></div>
-<button class="gLoop nontop inside" id="m125">
-125 End If</button></div>
-<button class="gLoop nontop inside" id="m126">
-126 End If</button>
-<button class="button gDocuments inside" id="m127">
-127 Comment</button>
+124 End If</button>
+<button class="button gDocuments inside" id="m125">
+125 Comment</button>
 	<div class="content inside commentcontent">
 		<div class="col2">&lt;—— handle server response
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
 
 Pass results of target shortcut’s output on to the user.  If no result, exit with INTEGRITY input.</div></div>
-<button class="gVariable inside" id="m128">
-128 Get Variable <span class="box"><span class="magic" onclick="magictap(74)"><b>[74 Shortcut Result</b> as <b>]</b></span></span></button></div>
-<button class="button gLoop nonbottom nontop" id="m129">
-129 Otherwise <span class="magic" onclick="magictap(63)">63</span></button>
+<button class="gVariable inside" id="m126">
+126 Get Variable <span class="box"><span class="magic" onclick="magictap(76)"><b>[76 Shortcut Result</b> as <b>]</b></span></span></button></div>
+<button class="button gLoop nonbottom nontop" id="m127">
+127 Otherwise <span class="magic" onclick="magictap(65)">65</span></button>
 	<div class="content contentloop">
-<button class="gVariable inside" id="m130">
-130 Get Variable <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button></div>
-<button class="gLoop nontop" id="m131">
-131 End If <span class="magic" onclick="magictap(63)">63</span> <b>&nbsp; ➔ Result</b></button>
-<button class="button gDocuments" id="m132">
-132 Comment</button>
+<button class="gVariable inside" id="m128">
+128 Get Variable <span class="box"><span class="var"><b>[Shortcut Input</b><b>]</b></span></span></button></div>
+<button class="gLoop nontop" id="m129">
+129 End If <span class="magic" onclick="magictap(65)">65</span> <b>&nbsp; ➔ Result</b></button>
+<button class="button gDocuments" id="m130">
+130 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">
 
 ▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️▪️▫️
 Check for update and exit——></div></div>
-<button class="" id="m133">
-133 Random Number between <span class="box">1</span> and <span class="box">10</span></button>
-<button class="button gLoop nonbottom" id="m134">
-134 If <span class="box"><span class="magic" onclick="magictap(133)"><b>[133 Random Number</b><b>]</b></span></span> <span class="box">&gt;</span> <span class="box">9</span></button>
+<button class="button " id="m131">
+131 URL <span class="box">https://ShortcutsPro.github.io/library?id=<span class="magic" onclick="magictap(21)"><b>[21 Identification</b>.auuid<b>]</b></span>&amp;v=<span class="magic" onclick="magictap(21)"><b>[21 Identification</b>.version<b>]</b></span></span></button>
+	<div class="content">
+		<div class="row"><div class="col1">Show-WFURLActionURL</div>
+			<div class="col2">true</div></div></div>
+<button class="gDocuments" id="m132">
+132 Get Text from <span class="box"><span class="magic" onclick="magictap(131)"><b>[131 URL</b> as RichText<b>]</b></span></span></button>
+<button class="button gLoop nonbottom" id="m133">
+133 If <span class="box"><span class="magic" onclick="magictap(132)"><b>[132 Text</b><b>]</b></span></span> <span class="box">contains</span> <span class="box">Update</span></button>
 	<div class="content contentloop">
-<button class="button  inside" id="m135">
-135 Run Shortcut <span class="box">Bustl. Updater</span> <b>&nbsp; ➔ New Version</b></button>
+<button class="button gUnknown inside" id="m134">
+134 com.alexhay.ToolboxProForShortcuts.ShowNotificationIntent</button>
 	<div class="content inside">
-		<div class="row"><div class="col1">Input</div>
-			<div class="col2"><span class="magic" onclick="magictap(19)"><b>[19 Identification</b><b>]</b></span></div></div>
-		<div class="row"><div class="col1">Workflow</div>
-			<div class="col2">{"workflowIdentifier":"d451b4d5-4d21-496a-b0db-191c2a643d39","isSelf":false,"workflowName":"Bustl. Updater"}</div></div></div>
-<button class="button gLoop nonbottom inside" id="m136">
-136 If <span class="box"><span class="magic" onclick="magictap(135)"><b>[135 New Version</b> as URL<b>]</b></span></span> <span class="box">has any value</span></button>
-	<div class="content contentloop dashed inside">
-<button class="button  inside" id="m137">
-137 Open URL <span class="box"><span class="magic" onclick="magictap(135)"><b>[135 New Version</b><b>]</b></span></span></button>
-	<div class="content inside">
-		<div class="row"><div class="col1">Show-WFInput</div>
-			<div class="col2">true</div></div></div></div>
-<button class="gLoop nontop inside" id="m138">
-138 End If</button></div>
-<button class="gLoop nontop" id="m139">
-139 End If</button>
-<button class="gVariable" id="m140">
-140 Get Variable <span class="box"><span class="magic" onclick="magictap(131)"><b>[131 Result</b><b>]</b></span></span></button>
-<button class="gScripting" id="m141">
-141 Stop and Output <span class="box"><span class="magic" onclick="magictap(131)"><b>[131 Result</b><b>]</b></span></span></button>
-<button class="button gDocuments" id="m142">
-142 Comment</button>
+		<div class="row"><div class="col1">body</div>
+			<div class="col2"><span class="magic" onclick="magictap(132)"><b>[132 Text</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">actionSet</div>
+			<div class="col2">ok</div></div>
+		<div class="row"><div class="col1">copyFieldsToClipboard</div>
+			<div class="col2">false</div></div>
+		<div class="row"><div class="col1">soundFile</div>
+			<div class="col2">chirp</div></div>
+		<div class="row"><div class="col1">onTap</div>
+			<div class="col2"><span class="var"><b>[URL</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">subtitle</div>
+			<div class="col2">⚠️   Attention!   ⚠️</div></div>
+		<div class="row"><div class="col1">threadID</div>
+			<div class="col2">integrity</div></div>
+		<div class="row"><div class="col1">title</div>
+			<div class="col2">INTEGRITY</div></div>
+		<div class="row"><div class="col1">soundType</div>
+			<div class="col2">custom</div></div>
+		<div class="row"><div class="col1">ok</div>
+			<div class="col2"><span class="var"><b>[URL</b><b>]</b></span></div></div>
+		<div class="row"><div class="col1">notificationID</div>
+			<div class="col2">update</div></div></div></div>
+<button class="gLoop nontop" id="m135">
+135 End If</button>
+<button class="gVariable" id="m136">
+136 Get Variable <span class="box"><span class="magic" onclick="magictap(129)"><b>[129 Result</b><b>]</b></span></span></button>
+<button class="button gDocuments" id="m137">
+137 Comment</button>
 	<div class="content commentcontent">
 		<div class="col2">𝐈𝐍𝐓𝐄𝐆𝐑𝐈𝐓𝐘
                                         By  @̳̬̙͊ͪ͑̂ș̓͗c̰̗̺̹̎̃͑ͨ̉o̝̙̾̿́t̠ͮͧ͆t̨̠͈͒͂͌̽̈́̚͜͟d͛͆ͣw͖͙ͬŗ͎̩ͤ̒̒̓̿̚
