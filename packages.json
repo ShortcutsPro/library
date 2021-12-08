@@ -175,7 +175,6 @@
     "id" : "com.shortcutspro.library.shortcut-publisher",
     "arch" : "iOS15",
     "date_modified" : "Wed, 31 Dec 1969 18:00:00 -0600",
-    "quiet" : true,
     "signed_download" : "https:\/\/cvws.icloud-content.com\/B\/ATsNuABqU6CYt_BPLL6eWn2J3GZ_\/${f}?o=Aq0RItH0qyg5NQgxxoZPkBU1T5ELdRSSajCWnPLiE7JLzJgZ_lVa4SrEUyoyCXnm9Q&v=1&x=3&a=CAogZ9craF1QP1kH82VDAijhaFXBvLBS2xKwBoBMIwsXq_USexCh6OSyxi8YocXAtMYvIgEAUgSJ3GZ_ajBXiPak8q1utyNk1B1lE-vQY1wa1p4Bu0NYKsFn8RTTHJ2HmtqOVgbqPb2Ayd32MTNyMG-jQmAZCy7H7AIIqbE5I3fVlEZrySyVl91L-cDbVen_dHlgwKtvzD6aWTJUy-QcnQ&e=1633808294&fl=&r=dc6b6849-e4aa-4a9e-82c3-0d9c41187b56-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=OswEar_-L1GpSZcJsnf9om8VYoo",
     "notes" : "Integrated Bustl. Updater",
     "icon_glyph" : 61456,
