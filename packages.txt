@@ -107,7 +107,7 @@
     "user_record" : "_1ffe4fd02b3430bb2ccc3419712bf320",
     "date_created" : "Sat, 11 Sep 2021 04:15:12 -0500",
     "device_id" : "2A9671DACAFEDA90755DA4D530EDFA57F1E744D4939CBA130A0100BB60E8A9FE",
-    "input" : "",
+    "input" : "clipboard",
     "category" : [
       "Business",
       "Graphics & Design"
