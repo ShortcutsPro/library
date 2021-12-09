@@ -3,7 +3,7 @@
 //                Install Script⠀|⠀𝘽𝙪𝙨𝙩𝙡.•io
 //              Returns Bustl.Cutz app if id is missing,
 //
-const error = "https://cutz,bustl.io"
+const error = "https://cutz.bustl.io"
 
 async function handleRequest(request) {
 
