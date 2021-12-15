@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.mealtimers",
+	"auuid": "DF76E6F6-57E9-4F93-A14B-779CC901999E",
+	"name": "MealTimers",
+	"description": "MealTimers During the holidays you may be prepping multiple items at the same time.  The clock app only runs 1 timer at a time. This shortcuts allows you to setup multiple timers & title them by the item you're prepping - so when it goes off, it will appear the name of item that is done. ---",
+	"release": "Wed, 15 Dec 2021 14:29:10 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Food & Drink",
+		"Utilities"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/mealtimers.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/mealtimers/mealtimers.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/mealtimers.png",
+	"start_color": 4282601983,
+	"color": "#F26369",
+	"icon_glyph": 59757,
+	"shortcuts_version": "1145.7.2.1",
+	"link": "https://www.icloud.com/shortcuts/225c056218054975a2cf76a817990419",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Wed, 15 Dec 2021 14:20:45 -0800",
+	"device_id": "7E507DC8309437A99222FEFCE6CF03B1E7FAF10DA6319A4A77537B8C30B48984",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AeWgxR0KrxHnehnOe_cZsHshIB0d/${f}?o=AsFfKM_UG2DNtnGHoiwz0TxeJQUeTardF6V-Kjn97jXIESHPcHg92tmgn6H8z1ZK3A&v=1&x=3&a=CAogRQDGGiKkE8vuhEQGQjxfyjoz9ZBhbZTdxS8ahg_aQaESexC60NeB3C8Yuq2zg9wvIgEAUgQhIB0dajDiUNvbP6cTCT134vixnUPMGqXjnQo_l69qGlxpyCjVdMkjDCvP0vcaXtQKbBXf32VyME3kK_CHsc5z_mkI9Lz7GQ8bREvP3UZPKBWSMqw6_MQOlbtOcYEDG2FKAmlZPjeeFA&e=1639610898&fl=&r=18e35a59-010d-4770-b457-d1d5c90c49ee-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=5LboEVSSvp1WjneCV1h3AkBBG8A",
+	"certificate_expiration": "Sat, 14 Jan 2023 14:11:13 -0800",
+	"minimum_version": 900,
+	"file_size": "18 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
