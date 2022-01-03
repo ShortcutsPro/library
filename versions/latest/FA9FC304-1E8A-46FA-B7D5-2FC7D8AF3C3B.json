@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.send-team-a-message",
+	"auuid": "FA9FC304-1E8A-46FA-B7D5-2FC7D8AF3C3B",
+	"name": "Send Team A Message",
+	"description": "Send Team A Message Smart group messaging. Spare your team the pains of group text.  Perfect for notices, alerts, & non-dialogue communication. ---",
+	"release": "Mon, 03 Jan 2022 11:33:41 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Business",
+		"Social Networking"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/send-team-a-message.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/send-team-a-message/send-team-a-message.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/send-team-a-message.png",
+	"start_color": 4292093695,
+	"color": "#44C85E",
+	"icon_glyph": 59403,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/3ca3ac8e202e45c8865873529e8f2f18",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Mon, 03 Jan 2022 11:32:10 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AaaLcFUNCozmRZxRNVKBD-4yK4Lu/${f}?o=AjBOVWG61E4IRxB9kChRg6GJwv6b9MfcTCuJ195KKgMM8rHkKUGfJjR5n5sVy2Y5ww&v=1&x=3&a=CAogXDnSCgyFOhdcp7ph-aLsQrsNin_LqXhyMCtWDK_sjrISexDnrbiL4i8Y54qUjeIvIgEAUgQyK4LuajArRzU0q9x-lqFyEAjgDP5s6FuQwFRGShboFqxVcA6pX3ZB4vFVdMbC6H8mHZKfrflyMEnurmxXq19rzp_U0Kwm_1o5jtkg4AtosTW7It-_Gmb-eW-bFhHqZVLkAfZXEZMsrQ&e=1641241970&fl=&r=45c2e15e-eb4a-41bf-9f64-0173f9be38d8-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=9qHgMN43XoEY37mKSoXptJ-CaFA",
+	"certificate_expiration": "Thu, 02 Feb 2023 11:22:47 -0800",
+	"minimum_version": 900,
+	"file_size": "3 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
