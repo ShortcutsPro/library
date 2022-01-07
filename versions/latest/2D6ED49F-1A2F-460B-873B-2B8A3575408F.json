@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.reflect",
+	"auuid": "2D6ED49F-1A2F-460B-873B-2B8A3575408F",
+	"name": "Reflect",
+	"description": "Reflect This shortcut asks you five questions to review your working day and set goals for the next day. It stores answers in Notes to review how you have been doing across a period of time. The last two questions set reminders for the next day. ---",
+	"release": "Fri, 07 Jan 2022 09:52:44 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Health & Fitness",
+		"Lifestyle"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/reflect.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/reflect/reflect.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/reflect.png",
+	"start_color": 4292093695,
+	"color": "#44C85E",
+	"icon_glyph": 61532,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/54a08e8977d2404eaf80c80f7f5c4814",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Fri, 07 Jan 2022 09:51:31 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AUGdgsOrMrbGdFgB0tl9TTLKiNik/${f}?o=Aixk696GQZm2pln_quorSh3KfGvcfG77oAzEp_UvsSx73lFWPTE0fSjytyvMGwe9og&v=1&x=3&a=CAogcnosKvRFwcyZgviPmmhn3UAP74yYuBnKZBeA2a15-A8SexCP3Kyt4y8Yj7mIr-MvIgEAUgTKiNikajA8S-1OhE93QZAH9JGnXNdqQLlLvqABWYX4eS-FfW88vXMo6w0z2i3RpulDjP8XvIVyMF9R-AAP6InBab63caV-BliUZS9qL_Kp22QotfwjmdWJvMxB5RRHg4n2FSMuHKjLPw&e=1641581517&fl=&r=2b6cce91-c98d-44d8-9014-192c3f69d0b6-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=OYMpfyXMctnPxejLyiu0SNFQIzc",
+	"certificate_expiration": "Mon, 06 Feb 2023 09:41:55 -0800",
+	"minimum_version": 900,
+	"file_size": "6 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
