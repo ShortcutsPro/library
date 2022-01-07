@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.definition",
+	"auuid": "4B441188-73FA-4259-9743-C8C1006D6038",
+	"name": "Definition",
+	"description": "Definition Presents the definition found in your set dictionaries.  To update dictionaries, go to settings:general:dictionary:select all applicable dictionaries. ---",
+	"release": "Thu, 06 Jan 2022 16:41:26 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Education",
+		"Reference"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/definition.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/definition/definition.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/definition.png",
+	"start_color": 463140863,
+	"color": "#12B4F6",
+	"icon_glyph": 59465,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/8c8b520cc738429096289f1a8628dfcc",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 06 Jan 2022 16:40:31 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AcQ97syyGrJ44ZOxBlvSAs0KIRw3/${f}?o=AnwezWP8oUPuQm3O_o-30cu7UmaD2ap2urq5yC895i4nQk3faXaWVtKjNu9eKUyHTg&v=1&x=3&a=CAogoGyejav2W3WPScz__tmVFIRi4oB8yC5fISUrK5Z8J-0SexDPquyP4y8Yz4fIkeMvIgEAUgQKIRw3ajBpwOx6CqklgBjc4j682Evxw6XAIk2hJV8fdlul1dXwiXEJSF_BTIPEbYj6zv9Ke3tyMH3nR3zZbL-xmIfZpAgR7FyAwS6pdhqHSUFNWWYgaIB_VoEADZWoLO6NkYLG79F0XA&e=1641519645&fl=&r=65db209b-d0fe-4892-922e-a24f1e46ded7-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=TTW9fTbkDrjA5kCHXtl3iqPBiu0",
+	"certificate_expiration": "Sun, 05 Feb 2023 16:30:42 -0800",
+	"minimum_version": 900,
+	"file_size": "2 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
