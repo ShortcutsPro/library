@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.find-that-emoji",
+	"auuid": "120C6ABE-E6C6-468D-8AF3-25A4953F2376",
+	"name": "Find that emoji",
+	"description": "Find that emoji Find/Define emojis by word description or emoji image, promoting clear communication. ---",
+	"release": "Thu, 06 Jan 2022 16:19:16 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Entertainment",
+		"Social Networking"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/find-that-emoji.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/find-that-emoji/find-that-emoji.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/find-that-emoji.png",
+	"start_color": 946986751,
+	"color": "#4A69C6",
+	"icon_glyph": 59659,
+	"shortcuts_version": "1125.1",
+	"link": "https://www.icloud.com/shortcuts/197379a0374446d7b5009dae7e0720b9",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 06 Jan 2022 15:58:33 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS15",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AbOEO4ZBkW9RsOPhWDbgP_1f_8bN/${f}?o=AtF_wkLVP7h5r_LY1DzN4-vPNKa8x-8U5v2YBv4RDrmh3l4DIEr2R9EdJoqzh15IZQ&v=1&x=3&a=CAogLAPOxMpt9Xlu1c_qu5r73Of86d486jxHtuyHEjM0GQASexC_0NmO4y8Yv621kOMvIgEAUgRf_8bNajA3oYSKOQvA5ZE7yxDF_03QVJUaR3SC7WOcyYXKFVRr4ZltVvhwYC-Jt8Xbebf7_KByMBHC_0P4I44Ai7gBhFNOBoTIjTTjUYh0xSLpRWNpnRuwDCvnFh8QAxI1T5HGehFCMA&e=1641517242&fl=&r=f11ecdd5-8073-4a12-bb22-74353a960e80-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=fHi1rr4IapEm1GHiHLLBgDCZ1VQ",
+	"certificate_expiration": "Sun, 05 Feb 2023 15:48:49 -0800",
+	"minimum_version": 1106,
+	"file_size": "15 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
