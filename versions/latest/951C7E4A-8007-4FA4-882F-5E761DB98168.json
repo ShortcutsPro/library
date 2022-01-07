@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.pngurl",
+	"auuid": "951C7E4A-8007-4FA4-882F-5E761DB98168",
+	"name": "PNGurl",
+	"description": "PNGurl Instantly generate a url link to selected images to easily share in text or email.  URL is copied to clipboard if needed to reshare. ---",
+	"release": "Thu, 06 Jan 2022 19:48:42 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Photo & Video",
+		"Productivity"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/pngurl.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/pngurl/pngurl.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/pngurl.png",
+	"start_color": 2071128575,
+	"color": "#8757C2",
+	"icon_glyph": 61460,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/95bdedddfc9745e1870ee581bf50a5f7",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 06 Jan 2022 19:43:36 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AfLLL0I3Z3yN6KcnEgMYHZu8SmOq/${f}?o=Anfg5COzUG1MJMuog54rTu1qQgz8nuLPNXS0ggb0ay66ySIhfQPr7UPfJ5podBBlpg&v=1&x=3&a=CAog7T2yT1xHwJvzdg5YSa2lugW397qoGE9Ns2V4YBH5C2kSexC58oqV4y8Yuc_mluMvIgEAUgS8SmOqajCzfSjBuL_FcHBbFL2kJ0T4jdDd_hJCte3KQ3m1O7As5NgK6KefFlXhhLmHChXRHwJyMCZkOf5tC-s0N2MpdqRGWAiXq1oJaPzTQ1YkBs-owyH-kxDQYcANF7Kf2Ydi8U18Ug&e=1641530632&fl=&r=f2666901-36be-4d80-9d9b-cc661e6a0c1a-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=VML6jt2ncri0EyPL9v33GEHTbtg",
+	"certificate_expiration": "Sun, 05 Feb 2023 19:33:49 -0800",
+	"minimum_version": 900,
+	"file_size": "2 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
