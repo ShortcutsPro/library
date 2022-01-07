@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.google-bomb",
+	"auuid": "F14CD959-9C0C-4F3D-BA3F-5F587A666671",
+	"name": "Google Bomb",
+	"description": "Google Bomb Search everything at once from a list.  Each new line in your list equates to a separate google search to trigger simultaneoulsy, will open a new tab for each search instantly. When your boss drops a research bomb on your desk - say no problem, use google bomb. ---",
+	"release": "Thu, 06 Jan 2022 19:33:15 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Business",
+		"Productivity"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/google-bomb.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/google-bomb/google-bomb.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/google-bomb.png",
+	"start_color": 2071128575,
+	"color": "#8757C2",
+	"icon_glyph": 59657,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/f4c1e3404333450eb4bcd328359a55a7",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 06 Jan 2022 19:32:04 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/ATZVXFKh7dTbuQzjxEi_bLNu4Net/${f}?o=ApHC-37VTVwMXldJaoo_VHT3oR2w4fPnPW5T1jbLCsijKE1PRXW_5seOeR8tUguAOw&v=1&x=3&a=CAogty3z9q3K_40OzQhXOTLXKF9V-0ajSD-NgLEL29NYUD0SexD_3-CU4y8Y_7y8luMvIgEAUgRu4NetajALwIeAHqv450hwWczOyLwCvuWIyV4y1V4SdLqaOyAaFwFbgMPoSGCGEwo5TI0pnPNyMC8Z-Blnpa8Jix1j6ERZSU1_rNvtOwDWuP6j4BOdTWgq24guRmB_DBA3iWwOcpgjJQ&e=1641529941&fl=&r=0fcccce7-3c58-4137-946d-93d9bc8a781a-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=ZsH5JXFF2Souk0mP6xKJ_tvA66g",
+	"certificate_expiration": "Sun, 05 Feb 2023 19:22:18 -0800",
+	"minimum_version": 900,
+	"file_size": "3 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
