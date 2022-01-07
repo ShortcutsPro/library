@@ -3,7 +3,7 @@
 	"auuid": "BA912FE4-3D6C-4AF2-9C0E-252A4F50DC07",
 	"name": "Translate",
 	"description": "Translate Translate any text to English.  Auto detects input language translated to english by default.  ---",
-	"release": "Thu, 06 Jan 2022 19:17:05 -0800",
+	"release": "Thu, 06 Jan 2022 19:22:09 -0800",
 	"version": "1",
 	"notes": "",
 	"category": [
@@ -23,20 +23,20 @@
 	"color": "#4A69C6",
 	"icon_glyph": 59729,
 	"shortcuts_version": "1145.8",
-	"link": "https://www.icloud.com/shortcuts/2bb674d10ad946e3a52ec5b87b77ff62",
+	"link": "https://www.icloud.com/shortcuts/e1eb227d8b764478b963321b8c0df659",
 	"depends": [
 		    "com.shortcutspro.library.integrity"
 	],
 	"integrity": true,
 	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
-	"date_created": "Thu, 06 Jan 2022 19:15:38 -0800",
+	"date_created": "Thu, 06 Jan 2022 19:21:03 -0800",
 	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
 	"input": "",
 	"arch": "iOS14",
 	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
 	"quiet": false,
-	"signed_download": "https://cvws.icloud-content.com/B/Aceik1uMEB2A476XcYiZ7eSJI1Sy/${f}?o=AgNv6aXO7AtBTsPs3cyXLuJ1Z_z04lBnz8Woahrh05a_oMXRjDCyE7sstWY-6fQcsQ&v=1&x=3&a=CAog2sb5OhpfGmEB6buAUOmjcQqN_gL4-Iq3Pf3c_FLndn4SexDi16WU4y8Y4rSBluMvIgEAUgSJI1SyajD8ZnvKkHLFVWazvm3odVXyMiogapIbR9vusV59Pimz2f2zPMGh2Wi3bEZRiywktHdyMA2-3pjaj_F2bICeORszYT1YV2_of6wa-Tvi8n_gVmaxaqvcrRO3lUKzY1W-uUm_jg&e=1641528973&fl=&r=aa261105-25c1-4672-ba65-84aed408ed9f-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=1MYYnWxcGQJN-FD21BRhg0b6JYw",
-	"certificate_expiration": "Sun, 05 Feb 2023 19:06:11 -0800",
+	"signed_download": "https://cvws.icloud-content.com/B/AfajW8BB7qM9goFHMIKKszgFnzt9/${f}?o=AjpjWUMkypR4-J9D4EjzdYlubDIzRKJ7Ex0mhd6SPaaGbC_i75w-AdMZD9VH4F5y8Q&v=1&x=3&a=CAogNo3Mvg7pClU9MMLxOlFcpjpuvz9BzynvjeY-Q1g2mqUSexC4oriU4y8YuP-TluMvIgEAUgQFnzt9ajDDopoYMhh_gUZouYdcMEYe1oA5JqQ3gvyvErbY7fhLQEJPb6x8sAIg0KLEHtv5QHJyMIgiWLvWgal5C65cIUZ0MdWeGQwG1KYoyU49TnL2VppRuSoQ4_pCB91rot0q6pKvyg&e=1641529278&fl=&r=0f010764-90b7-423f-8bcb-138c6d81fcb8-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=AprgqQoTVWkHGZXcxwenK61hy4E",
+	"certificate_expiration": "Sun, 05 Feb 2023 19:11:15 -0800",
 	"minimum_version": 900,
 	"file_size": "2 KB",
 	"maintainer": {
