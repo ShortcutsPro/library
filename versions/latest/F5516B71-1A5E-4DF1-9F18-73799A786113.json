@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.dictate",
+	"auuid": "F5516B71-1A5E-4DF1-9F18-73799A786113",
+	"name": "Dictate",
+	"description": "Dictate Dictate in any language to text.  ---",
+	"release": "Thu, 06 Jan 2022 16:53:16 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Social Networking",
+		"Utilities"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/dictate.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/dictate/dictate.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/dictate.png",
+	"start_color": 4282601983,
+	"color": "#F26369",
+	"icon_glyph": 59780,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/73eba4e2479040f38cf4e29002ef8543",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 06 Jan 2022 16:51:56 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AYYOJm9OSTh5SgdNzVTJlmOGTbud/${f}?o=Ah1y0HLLMUnv0A8C6LTQ2Yzj2ndBgrlaTXL2Sk3W0Jb1cSQLb1oR9aGmg7Drs22UUA&v=1&x=3&a=CAogGRZv9YYgDY3GOj3lHvrxKsOUPQT5rQrXfGbpHIA_bMUSexC3qZaQ4y8Yt4bykeMvIgEAUgSGTbudajDcxpy4gUZmDIOyOl-84tSEho2VLhZqjZOtLRNzZVnaa0V_bOhP0OV_9o0I8U55OJ5yMLeQ4hd7mLycjFjF-Kvk1DfVLzQWGqT7NxH1mV4f6_HnwEzR5XVWU4eyyOMbvSm5Hg&e=1641520333&fl=&r=29b1def5-9253-4e1e-a891-2e5a0cc69437-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=zHRC7iw8ei367hfk6jV7CexxaFc",
+	"certificate_expiration": "Sun, 05 Feb 2023 16:42:11 -0800",
+	"minimum_version": 900,
+	"file_size": "1 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
