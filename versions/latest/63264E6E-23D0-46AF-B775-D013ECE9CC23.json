@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.zip2email",
+	"auuid": "63264E6E-23D0-46AF-B775-D013ECE9CC23",
+	"name": "Zip2Email",
+	"description": "Zip2Email Zip any file & send it in an email.  Great for large files or multiple files. ---",
+	"release": "Thu, 06 Jan 2022 17:24:05 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Productivity",
+		"Utilities"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/zip2email.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/zip2email/zip2email.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/zip2email.png",
+	"start_color": 946986751,
+	"color": "#4A69C6",
+	"icon_glyph": 59409,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/4dd8963c20934d20bcbdf04c3373d881",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 06 Jan 2022 17:21:49 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS15",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AeXqnl7VL6MmNCBJR8bNJR3nBFvH/${f}?o=AjPn5VFWoCTKWArj4TjAo9-__G9UPTC_7WLslojZ1-KTH72WysBsjnnhGZqgVBnXVw&v=1&x=3&a=CAogbZq6QgsOaTnIIhgj0UjhazZQh6Q76hqb2TE0Pbb_lcYSexC7rIeR4y8Yu4njkuMvIgEAUgTnBFvHajB9tQULxGNp5ik7nuI_Qz3HWjnNEk-jIF8Av_aiJ627pRENWUzuT7mEDeW28ufuM1VyMOO-ytIqFHdJy0jd2N00qpDFVR2bBlDBU3vIfKiD7eWHq8U5Iu-8SFM95f1XlCLQXQ&e=1641522185&fl=&r=f0299b75-95cf-43f1-950c-576b93e6d70d-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=V1mY1_WEGkqb2m0l__nZ6ymUNwk",
+	"certificate_expiration": "Sun, 05 Feb 2023 17:12:17 -0800",
+	"minimum_version": 1113,
+	"file_size": "2 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
