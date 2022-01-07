@@ -3,7 +3,7 @@
 	"auuid": "5CB79A85-E848-4BA8-B336-F49BACBFD0E6",
 	"name": "Text2Audio",
 	"description": "Text2Audio Convert text into spoken audio.  ---",
-	"release": "Thu, 06 Jan 2022 17:00:59 -0800",
+	"release": "Thu, 06 Jan 2022 17:03:02 -0800",
 	"version": "1",
 	"notes": "",
 	"category": [
@@ -35,7 +35,7 @@
 	"arch": "iOS15",
 	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
 	"quiet": false,
-	"signed_download": "https://cvws.icloud-content.com/B/AQKbdVkKHiPZJlQiE71RBDGfY-dB/${f}?o=AgLDVNBbY3heI2nnMZC17LTNdAag3vzgoWiEq1aNBLl2Iv_wTTF4hvaRMH0Ht6jz5A&v=1&x=3&a=CAogEKD-5jtuX064E3SuEA_4eS0ehU-L38--lEbnrY-ooD4SexC-o7GQ4y8YvoCNkuMvIgEAUgSfY-dBajDv8-7DfmjN-aDmmEgpto2eYtZ9Q91G57123J15Il9tSnFQZxeqRZJGc20TPQlYYEVyMJvTs50sc0_PtVr_4RiQM3GaH6ctke57W9m8_SDZY3hCpWsDbV9kcZ00femKqXL4Dg&e=1641520775&fl=&r=e2385636-7e66-4967-8754-da2efb8d78ca-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=KYCxW_OC4_BfXa3wVRKEOcZa_58",
+	"signed_download": "https://cvws.icloud-content.com/B/AQKbdVkKHiPZJlQiE71RBDGfY-dB/${f}?o=ArIsvVoi2gXBbIwS6nJ_ghZwN1BVPuJHz1zDs-j8eJoXLvZp0Joz7WwPgegW4rx2Nw&v=1&x=3&a=CAogaRO-vNV_ZF0HlBj-TrGlXWL384LB-Jjl7Ss_x51tCqUSexCInruQ4y8YiPuWkuMvIgEAUgSfY-dBajCq4IbT77xuKT4TlLFHxqzqO_06SC8uU_GwQwZPUBRloWXHn1sLAPyV6gDpzQOLKp5yMLgTCPHY53qFaH53X_beEtBWsDFK_7d8ciwucikFwmnlRr7kB-f1nVS3GtLcHWcUIw&e=1641520938&fl=&r=995b9328-8f29-46a3-b9d1-b941901d2f64-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=ehnkniDkAqQAc2rZL2LMFsVTjI4",
 	"certificate_expiration": "Sun, 05 Feb 2023 16:49:32 -0800",
 	"minimum_version": 1113,
 	"file_size": "2 KB",
