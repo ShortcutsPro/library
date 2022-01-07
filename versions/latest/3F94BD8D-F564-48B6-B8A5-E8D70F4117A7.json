@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.availability",
+	"auuid": "3F94BD8D-F564-48B6-B8A5-E8D70F4117A7",
+	"name": "Availability",
+	"description": "Availability Share your availability time slots for a set day.  Stop the madning back & forth. ---",
+	"release": "Thu, 06 Jan 2022 18:01:40 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Business",
+		"Productivity"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/availability.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/availability/availability.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/availability.png",
+	"start_color": 4282601983,
+	"color": "#F26369",
+	"icon_glyph": 59712,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/f7b5100eb2a14070ac1a23b7f0322eca",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 06 Jan 2022 17:58:29 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AXgbtYfyPrPrlMblPkAYX1PGDlta/${f}?o=AvXhI1Hkc_R62Ocm3LaJjp6ekBlLYaZ0-OQ0RHaPF-jyg7rxHZ9pnh-1k8MhSZLNKg&v=1&x=3&a=CAog3cvMRW1FyTer0dAwja5NqqDSbFarDY22BvWGYsR9VBASexDmu4uS4y8Y5pjnk-MvIgEAUgTGDltaajC-JsXiWhw5iJhklgrsOiIJPL_nVtMLiN4UFJtJKtDGmZ0gUJz_GJV0Ss51RetHrkNyMHQ2515bm-zxowEBlCW8JupCIQv-bVuSFVT5qxWo8G6qjQcSpLOeq4HyXJ9u5lnlPQ&e=1641524350&fl=&r=dcee55bd-9820-4e7c-8da8-b25a9bad3cec-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=lBZyV1KGvao_gVMqZTI4WC-VmMs",
+	"certificate_expiration": "Sun, 05 Feb 2023 17:49:07 -0800",
+	"minimum_version": 900,
+	"file_size": "8 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
