@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.text2audio",
+	"auuid": "5CB79A85-E848-4BA8-B336-F49BACBFD0E6",
+	"name": "Text2Audio",
+	"description": "Text2Audio Convert text into spoken audio.  ---",
+	"release": "Thu, 06 Jan 2022 17:00:59 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Development Tools",
+		"Utilities"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/text2audio.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/text2audio/text2audio.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/text2audio.png",
+	"start_color": 4282601983,
+	"color": "#F26369",
+	"icon_glyph": 61505,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/97700b98610448b7926e280ebe93b25c",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Thu, 06 Jan 2022 16:59:11 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS15",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AQKbdVkKHiPZJlQiE71RBDGfY-dB/${f}?o=AgLDVNBbY3heI2nnMZC17LTNdAag3vzgoWiEq1aNBLl2Iv_wTTF4hvaRMH0Ht6jz5A&v=1&x=3&a=CAogEKD-5jtuX064E3SuEA_4eS0ehU-L38--lEbnrY-ooD4SexC-o7GQ4y8YvoCNkuMvIgEAUgSfY-dBajDv8-7DfmjN-aDmmEgpto2eYtZ9Q91G57123J15Il9tSnFQZxeqRZJGc20TPQlYYEVyMJvTs50sc0_PtVr_4RiQM3GaH6ctke57W9m8_SDZY3hCpWsDbV9kcZ00femKqXL4Dg&e=1641520775&fl=&r=e2385636-7e66-4967-8754-da2efb8d78ca-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=KYCxW_OC4_BfXa3wVRKEOcZa_58",
+	"certificate_expiration": "Sun, 05 Feb 2023 16:49:32 -0800",
+	"minimum_version": 1113,
+	"file_size": "2 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
