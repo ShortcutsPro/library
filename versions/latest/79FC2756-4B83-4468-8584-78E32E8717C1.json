@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.sdrow",
+	"auuid": "79FC2756-4B83-4468-8584-78E32E8717C1",
+	"name": "Sdrow",
+	"description": "Sdrow Sdrow writes words backwards or backwards words forwards... what ever works or skrow. ---",
+	"release": "Sun, 09 Jan 2022 12:28:54 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Productivity",
+		"Utilities"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/sdrow.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/sdrow/sdrow.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/sdrow.png",
+	"start_color": 4292093695,
+	"color": "#44C85E",
+	"icon_glyph": 59832,
+	"shortcuts_version": "1145.8",
+	"link": "https://www.icloud.com/shortcuts/83cd02f424fc46a3a9b5e58ffd423ebd",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Sun, 09 Jan 2022 12:27:07 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS15",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AfdDturM0fDz98nXpWePmZf_pyWs/${f}?o=ArzvjGfk10mI5uqLpso36iAWX3VXW7CDqN0bLo0YALvy2zHk818qxuGB1Xrz2pA0fQ&v=1&x=3&a=CAogf7O_FFo0wKu73OLbJR4IBaGXdiSjHou5f5oSjSNFpX0SexDbg5qE5C8Y2-D1heQvIgEAUgT_pyWsajB5_SNXkvb40C5bMJJ8mhmuM3UlAChnofsiBC3HsW2VzsopOL9v_BRpoXtPwMW1n8FyMOKxzLE7IeqSl5ybYUG3-2kCVfqu0ezO2anlMuxr8eXkJ5Sb9tzl4qfy9f3ouU1wFg&e=1641763663&fl=&r=388f9b04-3dfa-486d-8d1c-99f35ba2ce8c-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=vq7QRDGxp7fDCmI_965cgMQ0iXA",
+	"certificate_expiration": "Wed, 08 Feb 2023 12:17:40 -0800",
+	"minimum_version": 1113,
+	"file_size": "4 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
