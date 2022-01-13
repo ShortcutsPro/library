@@ -3,12 +3,12 @@
 	"auuid": "",
 	"name": "Reflect",
 	"description": "",
-	"release": "Thu, 13 Jan 2022 11:08:54 -0800",
+	"release": "Thu, 13 Jan 2022 11:22:59 -0800",
 	"version": "",
 	"notes": "",
 	"category": [
-		"Lifestyle",
-		"Utilities"
+		"Health & Fitness",
+		"Lifestyle"
 	],
 	"author": {
 		"name": "anonymous",
@@ -23,20 +23,20 @@
 	"color": "#44C85E",
 	"icon_glyph": 61532,
 	"shortcuts_version": "1145.8",
-	"link": "https://www.icloud.com/shortcuts/16e4a7fa6e674152939a886e993fda40",
+	"link": "https://www.icloud.com/shortcuts/db1f9a116f1d4cbf9feb7730222842f4",
 	"depends": [
 		    "com.shortcutspro.library.integrity"
 	],
 	"integrity": true,
 	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
-	"date_created": "Thu, 13 Jan 2022 11:06:59 -0800",
+	"date_created": "Thu, 13 Jan 2022 11:22:01 -0800",
 	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
 	"input": "",
 	"arch": "iOS14",
 	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
 	"quiet": false,
-	"signed_download": "https://cvws.icloud-content.com/B/AQRCz20DxqAAcnZf7kft4oTuvTsU/${f}?o=AtH5VlfJfAaUcIKqOfTRSp5AFk0T2PUoBOQ3GThNbG9C-5MxmYWd7C4SAW-KhJAcUw&v=1&x=3&a=CAoga2Vo5I6JwkD-STnETrovayge2TXvfaQlRJbOZpLNPzoSexCz8Nmm5S8Ys821qOUvIgEAUgTuvTsUajDv_P867EER2a5q__NSM-wPr1ihiDFo7ySOn00CdcvEHQ4gJ9S268zfJnLKQgCNfBByMOSKAjh2832DjUsZR7iHuhXEwI4ie1rmbwWJlLQl07cF1-xSq7FWtcyLvEhEeExHjQ&e=1642104448&fl=&r=7ed9f635-d58a-4215-9e22-618a872ec731-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=27dHeH4IVHSvxQilfwJbwD5UXsA",
-	"certificate_expiration": "Sun, 12 Feb 2023 10:57:25 -0800",
+	"signed_download": "https://cvws.icloud-content.com/B/AZkFAGi2obx0SG6lmLMuNd2Pjn9G/${f}?o=AgJWbLaBbKbwn8jXPOoCYciUkDThcpjs0tlLTiRiPFri4xCJ-PpveBfBfCse4xvvYg&v=1&x=3&a=CAogKzE3Rub6DuYzuOWiHOljDvat5ymNfFR7i9R4MKmFl3sSexC4kZCn5S8YuO7rqOUvIgEAUgSPjn9GajBcd867u_e3XE_FQ-zCqXg7wQoaMhjvm_vPK-k4BPMx34dOIp-58dxCN3sB0r_BLGtyMIdDH3O2f7hjzR-pbatbT-bA-Er9fAlJe4L4xHVfvSaAzgayOk0x0xiiV_qa41XcZQ&e=1642105337&fl=&r=d1904a44-bb23-4cc3-9521-a0008dde423e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=FknXP-15RD0OEK-fdCEPt_Buyzk",
+	"certificate_expiration": "Sun, 12 Feb 2023 11:12:14 -0800",
 	"minimum_version": 900,
 	"file_size": "9 KB",
 	"maintainer": {
