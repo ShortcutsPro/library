@@ -1,14 +1,14 @@
 {
-	"id": "io.bustl.cutz.featured.definition",
+	"id": "io.bustl.cutz.featured.reflect",
 	"auuid": "",
-	"name": "Definition",
+	"name": "Reflect",
 	"description": "",
-	"release": "Thu, 06 Jan 2022 16:39:05 -0800",
+	"release": "Thu, 13 Jan 2022 11:08:54 -0800",
 	"version": "",
 	"notes": "",
 	"category": [
-		"Education",
-		"Reference"
+		"Lifestyle",
+		"Utilities"
 	],
 	"author": {
 		"name": "anonymous",
@@ -16,29 +16,29 @@
 			"about:blank"
 		]
 	},
-	"depiction": "https://Cutz.Bustl.io/featured/depiction/definition.html",
-	"source": "https://Cutz.Bustl.io/featured/shortcuts/definition/definition.html",
-	"icon": "https://Cutz.Bustl.io/featured/depiction/definition.png",
-	"start_color": 463140863,
-	"color": "#12B4F6",
-	"icon_glyph": 59465,
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/reflect.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/reflect/reflect.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/reflect.png",
+	"start_color": 4292093695,
+	"color": "#44C85E",
+	"icon_glyph": 61532,
 	"shortcuts_version": "1145.8",
-	"link": "https://www.icloud.com/shortcuts/1b6a3ed1ea80464095646bb6f7409487",
+	"link": "https://www.icloud.com/shortcuts/16e4a7fa6e674152939a886e993fda40",
 	"depends": [
 		    "com.shortcutspro.library.integrity"
 	],
 	"integrity": true,
 	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
-	"date_created": "Thu, 06 Jan 2022 16:37:39 -0800",
+	"date_created": "Thu, 13 Jan 2022 11:06:59 -0800",
 	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
 	"input": "",
 	"arch": "iOS14",
 	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
 	"quiet": false,
-	"signed_download": "https://cvws.icloud-content.com/B/AV_qT1sJSqEl379e7dNbDQJ0b4YL/${f}?o=Ai2e0OYUssF2-3luX9bhcPB0qPQ8M5D4iYRgkbwhP_VsJ8r8atSVA21nuMHUS0M9Wg&v=1&x=3&a=CAog15-1zLfyWe5pU4d1kU_Q1DXYY81GdLva11LphsI5KeYSexDBtuKP4y8YwZO-keMvIgEAUgR0b4YLajAj364bSyyOJk9mocwzw04ZyZQY48dOMJLbTQAeGxzLDe89tgeIwHjizWK6iCTmszxyMNPd1N944uJJhei0gzyfy23zzgPq46cZo90Rebc8VT2DS_klnrThaEtlprLGdZVdig&e=1641519483&fl=&r=3c812859-aa1f-4ca6-a43d-4ea6565c8233-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=y7SL74WLPhtyGdfJklKg-v_X30M",
-	"certificate_expiration": "Sun, 05 Feb 2023 16:28:00 -0800",
+	"signed_download": "https://cvws.icloud-content.com/B/AQRCz20DxqAAcnZf7kft4oTuvTsU/${f}?o=AtH5VlfJfAaUcIKqOfTRSp5AFk0T2PUoBOQ3GThNbG9C-5MxmYWd7C4SAW-KhJAcUw&v=1&x=3&a=CAoga2Vo5I6JwkD-STnETrovayge2TXvfaQlRJbOZpLNPzoSexCz8Nmm5S8Ys821qOUvIgEAUgTuvTsUajDv_P867EER2a5q__NSM-wPr1ihiDFo7ySOn00CdcvEHQ4gJ9S268zfJnLKQgCNfBByMOSKAjh2832DjUsZR7iHuhXEwI4ie1rmbwWJlLQl07cF1-xSq7FWtcyLvEhEeExHjQ&e=1642104448&fl=&r=7ed9f635-d58a-4215-9e22-618a872ec731-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=27dHeH4IVHSvxQilfwJbwD5UXsA",
+	"certificate_expiration": "Sun, 12 Feb 2023 10:57:25 -0800",
 	"minimum_version": 900,
-	"file_size": "2 KB",
+	"file_size": "9 KB",
 	"maintainer": {
 		"name": "@scottdwr",
 		"link": [
