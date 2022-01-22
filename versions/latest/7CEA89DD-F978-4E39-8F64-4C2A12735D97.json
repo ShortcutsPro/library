@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.photodump",
+	"auuid": "7CEA89DD-F978-4E39-8F64-4C2A12735D97",
+	"name": "Photodump",
+	"description": "Photodump Organizes your images by the content in them.  Creates folders & backsup photos by category of objects found in the image.  Generates another sub folder called people, if a person is in the images generates an additional backup in the people folder. ---",
+	"release": "Sat, 22 Jan 2022 14:15:55 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Graphics & Design",
+		"Photo & Video"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/photodump.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/photodump/photodump.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/photodump.png",
+	"start_color": 2071128575,
+	"color": "#8757C2",
+	"icon_glyph": 61460,
+	"shortcuts_version": "1145.11",
+	"link": "https://www.icloud.com/shortcuts/1ed978e82c7345159baaa2eb1dd8b523",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Sat, 22 Jan 2022 14:15:00 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS15",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AadLb_jaOEKnheo1grXMZHuJJ2bk/${f}?o=An9jFOcXsHWbzbej00JtIVm4OQ33cW0ZnLOvVKybAzStrCvp4lPeQ670aLZIUnlqkA&v=1&x=3&a=CAog3jMMw6RJk5rpAVN4ljCsYlf5bfT7V6tojhVOZT0NMcESexC20e6e6C8Ytq7KoOgvIgEAUgSJJ2bkajAEzA9Ov65K1EJSYMeMUVTB5c_VZwirHD3l6LRR415szNb8P6ZW3vGBF-iAb34_azRyMHlLNgM8q5-JCt-bcOpxgz3wchr-W1bHw6BqnB5wlx5tqjj835D0xQjscZE1vxBreg&e=1642893317&fl=&r=9f5676bf-b608-43b8-9153-c292672c349a-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=7JDoKjXyj00QbHHHHsJivU_WTAM",
+	"certificate_expiration": "Tue, 21 Feb 2023 14:05:14 -0800",
+	"minimum_version": 1106,
+	"file_size": "6 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
