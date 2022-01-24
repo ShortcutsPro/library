@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.just-read-it",
+	"auuid": "0C90B015-57A7-4BC9-92F5-622B478E6DAB",
+	"name": "Just Read It",
+	"description": "Just Read It Snap a picute of any text document to have your phone read it for you.  Trigger this shortcut after snapping a picturr & selecting Just Read It in the share sheet menu, or trigger the shortcut & it will prompt you to select an image from your library. ---",
+	"release": "Sun, 23 Jan 2022 21:57:09 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Photo & Video",
+		"Productivity"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/just-read-it.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/just-read-it/just-read-it.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/just-read-it.png",
+	"start_color": 3679049983,
+	"color": "#BB7AE3",
+	"icon_glyph": 61586,
+	"shortcuts_version": "1145.11",
+	"link": "https://www.icloud.com/shortcuts/ef86acbf120b44e8888b4d794353eb8a",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Sun, 23 Jan 2022 21:54:54 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS15",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AY0u1GKcQX8vBzJ7q1eyiH3Mmwdq/${f}?o=Al3f_G5W1sb8YPu2b90WkCTTqy2eL4DWyN9jhKK4eDETk2mkbu-_Es84ucWts9CVDg&v=1&x=3&a=CAog7NkS1dR9uw_j_BGrRiDDeYoLZhT3piymvZ1e5uDAjOcSexDrmZzV6C8Y6_b31ugvIgEAUgTMmwdqajB088j9AecOqFH5jQvwZ01UtB6uaVZxptHUn8L60vrhzY1rI95go6hGS2UXon63lbByMLDNGgPSLHDcmMCs8K44HlwVZfAqQEjkE0D1dyIzOcNbXqCyMYtxjHjKhO9qdwuKKg&e=1643007310&fl=&r=1aed2115-8a60-4b14-8572-83076ef2dc6c-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=bw1OoEmX0FqMOxAQmSN5Co0_Jfs",
+	"certificate_expiration": "Wed, 22 Feb 2023 21:45:08 -0800",
+	"minimum_version": 1113,
+	"file_size": "5 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
