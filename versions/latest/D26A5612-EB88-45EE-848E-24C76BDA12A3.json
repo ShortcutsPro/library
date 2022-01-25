@@ -1,0 +1,48 @@
+{
+	"id": "io.bustl.cutz.featured.fitdi",
+	"auuid": "D26A5612-EB88-45EE-848E-24C76BDA12A3",
+	"name": "FitDi",
+	"description": "FitDi Get your summer beach bod with FitDi.  Don't leave it up to chance, just roll the die in FitDi.  5 daily randomly selected home workouts you can start today. FitDi rolls the dice and guides you through 5 daily exercises with sarcastic words of encouragement & funny visual Gif examples.  There's 3 levels: beginner, intermediate, pro; total of 20 workouts at each level; ends with a FitDi fitness review auto generated & saved in your notes app titled: 🤾 FitDi Fitness Review 😎.  It's not too late to achieve your 2023 life goals.  ---",
+	"release": "Tue, 25 Jan 2022 01:05:11 -0800",
+	"version": "1",
+	"notes": "",
+	"category": [
+		"Entertainment",
+		"Health & Fitness"
+	],
+	"author": {
+		"name": "anonymous",
+		"link": [
+			"about:blank"
+		]
+	},
+	"depiction": "https://Cutz.Bustl.io/featured/depiction/fitdi.html",
+	"source": "https://Cutz.Bustl.io/featured/shortcuts/fitdi/fitdi.html",
+	"icon": "https://Cutz.Bustl.io/featured/depiction/fitdi.png",
+	"start_color": 4251333119,
+	"color": "#FF8467",
+	"icon_glyph": 59723,
+	"shortcuts_version": "1145.11",
+	"link": "https://www.icloud.com/shortcuts/0bf579879b334ead8b67b9f3d2004489",
+	"depends": [
+		    "com.shortcutspro.library.integrity"
+	],
+	"integrity": true,
+	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
+	"date_created": "Tue, 25 Jan 2022 01:02:00 -0800",
+	"device_id": "FD73803CEDD6C19A58C41B02013E72BEA7C4F18BE7D1A3BF0D07254B6343487F",
+	"input": "",
+	"arch": "iOS14",
+	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
+	"quiet": false,
+	"signed_download": "https://cvws.icloud-content.com/B/AQSsE5_ZUULglEuuVPvlL3jbVgc_/${f}?o=Ah-kmMvv4LtMyyIWnD9LF7yU-KsQDPFapwtH_je6p5AfpIo2KnofdpEQlo9Htsq7Ig&v=1&x=3&a=CAogOeS95PyfKnIcyMAEwbSMWFsdjXVc7r6HfjZmmIGEwLMSexDZqeSD6S8Y2YbAhekvIgEAUgTbVgc_ajBCHQ7g03FuquJRTf4Mu_IuL9mmyGJUtNlV7yu2p0ZVDy-Sj_VGKfwbyq325lSzss1yMMxH3xK2-d9VCH0rfUUAhAfK4jNWhGrg5gT8mw1tIOTHstX1OXKWv9dJSMpRppUuDQ&e=1643104961&fl=&r=7c42bcf6-6413-41d2-aec9-37274e358904-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=rAMlCQx3giyDUooJTGQVhAkQDcQ",
+	"certificate_expiration": "Fri, 24 Feb 2023 00:52:38 -0800",
+	"minimum_version": 900,
+	"file_size": "19 KB",
+	"maintainer": {
+		"name": "@scottdwr",
+		"link": [
+			"https://github.com/scottdwr/"
+		]
+	}
+}
