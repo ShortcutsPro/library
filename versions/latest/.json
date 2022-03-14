@@ -3,7 +3,7 @@
 	"auuid": "",
 	"name": "My Last Shortcut",
 	"description": "",
-	"release": "Mon, 14 Mar 2022 14:12:49 -0700",
+	"release": "Mon, 14 Mar 2022 16:22:20 -0700",
 	"version": "",
 	"notes": "",
 	"category": [
@@ -23,20 +23,20 @@
 	"color": "#12B4F6",
 	"icon_glyph": 61458,
 	"shortcuts_version": "1146.11.1",
-	"link": "https://www.icloud.com/shortcuts/663b75634dc340fcbc9f829783fd26d6",
+	"link": "https://www.icloud.com/shortcuts/55dc334612d041c2b3fc95a4e1e1ead3",
 	"depends": [
 		    "com.shortcutspro.library.integrity"
 	],
 	"integrity": true,
 	"user_record": "_119b220cbdaf3a9a41b9e7c737fa4a37",
-	"date_created": "Mon, 14 Mar 2022 14:11:29 -0700",
+	"date_created": "Mon, 14 Mar 2022 16:21:01 -0700",
 	"device_id": "7A3F0BDB02214B676DFEB5535033F72B1BB021B877E5DFDBC7D6165CF9E5E6B3",
 	"input": "",
 	"arch": "iOS15",
 	"date_modified": "Wed, 31 Dec 1969 16:00:00 -0800",
 	"quiet": false,
-	"signed_download": "https://cvws.icloud-content.com/B/Ad-fVmhxakmA7veldJ1hNE1nYQjw/${f}?o=AilXSqUgXL-HvGhtpy4USGttN3EACOQ5vweMVOT7sZOaeAqZ8PcrgToYFLGjl60grg&v=1&x=3&a=CAogNJeVUd17WRk20db3DWjegBZhj5gwu_hDHQA5FnuxCWwSexDU_pbS-C8Y1Nvy0_gvIgEAUgRnYQjwajBIkKVR33IV-TPO_i7yNbqa3xFwdSeLq8s62lW2aLbBYGHr1kLCV24lwYanso9IYfByML6AhBizD_NBAC7gxmAtyAZceWV9C_EwvoYI_xZwe9N-L5GqN61iIy7XBOHoOCWbKw&e=1647295901&fl=&r=64ecf3a2-a219-433c-937e-146f1beb78ea-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=1LOAeUPDkX8x-Nva3Rv7RiQaHR0",
-	"certificate_expiration": "Thu, 13 Apr 2023 14:01:36 -0700",
+	"signed_download": "https://cvws.icloud-content.com/B/AfGiFCD7WZ8LXaDhw9U4TthgFYpv/${f}?o=ApBaJQjlXjnx7F89B5gPe3I-LbiY1wW1l1mBEsffc0NNc1XBPBrOaioOMY7AVH3kdQ&v=1&x=3&a=CAog778OvRUCAlxd8smlojJZzgiSvYa9kbivAVWDqHY239kSexDQxvHV-C8Y0KPN1_gvIgEAUgRgFYpvajA_kt2LEcEDNTp1iUV-GjLLH2y20OAS4G7gCjI-aMjSVMCGOSER5QOi1Gln9Hezn6VyMFg_krr7uPnDyl7hl9lgfDCITueRE5voA6HbSY85K4TjuujZ6cMrR01282xBdeUqOw&e=1647303676&fl=&r=43d08f92-a4e1-4acf-a032-eb3b4680488e-1&k=_&ckc=com.apple.shortcuts&ckz=_defaultZone&p=33&s=Obyle6ijqD0zcitp0opBvImLyBY",
+	"certificate_expiration": "Thu, 13 Apr 2023 16:11:11 -0700",
 	"minimum_version": 1106,
 	"file_size": "4 KB",
 	"maintainer": {
